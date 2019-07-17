@@ -17,7 +17,7 @@ them for play. These sound assets are then incorporated into gameplay
 using either a sound actor or direct operation through triggers. You can
 see a typical view of Sounds being manipulated in the Data Editor below.
 
-![Image](./076_Sounds/image1.png)
+![Image](./resources/076_Sounds1.png)
 
 Sound Data View
 
@@ -28,7 +28,7 @@ As a datatype, sounds are handled through the Data Editor. Once inside
 this module, you can open the sounds tab by selecting the green + and
 navigating to Edit Art and Sound Data -\> Sounds, as shown below.
 
-![Image](./076_Sounds/image2.png)
+![Image](./resources/076_Sounds2.png)
 
 Navigating to Sounds in Data
 
@@ -37,7 +37,7 @@ type is largely designed for in-game ambient music and cinematic
 scoring. Opening the Sounds data tab will present you with the following
 view.
 
-![Image](./076_Sounds/image3.png)
+![Image](./resources/076_Sounds3.png)
 
 Sounds Data Listing
 
@@ -50,7 +50,7 @@ every sound in the current data scope, while the right offers a detailed
 view of the currently selected sound with all its fields available for
 review. The sound listing is shown below.
 
-![Image](./076_Sounds/image4.png)
+![Image](./resources/076_Sounds4.png)
 
 Sounds Category View
 
@@ -84,7 +84,7 @@ SOUNDS DETAIL VIEW
 
 The basic view of the sound fields in the Editor will look as follows.
 
-![Image](./076_Sounds/image5.png)
+![Image](./resources/076_Sounds5.png)
 
 Sound Fields
 
@@ -102,7 +102,7 @@ this tab of the data editor. You can access it by switching the Data
 Editor into 'Detail View,' using the Data Bar. The button for this is
 shown below.
 
-![Image](./076_Sounds/image6.png)
+![Image](./resources/076_Sounds6.png)
 
 Detail View Button
 
@@ -110,7 +110,7 @@ Once you have the detail view set up, highlighting a Sound in the sounds
 tab should present you with the following, hereafter referred to as the
 Sound Editor.
 
-![Image](./076_Sounds/image7.png)
+![Image](./resources/076_Sounds7.png)
 
 Sound Editor View
 
@@ -121,7 +121,7 @@ The enhanced Sound Editor view gives you a much more useful look at the
 Sound datatype. Take note of the 'Sound Assets' box at the top of the
 editor as it's seen below.
 
-![Image](./076_Sounds/image8.png)
+![Image](./resources/076_Sounds8.png)
 
 Sound Assets Close-Up
 
@@ -171,7 +171,7 @@ PLAY CONTROLS
 One of the most important features of the Sound Editor is its set of
 preview controls for sounds and sound editing. These are shown below.
 
-![Image](./076_Sounds/image9.png)
+![Image](./resources/076_Sounds9.png)
 
 Play Controls Interface
 
@@ -189,7 +189,7 @@ SOUND GROUP VOLUME CONTROLS
 Another section of the sound editor gives you the ability to set group
 volume controls. These controls are shown below.
 
-![Image](./076_Sounds/image10.png)
+![Image](./resources/076_Sounds10.png)
 
 Sounds Group Volume Controls
 
@@ -222,7 +222,7 @@ One consequence of the extensive controls found in the Sound Editor is a
 common confusion between the group sound controls and the individual
 sound options. The image below should help you to avoid this confusion.
 
-![Image](./076_Sounds/image11.png)
+![Image](./resources/076_Sounds11.png)
 
 Individual and Group Volume Controls
 
@@ -237,7 +237,7 @@ Selecting any individual file from the 'Sound Assets' box and double
 clicking it will open a new window called 'Sound Properties,' as shown
 below.
 
-![Image](./076_Sounds/image12.png)
+![Image](./resources/076_Sounds12.png)
 
 Sound Properties View
 
@@ -262,7 +262,7 @@ SOUND EDITOR DATA VIEW
 If you look to the top tabs of the Sound Editor, you'll find another set
 of useful options under the data tab. These options are shown below.
 
-![Image](./076_Sounds/image13.png)
+![Image](./resources/076_Sounds13.png)
 
 Sounds Editor Data Tab
 

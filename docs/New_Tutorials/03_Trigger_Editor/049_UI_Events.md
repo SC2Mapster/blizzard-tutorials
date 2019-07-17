@@ -18,7 +18,7 @@ that respond to player inputs, collectively known as the UI Events. You
 can see these during event creation by sorting according to the 'UI'
 label, as shown below.
 
-![Image](./049_UI_Events/image1.png)
+![Image](./resources/049_UI_Events1.png)
 
 UI Events Listing
 
@@ -102,7 +102,7 @@ technique for avoiding performance dragging is to pair the monitoring
 trigger with a condition that will close off the event until it is
 needed again. An example of this is shown below.
 
-![Image](./049_UI_Events/image2.png)
+![Image](./resources/049_UI_Events2.png)
 
 Input Event Throttle
 
@@ -117,7 +117,7 @@ movements and mouse button presses available to a player. You can see
 these events from the event creation screen by searching for 'Mouse,' as
 shown below.
 
-![Image](./049_UI_Events/image3.png)
+![Image](./resources/049_UI_Events3.png)
 
 Mouse UI Events
 
@@ -125,7 +125,7 @@ In the demo map provided with this tutorial, you'll find some sample
 triggers showing how UI events are generally used. Opening the map and
 navigating to the Trigger Editor will give you the following view.
 
-![Image](./049_UI_Events/image4.png)
+![Image](./resources/049_UI_Events4.png)
 
 Map Trigger Editor View
 
@@ -139,7 +139,7 @@ mouse drag selection or 'box-selecting' has been disabled here. If you
 check the 'mouseMove,' 'mouseDown,' and 'mouseUP' triggers, you'll find
 the following.
 
-![Image](./049_UI_Events/image5.png)
+![Image](./resources/049_UI_Events5.png)
 
 Mouse UI Triggers
 
@@ -159,7 +159,7 @@ two triggers working together. When the mouse button is unclicked, or
 stops. Testing the map should present you something like the image
 below.
 
-![Image](./049_UI_Events/image6.png)
+![Image](./resources/049_UI_Events6.png)
 
 Direct Marine Control
 
@@ -170,7 +170,7 @@ Still, there a lot of events required to keep the movement smooth. If
 you open the Trigger Debugger, you'll gain some insight into this
 process.
 
-![Image](./049_UI_Events/image7.png)
+![Image](./resources/049_UI_Events7.png)
 
 Direct Marine Control
 

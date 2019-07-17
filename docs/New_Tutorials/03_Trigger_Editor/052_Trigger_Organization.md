@@ -17,7 +17,7 @@ project is a must. To support this, there are several tools in the
 Trigger Editor to help you clean up. Organizing a project can have a
 pretty drastic effect, as the image below shows.
 
-![Image](./052_Trigger_Organization/image1.png)
+![Image](./resources/052_Trigger_Organization1.png)
 
 Disorganized Triggers -- Triggers with Organization Measures
 
@@ -34,7 +34,7 @@ Create a folder by right-clicking inside the Triggers Panel and
 navigating to New -\> New Folder, or by using the New Folder button
 found in the Trigger Bar. These procedures are shown below.
 
-![Image](./052_Trigger_Organization/image2.png)
+![Image](./resources/052_Trigger_Organization2.png)
 
 Creating Folders From Trigger Panel -- From Trigger Bar
 
@@ -48,7 +48,7 @@ their general type (MAIN, GAMEPLAY, OBJECTIVES, and CINEMATIC), then by
 their specific purposes, such as 'Global Variables,' 'AI,' or 'Victory
 Cinematic.'
 
-![Image](./052_Trigger_Organization/image3.png)
+![Image](./resources/052_Trigger_Organization3.png)
 
 Folder Organization in a Campaign Map
 
@@ -64,9 +64,9 @@ map, whether teammates or the community at large. Extended comment
 sections can also be used for many utility purposes, including manuals,
 release histories, lists of debugs codes, and to-do lists. Some typical
 comments are shown below, denoted by their green text and
-![Image](./052_Trigger_Organization/image9.png)
+![Image](./resources/052_Trigger_Organization9.png)
 
-![Image](./052_Trigger_Organization/image5.png)
+![Image](./resources/052_Trigger_Organization5.png)
 
 Commented Trigger
 
@@ -76,7 +76,7 @@ navigating to New -\> New Comment. Alternatively, you can also do so
 using the New Comment button in the Trigger Bar, which will create a
 comment at the cursor's current location.
 
-![Image](./052_Trigger_Organization/image6.png)
+![Image](./resources/052_Trigger_Organization6.png)
 
 Creating Comments From Trigger Content Panel -- From Trigger Bar
 
@@ -95,9 +95,9 @@ Swarm, Void, and so forth. These are trigger libraries from the standard
 dependencies, and they are the source of all pre-made actions,
 conditions, functions, and events in the Editor. You can see a standard
 view of a project's libraries below, denoted by their
-![Image](./052_Trigger_Organization/image9.png)
+![Image](./resources/052_Trigger_Organization9.png)
 
-![Image](./052_Trigger_Organization/image8.png)
+![Image](./resources/052_Trigger_Organization8.png)
 
 Project Libraries
 
@@ -110,10 +110,10 @@ also change the element's description to a color associated with the
 label. Whenever you create an element from the standard library in the
 Trigger Content Panel, it is assigned a pre-determined label. For
 example, any action of the 'Camera' category will be set next to the
-![Image](./052_Trigger_Organization/image9.png) standard labels and
+![Image](./resources/052_Trigger_Organization9.png) standard labels and
 their description colors in the image below.
 
-![Image](./052_Trigger_Organization/image10.png)
+![Image](./resources/052_Trigger_Organization10.png)
 
 Element Labels
 
@@ -122,7 +122,7 @@ libraries and may be repurposed for use in any project. An element's
 label is set by selecting it, right-clicking, and navigating to Label,
 as shown below.
 
-![Image](./052_Trigger_Organization/image11.png)
+![Image](./resources/052_Trigger_Organization11.png)
 
 Setting an Element's Label
 
@@ -137,7 +137,7 @@ If you find yourself looking for more customization, you may want to add
 custom labels. You can create a custom label by navigating to Data -\>
 Modify Labels. This will launch the 'Trigger Labels' window shown below.
 
-![Image](./052_Trigger_Organization/image12.png)
+![Image](./resources/052_Trigger_Organization12.png)
 
 Creating a Custom Label
 
@@ -151,7 +151,7 @@ Records present layouts of variables that are typically useful for
 templating objects. This makes them a natural organizing tool as well.
 The image below shows a standard use of records to organize variables.
 
-![Image](./052_Trigger_Organization/image13.png)
+![Image](./resources/052_Trigger_Organization13.png)
 
 Record as a Variable Organizer
 
@@ -164,7 +164,7 @@ the Trigger Editor in a division of the main content panel. The Editor
 supports up to three groups in a given project. Opening an additional
 group will divide the panel space, as shown below.
 
-![Image](./052_Trigger_Organization/image14.png)
+![Image](./resources/052_Trigger_Organization14.png)
 
 Trigger Content Divided Into Two Groups
 
@@ -188,7 +188,7 @@ allow you to view any number of elements and quickly navigate between
 them using the tab headers at the top of the Trigger Content Panel.
 Tabbed browsing of trigger elements is shown in the image below.
 
-![Image](./052_Trigger_Organization/image15.png)
+![Image](./resources/052_Trigger_Organization15.png)
 
 Tabbed Browsing within a Trigger Group
 
@@ -200,6 +200,6 @@ of tabs and groups offers a significant amount of customization in how
 you organize the Trigger Editor. Below you can see an example of these
 features in use.
 
-![Image](./052_Trigger_Organization/image16.png)
+![Image](./resources/052_Trigger_Organization16.png)
 
 Using Groups and Tabs Together in the Trigger Editor

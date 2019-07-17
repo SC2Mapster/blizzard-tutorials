@@ -16,7 +16,7 @@ mechanics, and creating gameplay.
 THE INTERFACE
 -------------
 
-![Image](./033_Trigger_Editor_Interface/image1.png)
+![Image](./resources/033_Trigger_Editor_Interface1.png)
 
 Trigger Editor Interface View
 
@@ -25,7 +25,7 @@ logic elements active in a project. Any developers with programming
 experience will note the resemblance to a standard text editor. The
 lynchpin of this interface is the Triggers Panel, shown below.
 
-![Image](./033_Trigger_Editor_Interface/image2.png)
+![Image](./resources/033_Trigger_Editor_Interface2.png)
 
 Triggers Panel
 
@@ -35,14 +35,14 @@ your primary means of navigating your project. Selecting an element in
 this panel will display its information in the middle of your screen,
 inside the Trigger Content Panel.
 
-![Image](./033_Trigger_Editor_Interface/image3.png)
+![Image](./resources/033_Trigger_Editor_Interface3.png)
 
 Trigger Content Panel
 
 Depending on the type of element you've selected, this panel can take on
 a number of different layouts.
 
-![Image](./033_Trigger_Editor_Interface/image4.png)
+![Image](./resources/033_Trigger_Editor_Interface4.png)
 
 Variable Content -- Definition Content -- Trigger Content
 
@@ -50,7 +50,7 @@ When the Use Subviews option is enabled, this view will also introduce a
 Trigger Content Panel Subview, which shows the fields of an element
 alongside any available tooltips.
 
-![Image](./033_Trigger_Editor_Interface/image5.png)
+![Image](./resources/033_Trigger_Editor_Interface5.png)
 
 Trigger Content Panel Subview
 
@@ -60,7 +60,7 @@ a viewer to the Triggers Panel showing a breakdown of the components
 inside the currently selected element. You can use this to scan through
 a larger project's components as quickly as possible.
 
-![Image](./033_Trigger_Editor_Interface/image6.png)
+![Image](./resources/033_Trigger_Editor_Interface6.png)
 
 Trigger Explorer
 
@@ -69,14 +69,14 @@ elements shared between multiple maps. All of the standard, pre-made
 elements are also included in a map via libraries. You can find a list
 of all the libraries currently in a map in the Libraries Panel.
 
-![Image](./033_Trigger_Editor_Interface/image7.png)
+![Image](./resources/033_Trigger_Editor_Interface7.png)
 
 Libraries Panel
 
 The segment of the Main Toolbar available from this module is the
 Trigger Bar.
 
-![Image](./033_Trigger_Editor_Interface/image8.png)
+![Image](./resources/033_Trigger_Editor_Interface8.png)
 
 Trigger Bar
 
@@ -150,7 +150,7 @@ Using the View Raw Data option will translate the plain-language
 statements of the Trigger Editor into the Galaxy function calls, as
 shown in the image below.
 
-![Image](./033_Trigger_Editor_Interface/image9.png)
+![Image](./resources/033_Trigger_Editor_Interface9.png)
 
 View Raw Data
 
@@ -158,6 +158,6 @@ This can be useful if you'd like to move into script editing. Moreover,
 you can use the View Script option to look at the actual game scripts.
 Selecting this option will launch the Script Test window shown below.
 
-![Image](./033_Trigger_Editor_Interface/image10.png)
+![Image](./resources/033_Trigger_Editor_Interface10.png)
 
 Script Test Window via View Script

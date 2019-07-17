@@ -13,7 +13,7 @@ very specifically to a data type placed directly into the game to be
 manipulated by players. Selecting a unit in the Data Editor will give
 you a breakdown like the one shown below.
 
-![Image](./059_Units/image1.png)
+![Image](./resources/059_Units1.png)
 
 Unit Data Object
 
@@ -24,7 +24,7 @@ serve as a container for various other types of Game Data, Art and Sound
 Data, and Actors. You can investigate units in the Data Editor by
 navigating to them via + -\> Edit Game Data -\> Units, as shown below.
 
-![Image](./059_Units/image2.png)
+![Image](./resources/059_Units2.png)
 
 Navigating to Units in Data
 
@@ -35,7 +35,7 @@ Communicating these interactions to its connected data types makes the
 unit one of the primary ways in which data is turned into gameplay. The
 data composition of a unit is shown in the image below.
 
-![Image](./059_Units/image3.png)
+![Image](./resources/059_Units3.png)
 
 Unit Composition
 
@@ -52,7 +52,7 @@ of its functionality. Common abilities present in a unit include attack,
 move, stop, hold position, and patrol. These abilities are primarily
 added to a unit through the 'Abilities' field shown below.
 
-![Image](./059_Units/image4.png)
+![Image](./resources/059_Units4.png)
 
 Unit Composition
 
@@ -61,7 +61,7 @@ Card' field. Adding a button to the command card portion of the unit's
 UI allows player inputs to trigger abilities. You can see this procedure
 being used in the image below.
 
-![Image](./059_Units/image5.png)
+![Image](./resources/059_Units5.png)
 
 Custom Command and Effect
 
@@ -76,7 +76,7 @@ components of their weapons. These actors are linked to the unit in
 their actor messages. In the image below you'll one of these actors
 hooking art and sound into a unit.
 
-![Image](./059_Units/image6.png)
+![Image](./resources/059_Units6.png)
 
 Actor to Unit Data Connection
 
@@ -87,7 +87,7 @@ Behaviors can exist in the scope of a unit, giving it passive abilities
 such as auras or timed life. Behaviors are added to a unit using the
 'Behaviors' field, as shown below.
 
-![Image](./059_Units/image7.png)
+![Image](./resources/059_Units7.png)
 
 Mothership Behavior View
 
@@ -102,7 +102,7 @@ movement. You can customize a unit's movement further within the unit's
 movement fields, allowing you to set things like Speed, Turning Rate,
 and Acceleration. Movers are set up within a unit's 'Movers' field.
 
-![Image](./059_Units/image8.png)
+![Image](./resources/059_Units8.png)
 
 Missile Mover
 

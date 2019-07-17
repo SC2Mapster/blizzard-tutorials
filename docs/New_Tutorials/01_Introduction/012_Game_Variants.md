@@ -15,14 +15,14 @@ set in a map document, not in a mod file. They are configured by
 navigating to Map -\> Game Variants from anywhere in the Editor. You can
 see the location in the image below.
 
-![Image](./012_Game_Variants/image1.png)
+![Image](./resources/012_Game_Variants01.png)
 
 Navigating to Game Variants
 
 Once you've selected Game Variants, you will be presented with the
 following window.
 
-![Image](./012_Game_Variants/image2.png)
+![Image](./resources/012_Game_Variants02.png)
 
 Game Variants Window
 
@@ -46,14 +46,14 @@ Game variants are used to define the options available to the host of an
 Arcade lobby. These options are accessible through the 'Settings' panel
 of a typical lobby, as shown in the image below.
 
-![Image](./012_Game_Variants/image3.png)
+![Image](./resources/012_Game_Variants03.png)
 
 Default Lobby
 
 GAME TYPE
 ---------
 
-![Image](./012_Game_Variants/image4.png)
+![Image](./resources/012_Game_Variants04.png)
 
 Game Type Tab
 
@@ -68,7 +68,7 @@ will be sorted on the Arcade.
 GAME ATTRIBUTES
 ---------------
 
-![Image](./012_Game_Variants/image5.png)
+![Image](./resources/012_Game_Variants05.png)
 
 Game Attributes Tab
 
@@ -79,31 +79,13 @@ have values removed from the list possible selections using the Removed
 Values option. The details of each attribute are broken down in the
 following table.
 
-  ------------------------------------------------------------------------------
-  Attribute   Details
-  ----------- ------------------------------------------------------------------
-  Game        The duration of time after which the game is concluded. Typically,
-  Duration    this is set to Infinite and a game will have its own methodology
-              for determining when play has ended.
-
-  Game        Determines match history and build order visibility options. This
-  Privacy     is primarily used to support high-level competitive play, where
-              players may wish to keep certain game information private. The
-              standard setting, Normal, sets both match history and build orders
-              to visible after a game.
-
-  Game Speed  Determines the specific game speed at which the engine will run.
-              The standard is Faster.
-
-  Lobby Delay Sets a countdown timer which will play after the game is launched
-              from the lobby. The standard is 10 seconds.
-
-  Locked      Sets the alliance lock status. Unlocked alliances will allow
-  Alliances   players to negotiate who their allies and enemies are within the
-              game. By default this is displayed, but Locked. It may also be
-              Hidden, which locks alliances but will not show what those
-              alliances are.
-  ------------------------------------------------------------------------------
+| Attribute        | Details                                                      |
+| :--------------- | :----------------------------------------------------------- |
+| Game Duration    | The duration of time after which the game is concluded. Typically, this is set to Infinite and a game will have its own methodology for determining when play has ended. |
+| Game Privacy     | Determines match history and build order visibility options. This is primarily used to support high-level competitive play, where players may wish to keep certain game information private. The standard setting, Normal, sets both match history and build orders to visible after a game. |
+| Game Speed       | Determines the specific game speed at which the engine will run. The standard is Faster. |
+| Lobby Delay      | Sets a countdown timer which will play after the game is launched from the lobby. The standard is 10 seconds. |
+| Locked Alliances | Sets the alliance lock status. Unlocked alliances will allow players to negotiate who their allies and enemies are within the game. By default this is displayed, but Locked. It may also be Hidden, which locks alliances but will not show what those alliances are. |
 
 In order to understand how these attributes are set within a lobby, it
 is important understand the concept of Access. Every attribute has a
@@ -117,7 +99,7 @@ host.
 PLAYER ATTRIBUTES
 -----------------
 
-![Image](./012_Game_Variants/image6.png)
+![Image](./resources/012_Game_Variants06.png)
 
 Player Attributes Tab
 

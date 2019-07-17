@@ -39,7 +39,7 @@ mod system.
 You can set up a direct mod test by navigating to File -\> Preferences
 -\> Test Document. Here you'll note the heading 'Default Map.'
 
-![Image](./082_Test_a_Mod_Offline/image1.png)
+![Image](./resources/082_Test_a_Mod_Offline1.png)
 
 Setting the Testing Target Map
 
@@ -64,14 +64,14 @@ active map. With the map you wish to test open, navigate to File -\>
 Dependencies. This will present the current list of document
 dependencies. A default view might look like the one shown below.
 
-![Image](./082_Test_a_Mod_Offline/image2.png)
+![Image](./resources/082_Test_a_Mod_Offline2.png)
 
 Setting the Testing Target Map
 
 From here, select 'Add Other.' This will present you with the following
 view.
 
-![Image](./082_Test_a_Mod_Offline/image3.png)
+![Image](./resources/082_Test_a_Mod_Offline3.png)
 
 Setting the Test Dependency
 

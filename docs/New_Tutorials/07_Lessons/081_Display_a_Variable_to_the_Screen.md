@@ -33,7 +33,7 @@ described below.
 
 Your trigger should look like the one shown below.
 
-![Image](./081_Display_a_Variable_to_the_Screen/image1.png)
+![Image](./resources/081_Display_a_Variable_to_the_Screen1.png)
 
 Base Dialog & Timer Variable Created
 
@@ -59,7 +59,7 @@ last created dialog item at the time of 'Set Variable' action. This
 means that the label will be set to the newly created local variable,
 completing your reference. The trigger's progress is shown below.
 
-![Image](./081_Display_a_Variable_to_the_Screen/image2.png)
+![Image](./resources/081_Display_a_Variable_to_the_Screen2.png)
 
 Dialog Label Hooked Up
 
@@ -91,7 +91,7 @@ Dialog Item Text' action. This will launch a window showing potential
 functional input. Navigate to 'Conversion' in the left-hand subview to
 see a list of possible conversion functions.
 
-![Image](./081_Display_a_Variable_to_the_Screen/image3.png)
+![Image](./resources/081_Display_a_Variable_to_the_Screen3.png)
 
 Text Conversion Options
 
@@ -102,13 +102,13 @@ Timer' to give it that property. Once you've done that, set the timer to
 the variable 'Tutorial Timer.' Your trigger should now be complete,
 compare your result to the image below.
 
-![Image](./081_Display_a_Variable_to_the_Screen/image4.png)
+![Image](./resources/081_Display_a_Variable_to_the_Screen4.png)
 
 Completed Trigger
 
 You can now launch the 'Test Document' and note your result. You should
 see the timer variable displayed to screen space, as shown below.
 
-![Image](./081_Display_a_Variable_to_the_Screen/image5.png)
+![Image](./resources/081_Display_a_Variable_to_the_Screen5.png)
 
 Timer Variable Displayed on Screen

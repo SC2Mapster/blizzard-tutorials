@@ -28,7 +28,7 @@ the title 'Tutorial Dependency' into the 'Name' field. You can also
 enter a description stating that, 'This is a tutorial dependency.' Use
 the image below as a guide.
 
-![Image](./007_Creating_Mods/image1.png)
+![Image](./resources/007_Creating_Mods01.png)
 
 Mod Creation & Configuration Order
 
@@ -63,7 +63,7 @@ change the text field of this action to, 'This is a message from the
 dependency.' You should end up with something that looks like the image
 below.
 
-![Image](./007_Creating_Mods/image2.png)
+![Image](./resources/007_Creating_Mods02.png)
 
 Mod's Trigger Library
 
@@ -80,7 +80,7 @@ Dependencies. Based on the default map configuration, the 'Liberty
 (Mod)' standard dependency has already been included. Since you want to
 add a custom mod, select 'Add Other.'
 
-![Image](./007_Creating_Mods/image3.png)
+![Image](./resources/007_Creating_Mods03.png)
 
 Dependency Adding View
 
@@ -90,7 +90,7 @@ already saved the desired mod file locally. Find it using the supplied
 file browser and click 'OK,' after which you'll be sent back to
 dependency selection screen.
 
-![Image](./007_Creating_Mods/image4.png)
+![Image](./resources/007_Creating_Mods04.png)
 
 Custom Dependency Added
 
@@ -101,7 +101,7 @@ your custom mode should be visible now and ready for use. In the List
 Panel at the top, you'll see that there are libraries of triggers titled
 Built-In, Liberty, and Tutorial Library.
 
-![Image](./007_Creating_Mods/image5.png)
+![Image](./resources/007_Creating_Mods05.png)
 
 Imported Library from Mod
 
@@ -113,13 +113,13 @@ its source as 'Tutorial Library,' rather than the Blizzard libraries
 'Built-in' or 'Liberty.' From here, delete all of the extraneous default
 melee actions. This will leave you with the following setup.
 
-![Image](./007_Creating_Mods/image6.png)
+![Image](./resources/007_Creating_Mods06.png)
 
 Dependency Action Definition in Use
 
 Running your document as a test should now deliver a result similar to
 the image below.
 
-![Image](./007_Creating_Mods/image7.png)
+![Image](./resources/007_Creating_Mods07.png)
 
 Output from Dependency Library

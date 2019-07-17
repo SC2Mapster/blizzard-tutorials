@@ -12,7 +12,7 @@ a wide palette of moods, looks, and feels for your project. The image
 below is an example of how the same scene can be realized in different
 ways by editing the lighting alone.
 
-![Image](./027_Lighting/image1.png)
+![Image](./resources/027_Lighting1.png)
 
 Varied Lighting on the Same Scene
 
@@ -34,7 +34,7 @@ tool called the Lighting Window. This interface collects all of the
 lighting controls and puts them alongside the pre-built lighting styles
 within the Editor.
 
-![Image](./027_Lighting/image2.png)
+![Image](./resources/027_Lighting2.png)
 
 Varied Lighting on the Same Scene
 
@@ -55,7 +55,7 @@ forth. The demo map is set to the 'Agria (Jungle)' type. Open the
 to Edit Terrain Data -\> Terrain Types. Now, set the lighting by double
 clicking on the 'Lighting' property as shown below.
 
-![Image](./027_Lighting/image3.png)
+![Image](./resources/027_Lighting3.png)
 
 Lighting Data Property
 
@@ -63,14 +63,14 @@ If you're unsure what Terrain Type your map is using, you can see it by
 navigating to Map -\> Map Textures. The field 'Current Texture Set' will
 provide the answer, as shown below.
 
-![Image](./027_Lighting/image4.png)
+![Image](./resources/027_Lighting4.png)
 
 Checking Terrain Type
 
 Clicking on the 'Lighting' field will launch the 'Object Values' window.
 Find the 'Mar Sara Night Test' lighting, select it, and click 'Ok.'
 
-![Image](./027_Lighting/image5.png)
+![Image](./resources/027_Lighting5.png)
 
 Selecting Lighting
 
@@ -80,7 +80,7 @@ Game Lighting. The main view should show a much darker, twilit scene.
 The difference between the original lighting settings and the new ones
 is shown below.
 
-![Image](./027_Lighting/image6.png)
+![Image](./resources/027_Lighting6.png)
 
 Lighting Changes
 
@@ -93,7 +93,7 @@ Lighting' action, using the same procedure. Set the 'Light' field to
 'Mar Sara Day Test' and change the 'Blend Time' to 6.0. This should
 leave you with the following.
 
-![Image](./027_Lighting/image7.png)
+![Image](./resources/027_Lighting7.png)
 
 Prepared Trigger
 
@@ -104,6 +104,6 @@ transition just like a sunrise. Launch the 'Test Map' function to see
 the result. It will slowly change the scene's setting, similar to the
 sequence shown below.
 
-![Image](./027_Lighting/image8.png)
+![Image](./resources/027_Lighting8.png)
 
 Lighting Changes Simulating a Sunrise

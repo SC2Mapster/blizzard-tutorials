@@ -27,7 +27,7 @@ Open the demo map provided with this article to start the tutorial.
 Inside you'll find a marine standing on a boardwalk roadway, as in the
 image below.
 
-![Image](./067_Site_Operations_Rundown/image1.png)
+![Image](./resources/067_Site_Operations_Rundown1.png)
 
 Demo Map Course
 
@@ -44,7 +44,7 @@ grafting to create strange, chimaera-like units, which is perhaps the
 most iconic use of site operations. A well-known example built with this
 method is the Blizzard's April Fools' prank the Terratron.
 
-![Image](./067_Site_Operations_Rundown/image2.png)
+![Image](./resources/067_Site_Operations_Rundown2.png)
 
 Terratron: A Robot Built From Many Combined StarCraft Models
 
@@ -98,7 +98,7 @@ model by moving to the models tab in the Data Editor, right-clicking in
 the Object List, and selecting 'Add Model.' This will launch the window
 shown below.
 
-![Image](./067_Site_Operations_Rundown/image3.png)
+![Image](./resources/067_Site_Operations_Rundown3.png)
 
 Model Creation Window
 
@@ -108,7 +108,7 @@ will create a Model object. Move to its 'Model' field and double click
 it to launch an 'Object Values' selection window. Clicking 'Browse' in
 this window will launch the Archive Browser, as shown below.
 
-![Image](./067_Site_Operations_Rundown/image4.png)
+![Image](./resources/067_Site_Operations_Rundown4.png)
 
 Model Selection with Archive Browser
 
@@ -119,7 +119,7 @@ Model type and is ready for use within an actor. Prepare the actor by
 first moving to the actors tab. There, right-click in the object list
 and select 'Add Actor.'
 
-![Image](./067_Site_Operations_Rundown/image5.png)
+![Image](./resources/067_Site_Operations_Rundown5.png)
 
 Adding an Actor
 
@@ -129,7 +129,7 @@ auto generate an ID. You should also set the 'Actor Type' to 'Model' and
 the 'Parent' to 'ModelAddition.' Click 'Ok' to create the actor. This
 should with the window pictured below.
 
-![Image](./067_Site_Operations_Rundown/image6.png)
+![Image](./resources/067_Site_Operations_Rundown6.png)
 
 Model Actor Creation Window
 
@@ -139,14 +139,14 @@ add the attachment site operation to this actor. You can do so by moving
 to the 'Host Site Operations' field and double clicking on it to launch
 the site operations subeditor.
 
-![Image](./067_Site_Operations_Rundown/image7.png)
+![Image](./resources/067_Site_Operations_Rundown7.png)
 
 Host Site Operation Subeditor
 
 Clicking the 'Choose' button will launch the site operation selection
 shown below.
 
-![Image](./067_Site_Operations_Rundown/image8.png)
+![Image](./resources/067_Site_Operations_Rundown8.png)
 
 Selecting Attachment Site Operation
 
@@ -156,7 +156,7 @@ Attachment Query that targets a specific class of attachment point in a
 unit. Select the SOPAttachHead operation, which targets the attachment
 point in a model's head. Then click 'Ok' to return to the previous view.
 
-![Image](./067_Site_Operations_Rundown/image9.png)
+![Image](./resources/067_Site_Operations_Rundown9.png)
 
 Selected Site Operation
 
@@ -168,7 +168,7 @@ field. Navigate to 'Events' within the 'Marine Light' model actor, and
 double click the field to open the actor events subeditor view, shown
 below.
 
-![Image](./067_Site_Operations_Rundown/image10.png)
+![Image](./resources/067_Site_Operations_Rundown10.png)
 
 Actor Events View
 
@@ -177,7 +177,7 @@ dropdown, set the 'Msg Type' of the event to 'Unit Birth.' Then set the
 'Msg Type' of the message to 'Create' and its 'Source Name' to 'Marine.'
 This should leave you with the following.
 
-![Image](./067_Site_Operations_Rundown/image11.png)
+![Image](./resources/067_Site_Operations_Rundown11.png)
 
 Linking Model Actor to Unit
 
@@ -190,7 +190,7 @@ the Model of the 'Marine Light' Actor at the point of the
 SOpAttachHead's Attachment Query. The result of this operation is shown
 in the image below.
 
-![Image](./067_Site_Operations_Rundown/image12.png)
+![Image](./resources/067_Site_Operations_Rundown12.png)
 
 Models Grafted Together with Attachment Operation
 
@@ -260,7 +260,7 @@ model. Move back to the actors tab and create a new actor of the
 'Explicit Rotation' type and name it 'Light Offset.' This procedure is
 shown below.
 
-![Image](./067_Site_Operations_Rundown/image13.png)
+![Image](./resources/067_Site_Operations_Rundown13.png)
 
 Creating an Explicit Rotation Actor
 
@@ -268,13 +268,13 @@ You can set the exact rotation by selecting a vector type to base the
 rotation on, then setting its x, y, and z fields. The possible vector
 fields Forward and Up are shown below.
 
-![Image](./067_Site_Operations_Rundown/image14.png)
+![Image](./resources/067_Site_Operations_Rundown14.png)
 
 Rotation Actor Fields
 
 Double clicking the Forward field will open the following view.
 
-![Image](./067_Site_Operations_Rundown/image15.png)
+![Image](./resources/067_Site_Operations_Rundown15.png)
 
 Setting Rotation Site Operation
 
@@ -286,7 +286,7 @@ model actor's site operations listing. You can do so by moving to the
 open it. From here, select 'Choose' again and navigate to the new 'Light
 Offset' operation in the popup. Select it and click 'Ok.'
 
-![Image](./067_Site_Operations_Rundown/image16.png)
+![Image](./resources/067_Site_Operations_Rundown16.png)
 
 Adding your Custom Explicit Rotation Site Operation
 
@@ -296,7 +296,7 @@ and can be investigated, but there's one more change you should make.
 Move to the 'Scale Maximum' field and open it. Set each of the X, Y, and
 Z values to 0.25. Repeat this process for the 'Scale Minimum' field.
 
-![Image](./067_Site_Operations_Rundown/image17.png)
+![Image](./resources/067_Site_Operations_Rundown17.png)
 
 Adjusting the Light Posts Scale
 
@@ -307,7 +307,7 @@ roughly a fourth of what was seen before. You can check your progress by
 returning to the Terrain Editor, where you should see something like the
 image below.
 
-![Image](./067_Site_Operations_Rundown/image18.png)
+![Image](./resources/067_Site_Operations_Rundown18.png)
 
 Scaled and Rotated Model Attachment
 
@@ -349,7 +349,7 @@ Now you'll use an offset operation to do some tweaking on the light
 attachment's position. Create a new actor named 'Light Down' with the
 type 'Site Operation (Local Offset).'
 
-![Image](./067_Site_Operations_Rundown/image19.png)
+![Image](./resources/067_Site_Operations_Rundown19.png)
 
 Creating a Local Offset Actor
 
@@ -357,7 +357,7 @@ Move to your new actor's Local Offset field. The model will be moved
 downwards into the unit by offsetting it along the negative Z axis.
 Double click the field to edit it and set Z value to -0.3.
 
-![Image](./067_Site_Operations_Rundown/image20.png)
+![Image](./resources/067_Site_Operations_Rundown20.png)
 
 Setting the Offset Actor's Fields
 
@@ -368,7 +368,7 @@ there, hit 'Choose' and add the 'Local Down' offset to the operations
 listing. The listing, now containing three different site operations,
 should appear as in the image below.
 
-![Image](./067_Site_Operations_Rundown/image21.png)
+![Image](./resources/067_Site_Operations_Rundown21.png)
 
 Offset Operation Added to Listing
 
@@ -379,6 +379,6 @@ above image. At this point the project is complete. A foreign model has
 been grafted onto the marine, reoriented, scaled, and offset. Move back
 to the Terrain Editor and take a moment to appreciate your design.
 
-![Image](./067_Site_Operations_Rundown/image22.png)
+![Image](./resources/067_Site_Operations_Rundown22.png)
 
 Money Well Spent

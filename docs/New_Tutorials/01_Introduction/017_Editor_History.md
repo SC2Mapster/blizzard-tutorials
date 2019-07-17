@@ -15,13 +15,13 @@ Editor we have today. This article will give a brief history of those
 editors, many of which are still in active use, in an effort to provide
 a better understanding of the StarCraft II Editor.
 
-![Image](./017_Editor_History/image2.png)
+![Image](./resources/017_Editor_History02.png)
 
 The WarCraft II Map Editor was released in 1995. For the first time,
 players had the chance to step into the developer tools and create their
 own maps, both for melee matches among friends and for custom campaigns.
 
-![Image](./017_Editor_History/image3.png)
+![Image](./resources/017_Editor_History03.png)
 
 Map Editor View
 
@@ -41,7 +41,7 @@ Notable New Features
 Under the WarCraft II Map Editor, all of a map's custom settings are
 configured through five property windows, pictured below.
 
-![Image](./017_Editor_History/image4.png)
+![Image](./resources/017_Editor_History04.png)
 
 Editor Properties Windows
 
@@ -50,11 +50,11 @@ which map creators could diversify a project. Still, there are many
 unique maps that make use of creative terrain and unit placements to
 build interesting experiences.
 
-![Image](./017_Editor_History/image5.png)
+![Image](./resources/017_Editor_History05.png)
 
 WarCraft II Map Creations
 
-![Image](./017_Editor_History/image6.png)
+![Image](./resources/017_Editor_History06.png)
 
 The StarCraft Campaign Editor was released in 1998. With support for
 triggers, a type of scripting logic, the options available to map
@@ -62,7 +62,7 @@ creators broadened enormously. The new Battle.net also allowed players
 to connect and share maps far more easily, leading to an explosion in
 the audience for custom creations.
 
-![Image](./017_Editor_History/image7.png)
+![Image](./resources/017_Editor_History07.png)
 
 Campaign Editor View
 
@@ -84,7 +84,7 @@ Notable New Features
 The appearance of the new editors for mission sequences and trigger
 logic broadened the editing experience immensely.
 
-![Image](./017_Editor_History/image8.png)
+![Image](./resources/017_Editor_History08.png)
 
 Mission Briefings Editor -- Trigger Editor
 
@@ -93,11 +93,11 @@ extended tools, a wide range of new game types and stories were shared.
 Many innovations made with these tools led to developments in the the
 broader gaming world.
 
-![Image](./017_Editor_History/image9.png)
+![Image](./resources/017_Editor_History09.png)
 
 StarCraft Map Creations
 
-![Image](./017_Editor_History/image10.png)
+![Image](./resources/017_Editor_History10.png)
 
 The WarCraft III World Editor was released in 2002. In an effort to
 accommodate the move to 3D and the demands of WarCraft III, the Editor
@@ -106,7 +106,7 @@ separate modules. The tools had become an editing suite, something that
 offered its users controls for all the major disciplines of game
 development.
 
-![Image](./017_Editor_History/image11.png)
+![Image](./resources/017_Editor_History11.png)
 
 World Editor View
 
@@ -125,7 +125,7 @@ Notable New Features
 The extension of almost every tool's capabilities resulted in the
 Editor's growing into a modular toolset.
 
-![Image](./017_Editor_History/image12.png)
+![Image](./resources/017_Editor_History12.png)
 
 Object Editor Module -- Trigger Editor Module
 
@@ -134,6 +134,6 @@ development suite. With a community that remains active today and a long
 history of released projects, the WarCraft III World Editor remains a
 favorite among students of design, hobbyists, and players.
 
-![Image](./017_Editor_History/image13.png)
+![Image](./resources/017_Editor_History13.png)
 
 WarCraft III Map Creations

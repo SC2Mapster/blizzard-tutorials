@@ -32,7 +32,7 @@ right-clicking on the 'Local Variables' heading, then navigating to New
 -\> New Variable. Creating one variable of each type in a new, blank
 project, will give you the following.
 
-![Image](./037_Variables/image1.png)
+![Image](./resources/037_Variables1.png)
 
 Local and Global Variables
 
@@ -63,7 +63,7 @@ Variables have several configurable options, which you can set by
 launching the variable subview and clicking on any variable. You can see
 that view in the image below, followed by a breakdown of its options.
 
-![Image](./037_Variables/image2.png)
+![Image](./resources/037_Variables2.png)
 
 Variable Options
 

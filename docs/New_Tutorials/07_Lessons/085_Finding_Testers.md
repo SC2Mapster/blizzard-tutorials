@@ -93,7 +93,7 @@ they could introduce you. All that aside, you could always try inviting
 players from Battle.net public chat channels such as 'SC2 Looking for
 Team' or 'Arcade.'
 
-![Image](./085_Finding_Testers/image1.png)
+![Image](./resources/085_Finding_Testers1.png)
 
 Arcade-centric Chat Channels
 
@@ -117,7 +117,7 @@ note that clans based around games do exist, but the fact that players
 can only be in a single clan at a time within Battle.net could
 discourage potential testers.
 
-![Image](./085_Finding_Testers/image2.png)
+![Image](./resources/085_Finding_Testers2.png)
 
 Group Creation
 
@@ -137,7 +137,7 @@ feedback. Remember that Battle.net also offers a 'Reviews' window for
 active games, which can be another source of insight into how players
 are enjoying your game.
 
-![Image](./085_Finding_Testers/image3.png)
+![Image](./resources/085_Finding_Testers3.png)
 
 Reviews Screen
 
@@ -148,7 +148,7 @@ send them friend requests through Battle.net and strike up a
 conversation about their experience with the game. Good developers ask
 good questions.
 
-![Image](./085_Finding_Testers/image4.png)
+![Image](./resources/085_Finding_Testers4.png)
 
 Constructive Feedback
 

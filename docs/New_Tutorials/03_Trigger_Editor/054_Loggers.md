@@ -29,7 +29,7 @@ viewpoint than the more typical diagnostic approach of witnessing a
 single error, then moving to fix it immediately. Another illustrative
 example of data logging is shown below.
 
-![Image](./054_Loggers/image1.png)
+![Image](./resources/054_Loggers1.png)
 
 APM Logged in a Replay Visualized with Scelight
 
@@ -64,7 +64,7 @@ mind, you can shape a logger from existing functionality in the Editor.
 In terms of output options, the 'Debug' actions are a good place to
 start. A list of these actions is shown below.
 
-![Image](./054_Loggers/image2.png)
+![Image](./resources/054_Loggers2.png)
 
 Debug Actions
 
@@ -74,7 +74,7 @@ Debugger. Select this action and move into the Trigger Editor. There
 you'll note that its parameters are an ideal fit for logger design. You
 can see them in the image below.
 
-![Image](./054_Loggers/image3.png)
+![Image](./resources/054_Loggers3.png)
 
 Debug Message Parameters
 
@@ -97,7 +97,7 @@ logger\_error = Type 03 \<Debug Message Type(Constant)\>
 With these set, the logger trigger can be developed using the following
 plan.
 
-![Image](./054_Loggers/image4.png)
+![Image](./resources/054_Loggers4.png)
 
 Debug Triggers
 
@@ -109,7 +109,7 @@ Set Debug Message Color action, which will allow you to differentiate
 more easily when looking at the debugger window. You can see this in the
 image below.
 
-![image0](./054_Loggers/image5.png){width="5.04167in" height="4.5in"}
+![image0](./resources/054_Loggers5.png){width="5.04167in" height="4.5in"}
 
 Debug Triggers
 
@@ -121,7 +121,7 @@ error types into separate files for inspection after a test. For single
 player games, the output folder for logger files on Windows will be
 C:\\Users\\\<username\>\\Documents\\StarCraft II\\UserLogs\\\<mapname\>.
 
-![image1](./054_Loggers/image6.png){width="6.5in" height="4.62153in"}
+![image1](./resources/054_Loggers6.png){width="6.5in" height="4.62153in"}
 
 Logger Output Files
 

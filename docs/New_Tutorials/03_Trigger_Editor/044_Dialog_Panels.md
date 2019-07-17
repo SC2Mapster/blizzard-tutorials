@@ -21,27 +21,27 @@ CREATING A DIALOG PANEL
 As an example, you'll host a panel within a dialog, like any other
 dialog item.
 
-![Image](./044_Dialog_Panels/image1.png)
+![Image](./resources/044_Dialog_Panels1.png)
 
 Creating a Host Dialog
 
 From here, create a panel by selecting the Create Dialog Item action, as
 shown below.
 
-![Image](./044_Dialog_Panels/image2.png)
+![Image](./resources/044_Dialog_Panels2.png)
 
 Creating Panel Dialog Item
 
 Select 'Panel' for the Type field of the Create Dialog Item.
 
-![Image](./044_Dialog_Panels/image3.png)
+![Image](./resources/044_Dialog_Panels3.png)
 
 Selecting Panel Type for Creation
 
 You can set the panel's properties to the Width, Height, and Position of
 its parent dialog through the Set Dialog Item Size to Parent action.
 
-![Image](./044_Dialog_Panels/image4.png)
+![Image](./resources/044_Dialog_Panels4.png)
 
 Setting the Panel's Size
 
@@ -50,7 +50,7 @@ handle for any future operations. Together, these actions have resulted
 in what is essentially a finished panel. It should look as shown in the
 image below.
 
-![Image](./044_Dialog_Panels/image5.png)
+![Image](./resources/044_Dialog_Panels5.png)
 
 Panel Created
 
@@ -61,7 +61,7 @@ With the dialog panel set up, you can test its functionality by creating
 some dialog items inside it. In the following update to the trigger, a
 pair of buttons has been created, sized, and oriented within the panel.
 
-![Image](./044_Dialog_Panels/image6.png)
+![Image](./resources/044_Dialog_Panels6.png)
 
 Dialog Items Created Inside Panel
 
@@ -82,7 +82,7 @@ Now that you have everything set up, you're ready for a quick
 demonstration of the utility of a dialog panel. In the trigger update
 shown below, the Set Dialog Item Color is used to target the panel.
 
-![Image](./044_Dialog_Panels/image7.png)
+![Image](./resources/044_Dialog_Panels7.png)
 
 Altering Panel Property
 
@@ -92,7 +92,7 @@ action. Investigating the map with the 'Test Document' function, will
 show that each button has been set to Yellow. You can see the result in
 the image below.
 
-![Image](./044_Dialog_Panels/image8.png)
+![Image](./resources/044_Dialog_Panels8.png)
 
 Panel Changes Propagated to its Contained Items
 

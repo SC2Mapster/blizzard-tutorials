@@ -28,7 +28,7 @@ window as the Player Properties tab. Otherwise, you can find Team
 Placement by navigating to Map -\> Team Placement (Basic) or Map -\>
 Team Placement (Advanced).
 
-![Image](./010_Team_Placement/image1.png)
+![Image](./resources/010_Team_Placement01.png)
 
 Team Placement Views
 
@@ -37,7 +37,7 @@ contains twelve starting locations spread roughly equidistant around the
 edges of a square, allowing for many reasonable team-spawning
 arrangements.
 
-![Image](./010_Team_Placement/image2.png)
+![Image](./resources/010_Team_Placement02.png)
 
 Demo Map Minimap
 
@@ -62,7 +62,7 @@ two closest neighbouring start locations, Start Location 002 and Start
 Location 012. As you add allies to a team, their starting locations will
 turn green. Finishing this step should give the following result.
 
-![Image](./010_Team_Placement/image3.png)
+![Image](./resources/010_Team_Placement03.png)
 
 Basic Team Setup
 
@@ -75,7 +75,7 @@ corner start locations to their respective neighbours. The finished map
 should look like the image below. Note that each potential team
 arrangement has the same number of allies.
 
-![Image](./010_Team_Placement/image4.png)
+![Image](./resources/010_Team_Placement04.png)
 
 Fully Configured Team Placement
 
@@ -97,7 +97,7 @@ DEMOING ADVANCED TEAM CREATION
 You can add a team by clicking on the 'New' button beneath the 'Teams'
 subview. You will be taken to the window shown below.
 
-![Image](./010_Team_Placement/image5.png)
+![Image](./resources/010_Team_Placement05.png)
 
 Team Creation Pop Up
 
@@ -114,7 +114,7 @@ West' for this example, then select the teams you wish to be possible
 enemy arrangements from the 'Linked Enemy Team' subview. This result
 should look like the image below.
 
-![Image](./010_Team_Placement/image6.png)
+![Image](./resources/010_Team_Placement06.png)
 
 Team Arrangements Matched as Foes
 
@@ -124,7 +124,7 @@ teams cannot share any start locations between them. Still, there are
 many possible configurations supported here. Below you will find an
 alternative arrangement.
 
-![Image](./010_Team_Placement/image7.png)
+![Image](./resources/010_Team_Placement07.png)
 
 Further Team Arrangement Possibilities
 

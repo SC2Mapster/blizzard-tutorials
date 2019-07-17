@@ -13,7 +13,7 @@ through it and clipping the model. A footprint can be used to prevent
 this by being attached to the doodad, creating a pathing blocker around
 the statue's area. You can see this in the image below.
 
-![Image](./073_Footprints/image1.png)
+![Image](./resources/073_Footprints1.png)
 
 Doodad Footprint
 
@@ -24,7 +24,7 @@ measuring three units in both axes. You can view and edit footprints by
 moving to the Data Editor and navigating to + -\> Edit Game Data -\>
 Footprints, as shown below.
 
-![Image](./073_Footprints/image2.png)
+![Image](./resources/073_Footprints2.png)
 
 Navigating to Footprints in Data
 
@@ -39,7 +39,7 @@ many buildings have their own footprints, but actual moveable ground
 units handle pathing with their own systems. Below you'll find an image
 of the footprints tab and a breakdown of its essential fields.
 
-![Image](./073_Footprints/image3.png)
+![Image](./resources/073_Footprints3.png)
 
 Footprint Data Fields
 

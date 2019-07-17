@@ -10,7 +10,7 @@ CAMERAS LAYER
 StarCraft is usually seen from the top-down view that characterizes the
 standard melee game.
 
-![Image](./025_Cameras_Layer/image1.png)
+![Image](./resources/025_Cameras_Layer1.png)
 
 Standard Melee View
 
@@ -28,7 +28,7 @@ cinematic or gameplay capacities to offer your players a richer
 experience. To learn more about cameras, move to the Cameras Layer from
 the Terrain Bar using the icon pictured below.
 
-![Image](./025_Cameras_Layer/image2.png)
+![Image](./resources/025_Cameras_Layer2.png)
 
 Cameras Layer Icon
 
@@ -40,7 +40,7 @@ their position and orientation just like an actual camera. Cameras will
 only appear within the Editor, where they are displayed as a phantom 3D
 model, as shown below.
 
-![Image](./025_Cameras_Layer/image3.png)
+![Image](./resources/025_Cameras_Layer3.png)
 
 Camera Object
 
@@ -57,7 +57,7 @@ information describing 'Where it is' and 'Where it is looking' to the
 game, setting the view for the player. Looking through the lens of the
 above camera gives you the view below.
 
-![Image](./025_Cameras_Layer/image4.png)
+![Image](./resources/025_Cameras_Layer4.png)
 
 Camera View
 
@@ -78,7 +78,7 @@ CAMERAS PALETTE
 You'll find cameras and camera creation controls as part of the Cameras
 Layer under the Cameras Palette, shown below.
 
-![Image](./025_Cameras_Layer/image5.png)
+![Image](./resources/025_Cameras_Layer5.png)
 
 Cameras Palette
 
@@ -98,7 +98,7 @@ Cameras Palette and navigating to Camera Properties. You will then be
 presented with the 'Camera Properties' window, which is shown below,
 followed by a breakdown of its options.
 
-![Image](./025_Cameras_Layer/image6.png)
+![Image](./resources/025_Cameras_Layer6.png)
 
 Camera Properties
 
@@ -160,6 +160,6 @@ way of designing cameras. These controls can be viewed by navigating to
 File -\> Configure Controls, then searching for the Free Camera labels,
 as shown below.
 
-![Image](./025_Cameras_Layer/image7.png)
+![Image](./resources/025_Cameras_Layer7.png)
 
 Free Camera Controls

@@ -22,7 +22,7 @@ Dialogs are usually created through a two-step process where the dialog
 is first instantiated and then is displayed to the screen for a player
 group. This process will appear as follows.
 
-![Image](./043_Dialogs/image1.png)
+![Image](./resources/043_Dialogs1.png)
 
 Dialog Creation
 
@@ -43,7 +43,7 @@ The Editor features a large collection of dialog actions that facilitate
 the creation and maintenance of dialogs and their items. A view of these
 actions is shown below.
 
-![Image](./043_Dialogs/image2.png)
+![Image](./resources/043_Dialogs2.png)
 
 Dialog Actions
 
@@ -92,7 +92,7 @@ the function Last Created Dialog Item.
 As an exercise, you'll create a dialog item using the general procedure
 described above. The assembly trigger is shown below.
 
-![Image](./043_Dialogs/image3.png)
+![Image](./resources/043_Dialogs3.png)
 
 Dialog and Dialog Item Assembly
 
@@ -111,7 +111,7 @@ the button. If this text were too long to fit in the button's area, it
 would be truncated to '...' until corrected. Testing this dialog will
 appear as shown below.
 
-![Image](./043_Dialogs/image4.png)
+![Image](./resources/043_Dialogs4.png)
 
 Button Dialog item in Game View
 
@@ -124,14 +124,14 @@ specific dialog event, Dialog Item is Used, required to receive and
 respond to player inputs. You can find this event by sorting by the
 label 'Dialog' during event creation, as is shown below.
 
-![Image](./043_Dialogs/image5.png)
+![Image](./resources/043_Dialogs5.png)
 
 Dialog Item is Used Event
 
 This event responds to a host of possible interactions with dialogs,
 which are shown in the following image.
 
-![Image](./043_Dialogs/image6.png)
+![Image](./resources/043_Dialogs6.png)
 
 Dialog Item Interaction Types
 
@@ -141,13 +141,13 @@ between the identifier Used Dialog Item and the dialog item's variable
 handle. Creating an interaction trigger for the previous demo might look
 like the image below.
 
-![Image](./043_Dialogs/image7.png)
+![Image](./resources/043_Dialogs7.png)
 
 Dialog Item Interaction Types
 
 Testing the demo will now give the following output.
 
-![Image](./043_Dialogs/image8.png)
+![Image](./resources/043_Dialogs8.png)
 
 Dialog Item Interaction Types
 
@@ -165,13 +165,13 @@ it is something you should be aware of. Take the following example. A
 centered dialog created at a 16:9 resolution will look like the
 following.
 
-![Image](./043_Dialogs/image9.png)
+![Image](./resources/043_Dialogs9.png)
 
 Custom Dialog at 16:9 Resolution
 
 Creating this same dialog at a 4:3 resolution will look as follows.
 
-![Image](./043_Dialogs/image10.png)
+![Image](./resources/043_Dialogs10.png)
 
 Custom Dialog at 4:3 Resolution
 
@@ -196,14 +196,14 @@ important to keep in mind a range of usability when designing dialogs or
 other screen space elements. Consider another example, a standard set of
 dialogs could appear as shown below on a widescreen formatted computer.
 
-![Image](./043_Dialogs/image11.png)
+![Image](./resources/043_Dialogs11.png)
 
 Widescreen Oriented Dialogs
 
 Testing this project on a different, non-widescreen display will look
 like the following.
 
-![Image](./043_Dialogs/image12.png)
+![Image](./resources/043_Dialogs12.png)
 
 Overlapping Dialogs on a Non-Widescreen Display
 

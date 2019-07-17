@@ -28,13 +28,13 @@ looking at the many examples of their use in the existing data
 libraries. You can find validators in the Data Editor by navigating to +
 -\> Edit Game Data -\> Validators, as shown below.
 
-![Image](./071_Validators/image1.png)
+![Image](./resources/071_Validators1.png)
 
 Navigating to Validators in Data
 
 This will launch the validators tab.
 
-![Image](./071_Validators/image2.png)
+![Image](./resources/071_Validators2.png)
 
 Validators Tab Listing
 
@@ -51,7 +51,7 @@ creating your own custom validators, this is a good style to mimic.
 From the validators tab, highlight the 'Caster Not Attacking' validator
 in the main editor view to reveal its fields, as shown below.
 
-![Image](./071_Validators/image3.png)
+![Image](./resources/071_Validators3.png)
 
 Validators Fields View
 
@@ -91,7 +91,7 @@ window. There, click the green + to add a new validator. This will
 trigger a new 'Object Value (Array)' window where the validator is
 selected. This procedure should look as it does in the image below.
 
-![Image](./071_Validators/image4.png)
+![Image](./resources/071_Validators4.png)
 
 Applying a Validator
 
@@ -101,7 +101,7 @@ effect type. If the validator returns false, the effect will not take
 action. If it returns true, it will proceed as normal. You can see an
 example of an effect validator below.
 
-![Image](./071_Validators/image5.png)
+![Image](./resources/071_Validators5.png)
 
 Effects Validators
 
@@ -114,7 +114,7 @@ In behaviors, validators allow you to either disable or completely
 remove a behavior based on the response of a test. This is shown in the
 example below.
 
-![Image](./071_Validators/image6.png)
+![Image](./resources/071_Validators6.png)
 
 Behaviors Validators
 

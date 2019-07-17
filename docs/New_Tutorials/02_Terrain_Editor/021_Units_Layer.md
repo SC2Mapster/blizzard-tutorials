@@ -13,7 +13,7 @@ sources, placing them directly in the Editor can be useful for designing
 the look and feel of your game. You can access this layer from the
 Terrain Bar, by clicking the icon shown below.
 
-![Image](./021_Units_Layer/image1.png)
+![Image](./resources/021_Units_Layer1.png)
 
 Units Layer Icons
 
@@ -36,7 +36,7 @@ unit you place in the Terrain Editor will be seen in game unless you
 later modify or disable them using triggers. You can find, select, and
 place units using the options present in the Units Palette, shown below.
 
-![Image](./021_Units_Layer/image2.png)
+![Image](./resources/021_Units_Layer2.png)
 
 Units Palette
 
@@ -47,7 +47,7 @@ native to the current map. The list also gives you access to three
 layers of filters, allowing you to find by player, object family, race,
 and object type. You can see it in use in the image below.
 
-![Image](./021_Units_Layer/image3.png)
+![Image](./resources/021_Units_Layer3.png)
 
 Finding Melee Structures
 
@@ -61,7 +61,7 @@ which shows a rendering of the unit currently selected for placement.
 You can reorient this view with the standard camera controls. These
 features are shown in the image below.
 
-![Image](./021_Units_Layer/image4.png)
+![Image](./resources/021_Units_Layer4.png)
 
 Units Preview and Existing Object List
 
@@ -74,7 +74,7 @@ Thor by typing into the search bar. Clicking on the unit and navigating
 to the main viewport will show a transparent preview of the unit ready
 to be placed.
 
-![Image](./021_Units_Layer/image5.png)
+![Image](./resources/021_Units_Layer5.png)
 
 Unit Placement Preview
 
@@ -89,7 +89,7 @@ properties for easy configuration. You can edit the Thor's properties by
 double clicking on it the main viewport. This will launch the 'Object
 Properties' window, shown below.
 
-![Image](./021_Units_Layer/image6.png)
+![Image](./resources/021_Units_Layer6.png)
 
 Unit's Object Properties
 
@@ -120,7 +120,7 @@ is ownership to Player 3. Use its object property Name to give it the
 label TEST UNIT. If you check the Existing Object list, the labelled
 unit should be clearly differentiated, as in the image below.
 
-![Image](./021_Units_Layer/image7.png)
+![Image](./resources/021_Units_Layer7.png)
 
 Labelled Unit
 
@@ -131,7 +131,7 @@ direction using their Rotation property, making them all appear
 identical. Note that a unit at a 270° Rotation will face the camera. You
 should be left with something that looks like this.
 
-![Image](./021_Units_Layer/image8.png)
+![Image](./resources/021_Units_Layer8.png)
 
 Unit located with Name Property
 

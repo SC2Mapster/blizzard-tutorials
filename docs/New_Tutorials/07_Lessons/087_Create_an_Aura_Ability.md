@@ -14,7 +14,7 @@ Thematically, auras usually support the idea that the presence of a
 heroic unit can energize and enliven those around them. You can see an
 example of an aura effect in the image below.
 
-![Image](./087_Create_an_Aura_Ability/image1.png)
+![Image](./resources/087_Create_an_Aura_Ability1.png)
 
 WarCraft III's Endurance Aura
 
@@ -100,7 +100,7 @@ plan will be as follows.
 To begin putting this design together, open the demo map provided with
 this tutorial. The map should look as shown in the image below.
 
-![Image](./087_Create_an_Aura_Ability/image2.png)
+![Image](./resources/087_Create_an_Aura_Ability2.png)
 
 Map Preparation
 
@@ -115,14 +115,14 @@ here is the 'Search Area' Effect, which will locate allies around the
 aura-host. Create a new effect and set its properties to those shown
 below.
 
-![Image](./087_Create_an_Aura_Ability/image3.png)
+![Image](./resources/087_Create_an_Aura_Ability3.png)
 
 Search Area Effect Creation
 
 Now select the newly created effect and open the field 'Search: Search
 Filters.' Set the 'Self' filter to Excluded, as shown below.
 
-![Image](./087_Create_an_Aura_Ability/image4.png)
+![Image](./resources/087_Create_an_Aura_Ability4.png)
 
 Search Filters
 
@@ -137,7 +137,7 @@ search area is a full circle around the aura-host that stretches three
 map units in any direction. The fields of this effect will appear as in
 the image below.
 
-![Image](./087_Create_an_Aura_Ability/image5.png)
+![Image](./resources/087_Create_an_Aura_Ability5.png)
 
 Search Area Effect Fields
 
@@ -150,7 +150,7 @@ BUFF BEHAVIOR -- MARINE SPEED AURA
 Next, create the Behavior that serves as the aura source. Create a new
 behavior and set its properties to the following.
 
-![Image](./087_Create_an_Aura_Ability/image6.png)
+![Image](./resources/087_Create_an_Aura_Ability6.png)
 
 Aura Behavior Creation
 
@@ -168,7 +168,7 @@ aura recipients using the search area Effect. This link is made by
 setting the 'Effect - Periodic' field to the 'Search Area - Marine Speed
 Aura' effect created in that last step. This process is shown below.
 
-![Image](./087_Create_an_Aura_Ability/image7.png)
+![Image](./resources/087_Create_an_Aura_Ability7.png)
 
 Selecting the Aura's Search Effect
 
@@ -176,7 +176,7 @@ Now, set the 'Period' to a value of 0.0625, this will cause the 'Effect
 -- Periodic,' and consequently the search effect, to happen 16 times per
 second. The completed aura behavior fields should look as shown below.
 
-![Image](./087_Create_an_Aura_Ability/image8.png)
+![Image](./resources/087_Create_an_Aura_Ability8.png)
 
 Marine Speed Aura Fields
 
@@ -187,7 +187,7 @@ This component is the behavior responsible for the speed boost in the
 aura recipients. It too is a buff type and its creation window should
 look as follows.
 
-![Image](./087_Create_an_Aura_Ability/image9.png)
+![Image](./resources/087_Create_an_Aura_Ability9.png)
 
 Speed Buff Behavior Creation
 
@@ -203,7 +203,7 @@ area the boost will dissipate after 0.2 seconds. As a last step, set the
 'Time Scale Source -- Value' to Global, as with the previous behavior.
 The completed fields for this behavior should match the following.
 
-![Image](./087_Create_an_Aura_Ability/image10.png)
+![Image](./resources/087_Create_an_Aura_Ability10.png)
 
 Marine Speed Buff Fields
 
@@ -214,14 +214,14 @@ The final component is the effect that applies the speed boost buff to
 found allied units. This is an 'Apply Behavior' effect, and its creation
 screen should look as shown below.
 
-![Image](./087_Create_an_Aura_Ability/image11.png)
+![Image](./resources/087_Create_an_Aura_Ability11.png)
 
 Speed Buff Behavior Creation
 
 The only field that needs to be set here is 'Effect: Behavior.' Set it
 to the previously created the 'Marine Speed Buff.'
 
-![Image](./087_Create_an_Aura_Ability/image12.png)
+![Image](./resources/087_Create_an_Aura_Ability12.png)
 
 Setting the Behavior for Application
 
@@ -230,7 +230,7 @@ Area -- Marine Speed Aura' effect. It then pushes the 'Marine Speed
 Buff' behavior onto each of those units, boosting their speed. At this
 point, the behavior's completed fields should look like the following.
 
-![Image](./087_Create_an_Aura_Ability/image13.png)
+![Image](./resources/087_Create_an_Aura_Ability13.png)
 
 Apply Behavior Effect Fields
 
@@ -243,7 +243,7 @@ connective part of the data. You can fix this now. Move back to the
 'Search Area -- Marine Speed Aura' Effect and open its 'Areas -- Effect'
 field. Set this to the 'Apply Behavior -- Marine Speed Aura' Effect.
 
-![Image](./087_Create_an_Aura_Ability/image14.png)
+![Image](./resources/087_Create_an_Aura_Ability14.png)
 
 Linking Behavior Application Effect to the Search Effect
 
@@ -256,7 +256,7 @@ pop up, hit the green + to add a behavior to the unit. Select the
 'Marine Speed Aura' and hit 'Ok' through the two windows. This process
 is shown below.
 
-![Image](./087_Create_an_Aura_Ability/image15.png)
+![Image](./resources/087_Create_an_Aura_Ability15.png)
 
 Adding the Aura to the Source Unit
 
@@ -267,7 +267,7 @@ Your aura is now fully composed. You can confirm this by taking a look
 at the Data Navigator, which should give you a helpful look at the
 aura's whole data structure.
 
-![Image](./087_Create_an_Aura_Ability/image16.png)
+![Image](./resources/087_Create_an_Aura_Ability16.png)
 
 Aura Data Structure
 
@@ -290,6 +290,6 @@ You can see the following connections by looking at this visualization.
     > double their normal speed. They will also display a buff icon,
     > highlighted below.
 
-![Image](./087_Create_an_Aura_Ability/image17.png)
+![Image](./resources/087_Create_an_Aura_Ability17.png)
 
 Apply Behavior Effect Fields

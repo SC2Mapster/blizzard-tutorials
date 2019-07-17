@@ -20,7 +20,7 @@ include a view of the message type within the subeditor, but the basic
 fields view can be sometimes be noteworthy as well. You can see an
 example of this view in the image below.
 
-![Image](./061_Actor_Messages_Rundown/image1.png)
+![Image](./resources/061_Actor_Messages_Rundown1.png)
 
 Actor Events Field
 
@@ -39,7 +39,7 @@ itself. You can create an actor event or message by moving to an actor's
 right-clicking inside the white box and selecting 'Add Event.' This will
 create an event and message pair.
 
-![Image](./061_Actor_Messages_Rundown/image2.png)
+![Image](./resources/061_Actor_Messages_Rundown2.png)
 
 Actor Event Creation
 
@@ -48,7 +48,7 @@ Below you'll find a rundown of the many types of actor messages.
 ANIMATION PLAY
 --------------
 
-![Image](./061_Actor_Messages_Rundown/image3.png)
+![Image](./resources/061_Actor_Messages_Rundown3.png)
 
 Animation Play Message
 
@@ -95,7 +95,7 @@ priority for blending in comparison to the other animation's priority.
 ANIMATION BRACKET START
 -----------------------
 
-![Image](./061_Actor_Messages_Rundown/image4.png)
+![Image](./resources/061_Actor_Messages_Rundown4.png)
 
 Animation Bracket Start Message
 
@@ -140,7 +140,7 @@ Time Type Sets the type of time scale used to set the Time Variant.
 DESTROY
 -------
 
-![Image](./061_Actor_Messages_Rundown/image5.png)
+![Image](./resources/061_Actor_Messages_Rundown5.png)
 
 Destroy Message Options
 
@@ -156,7 +156,7 @@ animations to play and particles to naturally fade out.
 GLOW START
 ----------
 
-![Image](./061_Actor_Messages_Rundown/image6.png)
+![Image](./resources/061_Actor_Messages_Rundown6.png)
 
 Glow Start Message
 
@@ -169,7 +169,7 @@ message.
 HALO SET COLOR
 --------------
 
-![Image](./061_Actor_Messages_Rundown/image7.png)
+![Image](./resources/061_Actor_Messages_Rundown7.png)
 
 Halo Set Color Message
 
@@ -183,7 +183,7 @@ control its addition and removal respectively.
 MODEL SWAP
 ----------
 
-![Image](./061_Actor_Messages_Rundown/image8.png)
+![Image](./resources/061_Actor_Messages_Rundown8.png)
 
 Model Swap Message
 
@@ -196,7 +196,7 @@ model's specific Variation.
 SET OPACITY
 -----------
 
-![Image](./061_Actor_Messages_Rundown/image9.png)
+![Image](./resources/061_Actor_Messages_Rundown9.png)
 
 Set Opacity Message
 
@@ -220,7 +220,7 @@ connected visual asset, such as a model.
 SET TINT COLOR
 --------------
 
-![Image](./061_Actor_Messages_Rundown/image10.png)
+![Image](./resources/061_Actor_Messages_Rundown10.png)
 
 Set Tint Color Message
 

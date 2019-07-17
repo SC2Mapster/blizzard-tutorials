@@ -21,7 +21,7 @@ combining the macro's events into the host actor's events. Sharing the
 macro allows it to be a source for a common set of events, serving as a
 reusable definition. Below you'll see a typical view of an event macro.
 
-![Image](./065_Event_Macros/image1.png)
+![Image](./resources/065_Event_Macros1.png)
 
 Event Macros Listing
 
@@ -40,7 +40,7 @@ being actors. The field of interest at the moment is the one labelled
 'Events.' Investigating the 'Events' field for a macro will launch the
 actor events subeditor shown below.
 
-![Image](./065_Event_Macros/image2.png)
+![Image](./resources/065_Event_Macros2.png)
 
 Event Macros Listing
 
@@ -55,7 +55,7 @@ DEMOING EVENT MACROS
 Open the demo map provided with this article. The course presents a set
 of buildings and some ghosts in a crater, as shown in the image below.
 
-![Image](./065_Event_Macros/image3.png)
+![Image](./resources/065_Event_Macros3.png)
 
 Demo Map Course
 
@@ -70,7 +70,7 @@ visible, open it by navigating to + -\> Edit Actor Data -\> Actors.
 Create a new actor here by right-clicking in the main view and selecting
 'Add Actor.' This will open the window shown below.
 
-![Image](./065_Event_Macros/image4.png)
+![Image](./resources/065_Event_Macros4.png)
 
 Creating an Event Macro
 
@@ -78,7 +78,7 @@ Set the actor's name to 'Damage Response Macro,' then hit 'Suggest' to
 generate an ID. Set the actor type to Event Macro and hit 'Ok.' You will
 be presented with the following view.
 
-![Image](./065_Event_Macros/image5.png)
+![Image](./resources/065_Event_Macros5.png)
 
 Creating an Event Macro
 
@@ -87,7 +87,7 @@ field, then double click to open it. This will launch the actor events
 subeditor. Right-click inside the white box and select 'Add Event,' as
 shown below.
 
-![Image](./065_Event_Macros/image6.png)
+![Image](./resources/065_Event_Macros6.png)
 
 Adding an Actor Event
 
@@ -97,7 +97,7 @@ by highlighting it and selecting its 'Msg Type' from the rightmost view.
 You can now set the event by highlighting the 'ActionDamage' event and
 using the 'Msg Type' dropdown to set it to the 'Unit Damaged' event.
 
-![Image](./065_Event_Macros/image7.png)
+![Image](./resources/065_Event_Macros7.png)
 
 Configuring an Actor Event
 
@@ -110,7 +110,7 @@ a bright yellow when it is attacked. Finally, set the message's Label to
 'DamageResponseColor' so that you can easily refer back to it. Your
 events list should look shown in the image below.
 
-![Image](./065_Event_Macros/image8.png)
+![Image](./resources/065_Event_Macros8.png)
 
 Completed Tinting Event
 
@@ -118,7 +118,7 @@ Add another event of the type 'Unit Damaged Event' and set its message
 to 'Timer Set.' Set the timer's Duration Base to 0.12 and set its Name
 to 'Damage Response Timer.'
 
-![Image](./065_Event_Macros/image9.png)
+![Image](./resources/065_Event_Macros9.png)
 
 Completed Timer Event
 
@@ -130,7 +130,7 @@ Color.' Set the message's property Blend Out Duration to 0.08 and the
 Label to 'DamageResponseColor.' The completed list should look as shown
 below.
 
-![Image](./065_Event_Macros/image10.png)
+![Image](./resources/065_Event_Macros10.png)
 
 Completed Actor Events
 
@@ -152,7 +152,7 @@ can select the macro to add. Click 'Choose' to get a list of all the
 Macro' then confirm the three windows in turn. This will appear as shown
 below.
 
-![Image](./065_Event_Macros/image11.png)
+![Image](./resources/065_Event_Macros11.png)
 
 Adding Macro to an Actor
 
@@ -162,6 +162,6 @@ consequently the flash on attack behavior, to each unit in the demo
 course. You can now test the map and command the ghosts to attack
 anything to see the effect in action.
 
-![Image](./065_Event_Macros/image12.png)
+![Image](./resources/065_Event_Macros12.png)
 
 Macros Illuminating Damage

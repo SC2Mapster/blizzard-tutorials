@@ -35,7 +35,7 @@ above, you'll have to set the option Test Document -\> Game Display Mode
 to 'Windowed' before the Editor will show the debug window. This setting
 is highlighted in the image below.
 
-![image0](./053_Trigger_Debugger/image1.png){width="3.65625in"
+![image0](./resources/053_Trigger_Debugger1.png){width="3.65625in"
 height="2.71875in"}­­
 
 Activating the Debugger via Settings
@@ -92,7 +92,7 @@ for your Editor project.
 VARIABLES TAB
 -------------
 
-![Image](./053_Trigger_Debugger/image2.png)
+![Image](./resources/053_Trigger_Debugger2.png)
 
 Variables Tab
 
@@ -136,7 +136,7 @@ available from this view. By right-clicking an element, you can select
 succeed in cases where an outside event parameter is required within the
 body of the trigger, but you can plan for this with a default value.
 
-![Image](./053_Trigger_Debugger/image3.png)
+![Image](./resources/053_Trigger_Debugger3.png)
 
 Triggers Tab
 
@@ -177,7 +177,7 @@ right-clicking a row and selecting 'View Script' will bring you to the
 Script Code Tab, automatically scrolling to the first line of the
 selected function.
 
-![Image](./053_Trigger_Debugger/image4.png)
+![Image](./resources/053_Trigger_Debugger4.png)
 
 Threads Tab
 
@@ -202,7 +202,7 @@ Threads Tab
 QUEUE TAB
 ---------
 
-![Image](./053_Trigger_Debugger/image5.png)
+![Image](./resources/053_Trigger_Debugger5.png)
 
 Queue Tab
 
@@ -216,7 +216,7 @@ use, which explains its lack of additional fields.
 TRIGGER PROFILING TAB
 ---------------------
 
-![Image](./053_Trigger_Debugger/image6.png)
+![Image](./resources/053_Trigger_Debugger6.png)
 
 Trigger Profiling Tab
 
@@ -299,7 +299,7 @@ different system of time, as described earlier.
 FUNCTION PROFILING TAB
 ----------------------
 
-![Image](./053_Trigger_Debugger/image7.png)
+![Image](./resources/053_Trigger_Debugger7.png)
 
 Function Profiling Tab
 
@@ -339,7 +339,7 @@ against each other in demanding profiling work.
 ACTIVITY TAB
 ------------
 
-![Image](./053_Trigger_Debugger/image8.png)
+![Image](./resources/053_Trigger_Debugger8.png)
 
 Activity Tab
 
@@ -380,7 +380,7 @@ happen, rather than using outputs and intuition to try to track down
 problems. Both methods have their advantages, but the most careful work
 of fixing errors should occur here.
 
-![Image](./053_Trigger_Debugger/image9.png)
+![Image](./resources/053_Trigger_Debugger9.png)
 
 Script Code Tab
 
@@ -429,7 +429,7 @@ execution, the game will pause and bring the debugger into focus. At
 this point, it will display additional information in the main view
 Script Code Tab, as shown in the image below.
 
-![image1](./053_Trigger_Debugger/image10.png){width="4.09375in"
+![image1](./resources/053_Trigger_Debugger10.png){width="4.09375in"
 height="3.39583in"}
 
 Breakpoint Reached within Script Code Tab

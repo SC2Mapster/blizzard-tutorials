@@ -15,7 +15,7 @@ use any existing statement in the Editor. With these you can develop new
 inquiries into the state of the game. They can also be a useful method
 of organizing and combining common conditions.
 
-![Image](./039_Condition_Definitions/image1.png)
+![Image](./resources/039_Condition_Definitions1.png)
 
 Condition Definition View
 
@@ -115,7 +115,7 @@ the 'Hint Text' heading and inputting Returns true if the Unit is a
 Marauder, and the Player is 1. Completing these steps should result in
 the definition appearing as follows.
 
-![Image](./039_Condition_Definitions/image2.png)
+![Image](./resources/039_Condition_Definitions2.png)
 
 Completed Condition Definition
 
@@ -129,7 +129,7 @@ and following New -\> New Condition. This will launch the 'Configure
 Condition' window, which should contain the newly defined condition as
 shown below.
 
-![Image](./039_Condition_Definitions/image3.png)
+![Image](./resources/039_Condition_Definitions3.png)
 
 Selecting the Custom Condition Definition
 
@@ -139,7 +139,7 @@ Owner of (Triggering Unit). Click 'Ok' to return to the project.
 Finally, create an action of the type 'Text Message' and set its
 'Message' to Success, which should give the following view.
 
-![Image](./039_Condition_Definitions/image4.png)
+![Image](./resources/039_Condition_Definitions4.png)
 
 Completed Trigger
 
@@ -150,6 +150,6 @@ custom condition test will respond with a True value, allowing the
 trigger to run its body statements and display the message. Launching
 the game and running the test should give you the following view.
 
-![Image](./039_Condition_Definitions/image5.png)
+![Image](./resources/039_Condition_Definitions5.png)
 
 Successful Output

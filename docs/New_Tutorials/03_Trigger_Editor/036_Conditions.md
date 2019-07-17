@@ -51,7 +51,7 @@ Use the following procedure to prepare the base trigger.
 
 This should leave you with the following.
 
-![Image](./036_Conditions/image1.png)
+![Image](./resources/036_Conditions1.png)
 
 Trigger Basis
 
@@ -78,7 +78,7 @@ your trigger below the 'Modify Press Count + 1' statement via New -\>
 New Action -\> If Then Else. You'll find the control statements under
 the ' -- General' category in the 'Actions' window.
 
-![Image](./036_Conditions/image2.png)
+![Image](./resources/036_Conditions2.png)
 
 Selecting If Then Else Action
 
@@ -89,7 +89,7 @@ Add a condition to the 'If Then Else' action by right-clicking on the
 'If' heading and navigating to New -\> New Condition. This will launch
 the 'Configure Condition' window shown below.
 
-![Image](./036_Conditions/image3.png)
+![Image](./resources/036_Conditions3.png)
 
 Operators View
 
@@ -166,7 +166,7 @@ the second term by double clicking on 'Value 2', navigating to Value,
 and inputting 10. Now set the operator by double clicking on 'Operator'
 and navigating to ==.
 
-![Image](./036_Conditions/image4.png)
+![Image](./resources/036_Conditions4.png)
 
 Setting the Term
 
@@ -182,7 +182,7 @@ trigger with the following procedure.
 
 You should now be left with something that looks like the image below.
 
-![Image](./036_Conditions/image5.png)
+![Image](./resources/036_Conditions5.png)
 
 Completed Trigger
 
@@ -200,6 +200,6 @@ You can test the map to confirm that it's working correctly by
 navigating to File -\> Test Document. If you've done everything right,
 you should get the result shown below.
 
-![Image](./036_Conditions/image6.png)
+![Image](./resources/036_Conditions6.png)
 
 Successful Output

@@ -14,7 +14,7 @@ games, such as music and cutscene dialog, but sounds actors handle the
 systemic sounds that respond to gameplay. As a type of actor, sound
 actors can be located in the actors tab, shown below.
 
-![Image](./063_Sound_Actors/image1.png)
+![Image](./resources/063_Sound_Actors1.png)
 
 Sound Actors Listing
 
@@ -113,7 +113,7 @@ Open the demo map provided with this article. The course inside shows a
 roach that's been cornered by some marines. It should appear as shown in
 the image below.
 
-![Image](./063_Sound_Actors/image2.png)
+![Image](./resources/063_Sound_Actors2.png)
 
 Sound Actors Listing
 
@@ -124,7 +124,7 @@ to the Data Editor and open the Sounds tab. Find the existing sound
 'Roach\_Damaged,' and open its 'Sounds Assets' field. This should
 present you with the following view.
 
-![Image](./063_Sound_Actors/image3.png)
+![Image](./resources/063_Sound_Actors3.png)
 
 Sound Actors Listing
 
@@ -134,7 +134,7 @@ play as a stand in for a roach damaged noise. To set that functionality,
 move to the actors tab and right-click in the main view, then select
 'Add Actor.'
 
-![Image](./063_Sound_Actors/image4.png)
+![Image](./resources/063_Sound_Actors4.png)
 
 Creating an Actor
 
@@ -142,7 +142,7 @@ Name the new actor 'Roach Damaged,' then click 'Suggest' to generate an
 ID. Use the 'Actor Type' dropdown to select the creation of a sound
 actor, as shown below.
 
-![Image](./063_Sound_Actors/image5.png)
+![Image](./resources/063_Sound_Actors5.png)
 
 Selecting Sound Actor Creation
 
@@ -150,7 +150,7 @@ Select the 'Parent' to be SoundOneShot, since the behavior you want is
 for the sound to play once on being attacked, then stop. The final actor
 creation window will look something like this.
 
-![Image](./063_Sound_Actors/image6.png)
+![Image](./resources/063_Sound_Actors6.png)
 
 Sound Actor Creation Window
 
@@ -161,14 +161,14 @@ with a 'Destroy' message. This is parented in from the SoundOneShot base
 and will cause the sound to stop, or be destroyed, after playing once.
 Right-click below this element and select 'Add Event', as shown below.
 
-![Image](./063_Sound_Actors/image7.png)
+![Image](./resources/063_Sound_Actors7.png)
 
 Adding an Event
 
 Once created, highlight the new 'ActionDamage' event and use the
 dropdown to set the Event's Msg Type to 'Unit Damage.'
 
-![Image](./063_Sound_Actors/image8.png)
+![Image](./resources/063_Sound_Actors8.png)
 
 Selecting Event Type
 
@@ -178,7 +178,7 @@ causing the actor to be created and play every time the roach is
 damaged. The completed actor events should look like those in the image
 below.
 
-![Image](./063_Sound_Actors/image9.png)
+![Image](./resources/063_Sound_Actors9.png)
 
 Completed Actor Events
 
@@ -190,7 +190,7 @@ clicking to open it.
 This will launch an 'Object Values' window where you can set the sound.
 At this point you should be looking at the following.
 
-![Image](./063_Sound_Actors/image10.png)
+![Image](./resources/063_Sound_Actors10.png)
 
 Setting Sound Asset
 
@@ -201,14 +201,14 @@ events. In this case, these terms must be passed before the actor is
 created. Click the + button to add a new term, then use the dropdown to
 select 'Cap,' as shown below.
 
-![Image](./063_Sound_Actors/image11.png)
+![Image](./resources/063_Sound_Actors11.png)
 
 Setting Terms
 
 Once selected, set the Cap value of this term to 2. This will appear as
 follows.
 
-![Image](./063_Sound_Actors/image12.png)
+![Image](./resources/063_Sound_Actors12.png)
 
 Completed Term
 
@@ -222,7 +222,7 @@ The map is now complete. The sound actor has allowed you to introduce a
 new sound into the roach's data. You can see the changes in the unit's
 data structure below.
 
-![Image](./063_Sound_Actors/image13.png)
+![Image](./resources/063_Sound_Actors13.png)
 
 Old Roach Data Structure -- New Roach Data Structure
 
@@ -233,6 +233,6 @@ this new sound when any marines are commanded to attack the roach.
 Remember that the sound is a sampling of the zergling death cry. Use
 'Test Document' to see it working in-game.
 
-![Image](./063_Sound_Actors/image14.png)
+![Image](./resources/063_Sound_Actors14.png)
 
 Newfound Sympathy for the Roach

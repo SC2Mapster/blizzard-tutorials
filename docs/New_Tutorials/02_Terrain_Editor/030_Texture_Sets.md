@@ -19,7 +19,7 @@ competitive StarCraft. Examples include: Bel\'Shir, Shakuras, and Char.
 An example of one such set, as presented in the Terrain Palette, is
 shown below.
 
-![Image](./030_Texture_Sets/image1.png)
+![Image](./resources/030_Texture_Sets1.png)
 
 Bel'Shir Texture Set
 
@@ -75,7 +75,7 @@ Within Data, open the terrain textures tab and create a terrain texture
 by right-clicking the Object Listing and selecting 'Add Terrain
 Texture.' This should appear as shown below.
 
-![Image](./030_Texture_Sets/image2.png)
+![Image](./resources/030_Texture_Sets2.png)
 
 Creating Terrain Texture
 
@@ -83,7 +83,7 @@ This will launch a \'Terrain Texture Properties\' window. Enter 'Demo
 Texture' under 'Name,' then hit the 'Suggest' button to generate an ID.
 The completed terrain texture creation screen should look like this.
 
-![Image](./030_Texture_Sets/image3.png)
+![Image](./resources/030_Texture_Sets3.png)
 
 Creating Terrain Texture
 
@@ -91,7 +91,7 @@ Click 'Ok' to create your terrain texture, then move on to the newly
 created texture's fields. You should now select a raw texture by double
 clicking the 'Texture' field, as in the image below.
 
-![Image](./030_Texture_Sets/image4.png)
+![Image](./resources/030_Texture_Sets4.png)
 
 Creating Terrain Texture
 
@@ -101,7 +101,7 @@ Archive Browser, where you can select a texture. Quickly select the
 lavasilvertoprock.dds texture using the search function, then hit 'Ok'
 to complete selection.
 
-![Image](./030_Texture_Sets/image5.png)
+![Image](./resources/030_Texture_Sets5.png)
 
 Selecting Terrain Texture
 
@@ -111,7 +111,7 @@ and repeat the same process as used for the \'Texture\' field. This
 time, find the texturelavasilvertoprock\_nrm.dds and click \'OK\' to
 select it for use.
 
-![Image](./030_Texture_Sets/image6.png)
+![Image](./resources/030_Texture_Sets6.png)
 
 Selecting Terrain Texture Normal Map
 
@@ -134,7 +134,7 @@ functionality to the texture under construction should prove
 educational. To add support for foliage on your new texture, double
 click the cell to the right of the \'Doodads - \' heading.
 
-![Image](./030_Texture_Sets/image7.png)
+![Image](./resources/030_Texture_Sets7.png)
 
 Foliage Doodad Input
 
@@ -145,7 +145,7 @@ so will add a new blank doodad. You can define it by selecting the
 you to select any Model type from the project's data. This process is
 shown below.
 
-![Image](./030_Texture_Sets/image8.png)
+![Image](./resources/030_Texture_Sets8.png)
 
 Foliage Doodad Selection
 
@@ -162,7 +162,7 @@ Rotation.\' If you activate this, it will rotate each doodad model to
 face a random direction on generation. Check the \'Random Rotation\' box
 to enable it and click \'OK\' to finish.
 
-![Image](./030_Texture_Sets/image9.png)
+![Image](./resources/030_Texture_Sets9.png)
 
 Completed Doodads Input
 
@@ -189,14 +189,14 @@ Open the terrain textures tab by navigating to + -\> Edit Terrain Data
 you can swap in the new texture by double clicking \'Texture -- Blend,\'
 as shown below.
 
-![Image](./030_Texture_Sets/image10.png)
+![Image](./resources/030_Texture_Sets10.png)
 
 Altering Bel'Shir Terrain Type
 
 This will launch an \'Object Values\' window annotated with 'Textures --
 Blend.'
 
-![Image](./030_Texture_Sets/image11.png)
+![Image](./resources/030_Texture_Sets11.png)
 
 Terrain Type Definition View
 
@@ -210,7 +210,7 @@ Select 'Demo Texture' from the 'Texture Library', then highlight
 'Bel'Shir Dirt Light' in the 'Texture Set' and hit 'Replace.' This
 should swap the textures, as you can see in the image below.
 
-![Image](./030_Texture_Sets/image12.png)
+![Image](./resources/030_Texture_Sets12.png)
 
 Swapped Terrain Textures
 
@@ -225,14 +225,14 @@ Terrain Palette. You should be greeted by a thumbnail preview of your
 the 'Demo Texture' in the far left spot of the texture set. This will
 look like the image below.
 
-![Image](./030_Texture_Sets/image13.png)
+![Image](./resources/030_Texture_Sets13.png)
 
 Customized Texture Set on Terrain Palette
 
 The texture is now ready to be painted onto the terrain, so feel free to
 start experimenting.
 
-![Image](./030_Texture_Sets/image14.png)
+![Image](./resources/030_Texture_Sets14.png)
 
 Volcanic Ash in Bel\'Shir
 
@@ -241,6 +241,6 @@ area of it down, then painting that area with the 'Allow Foliage'
 option. If you hit Generate Foliage, it should give you something
 similar to the screenshot below.
 
-![Image](./030_Texture_Sets/image15.png)
+![Image](./resources/030_Texture_Sets15.png)
 
 Generated Shakuras Tree Foliage

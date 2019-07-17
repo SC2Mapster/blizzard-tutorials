@@ -15,6 +15,6 @@ You can arrange set pieces that can fill many roles in your project,
 whether as storytelling cuts during a game, narrative cinematics for a
 campaign, menu screens, or even standalone films.
 
-![Image](./079_Cutscene_Editor_Introduction/image1.png)
+![Image](./resources/079_Cutscene_Editor_Introduction1.png)
 
 Cinematic Cutscenes Building into Game Assets

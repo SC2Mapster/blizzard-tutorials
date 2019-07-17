@@ -14,7 +14,7 @@ transition between them, and apply a range of effects and filters. This
 sort of dynamic camera use allows you to incorporate a cinematic element
 into your project's storytelling or gameplay.
 
-![Image](./046_Camera_Actions/image1.png)
+![Image](./resources/046_Camera_Actions1.png)
 
 Creative Camera Angles in joecab's Optical Illusion Piece
 
@@ -24,7 +24,7 @@ CAMERA ACTIONS LISTING
 You can access camera actions during action creation by navigating to
 the 'Camera' label. This will bring you to the following view.
 
-![Image](./046_Camera_Actions/image2.png)
+![Image](./resources/046_Camera_Actions2.png)
 
 Camera Actions
 
@@ -149,7 +149,7 @@ USING CAMERA ACTIONS
 
 Examine the following sequence of camera actions.
 
-![Image](./046_Camera_Actions/image3.png)
+![Image](./resources/046_Camera_Actions3.png)
 
 Camera Action Sequence
 
@@ -164,6 +164,6 @@ the Rotation to an angle between the two marines. These properties are
 applied over the same near-instantaneous Duration as the previous
 action. The result of this action sequence is shown by the image below.
 
-![Image](./046_Camera_Actions/image4.png)
+![Image](./resources/046_Camera_Actions4.png)
 
 Custom Camera Settings with Actions

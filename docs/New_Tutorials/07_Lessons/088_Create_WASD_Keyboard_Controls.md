@@ -32,7 +32,7 @@ pushed down, while 'KeyPressUP' runs when any of these keys are
 released. You can see the composition of these triggers in the image
 below.
 
-![Image](./088_Create_WASD_Keyboard_Controls/image7.png)
+![Image](./resources/088_Create_WASD_Keyboard_Controls7.png)
 
 Keypress UI Event Triggers
 
@@ -65,7 +65,7 @@ A True value represents pressed, while a False value represents not
 being pressed. All the spots in the array are set to False by default.
 The array itself is shown below.
 
-![Image](./088_Create_WASD_Keyboard_Controls/image8.png)
+![Image](./resources/088_Create_WASD_Keyboard_Controls8.png)
 
 Key Storage Array
 
@@ -80,7 +80,7 @@ use a switch statement to solve this by providing a case for each of the
 four Key values. The switch statement used for the 'KeyPressUP' trigger
 is shown in the image below.
 
-![Image](./088_Create_WASD_Keyboard_Controls/image9.png)
+![Image](./resources/088_Create_WASD_Keyboard_Controls9.png)
 
 KeyPressUP Switch
 
@@ -283,7 +283,7 @@ of 145.0 and an Offset of 1.0, as is the case when the W and A keys are
 pressed, the unit is sent in the northeast direction. The 'Execute Move'
 action definition can be seen in the image below.
 
-![Image](./088_Create_WASD_Keyboard_Controls/image10.png)
+![Image](./resources/088_Create_WASD_Keyboard_Controls10.png)
 
 Execute Move Action Definition
 
@@ -296,7 +296,7 @@ schemes seldom change within the body of a game, but shifting the
 initialization actions elsewhere is still an option. The 'Melee
 Initialization' trigger is shown below.
 
-![Image](./088_Create_WASD_Keyboard_Controls/image11.png)
+![Image](./resources/088_Create_WASD_Keyboard_Controls11.png)
 
 Melee Initialization Trigger
 
@@ -315,6 +315,6 @@ TESTING THE CONTROLS
 Launching the map will allow you to control the marine with the WASD
 keys.
 
-![Image](./088_Create_WASD_Keyboard_Controls/image12.png)
+![Image](./resources/088_Create_WASD_Keyboard_Controls12.png)
 
 WASD Keyboard Controls

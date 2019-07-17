@@ -1,9 +1,9 @@
 ## Available Tutorials
-- [TERRAIN MODULE](01_terrain/1)
+- [TERRAIN MODULE](01_Terrain_Module/1)
   * Our first map making tutorial introduces you to the ins and outs of the StarCraft II editor’s terrain module.
-- [TRIGGER MODULE](02_trigger/1)
+- [TRIGGER MODULE](02_Trigger_Module/1)
   * Learn to use the Trigger Module by creating Triggers to handle victory, defeat, and scripted in-game events.
-- [DATA MODULE](03_data/1)
+- [DATA MODULE](03_Data_Module/1)
   * In this tutorial, we will go over ways to modify existing data including modifying unit health, armor, starting energy, adding and removing existing abilities to units, and modifying weapon firing rates and damage.
 
   

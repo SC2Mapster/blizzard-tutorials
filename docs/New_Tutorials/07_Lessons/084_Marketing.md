@@ -91,7 +91,7 @@ Battle.net system allows you to publicize a single website for each
 project. You can add this from the Editor by navigating to Battle.net
 Info -\> General -\> Website, as shown below.
 
-![Image](./084_Marketing/image1.png)
+![Image](./resources/084_Marketing1.png)
 
 Battle.net Website Link
 
@@ -104,6 +104,6 @@ of the group. It's also worth your while to check out the 'Blizzard
 Arcade Night' group, which hosts events specifically tailored for
 developers to market and test their projects in front of an audience.
 
-![Image](./084_Marketing/image2.png)
+![Image](./resources/084_Marketing2.png)
 
 Blizzard Arcade Night Group

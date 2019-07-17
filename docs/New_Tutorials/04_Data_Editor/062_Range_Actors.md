@@ -14,7 +14,7 @@ distances relevant to gameplay, including the casting range for a
 ghost's snipe, the vision ranges for an observer's detection, and
 perhaps most famously the shelling range for a siege tank.
 
-![Image](./062_Range_Actors/image3.png)
+![Image](./resources/062_Range_Actors3.png)
 
 Siege Tank Range Actor
 
@@ -30,7 +30,7 @@ navigating to View -\> Show Terrain -\> Show Range. You can find range
 actors in data, under the actors tab, with the type 'Range,' as shown
 below.
 
-![Image](./062_Range_Actors/image4.png)
+![Image](./resources/062_Range_Actors4.png)
 
 Range Actors Listing
 
@@ -142,13 +142,13 @@ token also provides an actor events template, which links the range
 actor's creation and removal messages to the Ability token's targeting
 inputs. This template is shown below.
 
-![Image](./062_Range_Actors/image5.png)
+![Image](./resources/062_Range_Actors5.png)
 
-![Image](./062_Range_Actors/image6.png)
+![Image](./resources/062_Range_Actors6.png)
 
-![Image](./062_Range_Actors/image5.png)
+![Image](./resources/062_Range_Actors5.png)
 
-![Image](./062_Range_Actors/image6.png)
+![Image](./resources/062_Range_Actors6.png)
 
 Range Behavior is a basis for range actors designed to provide a range
 indicator for Radar Range or Detect Radius Behaviors. It supports a
@@ -157,13 +157,13 @@ that of the token. The token also has an actor events template, which
 will create and remove the actor based on the Behavior token's on or off
 status. This template is shown below.
 
-![Image](./062_Range_Actors/image5.png)
+![Image](./resources/062_Range_Actors5.png)
 
-![Image](./062_Range_Actors/image6.png)
+![Image](./resources/062_Range_Actors6.png)
 
-![Image](./062_Range_Actors/image5.png)
+![Image](./resources/062_Range_Actors5.png)
 
-![Image](./062_Range_Actors/image6.png)
+![Image](./resources/062_Range_Actors6.png)
 
 Range Sight is a basis for range actors designed to provide a range
 indicator for sight radii. It supports a Unit token, linking to which
@@ -179,7 +179,7 @@ DEMOING RANGE ACTORS
 Now, open the demo map provided with this article. The course features
 an overseer floating above a set of cliff faces, as shown below.
 
-![Image](./062_Range_Actors/image7.png)
+![Image](./resources/062_Range_Actors7.png)
 
 Demo Map Course
 
@@ -195,7 +195,7 @@ tab isn't already available, open it by navigating to + -\> Edit Actor
 Data -\> Actors. There, create a new actor by right-clicking in the main
 view and selecting Add Actor, as shown below.
 
-![Image](./062_Range_Actors/image8.png)
+![Image](./resources/062_Range_Actors8.png)
 
 Creating an Actor
 
@@ -207,7 +207,7 @@ actor as the needed range actor, while giving it a base type that will
 help with some of the work later. The creation window should now appear
 as shown in the image below.
 
-![Image](./062_Range_Actors/image9.png) Range Actor Prepared for
+![Image](./resources/062_Range_Actors9.png) Range Actor Prepared for
 Creation
 
 Click 'Ok' to create the range actor. This will take you back to the
@@ -218,7 +218,7 @@ type as this token will allow the new range actor to draw some of its
 properties from the existing unit. Select the token field, as shown
 below.
 
-![Image](./062_Range_Actors/image10.png)
+![Image](./resources/062_Range_Actors10.png)
 
 Range Actor Token Field
 
@@ -227,7 +227,7 @@ its Sight value pulled to be used as the range actor's Range. Do so by
 double clicking on the token field. This will present you with the
 following view.
 
-![Image](./062_Range_Actors/image11.png)
+![Image](./resources/062_Range_Actors11.png)
 
 Token Selection
 
@@ -241,7 +241,7 @@ actor to be updated should that vision value change for any reason. This
 is good design. Clicking 'Ok' in the token popup will update the actor.
 The 'Sight' field should now look like the image below.
 
-![Image](./062_Range_Actors/image12.png)
+![Image](./resources/062_Range_Actors12.png)
 
 Token Selection
 
@@ -255,7 +255,7 @@ events subeditor. There should be only a single 'ActorOrphan' event,
 responsible for cleaning up the range actor if it ends up orphaned in
 the Editor. Right-click inside the white box and select 'Add Event.'
 
-![Image](./062_Range_Actors/image13.png)
+![Image](./resources/062_Range_Actors13.png)
 
 Actor Event Creation
 
@@ -263,7 +263,7 @@ Set the new event's 'Msg Type' to 'Unit Birth' and its 'Source Name' to
 'Overseer.' Then set its message to 'Create.' This process is shown
 below.
 
-![Image](./062_Range_Actors/image14.png)
+![Image](./resources/062_Range_Actors14.png)
 
 Setting Creation Event
 
@@ -275,7 +275,7 @@ message to 'Destroy.' This will destroy and remove the range indicator
 when the overseer is destroyed. The completed actor events should look
 as follows.
 
-![Image](./062_Range_Actors/image15.png)
+![Image](./resources/062_Range_Actors15.png)
 
 Completed Actor Events
 
@@ -293,14 +293,14 @@ can do this quickly by selecting the 'Overseer Sight Range' actor, then
 right-clicking and selecting 'Duplicate Actor.' This will present you
 with the following view.
 
-![Image](./062_Range_Actors/image16.png)
+![Image](./resources/062_Range_Actors16.png)
 
 Duplicating Range Actor
 
 This will launch a 'Duplicate Actor' window, with a single 'Overseer
 Sight Range' value.
 
-![Image](./062_Range_Actors/image17.png)
+![Image](./resources/062_Range_Actors17.png)
 
 Duplication Window
 
@@ -317,7 +317,7 @@ actor's name to 'Overseer Sight Facing,' then click 'Suggest' to
 generate an ID. Confirm the window's values with the image below, then
 click 'Ok.'
 
-![Image](./062_Range_Actors/image18.png)
+![Image](./resources/062_Range_Actors18.png)
 
 Duplication Window
 
@@ -328,7 +328,7 @@ facing. Highlight the 'Sight' field, right-click it, and navigate to
 Reset to Parent Value -\> \[Core.SCMod\] CActorRange. You can see this
 procedure being carried out in the image below.
 
-![Image](./062_Range_Actors/image19.png)
+![Image](./resources/062_Range_Actors19.png)
 
 Resetting Actor Sight Field
 
@@ -343,7 +343,7 @@ launch an 'Object Values' window. Click the colored box to open a color
 picker. Set the color to yellow, or R255 G255 B0, and click 'Ok.' Leave
 the Alpha value as 255 and click 'Ok' to finalize the icon tint.
 
-![Image](./062_Range_Actors/image20.png)
+![Image](./resources/062_Range_Actors20.png)
 
 Selecting the Icon Tint
 
@@ -351,7 +351,7 @@ At this point, confirm the fields in the constructed actors below. The
 'Overseer Sight Range' actor is displayed on the left, while the
 'Overseer Sight Facing' actor is on the right.
 
-![Image](./062_Range_Actors/image21.png)
+![Image](./resources/062_Range_Actors21.png)
 
 Overseer Sight Range Fields -- Overseer Sight Facing Fields
 
@@ -362,6 +362,6 @@ yellow. Testing the map should show these actors in action. Launching a
 test using the 'Test Document' function should give a result like the
 one pictured below.
 
-![Image](./062_Range_Actors/image22.png)
+![Image](./resources/062_Range_Actors22.png)
 
 Custom Overseer Range Indicators

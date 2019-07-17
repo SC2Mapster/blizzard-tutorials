@@ -29,7 +29,7 @@ Light. Name the light 'Time of Day Lighting' and hit suggest to generate
 an ID. Next, set the 'Light Group' to 'Tilesets' using the drop down.
 This process should look like the image below.
 
-![Image](./029_Time_of_Day_Lighting/image1.png)
+![Image](./resources/029_Time_of_Day_Lighting1.png)
 
 Light Creation
 
@@ -49,7 +49,7 @@ that your game's lighting will be constant.
 Right-click inside the white box and select 'Add Light' to add a new
 time of day. You can see an example of this below.
 
-![Image](./029_Time_of_Day_Lighting/image2.png)
+![Image](./resources/029_Time_of_Day_Lighting2.png)
 
 Adding a Time of Day Light
 
@@ -58,7 +58,7 @@ Set this new light to 06:00:00 by clicking into the first term of the
 add two more lights, 12:00:00 and 18:00:00, to create four times of day
 in total. The finished array should look like this.
 
-![Image](./029_Time_of_Day_Lighting/image3.png)
+![Image](./resources/029_Time_of_Day_Lighting3.png)
 
 Four Time of Day Lights in an Array
 
@@ -75,7 +75,7 @@ Now, click on the first light of the array 00 to highlight it, then
 click the 'Modify Light' button to open the current Light in the
 Lighting Window.
 
-![Image](./029_Time_of_Day_Lighting/image4.png)
+![Image](./resources/029_Time_of_Day_Lighting4.png)
 
 Light Opens in the Lighting Window
 
@@ -88,7 +88,7 @@ only contains the 00:00:00 value, refresh the window by highlighting
 00:00:00, then right-clicking and selecting 'Add Light to Set.' This is
 shown in the image below.
 
-![Image](./029_Time_of_Day_Lighting/image5.png)
+![Image](./resources/029_Time_of_Day_Lighting5.png)
 
 Refreshing Light Set
 
@@ -112,7 +112,7 @@ Sara' settings as the basis of your day and night lighting. Navigate to
 the 'Mar Sara Night Test' folder and highlight the light inside. With
 this light selected, copy its properties with Edit -\> Copy Light Set.
 
-![Image](./029_Time_of_Day_Lighting/image6.png)
+![Image](./resources/029_Time_of_Day_Lighting6.png)
 
 Copying Light Set
 
@@ -122,7 +122,7 @@ You can see this process in action in the image below and to the left,
 while the light updated with the pasted properties is shown on the
 right.
 
-![Image](./029_Time_of_Day_Lighting/image7.png)
+![Image](./resources/029_Time_of_Day_Lighting7.png)
 
 Pasting Light Set -- Pasted Light
 
@@ -132,7 +132,7 @@ Using the copied properties as a base, you can now configure the
 angle will help to create the dark atmosphere expected at 00:00:00, or
 midnight. This should look like the image below.
 
-![Image](./029_Time_of_Day_Lighting/image8.png)
+![Image](./resources/029_Time_of_Day_Lighting8.png)
 
 Key Lighting Being Set
 
@@ -145,7 +145,7 @@ This is the most important field to set for time of day lights. You
 didn't need to set it in the last example because the default value is 0
 0 0. The image below shows how to set the value.
 
-![Image](./029_Time_of_Day_Lighting/image9.png)
+![Image](./resources/029_Time_of_Day_Lighting9.png)
 
 Light Time of Day Being Set
 
@@ -185,7 +185,7 @@ done, highlight the 'Time of Day Light' light.
 Navigate to the 'Time Per Game Loop', and set it to 0 20 0, as in the
 image below.
 
-![Image](./029_Time_of_Day_Lighting/image10.png)
+![Image](./resources/029_Time_of_Day_Lighting10.png)
 
 Setting Game Loop Time
 
@@ -195,7 +195,7 @@ to preview the effects in the map test. Finally, navigate to the
 'Terrain Type' tab, highlight 'Agria (Jungle),' and set the 'Lighting'
 to 'Time of Day Lighting.' This procedure is shown below.
 
-![Image](./029_Time_of_Day_Lighting/image11.png)
+![Image](./resources/029_Time_of_Day_Lighting11.png)
 
 Enabling Custom Lighting in Terrain Type
 
@@ -211,6 +211,6 @@ individual lights using the Lighting Window.
 
 You can see the results of this test run below.
 
-![Image](./029_Time_of_Day_Lighting/image12.png)
+![Image](./resources/029_Time_of_Day_Lighting12.png)
 
 Sunrise to Sunset Using Time of Day Lighting

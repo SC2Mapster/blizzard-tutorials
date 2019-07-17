@@ -12,7 +12,7 @@ within the Editor. You can use it to create entirely new lighting
 arrangements, as well as using any of the existing lighting assets in
 the game. You can see what it looks like in the image below.
 
-![Image](./028_Lighting_Window/image1.png)
+![Image](./resources/028_Lighting_Window1.png)
 
 Lighting Window and its Use
 
@@ -49,7 +49,7 @@ base lighting.
 GLOBAL
 ------
 
-![Image](./028_Lighting_Window/image2.png)
+![Image](./resources/028_Lighting_Window2.png)
 
 Global Lighting
 
@@ -73,7 +73,7 @@ Global Lighting
   Time         this to the Light Time of Day will test the current light.
   ---------------------------------------------------------------------------
 
-![Image](./028_Lighting_Window/image3.png)
+![Image](./resources/028_Lighting_Window3.png)
 
 Base -- Red Ambient -- Green Ambient -- Blue Ambient -- High Specular --
 High Emissive -- Low Emissive
@@ -81,7 +81,7 @@ High Emissive -- Low Emissive
 TONE MAPPING
 ------------
 
-![Image](./028_Lighting_Window/image4.png)
+![Image](./resources/028_Lighting_Window4.png)
 
 Tone Mapping
 
@@ -107,7 +107,7 @@ Tone Mapping
                algorithm, which affects brightness and contrast.
   ---------------------------------------------------------------------------
 
-![Image](./028_Lighting_Window/image5.png)
+![Image](./resources/028_Lighting_Window5.png)
 
 Base -- High Exposure -- Low Bloom Threshold -- High Diffusive
 Multiplier -- Extreme Diffusive Multiplier -- High White Point with
@@ -116,7 +116,7 @@ Reinhard Mapping -- Linear Tone Mapping
 COLORIZATION
 ------------
 
-![Image](./028_Lighting_Window/image6.png)
+![Image](./resources/028_Lighting_Window6.png)
 
 Colorization
 
@@ -157,12 +157,12 @@ Colorization
   Gamma        gamma settings.
   ----------------------------------------------------------------------------
 
-![Image](./028_Lighting_Window/image7.png)
+![Image](./resources/028_Lighting_Window7.png)
 
 Base -- Input Low Increased -- Input High Decreased -- High Input Gamma
 -- Output Low Increased -- Output High Increased-- High Contrast
 
-![Image](./028_Lighting_Window/image8.png)
+![Image](./resources/028_Lighting_Window8.png)
 
 Base -- High Contrast --Hue Decreased with Colorize Off -- Hue Increased
 with Colorize Off -- Low Saturation -- Lightness Increased -- Correct
@@ -175,7 +175,7 @@ Variations are simple filters that can be used to affect the overall
 lighting of scene. Selecting any of the variation controls will add the
 associated property to the light.
 
-![Image](./028_Lighting_Window/image9.png)
+![Image](./resources/028_Lighting_Window9.png)
 
 Lighting Variations
 
@@ -200,7 +200,7 @@ Lighting Variations
                     neutralize each other.
   -----------------------------------------------------------------------
 
-![Image](./028_Lighting_Window/image10.png)
+![Image](./resources/028_Lighting_Window10.png)
 
 Base -- Cyan Midtones -- Violet Darks -- Green Highlights -- Darker Blue
 Darks -- Yellow Lighter Midtones -- More Saturation
@@ -208,7 +208,7 @@ Darks -- Yellow Lighter Midtones -- More Saturation
 SSAO
 ----
 
-![Image](./028_Lighting_Window/image11.png)
+![Image](./resources/028_Lighting_Window11.png)
 
 Ambient Occlusion
 
@@ -219,7 +219,7 @@ are currently inactive.
 TERRAIN
 -------
 
-![Image](./028_Lighting_Window/image12.png)
+![Image](./resources/028_Lighting_Window12.png)
 
 Terrain Lighting
 
@@ -248,7 +248,7 @@ Terrain Lighting
   Multiplier             emissive texture.
   -----------------------------------------------------------------------
 
-![Image](./028_Lighting_Window/image13.png)
+![Image](./resources/028_Lighting_Window13.png)
 
 Base -- Increased Terrain Specular Exponent -- Increased Terrain Diffuse
 Exponent -- Increased Terrain Specular Multiplier -- Decreased Creep
@@ -258,7 +258,7 @@ Creep HDR Specular Multiplier
 REGIONS
 -------
 
-![Image](./028_Lighting_Window/image14.png)
+![Image](./resources/028_Lighting_Window14.png)
 
 Region Lighting
 
@@ -270,7 +270,7 @@ settings. Once set, the lighting within a region overrides the global
 lighting. You can apply lighting regions to terrain in the Terrain Layer
 of the Terrain Module.
 
-![Image](./028_Lighting_Window/image15.png)
+![Image](./resources/028_Lighting_Window15.png)
 
 Base -- Painted Regions
 
@@ -292,7 +292,7 @@ surroundings with lighting around their rim. You'll find these lighting
 types in three similar tabs in the Lighting Window. One of these is
 shown below.
 
-![Image](./028_Lighting_Window/image16.png)
+![Image](./resources/028_Lighting_Window16.png)
 
 Key Lighting
 
@@ -330,7 +330,7 @@ problem. To explore light customization, navigate to the Lighting Window
 via Window -\> Lighting Window. Now select the premade light set 'Custom
 Night Light' and click on the '00:00:00' to open the light.
 
-![Image](./028_Lighting_Window/image17.png)
+![Image](./resources/028_Lighting_Window17.png)
 
 Starting Light
 
@@ -352,6 +352,6 @@ exercise, this scene should have much more film noir appeal.
 6.  In Terrain, decrease the Terrain Diffuse Multiplier from 1.0 to 0.
     Decrease the Terrain Specular Multiplier from 3.75 to 0.
 
-![image0](./028_Lighting_Window/image18.png)
+![image0](./resources/028_Lighting_Window18.png)
 
 Base -- Step 1 -- Step 2 -- Step 3 -- Step 4 -- Step 5 -- Step 6

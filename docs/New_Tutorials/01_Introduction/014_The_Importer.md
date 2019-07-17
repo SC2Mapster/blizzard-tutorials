@@ -16,7 +16,7 @@ NAVIGATING THE IMPORTER
 Open the Importer by navigating to Module -\> Importer. This will
 present you with the following view.
 
-![Image](./014_The_Importer/image1.png)
+![Image](./resources/014_The_Importer01.png)
 
 The Importer
 
@@ -26,7 +26,7 @@ right, you'll see a subview tagged 'File Info.' This is an information
 window showing details on the current file. The importer in an active
 file will look something like the image below.
 
-![Image](./014_The_Importer/image2.png)
+![Image](./resources/014_The_Importer02.png)
 
 Importer in an Active Project
 
@@ -44,7 +44,7 @@ Import a file by right-clicking in the 'Document File' area and
 navigating to Import Files. This will launch the 'Import Files' window
 shown below.
 
-![Image](./014_The_Importer/image3.png)
+![Image](./resources/014_The_Importer03.png)
 
 Importing Files
 
@@ -70,14 +70,12 @@ green. This indicates that the file has been imported, but is unsaved.
 There are several color-coded states in the importer, broken down in the
 table below.
 
-  ------------------------------------------------------------
-  Color     State
-  --------- --------------------------------------------------
-  Green     File has been imported but is unsaved.
-
-  Red       File has been removed but is unsaved.
-
-  Blue      File has been moved or renamed but is unsaved.
+| Color | State                                          |
+| :---- | :--------------------------------------------- |
+| Green | File has been imported but is unsaved.         |
+| Red   | File has been removed but is unsaved.          |
+| Blue  | File has been moved or renamed but is unsaved. |
+| Black | File is saved.                                 |
 
   Black     File is saved.
   ------------------------------------------------------------
@@ -85,7 +83,7 @@ table below.
 At this point, you should save to cement the file in its position in the
 project's file structure, as shown below.
 
-![Image](./014_The_Importer/image4.png)
+![Image](./resources/014_The_Importer04.png)
 
 Imported File Structure
 
@@ -105,14 +103,14 @@ or to a 'New Path.' Select 'New Path' and enter 'Assets/Textures' to
 move the file to the directory into which it should have been placed
 originally.
 
-![Image](./014_The_Importer/image5.png)
+![Image](./resources/014_The_Importer05.png)
 
 Altering a File Path
 
 Checking the Importer after saving the file should show you the result
 pictured below.
 
-![Image](./014_The_Importer/image6.png)
+![Image](./resources/014_The_Importer06.png)
 
 Imported File with Corrected Directory
 
@@ -122,6 +120,6 @@ Type browse into the console. Use the browser's search function with the
 asset's name to confirm its place in the file structure. The result of
 this operation is shown below.
 
-![Image](./014_The_Importer/image7.png)
+![Image](./resources/014_The_Importer07.png)
 
 Archive Browser Confirming Proper File Structure

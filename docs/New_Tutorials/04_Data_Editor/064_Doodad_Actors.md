@@ -15,7 +15,7 @@ that you can add directly into the game. You can do this using an actor
 subtype known as the Doodad Actor. You can see some doodads in use in
 the image below.
 
-![Image](./064_Doodad_Actors/image1.png)
+![Image](./resources/064_Doodad_Actors1.png)
 
 Doodads Shaping a Cliff face
 
@@ -28,7 +28,7 @@ will be listed directly in the game, found in the Doodads Palette of the
 Terrain Editor, ready for placement. You can see this in the image
 below.
 
-![Image](./064_Doodad_Actors/image2.png)
+![Image](./resources/064_Doodad_Actors2.png)
 
 Doodad Actor Demonstrated in the Terrain Editor
 
@@ -42,7 +42,7 @@ of filters on the Doodads Palette. Searching with the 'Actor Type'
 Doodad and a specific 'Doodad Type' can greatly speed your work with
 doodads in the Terrain Editor.
 
-![Image](./064_Doodad_Actors/image3.png)
+![Image](./resources/064_Doodad_Actors3.png)
 
 Doodad Type Filter in the Terrain Editor -- Tagging Doodad Actors with a
 Type in the Data Editor
@@ -97,7 +97,7 @@ Editor. If the tab isn't already open, you can open it by navigating to
 right-clicking in the main view and selecting 'Add Actor,' as shown
 below.
 
-![Image](./064_Doodad_Actors/image4.png)
+![Image](./resources/064_Doodad_Actors4.png)
 
 Creating a New Actor
 
@@ -105,7 +105,7 @@ This will launch the 'Actor Properties' window. Inside this view, set a
 name, then hit suggest to generate an ID. Set the 'Actor Type' to
 Doodad. For this exercise the name Demo Doodad has been used.
 
-![Image](./064_Doodad_Actors/image5.png)
+![Image](./resources/064_Doodad_Actors5.png)
 
 Creating a Doodad Actor
 
@@ -115,7 +115,7 @@ This is a subtype that is usually used to categorize man-made,
 non-structural objects. You can see what it looks like to select the
 subtype in the image below.
 
-![Image](./064_Doodad_Actors/image6.png)
+![Image](./resources/064_Doodad_Actors6.png)
 
 Selecting Doodad Type
 
@@ -130,7 +130,7 @@ that now. Highlight the new actor to view its fields in the Data Editor.
 Move to the 'Model' field and double click it to launch an editing
 window, as shown below.
 
-![Image](./064_Doodad_Actors/image7.png)
+![Image](./resources/064_Doodad_Actors7.png)
 
 Doodad Actor Model Selection
 
@@ -143,7 +143,7 @@ Next, move to the 'Events' field to set the actor events. Select this
 field and double click it to open the actor events subeditor shown
 below.
 
-![Image](./064_Doodad_Actors/image8.png)
+![Image](./resources/064_Doodad_Actors8.png)
 
 Doodad Actor Events Default
 
@@ -163,7 +163,7 @@ game, giving it the logic rules defined in the Footprints type. Add a
 footprint by highlighting the 'Footprint' field and double clicking to
 launch the editor window shown below.
 
-![Image](./064_Doodad_Actors/image9.png)
+![Image](./resources/064_Doodad_Actors9.png)
 
 Setting Doodad Footprint
 
@@ -173,7 +173,7 @@ properties you should consider setting. These include Art Scale, Random
 Scale Range, and Fog Visibility. The completed demo doodad's fields are
 shown below.
 
-![Image](./064_Doodad_Actors/image10.png)
+![Image](./resources/064_Doodad_Actors10.png)
 
 Demo Doodad Fields
 
@@ -186,7 +186,7 @@ Doodads Palette and you can find it either manually or using the search
 filters, like 'Doodad Type.' You can use the palette for this, as shown
 below.
 
-![Image](./064_Doodad_Actors/image11.png)
+![Image](./resources/064_Doodad_Actors11.png)
 
 Doodads Palette Search Filters Use
 
@@ -196,6 +196,6 @@ will occur as the model is placed and won't be reflected in the
 palette's previewer. You can see the exercise's custom doodad in the
 image below.
 
-![Image](./064_Doodad_Actors/image12.png)
+![Image](./resources/064_Doodad_Actors12.png)
 
 Custom Doodad in Game

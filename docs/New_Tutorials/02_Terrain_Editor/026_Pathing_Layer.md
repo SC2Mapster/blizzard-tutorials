@@ -14,7 +14,7 @@ determines the rules governing where these actions can take place. You
 can access this layer from the Terrain Bar by clicking on the icon
 pictured below.
 
-![Image](./026_Pathing_Layer/image1.png)
+![Image](./resources/026_Pathing_Layer1.png)
 
 Pathing Layer Icon
 
@@ -34,14 +34,14 @@ need to do is decide on where to apply these rules. You can find the
 tools for creating pathing zones in the Pathing Palette. The palette
 itself is in the Terrain Editor at the Pathing Layer.
 
-![Image](./026_Pathing_Layer/image2.png)
+![Image](./resources/026_Pathing_Layer2.png)
 
 Pathing Palette Views
 
 PATHING TYPES
 -------------
 
-![Image](./026_Pathing_Layer/image6.png) several types of pathing zones
+![Image](./resources/026_Pathing_Layer6.png) several types of pathing zones
 using a brush-like tool. These zones are painted onto the terrain as an
 overlay, coloring the map with a different shade for each of the four
 different pathing types. When a player launches your game, the pathing
@@ -78,7 +78,7 @@ of the modifiers available for this tool.
 
 The following image shows an area making use of painted pathing.
 
-![Image](./026_Pathing_Layer/image4.png)
+![Image](./resources/026_Pathing_Layer4.png)
 
 Painted Pathings
 
@@ -88,11 +88,11 @@ on the ground has been marked with a No Building zone. Here the designer
 has deemed the metal grates of this area to be an unrealistic target for
 any building.
 
-![Image](./026_Pathing_Layer/image6.png) option for creating No Pathing
+![Image](./resources/026_Pathing_Layer6.png) option for creating No Pathing
 zones. It will set everything at the destination point's terrain level
 to not support pathing as a sort of flood fill.
 
-![Image](./026_Pathing_Layer/image6.png) Pathing Fill, but apply to
+![Image](./resources/026_Pathing_Layer6.png) Pathing Fill, but apply to
 flying units pathing over the area.
 
 You can find both of the last two pathing options under a separate view
@@ -102,6 +102,6 @@ and Regions Layer. Unlike the colorized regions of Painted Pathing,
 dynamic pathing objects are displayed within the Editor using markers,
 as you can see in the image below.
 
-![Image](./026_Pathing_Layer/image7.png)
+![Image](./resources/026_Pathing_Layer7.png)
 
 Dynamic Pathing Fill and No Fly Zone

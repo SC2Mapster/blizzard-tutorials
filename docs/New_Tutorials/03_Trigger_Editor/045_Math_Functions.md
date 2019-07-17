@@ -12,7 +12,7 @@ any work within the Trigger Editor. You can access these whenever you
 are filling in a numeric field by navigating to the 'Function' source
 and sorting by the 'Math' heading, as shown below.
 
-![Image](./045_Math_Functions/image4.png)
+![Image](./resources/045_Math_Functions4.png)
 
 Math Function Selection
 
@@ -25,7 +25,7 @@ references the type of the eventual output, and the input types to these
 functions may vary. A detailed look at one such example is provided
 below.
 
-![Image](./045_Math_Functions/image5.png)
+![Image](./resources/045_Math_Functions5.png)
 
 Function Versions
 
@@ -52,7 +52,7 @@ explicit type conversion available. You can find this while filling a
 Real field by navigating to the 'Function' source, then selecting the
 'Conversion' label, as shown below.
 
-![Image](./045_Math_Functions/image6.png)
+![Image](./resources/045_Math_Functions6.png)
 
 Integer to Real Conversion Function
 
@@ -64,7 +64,7 @@ article. For any conversions in the opposite direction required, there
 is an explicit Real to Integer conversion function available during
 Integer field filling.
 
-![Image](./045_Math_Functions/image7.png)
+![Image](./resources/045_Math_Functions7.png)
 
 Real to Integer Conversion Function
 
@@ -256,7 +256,7 @@ responsible for the alteration and initialization of variables. You can
 access them during action creation by navigating to the 'Variable'
 label, as shown below.
 
-![Image](./045_Math_Functions/image8.png)
+![Image](./resources/045_Math_Functions8.png)
 
 Variable Actions
 
@@ -264,7 +264,7 @@ The powerhouse here is the Set Variable action, which creates an
 equation that may set any type of variable to a value, as in the image
 below.
 
-![Image](./045_Math_Functions/image9.png)
+![Image](./resources/045_Math_Functions9.png)
 
 Set Variable Action
 
@@ -275,7 +275,7 @@ used to alter game variables in a powerful way. The following example
 uses a Set Variable action to set a numeric Real field using a sequence
 of math functions.
 
-![Image](./045_Math_Functions/image10.png)
+![Image](./resources/045_Math_Functions10.png)
 
 Set Variable with Math Functions
 
@@ -288,7 +288,7 @@ then their Set Variable cousin, but can be applied quickly for either in
 mock-ups or simple variable alterations. An example of these actions is
 shown below.
 
-![Image](./045_Math_Functions/image11.png)
+![Image](./resources/045_Math_Functions11.png)
 
 Modify Variable Action
 
@@ -303,7 +303,7 @@ At this point, turn your attention to the demo map provided with this
 article for a demonstration of math functions in action. Opening it will
 show you the following course.
 
-![Image](./045_Math_Functions/image12.png)
+![Image](./resources/045_Math_Functions12.png)
 
 Demo Map Course
 
@@ -314,7 +314,7 @@ Regions Layer to see that each beacon has been hooked to an
 appropriately sized circular region within their bounds. Move into the
 Trigger Editor to investigate further.
 
-![Image](./045_Math_Functions/image13.png)
+![Image](./resources/045_Math_Functions13.png)
 
 Trigger Editor View
 
@@ -326,7 +326,7 @@ the trigger shown above, the HP Addition region entrance will run an
 action that makes use of a math function. You can take a closer look
 below.
 
-![Image](./045_Math_Functions/image14.png)
+![Image](./resources/045_Math_Functions14.png)
 
 Set Unit Property Action with Math Function
 
@@ -334,7 +334,7 @@ On entering the region, the marine's maximum life will be incremented by
 5 using an Arithmetic math function. Testing the map will produce a
 result as shown below.
 
-![Image](./045_Math_Functions/image15.png)
+![Image](./resources/045_Math_Functions15.png)
 
 Marine HP Increased by 5
 
@@ -343,7 +343,7 @@ Continue moving the marine into the beacon to repeat the effect if so
 desired. If you proceed to the Unit Subtracts Life Region trigger,
 you'll see the below.
 
-![Image](./045_Math_Functions/image16.png)
+![Image](./resources/045_Math_Functions16.png)
 
 Unit Subtracts Life Trigger
 
@@ -353,7 +353,7 @@ for this, an additional math function, Maximum (Real), has been
 sequenced to ensure that the marine's HP isn't reduced to zero. The
 effects of these functions can be seen from a quick test shown below.
 
-![Image](./045_Math_Functions/image17.png)
+![Image](./resources/045_Math_Functions17.png)
 
 Marine HP Reduced to 5
 

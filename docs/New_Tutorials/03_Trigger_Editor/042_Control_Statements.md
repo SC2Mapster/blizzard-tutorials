@@ -13,7 +13,7 @@ linear, these statements offer the unique ability to disrupt that linear
 flow and create dynamic systems. You can find control statements during
 action creation under the 'General' label, as shown in the image below.
 
-![Image](./042_Control_Statements/image1.png)
+![Image](./resources/042_Control_Statements1.png)
 
 Control Statement Actions
 
@@ -114,7 +114,7 @@ project's logic, control statements become the key action for opening up
 a wider variety of projects that you can make with the Editor. Take a
 look at the following trigger.
 
-![Image](./042_Control_Statements/image2.png)
+![Image](./resources/042_Control_Statements2.png)
 
 Trigger Making Use of Control Statements
 
@@ -129,7 +129,7 @@ loop's counting value. These actions will in turn result in the trigger
 creating a count from 1 to 10 on the player's screen, happening at an
 interval of 1 second. Now turn your attention to the other trigger.
 
-![Image](./042_Control_Statements/image3.png)
+![Image](./resources/042_Control_Statements3.png)
 
 Count Resultant Trigger
 
@@ -137,7 +137,7 @@ This trigger shows a secondary use of the Integer count from the last
 trigger's counting loop. When the first trigger's count concludes, this
 trigger will destroy every marine on the map. The result is shown below.
 
-![Image](./042_Control_Statements/image4.png)
+![Image](./resources/042_Control_Statements4.png)
 
 Text Tag Styled and Attached to Unit
 

@@ -28,14 +28,14 @@ You can find the actors section of the Editor by moving to the Data
 Editor and navigating to + -\> Edit Actor Data -\> Actors, as shown
 below.
 
-![Image](./060_Actors/image4.png)
+![Image](./resources/060_Actors4.png)
 
 Navigating to Actors in Data
 
 This will bring you to the actors tab of the Data Editor, presenting you
 with the following view.
 
-![Image](./060_Actors/image5.png)
+![Image](./resources/060_Actors5.png)
 
 Actors Tab View
 
@@ -144,13 +144,13 @@ to speak to one another, creating context sensitive changes that can
 affect any aspect of the game. This system is composed of three basic
 elements, which are described below.
 
-![Image](./060_Actors/image3.png) A specific development that can occur
+![Image](./resources/060_Actors3.png) A specific development that can occur
 within the game.
 
-![Image](./060_Actors/image3.png) A confirmable set of properties of the
+![Image](./resources/060_Actors3.png) A confirmable set of properties of the
 game state.
 
-![Image](./060_Actors/image3.png) Commands that can be communicated to
+![Image](./resources/060_Actors3.png) Commands that can be communicated to
 elements of the game.
 
 These elements work together in a sequence, creating an actor event. The
@@ -172,13 +172,13 @@ while triggers can adjust and alter that unit during gameplay.
 You can find the actor events system by navigating to the 'Events' field
 of any actor type. A view of a typical events field is shown below.
 
-![Image](./060_Actors/image6.png)
+![Image](./resources/060_Actors6.png)
 
 Actor Events Field
 
 Double clicking this field will launch the actor events subeditor.
 
-![Image](./060_Actors/image7.png)
+![Image](./resources/060_Actors7.png)
 
 Actor Events Subeditor
 
@@ -211,7 +211,7 @@ functions, like playing animations, altering the physical properties of
 art and sound assets, applying physics, and controlling lighting. As an
 example of actor events' capabilities, note the following.
 
-![Image](./060_Actors/image8.png)
+![Image](./resources/060_Actors8.png)
 
 Sample Actor Event
 
@@ -220,7 +220,7 @@ In response to the charge starting, the zealot will send out a message
 to its own unit actor, resulting in its model being tinted to a reddish
 color. On testing, the gameplay results appeared as shown below.
 
-![Image](./060_Actors/image9.png)
+![Image](./resources/060_Actors9.png)
 
 Zealots Tinting an Angry Red during Charge
 
@@ -238,7 +238,7 @@ An important example of this is that actor messages can be sent to
 specific actors using the Trigger Editor's 'Send Actor Message' action.
 You can see this in action below.
 
-![Image](./060_Actors/image10.png)
+![Image](./resources/060_Actors10.png)
 
 'Send Actor Message' Actions
 
@@ -248,6 +248,6 @@ received a message to change its team color. Together, these messages
 have dyed the unit's model a blue color, by speaking directly to its
 actors from triggers.
 
-![Image](./060_Actors/image11.png)
+![Image](./resources/060_Actors11.png)
 
 Colorized Hydralisk

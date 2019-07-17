@@ -18,7 +18,7 @@ and damage numbers. In the following image, you can see that text tags
 are shown above a hatchery and an extractor, giving relevant information
 on the worker count at each resource.
 
-![Image](./047_Text_Tags/image1.png) Text Tags Showing Worker Counts
+![Image](./resources/047_Text_Tags1.png) Text Tags Showing Worker Counts
 
 TEXT TAG ACTIONS
 ----------------
@@ -26,7 +26,7 @@ TEXT TAG ACTIONS
 You can access the text tag actions during action creation by navigating
 to the 'Text Tags' label. This will present you with the following view.
 
-![Image](./047_Text_Tags/image2.png)
+![Image](./resources/047_Text_Tags2.png)
 
 Text Tag Actions
 
@@ -129,7 +129,7 @@ Created Text Tag.
 
 Take a look at the sequence of text tag actions below.
 
-![Image](./047_Text_Tags/image3.png)
+![Image](./resources/047_Text_Tags3.png)
 
 Text Tags Action Sequence
 
@@ -142,6 +142,6 @@ standard when using text tags. You should also note that the attachment
 has overwritten the tag position and will cause the text tag to move
 alongside its host unit.
 
-![Image](./047_Text_Tags/image4.png)
+![Image](./resources/047_Text_Tags4.png)
 
 Text Tag Styled and Attached to Unit

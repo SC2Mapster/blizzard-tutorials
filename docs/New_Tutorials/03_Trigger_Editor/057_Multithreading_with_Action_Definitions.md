@@ -92,7 +92,7 @@ multithreading to give advanced users the chance to make use of
 non-linear processing. Multithreading is accessed through the use of
 specially flagged action definitions. The flag option is shown below.
 
-![Image](./057_Multithreading_with_Action_Definitions/image1.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions1.png)
 
 Multithreading Option within Action Definition
 
@@ -109,7 +109,7 @@ Open the demo map provided with this article and move into the Trigger
 Editor. Opening the 'Spawn Exploding Marine' action definition will
 present you with the following.
 
-![Image](./057_Multithreading_with_Action_Definitions/image2.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions2.png)
 
 Demo Map View
 
@@ -118,7 +118,7 @@ command, scales it over the course of five seconds, and finishes by
 detonating it after five seconds. Turn your attention to the trigger
 calling this definition, as shown in the image below.
 
-![Image](./057_Multithreading_with_Action_Definitions/image3.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions3.png)
 
 Control Looping Trigger
 
@@ -128,7 +128,7 @@ Logically this should result in about five active marines on the map,
 undergoing the moving, scaling, and exploding behavior. A trial of the
 map will give the result shown in the image below.
 
-![Image](./057_Multithreading_with_Action_Definitions/image4.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions4.png)
 
 Single Marine in Motion
 
@@ -142,14 +142,14 @@ standard, linear processing behavior of the trigger system. To change
 this, move to the action definition and enable multithreading, as shown
 below.
 
-![Image](./057_Multithreading_with_Action_Definitions/image5.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions5.png)
 
 Multithreaded Action Definition
 
 If you test the newly multithreaded action definition, you should end up
 with something like the image below.
 
-![Image](./057_Multithreading_with_Action_Definitions/image6.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions6.png)
 
 Many Marine Spawning Actions via Multithreading
 
@@ -218,7 +218,7 @@ definition by highlighting them, then right-clicking and unchecking
 action definition. The trigger calls the action definition pictured
 below.
 
-![Image](./057_Multithreading_with_Action_Definitions/image7.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions7.png)
 
 Print Number Action Definition
 
@@ -231,7 +231,7 @@ to the Triggers Tab and right-click the gt\_PrintNumber\_Func trigger,
 then select 'View Script.' This will show the standard action definition
 script as follows.
 
-![Image](./057_Multithreading_with_Action_Definitions/image8.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions8.png)
 
 Standard 'Print Number' Script
 
@@ -242,7 +242,7 @@ the Trigger Editor and enable multithreading in the 'Print Number'
 action definition by selecting the Create Thread flag. Repeating the
 same debug procedure will give the following result.
 
-![Image](./057_Multithreading_with_Action_Definitions/image9.png)
+![Image](./resources/057_Multithreading_with_Action_Definitions9.png)
 
 Multithreaded 'Print Number' Script
 

@@ -16,7 +16,7 @@ some sort of event recognition at its core. Even melee maps contain a
 single trigger that responds to a 'Map Initialization' event, as you can
 see below.
 
-![Image](./035_Events/image1.png)
+![Image](./resources/035_Events1.png)
 
 Default Melee Trigger
 
@@ -29,7 +29,7 @@ the Main Tab with the trigger details. These details will be broken down
 under several headings, double click the 'Events' heading to open the
 'Configure Events' window.
 
-![Image](./035_Events/image2.png)
+![Image](./resources/035_Events2.png)
 
 Configure Event Window
 
@@ -55,7 +55,7 @@ selected it, the 'Key Pressed' event will show its options in the main
 tab's subview, as shown below. If these options are not visible, make
 sure to select the 'Use Subviews' option from the Trigger Bar.
 
-![Image](./035_Events/image3.png)
+![Image](./resources/035_Events3.png)
 
 Event View with Sub-Options
 

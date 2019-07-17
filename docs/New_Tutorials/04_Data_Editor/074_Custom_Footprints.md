@@ -24,7 +24,7 @@ enable all of the pathing layer visibility options by navigating to View
 navigate to View -\> Show Pathing Grid and enable all of the options
 there too.
 
-![Image](./074_Custom_Footprints/image1.png)
+![Image](./resources/074_Custom_Footprints1.png)
 
 Turning Visibility Options On
 
@@ -37,7 +37,7 @@ adhere to the unit grid. This makes it very useful for figuring out
 placements and understanding the requirements for a specific custom
 footprint. You can see the grid in the images below.
 
-![Image](./074_Custom_Footprints/image2.png)
+![Image](./resources/074_Custom_Footprints2.png)
 
 Footprint Grid Visibility
 
@@ -49,7 +49,7 @@ tab is not already open, add it by navigating to + -\> Edit Game Data
 -\> Footprints. Right-click in the main data view and select 'Add
 Footprint.' This should give you the following view.
 
-![Image](./074_Custom_Footprints/image3.png)
+![Image](./resources/074_Custom_Footprints3.png)
 
 Adding Footprint in Data
 
@@ -58,7 +58,7 @@ you'll create a custom footprint in an octagonal shape. Enter 'Octagon
 3x3' as the 'Name' field for the pop up, click suggest to generate an
 ID, then click 'Ok.'
 
-![Image](./074_Custom_Footprints/image4.png)
+![Image](./resources/074_Custom_Footprints4.png)
 
 Footprint Properties Window
 
@@ -66,14 +66,14 @@ Once you've returned to the main Data Editor view, navigate to the
 'Layers' field of the newly created footprint and double click it to
 launch the Footprint Editor.
 
-![Image](./074_Custom_Footprints/image5.png)
+![Image](./resources/074_Custom_Footprints5.png)
 
 Launching Footprint Editor
 
 FOOTPRINT EDITOR
 ----------------
 
-![Image](./074_Custom_Footprints/image6.png)
+![Image](./resources/074_Custom_Footprints6.png)
 
 Editor View
 
@@ -147,7 +147,7 @@ Definitions' window. Be careful, make sure to use the dropdown at the
 top of the window to select the proper layer being set. A typical view
 of this layer is shown below.
 
-![Image](./074_Custom_Footprints/image7.png)
+![Image](./resources/074_Custom_Footprints7.png)
 
 Placement Application Layer and Definition Popup
 
@@ -157,7 +157,7 @@ hint, you should use the Tiny resolution and make the triangular cutouts
 have a base length of six cells. The result should look as pictured
 below.
 
-![Image](./074_Custom_Footprints/image8.png)
+![Image](./resources/074_Custom_Footprints8.png)
 
 Hexagon 3x3 Pathing
 
@@ -171,7 +171,7 @@ field and double click it to launch the 'Object Values' window. Find
 your 'Octagon 3x3' footprint, select it, and hit 'Ok'. This should leave
 you with the following.
 
-![Image](./074_Custom_Footprints/image9.png)
+![Image](./resources/074_Custom_Footprints9.png)
 
 Adding Footprint in Data
 
@@ -182,6 +182,6 @@ to investigate. If the footprint has not yet updated or remains blank,
 you may have to try closing the Editor and relaunching. The footprint in
 its before and after states should appear as shown below.
 
-![Image](./074_Custom_Footprints/image10.png)
+![Image](./resources/074_Custom_Footprints10.png)
 
 Default and Custom Footprint

@@ -13,7 +13,7 @@ differ from points in that they mark specific shapes on the map, rather
 than single coordinates. Select this layer from the Terrain Bar using
 the icon shown below.
 
-![Image](./024_Regions_Layer/image1.png)
+![Image](./resources/024_Regions_Layer1.png)
 
 Region Layer Icon
 
@@ -25,7 +25,7 @@ regions, along with a list of any regions already on the map. This
 palette is on the left-hand side of the main viewport when the Regions
 Layer of the Terrain Editor is active. It looks like the image below.
 
-![Image](./024_Regions_Layer/image2.png)
+![Image](./resources/024_Regions_Layer2.png)
 
 Regions Palette
 
@@ -50,7 +50,7 @@ can find this by double clicking on a pre-existing region either in the
 map view or within the Regions Palette. You can see an example of the
 Region Properties window in the image below.
 
-![Image](./024_Regions_Layer/image3.png)
+![Image](./resources/024_Regions_Layer3.png)
 
 Composite Region Building
 
@@ -64,7 +64,7 @@ displayed as a colored overlay, with negative cut-out regions appearing
 transparent. In the map view, the example from above would appear as
 shown below.
 
-![Image](./024_Regions_Layer/image4.png)
+![Image](./resources/024_Regions_Layer4.png)
 
 Composite Region in Editor
 
@@ -75,7 +75,7 @@ Open the demo map provided with this article. This map consists of a
 small fort on top of a hill, with a pair of player-owned hellions some
 distance away.
 
-![Image](./024_Regions_Layer/image5.png)
+![Image](./resources/024_Regions_Layer5.png)
 
 Demo Map Course
 
@@ -90,7 +90,7 @@ Regions Palette. The Add Region Diamond tool will be most appropriate
 here. Select it, then click and drag on the map view to draw the region.
 This should give you something that looks like the image below.
 
-![Image](./024_Regions_Layer/image6.png)
+![Image](./resources/024_Regions_Layer6.png)
 
 Creating a Region
 
@@ -108,7 +108,7 @@ Properties' window, then navigate to the 'General' tab. Set the name to
 'Capture Base.' The properties window should look like the one shown
 below.
 
-![Image](./024_Regions_Layer/image7.png)
+![Image](./resources/024_Regions_Layer7.png)
 
 Region Properties Contents
 
@@ -123,7 +123,7 @@ selecting the Add Region Rectangle tool. This time, create the region so
 that it encompasses the entire hilltop fort. Rename this region 'Entire
 Base'. You should be left with something like the image below.
 
-![Image](./024_Regions_Layer/image8.png)
+![Image](./resources/024_Regions_Layer8.png)
 
 Current Region Layout
 
@@ -147,7 +147,7 @@ can change these to Negative regions that will be cut out of the larger
 shape, ensuring that resources aren't included in the region. This
 procedure should result in the following view.
 
-![Image](./024_Regions_Layer/image9.png)
+![Image](./resources/024_Regions_Layer9.png)
 
 Cutout Regions Prepared
 
@@ -160,7 +160,7 @@ holding shift and clicking on 'Capture Base,' 'Region 001,' and 'Region
 002.' Now right-click in the Regions Palette and navigate to Edit -\>
 Merge Selection.
 
-![Image](./024_Regions_Layer/image10.png)
+![Image](./resources/024_Regions_Layer10.png)
 
 Collected Region Properties
 
@@ -170,14 +170,14 @@ smallest regions and changing their State to Negative. The negative
 shapes will be drawn in red, which should give you a result like the one
 shown in the Region Properties window below.
 
-![Image](./024_Regions_Layer/image11.png)
+![Image](./resources/024_Regions_Layer11.png)
 
 Constructed Composite Region
 
 Returning to the map view should now show the region containing the
 entire fort, but with two holes around the resources.
 
-![Image](./024_Regions_Layer/image12.png)
+![Image](./resources/024_Regions_Layer12.png)
 
 Cutout Regions Prepared
 
@@ -188,7 +188,7 @@ This will launch a 'Regions' window populated with the active regions on
 the map. Select the composite region 'Capture Base' and click 'Ok,' as
 in the image below.
 
-![Image](./024_Regions_Layer/image13.png)
+![Image](./resources/024_Regions_Layer13.png)
 
 Selecting Composite Region
 
@@ -206,6 +206,6 @@ If everything is working, hitting 'Test Document' and leading the
 hellions into the fort's entrance should transfer ownership correctly,
 as shown below.
 
-![Image](./024_Regions_Layer/image14.png)
+![Image](./resources/024_Regions_Layer14.png)
 
 Claiming the Fort

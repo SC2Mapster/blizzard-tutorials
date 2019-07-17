@@ -60,7 +60,7 @@ number of marines split between the User Player 1 and the Hostile Player
 should add enough marines to end up with a map that looks like the image
 below.
 
-![Image](./056_Optimizing_Code/image1.png)
+![Image](./resources/056_Optimizing_Code1.png)
 
 Marine Coverage
 
@@ -70,7 +70,7 @@ any enemy units within a radius of 10 units. Move to the Trigger Editor
 and create a trigger responsible for the first behavior using the plan
 shown below.
 
-![image0](./056_Optimizing_Code/image2.png){width="5.125in"
+![image0](./resources/056_Optimizing_Code2.png){width="5.125in"
 height="3.14583in"}
 
 Random Movement Trigger
@@ -79,7 +79,7 @@ Every two seconds, this trigger loops through each unit on the map and
 orders them to make a random movement. You can build the second trigger
 described above using the plan below.
 
-![Image](./056_Optimizing_Code/image3.png)
+![Image](./resources/056_Optimizing_Code3.png)
 
 AOE Aura Trigger
 
@@ -93,7 +93,7 @@ about which will be more problematic. Even so, run the map with the
 Trigger Debugger enabled to investigate. This should produce a view
 similar to the one pictured below.
 
-![image1](./056_Optimizing_Code/image4.png){width="3.66667in"
+![image1](./resources/056_Optimizing_Code4.png){width="3.66667in"
 height="2.51042in"}
 
 Trigger Debugger Trial
@@ -108,7 +108,7 @@ would be a big mistake. To continue the investigation of your target,
 move to the Trigger Profiling tab and enable its Show Natives and Show
 SubCalls features.
 
-![Image](./056_Optimizing_Code/image5.png)
+![Image](./resources/056_Optimizing_Code5.png)
 
 Trigger Profiling Tab
 
@@ -186,7 +186,7 @@ through the practice of optimizing code in the Editor.
 Below you will find an optimization that alleviates the first two
 problems listed above.
 
-![Image](./056_Optimizing_Code/image6.png)
+![Image](./resources/056_Optimizing_Code6.png)
 
 Micro-Optimization by Trigger Reorganization
 
@@ -195,7 +195,7 @@ to a 'Map Initialization' trigger, resulting in their expensive
 operations being performed just once. The third, fourth, and fifth
 problems on the table are addressed below.
 
-![Image](./056_Optimizing_Code/image7.png)
+![Image](./resources/056_Optimizing_Code7.png)
 
 Micro-Optimization by Hand Coding
 
@@ -206,10 +206,10 @@ appearance is much more complex, at some point all GUI code will become
 Galaxy script, where things may look different. Below you will find the
 old and new versions of the trigger presented in raw code.
 
-![image2](./056_Optimizing_Code/image8.png){width="3.64583in"
+![image2](./resources/056_Optimizing_Code8.png){width="3.64583in"
 height="2.08333in"}
 
-![image3](./056_Optimizing_Code/image9.png){width="3.64583in"
+![image3](./resources/056_Optimizing_Code9.png){width="3.64583in"
 height="1.875in"}
 
 Galaxy Script Comparison
@@ -230,7 +230,7 @@ should also note that shorter code is not necessarily faster code, so
 you should confirm your new code's efficiency by going back to the
 Trigger Debugger.
 
-![image4](./056_Optimizing_Code/image10.png){width="5.10417in"
+![image4](./resources/056_Optimizing_Code10.png){width="5.10417in"
 height="2.625in"}
 
 Optimization Savings

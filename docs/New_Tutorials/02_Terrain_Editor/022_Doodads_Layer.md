@@ -12,7 +12,7 @@ doodads. These are the fundamental map styling element of the Editor,
 with thousands available. You can find this layer via the Terrain Bar,
 using the icon seen below.
 
-![Image](./022_Doodads_Layer/image1.png)
+![Image](./resources/022_Doodads_Layer1.png)
 
 Doodad Layer icon
 
@@ -27,7 +27,7 @@ and overuse of doodads is a common cause of performance dragging. You'll
 find this palette in the leftmost portion of the Terrain Editor when the
 Doodads Layer is active. The palette itself is shown below.
 
-![Image](./022_Doodads_Layer/image2.png)
+![Image](./resources/022_Doodads_Layer2.png)
 
 Palette Preview and Existing Object List
 
@@ -35,7 +35,7 @@ The Doodad Palette boasts five search filters to help you find map
 elements. You can apply these filters by navigating to a specific pull
 down and selecting a filtering option, as shown below.
 
-![Image](./022_Doodads_Layer/image3.png)
+![Image](./resources/022_Doodads_Layer3.png)
 
 Doodad Filtering
 
@@ -78,6 +78,6 @@ will launch its 'Object Properties' window where you can tag it with a
 name, and alter its visual properties in a number of ways. A combination
 of these features are shown below.
 
-![Image](./022_Doodads_Layer/image4.png)
+![Image](./resources/022_Doodads_Layer4.png)
 
 Doodad Preview and Existing Object List

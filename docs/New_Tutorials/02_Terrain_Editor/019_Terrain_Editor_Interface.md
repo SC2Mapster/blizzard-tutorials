@@ -18,7 +18,7 @@ cameras, and much more.
 THE INTERFACE
 -------------
 
-![Image](./019_Terrain_Editor_Interface/image1.png)
+![Image](./resources/019_Terrain_Editor_Interface1.png)
 
 Interface View of Uvantak's Ganymede
 
@@ -29,7 +29,7 @@ individual layers. You can navigate these layers using the Terrain Bar
 on the Main Toolbar. There you'll find buttons which take you directly
 to each layer, as seen below.
 
-![Image](./019_Terrain_Editor_Interface/image2.png)
+![Image](./resources/019_Terrain_Editor_Interface2.png)
 
 Terrain Bar
 
@@ -43,7 +43,7 @@ Every layer features its own options. These are presented on a large
 panel on the left-hand side of the main terrain view. This is called the
 UI Panel. The image below shows how it looks with the Units Layer open.
 
-![Image](./019_Terrain_Editor_Interface/image3.png)
+![Image](./resources/019_Terrain_Editor_Interface3.png)
 
 UI Panel
 
@@ -62,7 +62,7 @@ Editor, change the current viewport properties, and offer some support
 for camera features. You can reach them from the View Tab, as shown
 below.
 
-![Image](./019_Terrain_Editor_Interface/image4.png)
+![Image](./resources/019_Terrain_Editor_Interface4.png)
 
 View Tab
 
@@ -111,7 +111,7 @@ This section contains options you can use to control the visibility of
 advanced graphical elements in the Editor. You can find them using the
 Render Tab, as seen below.
 
-![Image](./019_Terrain_Editor_Interface/image5.png)
+![Image](./resources/019_Terrain_Editor_Interface5.png)
 
 Render Tab
 
@@ -137,7 +137,7 @@ Render Tab
 Below is a shot of a few hydralisks that has been set to show in
 wireframe mode.
 
-![Image](./019_Terrain_Editor_Interface/image6.png)
+![Image](./resources/019_Terrain_Editor_Interface6.png)
 
 Wireframe Mode
 
@@ -151,7 +151,7 @@ will also find the navigational options here, which allow you to move
 from layer to layer, the same as the Terrain Bar. You can find layer
 options using the Layer Tab, shown below.
 
-![Image](./019_Terrain_Editor_Interface/image7.png)
+![Image](./resources/019_Terrain_Editor_Interface7.png)
 
 Layer Tab
 
@@ -161,7 +161,7 @@ TOOLS
 Here you'll find options supporting basic functions like selecting and
 designing a map. You can navigate the tools using the Tools Tab.
 
-![Image](./019_Terrain_Editor_Interface/image8.png)
+![Image](./resources/019_Terrain_Editor_Interface8.png)
 
 Tools Tab
 
@@ -190,6 +190,6 @@ with calculations for triggers or data. You can use the tool by clicking
 once to begin measuring, then clicking at your desired endpoint. The
 image below shows Measure Distance in action.
 
-![Image](./019_Terrain_Editor_Interface/image9.png)
+![Image](./resources/019_Terrain_Editor_Interface9.png)
 
 Measuring Tool

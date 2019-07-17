@@ -14,11 +14,11 @@ StarCraft. This article breaks down each standard dependency with
 information on its purpose and contents, both in terms of assets and
 other dependencies.
 
-![Image](./013_Standard_Dependencies/image1.png)
+![Image](./resources/013_Standard_Dependencies01.png)
 
 Standard Dependencies Selection
 
-![Image](./013_Standard_Dependencies/image2.png)
+![Image](./resources/013_Standard_Dependencies02.png)
 
 Contains the primary data assets supporting the Wings of Liberty melee
 game.
@@ -37,14 +37,14 @@ Models 2042 Textures 259 Sounds 3398
 
 Buttons 496 Lights 134 Terrain Types 24
 
-![Image](./013_Standard_Dependencies/image3.png)
+![Image](./resources/013_Standard_Dependencies03.png)
 
 Updates and balance changes made for the Wings of Liberty multiplayer
 melee game.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image2.png)
+![Image](./resources/013_Standard_Dependencies02.png)
 
 Liberty
 
@@ -60,14 +60,14 @@ Models 1 Textures 1 Sounds 1
 
 Buttons 3 Lights 0 Terrain Types 0
 
-![Image](./013_Standard_Dependencies/image4.png)
+![Image](./resources/013_Standard_Dependencies04.png)
 
 Data and assets that are unique to the singleplayer campaign of Wings of
 Liberty.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image2.png)
+![Image](./resources/013_Standard_Dependencies02.png)
 
 Liberty
 
@@ -83,7 +83,7 @@ Models 2150 Textures 338 Sounds 1714
 
 Buttons 320 Lights 294 Terrain Types 1
 
-![Image](./013_Standard_Dependencies/image5.png)
+![Image](./resources/013_Standard_Dependencies05.png)
 
 Contains assets related to the story mode of Wings of Liberty, such as
 voiceover from the sequences aboard the Hyperion and a few campaign
@@ -91,8 +91,8 @@ upgrades.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty LibertyCampaign
 
@@ -108,14 +108,14 @@ Models 31 Textures 0 Sounds 3215
 
 Buttons 1 Lights 0 Terrain Types 0
 
-![Image](./013_Standard_Dependencies/image6.png)
+![Image](./resources/013_Standard_Dependencies06.png)
 
 Contains the primary data assets supporting the Heart of the Swarm melee
 game.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image2.png)
+![Image](./resources/013_Standard_Dependencies02.png)
 
 Liberty
 
@@ -131,15 +131,15 @@ Models 1436 Textures 74 Sounds 1314
 
 Buttons 129 Lights 43 Terrain Types 64
 
-![Image](./013_Standard_Dependencies/image7.png)
+![Image](./resources/013_Standard_Dependencies07.png)
 
 Updates and balance changes made for the Heart of the Swarm multiplayer
 melee game.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty Swarm
 
@@ -155,16 +155,16 @@ Models 2 Textures 0 Sounds 14
 
 Buttons 30 Lights 1 Terrain Types 0
 
-![Image](./013_Standard_Dependencies/image8.png)
+![Image](./resources/013_Standard_Dependencies08.png)
 
 Data and assets that are unique to the singleplayer campaign of Heart of
 the Swarm.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty LibertyCampaign Swarm
 
@@ -180,17 +180,17 @@ Models 1386 Textures 20 Sounds 1160
 
 Buttons 573 Lights 82 Terrain Types 1
 
-![Image](./013_Standard_Dependencies/image9.png)
+![Image](./resources/013_Standard_Dependencies09.png)
 
 Contains assets related to the story mode sequences of Heart of the
 Swarm, like being aboard Kerrigan's Leviathan.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty LibertyCampaign Swarm SwarmCampaign
 
@@ -206,15 +206,15 @@ Models 320 Textures 59 Sounds 840
 
 Buttons 0 Lights 84 Terrain Types 1
 
-![Image](./013_Standard_Dependencies/image10.png)
+![Image](./resources/013_Standard_Dependencies10.png)
 
 Contains the primary data assets supporting the Legacy of the Void melee
 game.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty Swarm
 
@@ -230,16 +230,16 @@ Models 1173 Textures 68 Sounds 1283
 
 Buttons 110 Lights 46 Terrain Types 40
 
-![Image](./013_Standard_Dependencies/image11.png)
+![Image](./resources/013_Standard_Dependencies11.png)
 
 Updates and balance changes made for the Legacy of the Void multiplayer
 melee game.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty Swarm Void
 
@@ -255,18 +255,18 @@ Models 18 Textures 0 Sounds 4
 
 Buttons 10 Lights 2 Terrain Types 0
 
-![Image](./013_Standard_Dependencies/image12.png)
+![Image](./resources/013_Standard_Dependencies12.png)
 
 Contains data and assets unique to the singleplayer campaign of Legacy
 of the Void.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty LibertyCampaign Swarm SwarmCampaign Void
 
@@ -282,19 +282,19 @@ Models 1698 Textures 19 Sounds 2164
 
 Buttons 740 Lights 48 Terrain Types 0
 
-![Image](./013_Standard_Dependencies/image13.png)
+![Image](./resources/013_Standard_Dependencies13.png)
 
 Contains assets related to the story mode sequences of Heart of the
 Swarm, such as being aboard the Spear of Adun.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty LibertyCampaign Swarm SwarmCampaign Void VoidCampaign
 
@@ -310,7 +310,7 @@ Models 569 Textures 49 Sounds 4004
 
 Buttons 0 Lights 265 Terrain Types 0
 
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 WAR3.SC2MOD
 -----------
@@ -331,15 +331,15 @@ Models 0 Textures 0 Sounds 0
 
 Buttons 0 Lights 0 Terrain Types 0
 
-![Image](./013_Standard_Dependencies/image15.png)
+![Image](./resources/013_Standard_Dependencies15.png)
 
 Data and assets supporting the Warcraft III art updates, making them
 into a playable version of the game.
 
 Dependency Contents:
 
-![Image](./013_Standard_Dependencies/image14.png)
-![Image](./013_Standard_Dependencies/image14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
+![Image](./resources/013_Standard_Dependencies14.png)
 
 Liberty War3
 
@@ -362,6 +362,6 @@ Populating a mod with dependencies that share the same dependency
 contents will result in a standard dependency conflict as shown in the
 image below.
 
-![Image](./013_Standard_Dependencies/image16.png)
+![Image](./resources/013_Standard_Dependencies16.png)
 
 Standard Dependency Conflicts

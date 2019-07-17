@@ -22,7 +22,7 @@ navigating to New -\> New Trigger. Inside your new trigger, launch the
 'Actions' window either by double clicking the 'Actions' heading or by
 right-clicking inside the Main Tab and navigating to New -\> New Action.
 
-![Image](./034_Actions/image1.png)
+![Image](./resources/034_Actions1.png)
 
 Actions Window
 
@@ -34,7 +34,7 @@ search bar.
 Type "Text Message" into the search bar and select the action called
 'Text Message.' This should present you with the following view.
 
-![Image](./034_Actions/image2.png)
+![Image](./resources/034_Actions2.png)
 
 Text Message Action
 
@@ -56,7 +56,7 @@ its trigger must be called in some manner. In this case, you'll add a
 'Map Initialization' event by navigating to Events -\> Map
 Initialization. This should bring you to the following view.
 
-![Image](./034_Actions/image3.png)
+![Image](./resources/034_Actions3.png)
 
 Configured Action
 
@@ -65,7 +65,7 @@ after the map begins. The message will print to the default 'Subtitle'
 area just above the game's UI. Your test run should return a result like
 the one shown below.
 
-![Image](./034_Actions/image4.png)
+![Image](./resources/034_Actions4.png)
 
 Action Screen Output
 

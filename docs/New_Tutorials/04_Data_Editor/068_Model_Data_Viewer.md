@@ -15,7 +15,7 @@ cases, this can be overkill. A shortcut is to use the Cutscene Editor as
 an inspector. There you'll find a special Model Data Viewer for this
 very purpose. The viewer is shown in the image below.
 
-![Image](./068_Model_Data_Viewer/image1.png)
+![Image](./resources/068_Model_Data_Viewer1.png)
 
 Model Data Viewer
 
@@ -25,7 +25,7 @@ LAUNCHING THE VIEWER
 You can find the Model Data Viewer by opening the Cutscene Editor and
 navigating to Object -\> Model Data, as shown below.
 
-![Image](./068_Model_Data_Viewer/image2.png)
+![Image](./resources/068_Model_Data_Viewer2.png)
 
 Opening the Model Data Viewer
 
@@ -33,7 +33,7 @@ You can also get to the viewer by right-clicking on a model in the Actor
 Timeline Tree, or the bottom-left pane where components of the current
 scene are listed, and selecting 'Show Model Data.'
 
-![Image](./068_Model_Data_Viewer/image3.png)
+![Image](./resources/068_Model_Data_Viewer3.png)
 
 Opening the Model Data Viewer from the Actor Timeline Tree
 
@@ -43,7 +43,7 @@ UNDERSTANDING THE VIEWER
 Once launched, the model data viewer will populate itself with the data
 of the currently selected model type.
 
-![Image](./068_Model_Data_Viewer/image4.png)
+![Image](./resources/068_Model_Data_Viewer4.png)
 
 Model Data Viewer in Cutscene Editor
 
@@ -125,7 +125,7 @@ using the Cutscene Editor. You can do this by enabling the visibility of
 attachment points by navigating to Render -\> Show Geometry -\>
 Attachment Points, as shown below.
 
-![Image](./068_Model_Data_Viewer/image5.png)
+![Image](./resources/068_Model_Data_Viewer5.png)
 
 Showing Attachment Points
 
@@ -134,7 +134,7 @@ overlaid on the model. Each triangle represents a position where the
 attachment point is found and points in the direction the attachment
 point faces. The image below shows the attach points of a marauder.
 
-![Image](./068_Model_Data_Viewer/image6.png)
+![Image](./resources/068_Model_Data_Viewer6.png)
 
 Attachment Points Basic Visualization
 
@@ -150,7 +150,7 @@ the point that is being searched for. Once highlighted in the Model Data
 Viewer, an attachment point will glow bright green in the main view of
 the Cutscene Editor and begin pulsing. This is shown in the image below.
 
-![Image](./068_Model_Data_Viewer/image7.png)
+![Image](./resources/068_Model_Data_Viewer7.png)
 
 Attachment Point Highlighted Using Model Data Viewer
 

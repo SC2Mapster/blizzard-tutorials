@@ -42,7 +42,7 @@ require. You can find Blizzard's official StarCraft II forums at
 where you might find help, but you may want to start in the
 'Development, Feedback and Discussion' section.
 
-![Image](./015_Finding_Help/image1.png)
+![Image](./resources/015_Finding_Help01.png)
 
 Blizzard's Official SC2 Forums
 
@@ -55,7 +55,7 @@ is SC2Mapster. You can find it at the address
 'Development' forums section. Like Blizzard's official forums, the
 forums there are divided into subforums.
 
-![Image](./015_Finding_Help/image2.png)
+![Image](./resources/015_Finding_Help02.png)
 
 SC2Mapster's Community Forums
 
@@ -100,7 +100,7 @@ This will deliver a full list of Blizzard published maps. The 'StarCraft
 Master,' 'Left 2 Die,' and 'Aiur Chef' maps in particular are worth
 investigating.
 
-![Image](./015_Finding_Help/image3.png)
+![Image](./resources/015_Finding_Help03.png)
 
 One of Blizzard's Open Source Maps
 

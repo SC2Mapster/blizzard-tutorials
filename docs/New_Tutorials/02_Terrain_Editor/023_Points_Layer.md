@@ -11,7 +11,7 @@ The Points Layer uses marking elements called points. Points communicate
 locations to other Modules and can be accessed from the Terrain Bar
 using the icon pictured below.
 
-![Image](./023_Points_Layer/image1.png)
+![Image](./resources/023_Points_Layer1.png)
 
 Points Layer Icon
 
@@ -23,7 +23,7 @@ different types of points, as well as a list of every active point in
 the map. You can find it on the left-hand side of the Terrain Editor
 when the Points Layer is active.
 
-![Image](./023_Points_Layer/image2.png)
+![Image](./resources/023_Points_Layer2.png)
 
 Units Preview and Existing Object List
 
@@ -38,28 +38,28 @@ You can also hide the markers individually by right-clicking on a point
 in the Points Palette and changing their Show in Editor property. Point
 markers appear in the Editor as shown in the image below.
 
-![Image](./023_Points_Layer/image3.png)
+![Image](./resources/023_Points_Layer3.png)
 
 Four Types of Point Markers
 
 POINT TYPES
 -----------
 
-![Image](./023_Points_Layer/image7.png) they mark a specific coordinate
+![Image](./resources/023_Points_Layer7.png) they mark a specific coordinate
 on the map in the XY plane.
 
-![Image](./023_Points_Layer/image7.png) to players, marking their
+![Image](./resources/023_Points_Layer7.png) to players, marking their
 initial starting positions. This is a special distinction which receives
 several uses throughout the Editor. These points mark the location for
 spawning the base and workers in standard melee games. They also set the
 default initial camera position for their respective players.
 
-![Image](./023_Points_Layer/image7.png) sounds at their location.
+![Image](./resources/023_Points_Layer7.png) sounds at their location.
 Typically they produce environmental noises within a specific distance
 range on the map. This means you can use them as a sort of audio doodad,
 creating decorative and atmospheric sound.
 
-![Image](./023_Points_Layer/image7.png) but have an additional Height
+![Image](./resources/023_Points_Layer7.png) but have an additional Height
 value, meaning they are used to mark a coordinate in XYZ or 3D space.
 
 POINT PROPERTIES
@@ -72,7 +72,7 @@ click a point's name in the list on the Points Palette. Below you will
 find an example of a Point Properties window and a breakdown of the
 options it gives you.
 
-![Image](./023_Points_Layer/image8.png)
+![Image](./resources/023_Points_Layer8.png)
 
 Point Properties
 
@@ -111,7 +111,7 @@ Open the demo map provided with this article. You'll see a small course
 nestled on a space platform with several points already placed. The
 course should appear as in the image below.
 
-![Image](./023_Points_Layer/image9.png)
+![Image](./resources/023_Points_Layer9.png)
 
 Demo Map Course
 
@@ -122,7 +122,7 @@ note the 'Initialization' trigger. A trigger for creating a marine has
 already been set up, but it requires a point for the marine to be
 spawned at. This trigger appears as follows.
 
-![Image](./023_Points_Layer/image10.png)
+![Image](./resources/023_Points_Layer10.png)
 
 Trigger Requiring a Spawn Point
 
@@ -133,7 +133,7 @@ click the new marker to open the 'Point Properties' window and label the
 point 'Marine Spawn Location.' You should be looking at something like
 the image below.
 
-![Image](./023_Points_Layer/image11.png)
+![Image](./resources/023_Points_Layer11.png)
 
 Labelling a Point
 
@@ -141,7 +141,7 @@ Return to the Trigger Editor and set the 'Point' value of the creation
 trigger to Marine Spawn Location. The finished trigger should match the
 image below.
 
-![Image](./023_Points_Layer/image12.png)
+![Image](./resources/023_Points_Layer12.png)
 
 Point Hooked up to Trigger
 
@@ -160,7 +160,7 @@ the points to a group. Select Teleporter Point 01a, Teleporter Point
 01b, Teleporter Spark Point 01a, and Teleporter Spark Point 01b, then
 click 'Ok.' This procedure is shown in the image below.
 
-![Image](./023_Points_Layer/image13.png)
+![Image](./resources/023_Points_Layer13.png)
 
 Creating the Object Group
 
@@ -171,7 +171,7 @@ by selecting one of the grouped teleporter points. Move the leftmost
 point to the leftmost beacon on the space platform. Both sets of points
 should now line up with the beacons, as shown below.
 
-![Image](./023_Points_Layer/image14.png)
+![Image](./resources/023_Points_Layer14.png)
 
 Aligning the Points to the Teleportation Beacons
 
@@ -179,6 +179,6 @@ Running the map as a test should now spawn a marine at the 'Marine Spawn
 Point.' From there, you can move the marine onto the beacon, which will
 cause him to teleport to the rightmost platform, then back again.
 
-![Image](./023_Points_Layer/image15.png)
+![Image](./resources/023_Points_Layer15.png)
 
 Teleportation Complete

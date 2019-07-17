@@ -111,7 +111,7 @@ Data tables are constructed, used, and destroyed using of a set of
 trigger actions. These actions can be found during action creation by
 navigating to the 'Data Table' label, as shown below.
 
-![Image](./041_Data_Tables/image1.png)
+![Image](./resources/041_Data_Tables1.png)
 
 Data Table Actions
 
@@ -147,7 +147,7 @@ These scopes are used to target specific data tables for reading or
 writing data. Below is an example action, which writes the Point 'Unit
 Spawn' to the Global data table.
 
-![Image](./041_Data_Tables/image2.png)
+![Image](./resources/041_Data_Tables2.png)
 
 Writing Data to the Global Data Table
 
@@ -182,14 +182,14 @@ Data Table functions. You can access these during any field-filling by
 navigating to the 'Function' source and sorting by the 'Data Table'
 label, as shown below.
 
-![Image](./041_Data_Tables/image3.png)
+![Image](./resources/041_Data_Tables3.png)
 
 Value From Data Table Function for Points Data
 
 The above example shows the Value From Data Table function available for
 Points. This function is demonstrated in the following example.
 
-![Image](./041_Data_Tables/image4.png)
+![Image](./resources/041_Data_Tables4.png)
 
 Reading Points Data from the Global Data Table
 

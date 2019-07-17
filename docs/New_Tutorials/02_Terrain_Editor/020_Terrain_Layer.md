@@ -11,7 +11,7 @@ The Terrain Layer deals with the fundamental elements of terrain design,
 including ground texture, elevation, cliffs, and water. You can access
 it from the Terrain Bar, by clicking the icon shown below.
 
-![Image](./020_Terrain_Layer/image1.png)
+![Image](./resources/020_Terrain_Layer1.png)
 
 Terrain Layer Icon
 
@@ -23,7 +23,7 @@ decisions about the look of your map, determining its texture, height,
 and size. Once the Editor has generated the map, it will open in the
 Terrain Editor, giving you a fresh slate of terrain, a blank canvas.
 
-![Image](./020_Terrain_Layer/image2.png)
+![Image](./resources/020_Terrain_Layer2.png)
 
 Map Creation
 
@@ -31,7 +31,7 @@ The terrain development process usually begins at the Terrain Layer.
 Continuing the painting theme, the tools in this layer are called
 brushes. They can be found in the Terrain Palette, shown below.
 
-![Image](./020_Terrain_Layer/image3.png)
+![Image](./resources/020_Terrain_Layer3.png)
 
 Terrain Palette
 
@@ -43,7 +43,7 @@ Every brush has options allowing you to control the ways in which you
 'paint' your terrain. Below you'll see an example of these options,
 followed by a breakdown of all the options available to you.
 
-![Image](./020_Terrain_Layer/image4.png)
+![Image](./resources/020_Terrain_Layer4.png)
 
 Brush Options
 
@@ -87,13 +87,13 @@ of the brushes and their options in the following sections.
 THE BRUSHES
 -----------
 
-![Image](./020_Terrain_Layer/image5.png)
+![Image](./resources/020_Terrain_Layer5.png)
 
 This tool allows you to paint textures onto the surface of the map.
 Painting is done with a mixing system that allows the dynamic layering
 of a palette of eight textures per map.
 
-![Image](./020_Terrain_Layer/image6.png)
+![Image](./resources/020_Terrain_Layer6.png)
 
 Texture Brush and its Use
 
@@ -122,14 +122,14 @@ Texture Brush and its Use
   Texture    selected based on the altitude at which the brush is clicked.
   ------------------------------------------------------------------------
 
-![Image](./020_Terrain_Layer/image7.png)
+![Image](./resources/020_Terrain_Layer7.png)
 
 This tool allows you to alter the topology of your terrain. All height
 features made with this brush will remain pathable by unit movement,
 regardless of how outlandish they may appear. You can make pathing
 distinctions with the cliff and pathing tools.
 
-![Image](./020_Terrain_Layer/image8.png)
+![Image](./resources/020_Terrain_Layer8.png)
 
 Height Brush and its Use
 
@@ -151,14 +151,14 @@ Height Brush and its Use
               standard brush option Increment.
   -------------------------------------------------------------------------
 
-![Image](./020_Terrain_Layer/image9.png)
+![Image](./resources/020_Terrain_Layer9.png)
 
 This tool changes the cliff levels of the target selection. There are
 four distinct levels of terrain, which have special gameplay rules and
 interactions. Ground-based units move between these layers using ramps.
 You can also use this tool to place those ramps.
 
-![Image](./020_Terrain_Layer/image10.png)
+![Image](./resources/020_Terrain_Layer10.png)
 
 Cliff Brush and its Use
 
@@ -187,14 +187,14 @@ Cliff Brush and its Use
              terrain type.
   -------------------------------------------------------------------------
 
-![Image](./020_Terrain_Layer/image11.png)
+![Image](./resources/020_Terrain_Layer11.png)
 
 This tool allows you to select from an array of dynamic set-piece
 objects available in the Editor. These terrain objects require special
 placement and cooperation with doodads or units to produce desired
 effects.
 
-![Image](./020_Terrain_Layer/image12.png)
+![Image](./resources/020_Terrain_Layer12.png)
 
 Terrain Object Brush and its Use
 
@@ -214,14 +214,14 @@ Terrain Object Brush and its Use
   Object List   the cliff level they are properly applied to.
   -----------------------------------------------------------------------
 
-![Image](./020_Terrain_Layer/image13.png)
+![Image](./resources/020_Terrain_Layer13.png)
 
 This brush will apply regions to the map where water will be rendered.
 In this context, 'water' actually refers to a variety of dynamic fluids
 and may appear as lava or acid in certain terrain types. The regions are
 locked to a constant size applied in square units by this brush.
 
-![Image](./020_Terrain_Layer/image14.png)
+![Image](./resources/020_Terrain_Layer14.png)
 
 Water Brush and its Use
 
@@ -246,14 +246,14 @@ Water Brush and its Use
              being flooded.
   --------------------------------------------------------------------------
 
-![Image](./020_Terrain_Layer/image15.png)
+![Image](./resources/020_Terrain_Layer15.png)
 
 This tool renders roads, which are treated as a special type of visual
 element. Roads are rendered automatically along a path laid down by this
 tool in points. This system is designed to quickly generate realistic
 looking roads without having to lay down individual doodad segments.
 
-![Image](./020_Terrain_Layer/image16.png)
+![Image](./resources/020_Terrain_Layer16.png)
 
 Road Brush and its Use
 
@@ -274,14 +274,14 @@ Road Brush and its Use
 FOLIAGE BRUSH
 -------------
 
-![Image](./020_Terrain_Layer/image17.png)
+![Image](./resources/020_Terrain_Layer17.png)
 
 This tool allows you to paint regions so that the Editor can
 automatically generate foliage depending on their current texture.
 Foliage is a kind of automatically generated visual element, similar to
 a doodad, which cannot be directly altered in the Editor.
 
-![Image](./020_Terrain_Layer/image18.png)
+![Image](./resources/020_Terrain_Layer18.png)
 
 Foliage Brush and its Use
 
@@ -302,7 +302,7 @@ Foliage Brush and its Use
              the areas whose foliage status has changed.
   --------------------------------------------------------------------------
 
-![Image](./020_Terrain_Layer/image19.png)
+![Image](./resources/020_Terrain_Layer19.png)
 
 This tool gives you access to a palette of four lighting regions to
 paint onto your map. It also allows you to mix these regions together.
@@ -313,7 +313,7 @@ mixed as well. This allows you to build dynamic, realistic lighting
 environments. While the brush is active, the four lighting regions are
 displayed using colored overlays of red, green, blue, and yellow.
 
-![Image](./020_Terrain_Layer/image20.png)
+![Image](./resources/020_Terrain_Layer20.png)
 
 Lighting Brush and its Use
 
@@ -338,13 +338,13 @@ Lighting Brush and its Use
              clicked.
   -------------------------------------------------------------------------
 
-![Image](./020_Terrain_Layer/image21.png)
+![Image](./resources/020_Terrain_Layer21.png)
 
 The creep tool allows you to create creep on the map without the need
 for creep-generating Zerg units. It also allows you to designate special
 rules to certain areas for disallowing or permitting creep.
 
-![Image](./020_Terrain_Layer/image22.png)
+![Image](./resources/020_Terrain_Layer22.png)
 
 Creep Brush and its Use
 

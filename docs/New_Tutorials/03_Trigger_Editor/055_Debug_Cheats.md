@@ -182,7 +182,7 @@ below.
 
 An example trial of some of these test document cheats is shown below.
 
-![image0](./055_Debug_Cheats/image1.png){width="6.5in"
+![image0](./resources/055_Debug_Cheats1.png){width="6.5in"
 height="2.40278in"}
 
 Test Document Cheats
@@ -198,7 +198,7 @@ each cheat trigger. Doing so will ensure that only a hardcoded list of
 players has access to your equivalent of test document cheats in
 multiplayer trials. You can see one example a system like this below.
 
-![Image](./055_Debug_Cheats/image2.png)
+![Image](./resources/055_Debug_Cheats2.png)
 
 Multiplayer Test Document Cheats
 
@@ -221,6 +221,6 @@ actor scopes are currently active, along with other useful information.
 The following images show the actor stats before and after a stress test
 trial.
 
-![Image](./055_Debug_Cheats/image3.png)
+![Image](./resources/055_Debug_Cheats3.png)
 
 Before Actor Stress Test -- After Actor Stress Test

@@ -15,7 +15,7 @@ visuals for abilities in the command card, the section of a player's UI
 with which they can interact directly. A typical view of a command card
 filled with buttons is shown below.
 
-![Image](./075_Buttons/image1.png)
+![Image](./resources/075_Buttons1.png)
 
 Templar Command Card with Buttons
 
@@ -74,7 +74,7 @@ Leaving the mouse idle over a button will display a dialog containing
 its Tooltip and Name, along with times relevant to the connected
 ability. This dialog is shown below.
 
-![Image](./075_Buttons/image2.png)
+![Image](./resources/075_Buttons2.png)
 
 Button Mouseover Tooltip and Name
 
@@ -85,14 +85,14 @@ Open the Data Editor and move to the buttons tab. If it isn't already
 open, you can navigate there via + -\> Edit Art and Sound Data -\>
 Buttons, as shown.
 
-![Image](./075_Buttons/image3.png)
+![Image](./resources/075_Buttons3.png)
 
 Navigating to Buttons in Data
 
 Create a new button by right-clicking in the main window view and
 selecting 'Add Button.'
 
-![Image](./075_Buttons/image4.png)
+![Image](./resources/075_Buttons4.png)
 
 Creating a New Button
 
@@ -103,7 +103,7 @@ rather than being named as a button itself. So choose a name like
 'Attack' or 'Plague' rather than 'Attack Button' or 'Plague Button.' A
 typical creation screen is shown below, filled out with the name 'Demo.'
 
-![Image](./075_Buttons/image5.png)
+![Image](./resources/075_Buttons5.png)
 
 Completed Button Creation Screen
 
@@ -119,7 +119,7 @@ standard is 76x76 and with the filetype .dds. You can find a large
 collection of these textures by searching with the prefix btn-, as shown
 below.
 
-![Image](./075_Buttons/image6.png)
+![Image](./resources/075_Buttons6.png)
 
 Icon Selection with the Archive Browser
 
@@ -137,7 +137,7 @@ with a tooltip to be displayed by the game on button mouseover. To
 create that text, navigate to the 'Tooltip' field and double click to
 open an 'Object Values' editing window.
 
-![Image](./075_Buttons/image7.png)
+![Image](./resources/075_Buttons7.png)
 
 For this demo, sample text has been inputted containing the message,
 'This is a button built for a tutorial demo.' At this point, it is
@@ -159,7 +159,7 @@ the 'Hotkeys' field in the Data Editor and double click it. This will
 launch an 'Object Values' window, presenting you with the following
 view.
 
-![Image](./075_Buttons/image8.png)
+![Image](./resources/075_Buttons8.png)
 
 No Hotkey Assigned
 
@@ -169,7 +169,7 @@ value red and allow for keyboard input. Pressing a key at this time will
 set it as the hotkey. For this demonstration, the D key was hit, giving
 the following result.
 
-![Image](./075_Buttons/image9.png)
+![Image](./resources/075_Buttons9.png)
 
 Hotkey Assigned
 
@@ -185,7 +185,7 @@ do this, move to the units tab via + -\> Edit Game Data -\> Units. Any
 unit would be useable here, but for this instance select the 'Marine.'
 Then select its 'Command Card' field as shown below.
 
-![Image](./075_Buttons/image10.png)
+![Image](./resources/075_Buttons10.png)
 
 Command Card Field
 
@@ -196,7 +196,7 @@ launch a window called 'Choose Button.' Inside that window, select the
 'Demo' button for addition to the command card. This procedure is shown
 below.
 
-![Image](./075_Buttons/image11.png)
+![Image](./resources/075_Buttons11.png)
 
 Adding a Button to the Command Card
 
@@ -207,7 +207,7 @@ set its 'Command Type' to 'Ability Command,' set its 'Ability' to
 'Move,' and then set its 'Ability Command' to 'Move.' This will give you
 the following view.
 
-![Image](./075_Buttons/image12.png)
+![Image](./resources/075_Buttons12.png)
 
 Completed Linked Button
 
@@ -221,6 +221,6 @@ game on the command card. You can confirm this by launching the map with
 
 Doing so should give you a result like the one pictured below.
 
-![Image](./075_Buttons/image13.png)
+![Image](./resources/075_Buttons13.png)
 
 Custom Button In-Game

@@ -43,7 +43,7 @@ Horizontal. You should note that certain FOV values are a common cause
 of motion sickness amongst players. Having an in-game control to change
 the magnitude of the FOV value can be helpful.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image5.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera5.png)
 
 Enabling Horizontal Field of View
 
@@ -83,7 +83,7 @@ setting the camera.
 
 A placed first person camera should look something like the image below.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image6.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera6.png)
 
 First Person Camera Setting
 
@@ -93,7 +93,7 @@ unit model's blocking the view is only temporary. You should also make
 sure to get an idea of the unit's position relative to the camera, as
 this will be the anchor for the first person camera's movement.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image7.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera7.png)
 
 Creating Camera Object
 
@@ -105,7 +105,7 @@ tune how it will look in game. Open this pane by selecting the first
 person camera from the Cameras Palette, then double clicking it. The
 standard first person camera settings are shown below.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image8.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera8.png)
 
 First Person Camera Property Settings
 
@@ -133,7 +133,7 @@ project and its implementation. Still, there are some basic necessities
 that will likely be a part of any design. A standard example of first
 person camera logic is shown in the image below.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image9.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera9.png)
 
 First Person Camera Logic
 
@@ -176,7 +176,7 @@ camera, the default values tend to be detrimental. You can change those
 defaults by moving to the Data Editor, then to the Cameras tab, as shown
 below.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image10.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera10.png)
 
 Camera Smooth Time Settings
 
@@ -187,7 +187,7 @@ position of a moving target. Setting these values too low may cause
 stuttering, so a standard value of 0.08 is usually appropriate. The
 completed fields are shown below.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image11.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera11.png)
 
 Setting Smooth Times
 
@@ -199,7 +199,7 @@ from view. This is accomplished in the unit actor's events by adding an
 ActorCreation event that sends the SetOpacity message, setting the
 model's opacity to 0.0. You can see this in the following image.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image12.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera12.png)
 
 Set Opacity Actor Message
 
@@ -210,6 +210,6 @@ In the demo map provided with this article, all of the listed
 modifications have already been made to the game. Testing it should give
 you the following result.
 
-![Image](./089_Set_Up_a_First_Person_Camera/image13.png)
+![Image](./resources/089_Set_Up_a_First_Person_Camera13.png)
 
 First Person Map View

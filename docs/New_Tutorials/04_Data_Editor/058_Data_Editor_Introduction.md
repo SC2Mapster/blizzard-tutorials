@@ -12,7 +12,7 @@ of a project's data is built using the basic types found here. It is a
 deep and powerful system that offers users a great deal of control, the
 most ever seen in a Blizzard editing suite.
 
-![Image](./058_Data_Editor_Introduction/image1.png)
+![Image](./resources/058_Data_Editor_Introduction1.png)
 
 Data Editor in Use
 
@@ -124,14 +124,14 @@ different purposes of different data types.
 THE INTERFACE
 -------------
 
-![Image](./058_Data_Editor_Introduction/image2.png)
+![Image](./resources/058_Data_Editor_Introduction2.png)
 
 Data Editor Interface View
 
 You can navigate the Data Editor's catalogs using the Catalog Tabs,
 shown below.
 
-![Image](./058_Data_Editor_Introduction/image3.png)
+![Image](./resources/058_Data_Editor_Introduction3.png)
 
 Catalog Tabs
 
@@ -140,7 +140,7 @@ listings. You can bring the tab into a project using the green,
 plus-sign shaped Catalog Opener. Once you have selected a tab, it will
 populate the catalog's data in the Object List, as shown below.
 
-![Image](./058_Data_Editor_Introduction/image4.png)
+![Image](./resources/058_Data_Editor_Introduction4.png)
 
 Object List
 
@@ -149,7 +149,7 @@ sensitive properties, such as Source, ID \#, Object Family, and Race. As
 you can see in the image below, the full hierarchy of a data structure
 is displayed for the selected instance within the Object Explorer.
 
-![Image](./058_Data_Editor_Introduction/image5.png)
+![Image](./resources/058_Data_Editor_Introduction5.png)
 
 Object Explorer
 
@@ -158,7 +158,7 @@ top-down look at all of the contents of a piece of data. Any piece of
 data in the Object Explorer or Object List will display its data fields
 in the Fields Listing, as shown below.
 
-![Image](./058_Data_Editor_Introduction/image6.png)
+![Image](./resources/058_Data_Editor_Introduction6.png)
 
 Fields Listing
 
@@ -168,7 +168,7 @@ variety in the types of catalogs and fields available for editing, there
 is a selection of viewing options to make the listing as accessible as
 possible. You'll find these in the Data Bar.
 
-![Image](./058_Data_Editor_Introduction/image7.png)
+![Image](./resources/058_Data_Editor_Introduction7.png)
 
 Data Bar
 
@@ -227,14 +227,14 @@ Below is a breakdown of the various viewing options.
 These options include the structured Fields Listing views: Table View,
 Detail View, and XML View. These are shown below.
 
-![Image](./058_Data_Editor_Introduction/image8.png)
+![Image](./resources/058_Data_Editor_Introduction8.png)
 
 Table View - Detail View -- XML View
 
 These viewing options are also accessible from the View Tab of the Data
 Editor.
 
-![Image](./058_Data_Editor_Introduction/image9.png)
+![Image](./resources/058_Data_Editor_Introduction9.png)
 
 View Tab
 
@@ -256,7 +256,7 @@ editors available during field editing. These Subeditors include the
 Actor Events Editor, the Footprints Editor, and the Sound Editor. These
 are shown in the image below.
 
-![Image](./058_Data_Editor_Introduction/image10.png)
+![Image](./resources/058_Data_Editor_Introduction10.png)
 
 Actor Events Editor -- Footprint Editor -- Sound Editor
 
@@ -268,7 +268,7 @@ it can be useful to have some visualization options so that you can get
 a better look at what your project is doing. The Data Editor offers a
 few options for this, most notably the Data Navigator shown below.
 
-![Image](./058_Data_Editor_Introduction/image11.png)
+![Image](./resources/058_Data_Editor_Introduction11.png)
 
 Data Navigator
 
@@ -278,6 +278,6 @@ provision is the Show Explain Link option available for use with the
 Object Explorer. This will display a simpler version of the data
 connections to an output panel, as shown in the image below.
 
-![Image](./058_Data_Editor_Introduction/image12.png)
+![Image](./resources/058_Data_Editor_Introduction12.png)
 
 Show Explain Link

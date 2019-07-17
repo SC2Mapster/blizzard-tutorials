@@ -20,7 +20,7 @@ It's also worth noting that operations are not exclusive, they can be
 stacked and combined in many ways. The image below shows some of the
 uses of site operations.
 
-![Image](./066_Site_Operations/image1.png)
+![Image](./resources/066_Site_Operations1.png)
 
 Terratron Built from Attachment Operations -- Random Variation Operation
 on Thor's Barrage Effect
@@ -32,7 +32,7 @@ As a type of actor, you can find site operations under the actors tab of
 the Data Editor. Open this tab by navigating to + -\> Edit Actor Data
 -\> Actors.
 
-![Image](./066_Site_Operations/image2.png)
+![Image](./resources/066_Site_Operations2.png)
 
 Navigating to Actors in Data
 
@@ -40,7 +40,7 @@ You can create a site operation actor in the actors tab just as you
 would as any other actor, by right-clicking in the Object List and
 navigating to 'Add Actor.'
 
-![Image](./066_Site_Operations/image3.png)
+![Image](./resources/066_Site_Operations3.png)
 
 Creating a Site Operation Actor
 
@@ -52,7 +52,7 @@ Rotation) actor type, which represents the 2D Rotation Site Operation
 responsible for rotation strictly in the XY plane. You can see the
 process of selecting a site operation actor below.
 
-![Image](./066_Site_Operations/image4.png)
+![Image](./resources/066_Site_Operations4.png)
 
 Site Operation Actor List
 
@@ -65,14 +65,14 @@ APPLYING SITE OPERATIONS
 You can apply site operations through the 'Host Site Operations' field
 of any applicable actor, an example of which is shown below.
 
-![Image](./066_Site_Operations/image5.png)
+![Image](./resources/066_Site_Operations5.png)
 
 Site Operation Hosting Field
 
 Double clicking on this field launches an 'Object Values' window, which
 provides a list of the currently hosted site operations, as shown below.
 
-![Image](./066_Site_Operations/image6.png)
+![Image](./resources/066_Site_Operations6.png)
 
 Site Operations View
 
@@ -82,7 +82,7 @@ instances of the Shadow Site Operation and Explicit Rotation Site
 Operation respectively. A new site operation is added by selecting the
 'Choose' field, which will launch the window below.
 
-![Image](./066_Site_Operations/image7.png)
+![Image](./resources/066_Site_Operations7.png)
 
 Selecting Site Operation for Addition
 
@@ -91,7 +91,7 @@ on one, click 'Ok' to return to the main site operations view. For the
 purposes of this exercise, choose the 'SOpHigherBy5' operation. This
 will take present you with the view shown below.
 
-![Image](./066_Site_Operations/image8.png)
+![Image](./resources/066_Site_Operations8.png)
 
 Site Operation Readied for Addition
 
@@ -99,7 +99,7 @@ You can now add the site operation to the actor by hitting the green '+'
 button on the right-hand side of the window. This will add it to the
 list of active site operations, as shown below.
 
-![Image](./066_Site_Operations/image9.png)
+![Image](./resources/066_Site_Operations9.png)
 
 Site Operation Added to Actor
 
@@ -115,7 +115,7 @@ effects or no noticeable difference at all. To help you manage this, the
 Editor features a 'Host Site Operations' subeditor that lets you change
 the order in which operations are applied.
 
-![Image](./066_Site_Operations/image10.png)
+![Image](./resources/066_Site_Operations10.png)
 
 Site Operation Ordering Controls
 
@@ -132,14 +132,14 @@ latter rotates an actor around a point. In this example, both will be
 applied to a 'Game Ball' actor in different orders. Pictured below is a
 case in which the local offset was applied first.
 
-![Image](./066_Site_Operations/image11.png)
+![Image](./resources/066_Site_Operations11.png)
 
 Local Offset then Rotator Site Operation
 
 The next image shows what happens when the rotator operation is applied
 before the local offset.
 
-![Image](./066_Site_Operations/image12.png)
+![Image](./resources/066_Site_Operations12.png)
 
 Rotator then Local Offset Site Operation
 

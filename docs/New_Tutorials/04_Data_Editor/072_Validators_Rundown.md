@@ -40,7 +40,7 @@ a combine validator into themselves.
 
 You can see an example of a combine validator below.
 
-![Image](./072_Validators_Rundown/image1.png)
+![Image](./resources/072_Validators_Rundown1.png)
 
 Combine Validator Example
 
@@ -49,7 +49,7 @@ Energy Not Full Caster, and Not Dead. You can use the Object Explorer
 and Data Navigator to see this link in detail, as shown in the following
 image.
 
-![Image](./072_Validators_Rundown/image2.png)
+![Image](./resources/072_Validators_Rundown2.png)
 
 Combine Validators Linkage Views
 
@@ -101,7 +101,7 @@ defined by Compare. If the value is successfully compared, it returns
 true, if it is unsuccessful, it returns false. You can see an example of
 an enumerate area Areas field being built below.
 
-![Image](./072_Validators_Rundown/image3.png)
+![Image](./resources/072_Validators_Rundown3.png)
 
 Enumerate Areas Search Area
 
@@ -126,7 +126,7 @@ is true. Then, depending on which of the five fields the validator has
 been placed under, an action is taken. An example of a function
 validator is shown below.
 
-![Image](./072_Validators_Rundown/image4.png)
+![Image](./resources/072_Validators_Rundown4.png)
 
 Function Validator Composition
 
@@ -180,7 +180,7 @@ Location Range validates the distance between two objects. Depending on
 whether or not that range meets a test value, a true or false value is
 returned. An example of a location range validator is shown below.
 
-![Image](./072_Validators_Rundown/image5.png)
+![Image](./resources/072_Validators_Rundown5.png)
 
 Location Range Validator
 
@@ -207,7 +207,7 @@ PLAYER REQUIREMENT
 The Player Requirements validator tests the status of a certain
 requirement for a player.
 
-![Image](./072_Validators_Rundown/image6.png)
+![Image](./resources/072_Validators_Rundown6.png)
 
 Player Requirement Validator
 
@@ -236,7 +236,7 @@ UNIT TYPE
 The Unit Type validator tests whether or not a unit is of a specified
 type. You can see one example of a unit type validator below.
 
-![Image](./072_Validators_Rundown/image7.png)
+![Image](./resources/072_Validators_Rundown7.png)
 
 Unit Type Validator
 
@@ -264,7 +264,7 @@ UNIT FILTERS
 The Unit Filters validator checks whether or not a unit contains the
 specified filters.
 
-![Image](./072_Validators_Rundown/image8.png)
+![Image](./resources/072_Validators_Rundown8.png)
 
 Unit Filters Validator
 
@@ -282,7 +282,7 @@ Unit Filters Validator
 Filter selection can target both a unit's state and its alliance status,
 as shown below.
 
-![Image](./072_Validators_Rundown/image9.png)
+![Image](./resources/072_Validators_Rundown9.png)
 
 Filter Selection View
 
@@ -293,7 +293,7 @@ The Unit Compare Behavior Count validator compares the behavior stack
 count on a unit with a test value. Depending on the comparison, a true
 or false value is returned.
 
-![Image](./072_Validators_Rundown/image10.png)
+![Image](./resources/072_Validators_Rundown10.png)
 
 Unit Compare Behavior Count Validator
 

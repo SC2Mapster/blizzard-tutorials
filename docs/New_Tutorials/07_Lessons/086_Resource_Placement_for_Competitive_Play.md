@@ -21,7 +21,7 @@ the smallest variation to this layout can have a profound impact on the
 game's resource model, altering the state of balance for the competitive
 game.
 
-![Image](./086_Resource_Placement_for_Competitive_Play/image1.png)
+![Image](./resources/086_Resource_Placement_for_Competitive_Play1.png)
 
 Cassandra Gemini's Well Designed Third by SeinGalton
 
@@ -35,7 +35,7 @@ configuring every base individually. Access the symmetry controls by
 navigating to Map -\> Map Symmetry, this will launch the 'Map
 Properties' window shown below.
 
-![Image](./086_Resource_Placement_for_Competitive_Play/image2.png)
+![Image](./resources/086_Resource_Placement_for_Competitive_Play2.png)
 
 Map Symmetry Controls
 
@@ -53,7 +53,7 @@ View -\> Show Placement Grid -\> Show Grid. This overlay will show the
 area of three units around any resource item in which players can't
 place a command centre. This overlay is shown below.
 
-![Image](./086_Resource_Placement_for_Competitive_Play/image3.png)
+![Image](./resources/086_Resource_Placement_for_Competitive_Play3.png)
 
 Placement Grid
 
@@ -61,11 +61,11 @@ Next, consider the possible resource layouts for a base. There are two
 standard plans that account for almost all of the competitive layouts.
 Those two plans are shown in the images below.
 
-![Image](./086_Resource_Placement_for_Competitive_Play/image4.png)
+![Image](./resources/086_Resource_Placement_for_Competitive_Play4.png)
 
 Same-sides Vespene Base Layout
 
-![Image](./086_Resource_Placement_for_Competitive_Play/image5.png)
+![Image](./resources/086_Resource_Placement_for_Competitive_Play5.png)
 
 Both-sides Vespene Base Layout
 
@@ -77,7 +77,7 @@ Units Layer of the Terrain Editor. Navigate to the Units Palette and set
 the 'Object Type' search filter to Resources. This will show all of the
 available melee resources, as in the image below.
 
-![Image](./086_Resource_Placement_for_Competitive_Play/image6.png)
+![Image](./resources/086_Resource_Placement_for_Competitive_Play6.png)
 
 Resources in the Unit Palette
 

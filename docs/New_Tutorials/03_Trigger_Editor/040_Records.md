@@ -14,7 +14,7 @@ that can be created indefinitely. Each record creates a set of variables
 according to its design, then maintains them as a persistent container.
 A typical record design is shown below.
 
-![Image](./040_Records/image1.png)
+![Image](./resources/040_Records1.png)
 
 Record Anatomy
 
@@ -24,7 +24,7 @@ to store variables, this name will become a makeshift type for the
 record. When instances of the record are made, they will show the record
 type, in this case Tutorial Record, as shown below.
 
-![Image](./040_Records/image2.png)
+![Image](./resources/040_Records2.png)
 
 Record Instances
 
@@ -49,7 +49,7 @@ record types available under the heading 'Record.' Once you have
 selected the desired type, each variable within the record will
 automatically be created, though not directly visible in the Editor.
 
-![Image](./040_Records/image3.png)
+![Image](./resources/040_Records3.png)
 
 Record Instances
 
@@ -68,7 +68,7 @@ must be accessed through a technique known as referencing. This allows
 you to call on the individual variable by referencing it in terms of the
 record instance. Consider the following record.
 
-![Image](./040_Records/image4.png)
+![Image](./resources/040_Records4.png)
 
 Record with Integer Members
 
@@ -80,7 +80,7 @@ reference the record instance's property. Fortunately, the Editor GUI
 does much of the work here. Imagine you were going to use a 'Modify
 Player Property' action, as in the following trigger.
 
-![Image](./040_Records/image5.png)
+![Image](./resources/040_Records5.png)
 
 Trigger Requiring Referenced Variable
 
@@ -88,7 +88,7 @@ The 'Value' field is where the Starting Minerals variable is needed, but
 it is unclear how to deliver it there. Double click the field to launch
 an 'Integer' window and navigate to the Variable tab as seen below.
 
-![Image](./040_Records/image6.png)
+![Image](./resources/040_Records6.png)
 
 Integer Field Window
 
@@ -98,7 +98,7 @@ input to the field. Select it and click 'Ok.' You'll see that some
 changes have been made to the 'Value' field for the action, as shown
 below.
 
-![Image](./040_Records/image7.png)
+![Image](./resources/040_Records7.png)
 
 New Action Field
 
@@ -110,14 +110,14 @@ Referencing Operator. By the referencing operator, the internal members
 of the record instance have been made available. Clicking the 'Member'
 field now will present you with the following view.
 
-![Image](./040_Records/image8.png)
+![Image](./resources/040_Records8.png)
 
 Referencing Record Member
 
 Here, the Starting Minerals member can be selected, do so and click
 'Ok.' The result will look as follows.
 
-![Image](./040_Records/image9.png)
+![Image](./resources/040_Records9.png)
 
 Referenced Record Variable
 
@@ -138,7 +138,7 @@ will have the standard record design, with all its members set to the
 standard initial values. This is useful for handling large swathes of
 data in a very organized package. A typical record array is shown below.
 
-![Image](./040_Records/image10.png)
+![Image](./resources/040_Records10.png)
 
 Record Array
 
@@ -147,6 +147,6 @@ as referencing a standard record variable. The difference is that an
 index is required to select the specific instance you want. A typical
 view is shown below.
 
-![Image](./040_Records/image11.png)
+![Image](./resources/040_Records11.png)
 
 Record Array Referencing

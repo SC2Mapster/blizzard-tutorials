@@ -23,7 +23,7 @@ new publishing systems in the Editor. You can find them by navigating to
 File -\> Publish, which launches the 'Publish Document' window, pictured
 below.
 
-![Image](./016_Publishing/image1.png)
+![Image](./resources/016_Publishing01.png)
 
 Publish Document Window
 
@@ -39,7 +39,7 @@ StarCraft II account, including the standalone games.
 If you click the the 'Log In' button, you'll be prompted to enter your
 account name and password.
 
-![Image](./016_Publishing/image2.png)
+![Image](./resources/016_Publishing02.png)
 
 Battle.net Log In Window
 
@@ -68,7 +68,7 @@ your project fails to meet any of these requirements, the 'Verification'
 field will read 'Unable to publish due to problems below,' as shown in
 the following image.
 
-![Image](./016_Publishing/image3.png)
+![Image](./resources/016_Publishing03.png)
 
 Publishing Options Window
 
@@ -78,44 +78,16 @@ detailing some of the most common issues and their resolutions. Some of
 the options mentioned in these resolutions will be described in more
 detail in the following section.
 
-  ------------------------------------------------------------------------
-  Requirement      Description & Resolution
-  ---------------- -------------------------------------------------------
-  Document         Projects must have their default description changed.
-  description has  
-  not been changed 
-  from the default 
-  text.            
-
-                   Return to the editor, navigate to Map -\> Map Info, and
-                   change the text in the 'Description' field.
-
-  Locked/Unlocke d A published map must be set to be either Locked or
-  Mode must be     Unlocked.
-  chosen.          
-
-                   Set the map to either Locked or Unlocked from the
-                   'Locked/Unlocked Mode' field in the 'Configure Options'
-                   window of the publishing system.
-
-  The published    The publishing name 'X' is already taken in the noted
-  name 'X' is note region Locale.
-  available        
-  \[Locale\].      
-
-                   Select a new publishing name for all regions, or return
-                   to the 'Publish to Locales' options, then manually
-                   localize for the problematic area with a separate name.
-                   Be warned that this method will result in the project
-                   requiring multiple publishing trips hereafter.
-
-  The requested    There are reserved words within the project's
-  publish name has publishing name.
-  unacceptable     
-  words.           
-
-                   Alter the publishing name.
-  ------------------------------------------------------------------------
+| Requirement                                                  | Description & Resolution                                     |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| Document description has not been changed from the default text. | Projects must have their default description changed.        |
+|                                                              | Return to the editor, navigate to Map -> Map Info, and change the text in the ‘Description’ field. |
+| Locked/Unlocke d Mode must be chosen.                        | A published map must be set to be either Locked or Unlocked. |
+|                                                              | Set the map to either Locked or Unlocked from the ‘Locked/Unlocked Mode’ field in the ‘Configure Options’ window of the publishing system. |
+| The published name ‘X’ is note available [Locale].           | The publishing name ‘X’ is already taken in the noted region Locale. |
+|                                                              | Select a new publishing name for all regions, or return to the ‘Publish to Locales’ options, then manually localize for the problematic area with a separate name. Be warned that this method will result in the project requiring multiple publishing trips hereafter. |
+| The requested publish name has unacceptable words.           | There are reserved words within the project’s publishing name. |
+|                                                              | Alter the publishing name.                                   |
 
 Once all publishing requirements have been met, the 'Verification' field
 will show 'Ready to Publish!'
@@ -127,33 +99,14 @@ PUBLISHING OPTIONS
 a map for publication, as well as resolving requirement issues before
 upload. See below for a detailed breakdown.
 
-  ----------------------------------------------------------------------------------
-  Field             Details
-  ----------------- ----------------------------------------------------------------
-  Published Name    The publishing name for the project. This is the name used
-                    online, by default it is set to the project name set in 'Map
-                    Info.' You can change this using the Change Name button.
-
-  Locale            Selects the localization version for publishing.
-
-  Revision          Increments the automatically generated 'Version' field. Major
-                    releases increment the value by 1.0, while Minor versions
-                    increment by 0.1. Revision is tied to the publishing name. Every
-                    time the name changes, the value is reset back to the default
-                    0.0.
-
-  Release           Sets the game's accessibility. Private requires the uploader to
-                    host, and requires manual invites for each player. Public allows
-                    anyone to host.
-
-  Author            Uses your Battle.net ID to list authorship. If Use Real Name is
-                    selected, the name of your Blizzard Account will be appended.
-
-  Locked/Unlocked   The lock status refers to the availability of source project.
-  Mode              Unlocked maps can be downloaded within the Editor by any
-                    developer. Setting Locked removes the source from public
-                    availability.
-  ----------------------------------------------------------------------------------
+| Field                | Details                                                      |
+| :------------------- | :----------------------------------------------------------- |
+| Published Name       | The publishing name for the project. This is the name used online, by default it is set to the project name set in ‘Map Info.’ You can change this using the Change Name button. |
+| Locale               | Selects the localization version for publishing.             |
+| Revision             | Increments the automatically generated ‘Version’ field. Major releases increment the value by 1.0, while Minor versions increment by 0.1. Revision is tied to the publishing name. Every time the name changes, the value is reset back to the default 0.0. |
+| Release              | Sets the game’s accessibility. Private requires the uploader to host, and requires manual invites for each player. Public allows anyone to host. |
+| Author               | Uses your Battle.net ID to list authorship. If Use Real Name is selected, the name of your Blizzard Account will be appended. |
+| Locked/Unlocked Mode | The lock status refers to the availability of source project. Unlocked maps can be downloaded within the Editor by any developer. Setting Locked removes the source from public availability. |
 
 Take care when considering the Locked and Unlocked statuses. The former
 will properly protect your map from every developer, including yourself.
@@ -170,7 +123,7 @@ met, you can click 'Next' to arrive at the 'Storage Requirements' view.
 This gives you a breakdown of the space your file takes up, as well as
 size limits on your project.
 
-![Image](./016_Publishing/image4.png)
+![Image](./resources/016_Publishing04.png)
 
 Storage Requirements View
 
@@ -182,7 +135,7 @@ these limits, you can select 'Manage Files' to make changes to your
 current uploads. You will be brought to the 'Manage Published Files'
 window shown below.
 
-![Image](./016_Publishing/image5.png)
+![Image](./resources/016_Publishing05.png)
 
 Published Files Manager
 
@@ -195,7 +148,7 @@ the window and publish by clicking 'OK' in the 'Check Storage
 Requirements' view. You will be presented with a pop-up containing the
 EULA and TOU agreements.
 
-![Image](./016_Publishing/image6.png)
+![Image](./resources/016_Publishing06.png)
 
 Compliance Check
 

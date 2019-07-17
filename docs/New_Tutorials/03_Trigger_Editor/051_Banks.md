@@ -10,7 +10,7 @@ BANKS
 Banks are the Editor's method for storing information and using it
 between projects. Below you can see a sample bank file.
 
-![Image](./051_Banks/image1.png)
+![Image](./resources/051_Banks1.png)
 
 Custom Game Bank File
 
@@ -27,7 +27,7 @@ The controls for bank handling can be found during action creation under
 the label 'Bank.' This is shown below, followed by a table that breaks
 down these controls.
 
-![Image](./051_Banks/image2.png)
+![Image](./resources/051_Banks2.png)
 
 Bank Actions
 
@@ -89,6 +89,6 @@ below.
 
 This procedure is shown in the following image sequence.
 
-![Image](./051_Banks/image3.png)
+![Image](./resources/051_Banks3.png)
 
 Accessing Local Bank Storage

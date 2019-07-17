@@ -49,21 +49,21 @@ purpose, you'll need to access to browser directly, rather than as part
 of an editing prompt. You can do so by navigating to Window -\> Console
 from anywhere in the Editor, as shown below.
 
-![Image](./083_Export_Game_Assets/image1.png)
+![Image](./resources/083_Export_Game_Assets1.png)
 
 Opening the Console
 
 Once you've launched the console, enter the command browse then select
 the 'Enter' button, as shown below.
 
-![Image](./083_Export_Game_Assets/image2.png)
+![Image](./resources/083_Export_Game_Assets2.png)
 
 Asset Browser Launch Command
 
 This will launch the Archive Browser. It will show a structured folder
 arrangement of all the assets currently in the project.
 
-![Image](./083_Export_Game_Assets/image3.png)
+![Image](./resources/083_Export_Game_Assets3.png)
 
 Archive Browser View
 
@@ -73,7 +73,7 @@ EXPORTING FROM THE ARCHIVE BROWSER
 Assets can be exported from the Archive Browser by right-clicking them
 and selecting Export File.
 
-![Image](./083_Export_Game_Assets/image4.png)
+![Image](./resources/083_Export_Game_Assets4.png)
 
 Archive Browser View
 
@@ -84,7 +84,7 @@ You can also use the Archive Browser to export UI layouts. Do so by
 locating them in the UI folder, highlighting them, and selecting Export
 File.
 
-![Image](./083_Export_Game_Assets/image5.png)
+![Image](./resources/083_Export_Game_Assets5.png)
 
 Archive Browser View
 
@@ -93,7 +93,7 @@ Navigate to the .SC2Layout file, then highlight the XML data and hit
 Ctrl+C to copy. The data can then be pasted into a text editor or
 plaintext file for later use.
 
-![Image](./083_Export_Game_Assets/image6.png)
+![Image](./resources/083_Export_Game_Assets6.png)
 
 Highlighting XML for Export
 
@@ -104,7 +104,7 @@ You can export trigger libraries from the Trigger Editor using the
 Library Panel by highlighting the library, right-clicking, and selecting
 Export Library.
 
-![Image](./083_Export_Game_Assets/image7.png)
+![Image](./resources/083_Export_Game_Assets7.png)
 
 Exporting a Trigger Library
 
@@ -115,7 +115,7 @@ You can export lighting files from the Lighting Window. Select the
 lighting arrangement to be exported, then right-click and select Export
 Light.
 
-![Image](./083_Export_Game_Assets/image8.png)
+![Image](./resources/083_Export_Game_Assets8.png)
 
 Exporting a Light
 
@@ -129,7 +129,7 @@ procedures that you can do outside the Editor. To export, open the map
 to be saved as component folders and navigate to File -\> Save As.
 Change the 'Save as type' field to .SC2Components and select 'Save.'
 
-![Image](./083_Export_Game_Assets/image9.png)
+![Image](./resources/083_Export_Game_Assets9.png)
 
 Saving as StarCraft II Component Folders
 
@@ -138,6 +138,6 @@ appended with the suffix .SC2Map. This folder will contain a set profile
 of data components and assets that will look similar to those shown
 below.
 
-![Image](./083_Export_Game_Assets/image10.png)
+![Image](./resources/083_Export_Game_Assets10.png)
 
 StarCraft II Components Folder

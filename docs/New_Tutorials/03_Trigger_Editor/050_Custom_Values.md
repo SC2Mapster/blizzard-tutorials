@@ -27,7 +27,7 @@ SET CUSTOM VALUE
 Custom values are set using the action Set Unit Custom Value. You can
 find this during action creation under the 'Unit' Label, as shown below.
 
-![Image](./050_Custom_Values/image1.png)
+![Image](./resources/050_Custom_Values1.png)
 
 Custom Value Actions
 
@@ -37,7 +37,7 @@ GET CUSTOM VALUE
 Custom values are extracted using the function Custom Value of Unit. You
 can find this during Real field filling under the 'Function' source.
 
-![Image](./050_Custom_Values/image2.png)
+![Image](./resources/050_Custom_Values2.png)
 
 Custom Value Functions
 
@@ -47,7 +47,7 @@ DEMOING CUSTOM VALUES
 Open the demo map provided with this article. Inside you'll find a view
 of the Zerg hero Dehaka lining up some foes in a forest clearing.
 
-![Image](./050_Custom_Values/image3.png)
+![Image](./resources/050_Custom_Values3.png)
 
 Demo Map Course
 
@@ -64,7 +64,7 @@ with, the index can be inserted to avoid dealing with the hard-coded
 custom value array indices. Below you can see the trigger handling the
 custom value text tag.
 
-![Image](./050_Custom_Values/image4.png)
+![Image](./resources/050_Custom_Values4.png)
 
 Text Tag Construction Trigger
 
@@ -73,7 +73,7 @@ readout of his custom value. However, the key part of this exercise is
 found in the 'Custom Value Readout Updater' trigger, which you can see
 below.
 
-![Image](./050_Custom_Values/image5.png)
+![Image](./resources/050_Custom_Values5.png)
 
 Custom Value Readout Trigger
 
@@ -87,7 +87,7 @@ unit-centric data like this is helpful when drafting ways to use them.
 If you test the map out for yourself, you should get a result like the
 one shown below.
 
-![Image](./050_Custom_Values/image6.png)
+![Image](./resources/050_Custom_Values6.png)
 
 Custom Value Damage Tracking
 

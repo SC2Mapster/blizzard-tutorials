@@ -26,7 +26,7 @@ initialization, populating the map with three distinct sets of a tree
 and a patch of grass, and using some actor modifications on the models
 as they are generated.
 
-![image0](./038_Action_Definitions/image1.png){width="3.78125in"
+![image0](./resources/038_Action_Definitions1.png){width="3.78125in"
 height="2.19792in"}
 
 Tree and Grass Generation Actions
@@ -44,7 +44,7 @@ Tree.' Now, hold shift and select the first five actions of the main
 trigger. Copy these actions into the new action definition, so that
 you're left with the following view.
 
-![image1](./038_Action_Definitions/image2.png){width="3.78125in"
+![image1](./resources/038_Action_Definitions2.png){width="3.78125in"
 height="2.19792in"}
 
 Create Tree Action Definition
@@ -56,7 +56,7 @@ code. Add the action definition to a trigger by accessing it from its
 'call' location, the action list. Right-click on the trigger and select
 New Action, then find the 'Create Tree' definition, as shown below.
 
-![Image](./038_Action_Definitions/image3.png)
+![Image](./resources/038_Action_Definitions3.png)
 
 Using the New Action Definition
 
@@ -64,7 +64,7 @@ Repeat this action three times to reflect the three operations it is
 replacing and clear out all the unnecessary code. This should leave you
 with the following.
 
-![image2](./038_Action_Definitions/image4.png){width="3.78125in"
+![image2](./resources/038_Action_Definitions4.png){width="3.78125in"
 height="2.19792in"}
 
 Reorganized Main Trigger
@@ -87,7 +87,7 @@ the parameter 'Location' and set its type to Point. Select each action
 using the Point(20,20) as a location field, and alter it to the
 'Location' variable. You should be presented with the following.
 
-![image3](./038_Action_Definitions/image5.png){width="3.78125in"
+![image3](./resources/038_Action_Definitions5.png){width="3.78125in"
 height="2.19792in"}
 
 Action Definition with Parameter
@@ -97,5 +97,5 @@ input parameter for 'Location.' Alter the values for each action to
 match the original locations at which the trees were spawned. This will
 give you a functional final trigger, shown below.
 
-![image4](./038_Action_Definitions/image6.png){width="3.78125in"
+![image4](./resources/038_Action_Definitions6.png){width="3.78125in"
 height="2.19792in"}

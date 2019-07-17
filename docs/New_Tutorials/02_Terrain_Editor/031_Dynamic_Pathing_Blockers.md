@@ -26,7 +26,7 @@ CREATING DYNAMIC PATHING BLOCKERS
 You can find pre-made dynamic pathing blockers in the Units Palette by
 searching for the term 'Dynamic.'
 
-![Image](./031_Dynamic_Pathing_Blockers/image1.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers1.png)
 
 Dynamic Pathing Blockers
 
@@ -41,7 +41,7 @@ You can also build dynamic pathing blockers from scratch using the
 template PATHINGBLOCKER during unit creation, as shown in the image
 below.
 
-![Image](./031_Dynamic_Pathing_Blockers/image2.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers2.png)
 
 Dynamic Pathing Blockers
 
@@ -50,7 +50,7 @@ Once you've created it, you'll need to set the pathing blocker's
 connected to a unit actor in order to connect it to its standard models.
 The blueprint for a common blocker is shown below.
 
-![Image](./031_Dynamic_Pathing_Blockers/image3.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers3.png)
 
 Dynamic Pathing Blocker Data Composition
 
@@ -61,7 +61,7 @@ The placement grid is particularly useful when placing dynamic pathing
 blockers. You can enable it by navigating to View -\> Show Placement
 Grid, then checking all of its options.
 
-![Image](./031_Dynamic_Pathing_Blockers/image4.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers4.png)
 
 Placement Grid View Options
 
@@ -70,7 +70,7 @@ sort of energy gate. This map uses a 'Protoss Energy Line (Blue)' doodad
 along with some cliff faces to give the placement blocker a visual
 element. You can see these in the image below.
 
-![Image](./031_Dynamic_Pathing_Blockers/image5.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers5.png)
 
 Energy Gate Site
 
@@ -79,7 +79,7 @@ area where the marines can pass through the gate. This is the ideal
 scenario to use dynamic pathing blockers, and the map has been fitted
 with four 'Dynamic Pathing Blocker 2x2' in order to fill the gap.
 
-![Image](./031_Dynamic_Pathing_Blockers/image6.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers6.png)
 
 Energy Gate with Dynamic Pathing Blockers
 
@@ -101,7 +101,7 @@ In the demo exercise, the dynamic pathing blockers have been added to a
 group during map initialization. From there, the following trigger was
 added.
 
-![Image](./031_Dynamic_Pathing_Blockers/image7.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers7.png)
 
 Dynamic Pathing Blocker Toggling Trigger
 
@@ -111,7 +111,7 @@ faded in using the SetOpacity actor message. This same statement block
 also activates the dynamic pathing blocker with the 'Show Unit' action.
 The closed gate will appear as follows.
 
-![Image](./031_Dynamic_Pathing_Blockers/image8.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers8.png)
 
 Path Blocked by Closed Gate
 
@@ -120,6 +120,6 @@ are toggled with SetOpacity and 'Hide Unit' respectively. This
 eliminates the gate and blocker from the map, allowing units to pass
 through.
 
-![Image](./031_Dynamic_Pathing_Blockers/image9.png)
+![Image](./resources/031_Dynamic_Pathing_Blockers9.png)
 
 Path Revealed by Open Gate
