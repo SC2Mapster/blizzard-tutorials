@@ -4,36 +4,21 @@ author: jrepp
 category: 01_Introduction
 
 ---
-MAP PROPERTIES
-==============
+# MAP PROPERTIES
 
-Map Properties affect a wide range of settings, determining everything
-from how your game lobby is handled on Battle.net to how the 'Fog of
-War' behaves. You can navigate to the collected map properties via Map
--\> Map Info, from any of the Editor modules.
+Map Properties affect a wide range of settings, determining everything from how your game lobby is handled on Battle.net to how the 'Fog of War' behaves. You can navigate to the collected map properties via Map -\> Map Info, from any of the Editor modules.
 
-![Image](./resources/008_Map_Properties01.png)
+![Map Menu](./resources/008_Map_Properties01.png)
 
-Map Tab
+Note that 'Map Properties' actually refers to a grouping of eight tabs of options that govern high-level map decisions. Accessing any of the eight headings under the Map tab will direct you to the same 'Map Properties' window. These tabs are broken down in the following sections.
 
-Note that 'Map Properties' actually refers to a grouping of eight tabs
-of options that govern high-level map decisions. Accessing any of the
-eight headings under the Map tab will direct you to the same 'Map
-Properties' window. These tabs are broken down in the following
-sections.
-
-| 
-| MAP INFO \-\-\-\-\-\-\--
+## MAP INFO
 
 The Map Info properties determine logistical details about a map.
 
-![Image](./resources/008_Map_Properties02.png)
+![Info Tab](./resources/008_Map_Properties02.png)
 
-Info Tab
-
-
-
-| Prope rty          | Details                                                      |
+| Property           | Details                                                      |
 | :----------------- | :----------------------------------------------------------- |
 | Name               | The map name, displayed to locations such as Battle.net, the Arcade, and the publishing screens. |
 | Suggested Players  | An internal note for how many players the map could require. This is unrelated to the Suggested Players value found in ‘Game Info’ and ‘Map Info’ screens in the custom games section and the Arcade respectively. That value is automatically generated from lobby info. |
@@ -52,9 +37,7 @@ The Map Options are a collection of gameplay and visual oriented options
 for altering the game. There are also some logistical options here that
 can affect decisions made during map creation.
 
-![Image](./resources/008_Map_Properties03.png)
-
-Options Tab
+![Options Tab](./resources/008_Map_Properties03.png)
 
 | Property                | Details                                                      |
 | ----------------------- | ------------------------------------------------------------ |
@@ -75,9 +58,7 @@ both the playable area and the camera area within the map. The arrow
 buttons found on each side of the map allow for resizing along their
 specific axes.
 
-![Image](./resources/008_Map_Properties04.png)
-
-Bounds Tab
+![Bounds Tab](./resources/008_Map_Properties04.png)
 
 -----------------------------------------------------------------------
 | Property | Details |
@@ -92,9 +73,7 @@ Bounds Tab
 MAP SYMMETRY
 ------------
 
-.![image0](./resources/008_Map_Properties05.png)
-
-Symmetry Tab
+.![Symmetry Tab](./resources/008_Map_Properties05.png)
 
 Map Symmetry is used to set the symmetry controls within the map. This
 is useful in terrain generation for melee maps, where symmetry is often
@@ -103,9 +82,7 @@ a necessary feature for competitive play.
 MAP TEXTURES
 ------------
 
-![Image](./resources/008_Map_Properties06.png)
-
-Textures Tab
+![Textures Tab](./resources/008_Map_Properties06.png)
 
 Each map uses a specific Texture Set type, which is a palette of eight
 textures used to paint the ground on the map. You can select these
@@ -119,9 +96,7 @@ Map Tags are used to create Difficulty Tags for organizing terrain
 objects, such as Units, Doodads, Regions and Points, allowing you to
 filter them for later viewing.
 
-![Image](./resources/008_Map_Properties07.png)
-
-Tags Tab
+![Tags Tab](./resources/008_Map_Properties07.png)
 
 MAP LOADING SCREEN
 ------------------
@@ -129,6 +104,6 @@ MAP LOADING SCREEN
 The Map Loading Screen tab allows you to configure the introductory
 screen shown to players while the map is loading.
 
-![Image](./resources/008_Map_Properties08.png)
+![Load Screen Tab](./resources/008_Map_Properties08.png)
 
-Load Screen Tab
+
