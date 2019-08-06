@@ -30,9 +30,9 @@ As their name implies, data tables order data into a table stored in the
 backend of a map. While you can't physically see this table, it takes
 the following abstract form.
 
-  ------------------
+------------------
   Name     Value
-  -------- ---------
+-------- ---------
   Name     Value
 
   Name     Value
@@ -119,9 +119,9 @@ Despite the length of this list, there are only three major actions. The
 length is due to one of the actions being made available in many
 versions. The actions are broken down in the table below.
 
-  --------------------------------------------------------------------------
+--------------------------------------------------------------------------
   Action   Effect
-  -------- -----------------------------------------------------------------
+-------- -----------------------------------------------------------------
   Clear    Clears a data table, removing all of its entries. The data table
   Data     is selected by specifying the Scope it is found in.
   Table    
@@ -194,4 +194,4 @@ Points. This function is demonstrated in the following example.
 Reading Points Data from the Global Data Table
 
 Here, a Point has been retrieved from the Global data table, using its
-Name 'Unit Spawn.' It has then been set to a variable for further use.
+Name 'Unit Spawn.' It has then been set to a variable for further use.	
