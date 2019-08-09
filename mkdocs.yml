@@ -1,3 +1,9 @@
 site_name: Blizzard Starcraft II Tutorials
-theme: readthedocs
+
+theme:
+    name: readthedocs
+
+extra_css:
+    - css/custom.css
+
 dev_addr: '127.0.0.1:8001'

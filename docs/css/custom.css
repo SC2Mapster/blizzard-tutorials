@@ -1,0 +1,8 @@
+a + em,
+img + em {
+    /* font-style: normal; */
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
