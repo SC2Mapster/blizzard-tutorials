@@ -1,20 +1,11 @@
----
-title: Terrain Editor Introduction
-author: jrepp
-category: 02_Terrain_Editor
-
----
-TERRAIN EDITOR INTRODUCTION
-===========================
+# Terrain Editor Introduction
 
 The Terrain Editor provides the tools for controlling the look of the world in your projects. The terrain editor lets you work in seven layers, so you can build your map to suit your needs, whether competitive or creative.
 
-![Image](./resources/018_Terrain_Editor_Introduction1.png)
+![](./resources/018_Terrain_Editor_Introduction1.png)
+*Masvard's Terrain Piece 'One Wicked Dream'*
 
-Masvard's Terrain Piece 'One Wicked Dream'
-
-LAYERS
-------
+## Layers
 
 ![Image](./resources/018_Terrain_Editor_Introduction2.png)
 
