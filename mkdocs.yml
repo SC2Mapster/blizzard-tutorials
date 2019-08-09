@@ -3,6 +3,10 @@ site_name: Blizzard Starcraft II Tutorials
 theme:
     name: readthedocs
 
+markdown_extensions:
+    - markdown.extensions.toc:
+        permalink: true
+
 extra_css:
     - css/custom.css
 
