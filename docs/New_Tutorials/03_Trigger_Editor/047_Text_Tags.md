@@ -52,3 +52,7 @@ In this sequence, a text tag has been created with a Create Text Tag action. The
 
 [![Text Tag Styled and Attached to Unit](./resources/047_Text_Tags4.png)](./resources/047_Text_Tags4.png)
 *Text Tag Styled and Attached to Unit*
+
+## Attachments
+
+ * [047_Text_Tags.SC2Map](./maps/047_Text_Tags.SC2Map)

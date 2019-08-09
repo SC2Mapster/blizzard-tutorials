@@ -60,3 +60,7 @@ Go back to the Thor assigned to Player 3 and change its ownership to Player 1. S
 *Unit located with Name Property*
 
 Under ordinary circumstances, these units would be indistinguishable. In this instance, the label you assigned to the Thor is still visible in the Palette Existing Object list, and this will help you to locate your unique Thor after the shuffle. If you had given this unit some special gameplay significance, being referenced in triggers for example, then the ability to find it in the Terrain Module quickly is particularly useful.
+
+## Attachments
+
+ * [021_Units_Layer.SC2Map](./maps/021_Units_Layer.SC2Map)

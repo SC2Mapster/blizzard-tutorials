@@ -70,3 +70,7 @@ Releasing the box selection results in all units belonging to the player being s
 *Repeated Clicking of the Lyote*
 
 In this example, a neutral Lyote critter has been repeatedly clicked. This demonstrates that a Unit can accept an unlimited number of player clicks, with each triggering a Unit Clicked event.
+
+## Attachments
+
+ * [048_Unit_Selection_Events.SC2Map](./maps/048_Unit_Selection_Events.SC2Map)

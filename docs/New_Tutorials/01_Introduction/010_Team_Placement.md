@@ -54,3 +54,8 @@ This system supports teams of any size, but the teams should be paired with equa
 *Further Team Arrangement Possibilities*
 
 In closing, you should be aware that Advanced Team Placement is a more powerful option than Basic Team Placement. As a result, it will take precedence if both areas are configured within a map.
+
+## Attachments
+
+ * [010_Team_Placement_Completed.SC2Map](./maps/010_Team_Placement_Completed.SC2Map)
+ * [010_Team_Placement_Start.SC2Map](./maps/010_Team_Placement_Start.SC2Map)

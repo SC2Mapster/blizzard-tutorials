@@ -55,3 +55,8 @@ If you test it, the game should present the collection of units seen in the Terr
 
 [![Successful Output](./resources/039_Condition_Definitions5.png)](./resources/039_Condition_Definitions5.png)
 *Successful Output*
+
+## Attachments
+
+ * [039_Condition_Definitions_Start.SC2Map](./maps/039_Condition_Definitions_Start.SC2Map)
+ * [039_Condition_Definitions_Completed.SC2Map](./maps/039_Condition_Definitions_Completed.SC2Map)

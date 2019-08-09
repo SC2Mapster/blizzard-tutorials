@@ -47,3 +47,8 @@ The map is now complete. If you run a test, after a brief wait, the current ligh
 
 [![Lighting Changes Simulating a Sunrise](./resources/027_Lighting8.png)](./resources/027_Lighting8.png)
 *Lighting Changes Simulating a Sunrise*
+
+## Attachments
+
+ * [027_Lighting_Completed.SC2Map](./maps/027_Lighting_Completed.SC2Map)
+ * [027_Lighting_Start.SC2Map](./maps/027_Lighting_Start.SC2Map)

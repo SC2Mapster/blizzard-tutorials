@@ -60,3 +60,7 @@ This demonstrates one reason that you might want to get between player inputs an
 *Direct Marine Control*
 
 Here, you can see that the constant mouse monitoring has resulted in 250+ events firing in the course of just a few seconds. This should give you an impression of how operations like this can get very expensive in terms of performance.
+
+## Attachments
+
+ * [049_UI_Events.SC2Map](./maps/049_UI_Events.SC2Map)

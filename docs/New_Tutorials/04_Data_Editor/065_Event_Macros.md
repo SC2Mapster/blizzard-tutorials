@@ -73,3 +73,8 @@ Now repeat this process for the 'Pylon,' 'Forge,' and 'Ghost' actors to complete
 
 [![Macros Illuminating Damage](./resources/065_Event_Macros12.png)](./resources/065_Event_Macros12.png)
 *Macros Illuminating Damage*
+
+## Attachments
+
+ * [065_Event_Macros_Start.SC2Map](./maps/065_Event_Macros_Start.SC2Map)
+ * [065_Event_Macros_Completed.SC2Map](./maps/065_Event_Macros_Completed.SC2Map)

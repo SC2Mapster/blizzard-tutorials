@@ -99,3 +99,8 @@ You can see the results of this test run below.
 
 ![](./resources/029_Time_of_Day_Lighting12.png)
 *Sunrise to Sunset Using Time of Day Lighting*
+
+## Attachments
+
+ * [029_Time_of_Day_Lighting_Start.SC2Map](./maps/029_Time_of_Day_Lighting_Start.SC2Map)
+ * [029_Time_of_Day_Lighting_Completed.SC2Map](./maps/029_Time_of_Day_Lighting_Completed.SC2Map)

@@ -93,3 +93,8 @@ If everything is working, hitting 'Test Document' and leading the hellions into 
 
 [![Claiming the Fort](./resources/024_Regions_Layer14.png)](./resources/024_Regions_Layer14.png)
 *Claiming the Fort*
+
+## Attachments
+
+ * [024_Regions_Start.SC2Map](./maps/024_Regions_Start.SC2Map)
+ * [024_Regions_Completed.SC2Map](./maps/024_Regions_Completed.SC2Map)

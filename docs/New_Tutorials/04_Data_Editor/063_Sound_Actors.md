@@ -108,3 +108,8 @@ The sound actor has linked the Sound 'Roach Damaged' into the Unit data through 
 
 [![Newfound Sympathy for the Roach](./resources/063_Sound_Actors14.png)](./resources/063_Sound_Actors14.png)
 *Newfound Sympathy for the Roach*
+
+## Attachments
+
+ * [063_Sound_Actors_Completed.SC2Map](./maps/063_Sound_Actors_Completed.SC2Map)
+ * [063_Sound_Actors_Start.SC2Map](./maps/063_Sound_Actors_Start.SC2Map)

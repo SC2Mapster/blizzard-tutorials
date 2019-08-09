@@ -102,3 +102,7 @@ Doing so should give you a result like the one pictured below.
 
 [![Custom Button In-Game](./resources/075_Buttons13.png)](./resources/075_Buttons13.png)
 *Custom Button In-Game*
+
+## Attachments
+
+ * [075_Buttons.SC2Map](./maps/075_Buttons.SC2Map)

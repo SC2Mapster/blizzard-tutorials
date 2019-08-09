@@ -30,3 +30,8 @@ In melee maps, player properties alone can be used to customize scenarios. See b
 
 [![Custom Game Player Properties](./resources/009_Player_Properties02.png)](./resources/009_Player_Properties02.png)
 *Custom Game Player Properties*
+
+## Attachments
+
+ * [009_Player_Properties_Completed.SC2Map](./maps/009_Player_Properties_Completed.SC2Map)
+ * [009_Player_Properties_Start.SC2Map](./maps/009_Player_Properties_Start.SC2Map)

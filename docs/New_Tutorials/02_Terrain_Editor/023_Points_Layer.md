@@ -83,3 +83,8 @@ Running the map as a test should now spawn a marine at the 'Marine Spawn Point.'
 
 [![Teleportation Complete](./resources/023_Points_Layer15.png)](./resources/023_Points_Layer15.png)
 *Teleportation Complete*
+
+## Attachments
+
+ * [023_Points_Layer_Completed.SC2Map](./maps/023_Points_Layer_Completed.SC2Map)
+ * [023_Points_Layer_Start.SC2Map](./maps/023_Points_Layer_Start.SC2Map)

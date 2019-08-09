@@ -43,3 +43,7 @@ This trigger runs an update after each instance of damage, then updates the cust
 *Custom Value Damage Tracking*
 
 As a final note, custom values do not count as variables within the Trigger Debugger. That means that, when you're debugging systems like this demo or any other custom value centric designs, it will usually be worthwhile to develop a custom debug UI.
+
+## Attachments
+
+ * [050_Custom_Values.SC2Map](./maps/050_Custom_Values.SC2Map)

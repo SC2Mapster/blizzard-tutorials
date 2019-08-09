@@ -84,3 +84,7 @@ In this case, you can test the updated text by launching the map. Pictured below
 
 [![Styled Text in Game-View](./resources/078_Font_Styles15.png)](./resources/078_Font_Styles15.png)
 *Styled Text in Game-View*
+
+## Attachments
+
+ * [078_Font_Styles.SC2Map](./maps/078_Font_Styles.SC2Map)

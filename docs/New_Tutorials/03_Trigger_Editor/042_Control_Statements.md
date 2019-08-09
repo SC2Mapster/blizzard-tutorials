@@ -54,3 +54,7 @@ This trigger shows a secondary use of the Integer count from the last trigger's 
 *Text Tag Styled and Attached to Unit*
 
 This demo shows off some simple dynamic structuring enabled by control statements communicating between triggers on a timed basis rather than a standard linear basis.
+
+## Attachments
+
+ * [042_Control_Statements.SC2Map](./maps/042_Control_Statements.SC2Map)

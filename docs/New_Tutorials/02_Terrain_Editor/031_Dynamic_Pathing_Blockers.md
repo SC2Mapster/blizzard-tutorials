@@ -60,3 +60,7 @@ When the variable is switched to True, the opacity and blocker status are toggle
 
 [![Path Revealed by Open Gate](./resources/031_Dynamic_Pathing_Blockers9.png)](./resources/031_Dynamic_Pathing_Blockers9.png)
 *Path Revealed by Open Gate*
+
+## Attachments
+
+ * [031_Dynamic_Pathing_Blockers.SC2Map](./maps/031_Dynamic_Pathing_Blockers.SC2Map)

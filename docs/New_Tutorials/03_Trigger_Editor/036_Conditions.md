@@ -88,3 +88,7 @@ In practice, this should be false for the first nine triggers, then true for the
 
 [![Successful Output](./resources/036_Conditions6.png)](./resources/036_Conditions6.png)
 *Successful Output*
+
+## Attachments
+
+ * [036_Conditions.SC2Map](./maps/036_Conditions.SC2Map)

@@ -93,3 +93,7 @@ You can open tabs to the currently active group by selecting multiple elements i
 
 ![](./resources/052_Trigger_Organization16.png)
 *Using Groups and Tabs Together in the Trigger Editor*
+
+## Attachments
+
+ * [052_Trigger_Organization.SC2Map](./maps/052_Trigger_Organization.SC2Map)

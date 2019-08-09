@@ -173,3 +173,8 @@ Now is a good time to remember that the order of operations is important, and th
 
 [![Money Well Spent](./resources/067_Site_Operations_Rundown22.png)](./resources/067_Site_Operations_Rundown22.png)
 *Money Well Spent*
+
+## Attachments
+
+ * [067_Site_Operations_Rundown_Completed.SC2Map](./maps/067_Site_Operations_Rundown_Completed.SC2Map)
+ * [067_Site_Operations_Rundown_Start.SC2Map](./maps/067_Site_Operations_Rundown_Start.SC2Map)

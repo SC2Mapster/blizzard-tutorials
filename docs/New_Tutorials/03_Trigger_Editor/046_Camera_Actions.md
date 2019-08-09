@@ -51,3 +51,7 @@ This sequence begins by removing the game UI and adding a group of marines. Afte
 
 [![Custom Camera Settings with Actions](./resources/046_Camera_Actions4.png)](./resources/046_Camera_Actions4.png)
 *Custom Camera Settings with Actions*
+
+## Attachments
+
+ * [046_Camera_Actions.SC2Map](./maps/046_Camera_Actions.SC2Map)

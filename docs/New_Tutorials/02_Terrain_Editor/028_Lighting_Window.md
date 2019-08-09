@@ -166,3 +166,8 @@ From here you'll make a series of adjustments to the lighting, they will be list
 
 ![](./resources/028_Lighting_Window18.png)
 *Base -- Step 1 -- Step 2 -- Step 3 -- Step 4 -- Step 5 -- Step 6*
+
+## Attachments
+
+ * [028_Lighting_Window_Start.SC2Map](./maps/028_Lighting_Window_Start.SC2Map)
+ * [028_Lighting_Window_Completed.SC2Map](./maps/028_Lighting_Window_Completed.SC2Map)

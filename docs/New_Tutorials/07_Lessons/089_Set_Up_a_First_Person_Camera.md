@@ -104,3 +104,7 @@ In the demo map provided with this article, all of the listed modifications have
 
 [![First Person Map View](./resources/089_Set_Up_a_First_Person_Camera13.png)](./resources/089_Set_Up_a_First_Person_Camera13.png)
 *First Person Map View*
+
+## Attachments
+
+ * [089_Set_Up_A_First_Person_Camera.SC2Map](./maps/089_Set_Up_A_First_Person_Camera.SC2Map)

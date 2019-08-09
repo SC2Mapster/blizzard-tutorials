@@ -51,3 +51,7 @@ Altering the panel like this will end up with each dialog item, the two buttons 
 *Panel Changes Propagated to its Contained Items*
 
 This should give you an impression of how much effort you can save yourself by using dialog panels. They can be used to quickly group and manage large numbers of dialog items.
+
+## Attachments
+
+ * [044_Dialog_Panels.SC2Map](./maps/044_Dialog_Panels.SC2Map)

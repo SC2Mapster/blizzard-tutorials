@@ -50,3 +50,7 @@ You can now launch the 'Test Document' and note your result. You should see the 
 
 ![Timer Variable Displayed on Screen](./resources/081_Display_a_Variable_to_the_Screen5.png)
 *Timer Variable Displayed on Screen*
+
+## Attachments
+
+ * [081_Display_a_Variable_to_the_Screen.SC2Map](./maps/081_Display_a_Variable_to_the_Screen.SC2Map)

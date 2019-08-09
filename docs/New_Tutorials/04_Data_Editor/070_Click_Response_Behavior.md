@@ -81,3 +81,8 @@ Clicking on this mutalisk five times will reveal the design of this behavior.
 
 [![Mutalisk Click Response Effect](./resources/070_Click_Response_Behavior14.png)](./resources/070_Click_Response_Behavior14.png)
 *Mutalisk Click Response Effect*
+
+## Attachments
+
+ * [070_Click_Response_Behavior_Start.SC2Map](./maps/070_Click_Response_Behavior_Start.SC2Map)
+ * [070_Click_Response_Behavior_Completed.SC2Map](./maps/070_Click_Response_Behavior_Completed.SC2Map)

@@ -146,3 +146,7 @@ Knowing these pieces, the mechanism acts as follows.
 Note that the global in 1 serves as temporary storage, so it could be accessed from the trigger. At this point, creating local versions allows the thread to operate in parallel, insulated from any cases where the variables change.
 
 By now you can no doubt see the added complexity of the threaded version shown here. As a result of this increase in code size, multithreaded action definitions perform at a significant deficit when compared to their unthreaded variety.
+
+## Attachments
+
+ * [057_Multithreading_with_Action_Definitions.SC2Map](./maps/057_Multithreading_with_Action_Definitions.SC2Map)

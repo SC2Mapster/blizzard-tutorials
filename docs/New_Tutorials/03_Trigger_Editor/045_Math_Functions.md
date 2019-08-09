@@ -152,3 +152,7 @@ This trigger also applies an Arithmetic function, but in this instance it applie
 *Marine HP Reduced to 5*
 
 Repeated entry to the region has caused the trigger to eventually trip the Maximum function, which clamps its internal Arithmetic operation's output to 5.
+
+## Attachments
+
+ * [045_Math_Functions.SC2Map](./maps/045_Math_Functions.SC2Map)

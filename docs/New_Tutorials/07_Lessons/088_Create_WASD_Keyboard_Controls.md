@@ -280,3 +280,7 @@ Launching the map will allow you to control the marine with the WASD keys.
 
 [![WASD Keyboard Controls](./resources/088_Create_WASD_Keyboard_Controls12.png)](./resources/088_Create_WASD_Keyboard_Controls12.png)
 *WASD Keyboard Controls*
+
+## Attachments
+
+ * [088_Create_WASD_Keyboard_Controls.SC2Map](./maps/088_Create_WASD_Keyboard_Controls.SC2Map)

@@ -107,3 +107,7 @@ You can test the foliage capabilities of this new texture by laying an area of i
 
 [![Generated Shakuras Tree Foliage](./resources/030_Texture_Sets15.png)](./resources/030_Texture_Sets15.png)
 *Generated Shakuras Tree Foliage*
+
+## Attachments
+
+ * [030_Texture_Sets.SC2Map](./maps/030_Texture_Sets.SC2Map)

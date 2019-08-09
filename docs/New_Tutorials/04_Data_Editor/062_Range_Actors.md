@@ -161,3 +161,8 @@ The map is now complete. As you can see, the overseer has been set with two sepa
 
 [![Custom Overseer Range Indicators](./resources/062_Range_Actors22.png)](./resources/062_Range_Actors22.png)
 *Custom Overseer Range Indicators*
+
+## Attachments
+
+ * [062_Range_Actors_Completed.SC2Map](./maps/062_Range_Actors_Completed.SC2Map)
+ * [062_Range_Actors_Start.SC2Map](./maps/062_Range_Actors_Start.SC2Map)

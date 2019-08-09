@@ -147,3 +147,7 @@ You can see the following connections by looking at this visualization.
 
 [![Apply Behavior Effect Fields](./resources/087_Create_an_Aura_Ability17.png)](./resources/087_Create_an_Aura_Ability17.png)
 *Apply Behavior Effect Fields*
+
+## Attachments
+
+ * [087_Create_an_Aura_Ability.SC2Map](./maps/087_Create_an_Aura_Ability.SC2Map)

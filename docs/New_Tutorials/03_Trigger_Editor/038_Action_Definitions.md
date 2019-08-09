@@ -38,3 +38,8 @@ You can make your action definition have variable results using parameters. A pa
 Now return to the main trigger. Here you'll see each action requiring an input parameter for 'Location.' Alter the values for each action to match the original locations at which the trees were spawned. This will give you a functional final trigger, shown below.
 
 [![image4](./resources/038_Action_Definitions6.png)](./resources/038_Action_Definitions6.png)
+
+## Attachments
+
+ * [038_Action_Definitions_Start.SC2Map](./maps/038_Action_Definitions_Start.SC2Map)
+ * [038_Action_Definitions_Completed.SC2Map](./maps/038_Action_Definitions_Completed.SC2Map)
