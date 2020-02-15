@@ -25,7 +25,7 @@ In the rightmost picture the mouse has been moved from the area of the unit, res
 
 ## Selection Flags
 
-Although each unit in the StarCraft engine can be clicked and highlighted, the data messages that trigger the events are not enabled by default. You'll have to edit some game data to enable these behaviors. Navigate to the Data Editor then to + -\> Edit Game Data -\> Units. Find the Unit type that is going to be monitored for selection events. In this Unit, navigate to the 'Unit: Flags' field and double click to launch an 'Object Values' window. For an example, see the changes made to a stalker in the image below.
+Although each unit in the StarCraft engine can be clicked and highlighted, the data messages that trigger the events are not enabled by default. You'll have to edit some game data to enable these behaviors. Navigate to the Data Editor then to + ▶︎ Edit Game Data ▶︎ Units. Find the Unit type that is going to be monitored for selection events. In this Unit, navigate to the 'Unit: Flags' field and double click to launch an 'Object Values' window. For an example, see the changes made to a stalker in the image below.
 
 [![Altering a Stalker's Unit: Flags Field](./resources/048_Unit_Selection_Events2.png)](./resources/048_Unit_Selection_Events2.png)
 *Altering a Stalker's Unit: Flags Field*

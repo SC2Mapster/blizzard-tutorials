@@ -1,6 +1,6 @@
 # Player Properties
 
-Player Properties is where you'll find many essential options for settings up your game. You can find them by navigating to Map -\> Player Properties from any module of the Editor. This will launch the window shown below.
+Player Properties is where you'll find many essential options for settings up your game. You can find them by navigating to Map ▶︎ Player Properties from any module of the Editor. This will launch the window shown below.
 
 [![Player Properties Window](./resources/009_Player_Properties01.png)](./resources/009_Player_Properties01.png)
 *Player Properties Window*

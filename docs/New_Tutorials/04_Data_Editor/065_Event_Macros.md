@@ -27,7 +27,7 @@ Open the demo map provided with this article. The course presents a set of build
 
 In this exercise, you'll change the map to apply a special damage animation to objects that are being attacked. Every unit in the scene will get this new animation. You'll be able to achieve this quickly by using event macros to push the new behaviors to the four unit types from just one definition.
 
-Start by moving to the actors tab in the Data Editor. If the tab isn't visible, open it by navigating to + -\> Edit Actor Data -\> Actors. Create a new actor here by right-clicking in the main view and selecting 'Add Actor.' This will open the window shown below.
+Start by moving to the actors tab in the Data Editor. If the tab isn't visible, open it by navigating to + ▶︎ Edit Actor Data ▶︎ Actors. Create a new actor here by right-clicking in the main view and selecting 'Add Actor.' This will open the window shown below.
 
 ![Creating an Event Macro](./resources/065_Event_Macros4.png)
 *Creating an Event Macro*

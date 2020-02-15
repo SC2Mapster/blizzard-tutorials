@@ -4,7 +4,7 @@ Actions are the individual commands within a trigger that make a change within t
 
 ## Creating An Action
 
-First, create a new trigger by right-clicking the Trigger Panel and navigating to New -\> New Trigger. Inside your new trigger, launch the 'Actions' window either by double clicking the 'Actions' heading or by right-clicking inside the Main Tab and navigating to New -\> New Action.
+First, create a new trigger by right-clicking the Trigger Panel and navigating to New ▶︎ New Trigger. Inside your new trigger, launch the 'Actions' window either by double clicking the 'Actions' heading or by right-clicking inside the Main Tab and navigating to New ▶︎ New Action.
 
 [![Actions Window](./resources/034_Actions1.png)](./resources/034_Actions1.png)
 *Actions Window*
@@ -20,7 +20,7 @@ Type "Text Message" into the search bar and select the action called 'Text Messa
 
 The anatomy of the action is shown in the Main Tab's subview here. You'll notice the term 'Message' is colored red. Red text denotes a required value for an action to be valid. By contrast, the blue text for the other two terms of the action presents their default values. In the tab view, you'll see that the action is marked with a distinct red X, showing that it is invalid. A map with invalid elements won't run correctly, so it's important that you take note of them.
 
-To enable this action, a message is required. Click on the term 'Message' and add the text 'Hello, World\!' to the popup. Click 'OK' and return to the main screen to validate your action. To test this action, its trigger must be called in some manner. In this case, you'll add a 'Map Initialization' event by navigating to Events -\> Map Initialization. This should bring you to the following view.
+To enable this action, a message is required. Click on the term 'Message' and add the text 'Hello, World\!' to the popup. Click 'OK' and return to the main screen to validate your action. To test this action, its trigger must be called in some manner. In this case, you'll add a 'Map Initialization' event by navigating to Events ▶︎ Map Initialization. This should bring you to the following view.
 
 [![Configured Action](./resources/034_Actions3.png)](./resources/034_Actions3.png)
 *Configured Action*

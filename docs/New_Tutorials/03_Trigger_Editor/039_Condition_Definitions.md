@@ -20,7 +20,7 @@ Condition Definitions are used to create custom-defined conditions. Conditions a
 
 Open the demo map provided with this article and look at the Terrain Editor. There you'll find a grouping of SCVs and a pair of marauders. The units are evenly split between the red player one and the white player two. For this exercise, you'll build a custom definition to use in a test of the unit selection event. This definition poses the question, 'Is the unit a marauder belonging to player one?'
 
-Begin by moving to the Trigger Editor, then right-click on the Triggers Panel and select New -\> New Condition Definition. Name your new definition 'Unit Type Owned by Player.' That name might seem a little odd for now, but you'll understand it in a moment. The condition definition will require two pieces of information to make its assessment, the type of the unit, and a player number. To receive this information the definition will use parameters. Navigate inside the definition and right-click the 'Parameters' heading, then navigate to New -\> New Parameter. Repeat this procedure once. Name the first parameter 'Unit Type' and set its type to --Game Link and its 'Link type' to Unit. Name the second parameter 'PlayerID' and set its type to Integer.
+Begin by moving to the Trigger Editor, then right-click on the Triggers Panel and select New ▶︎ New Condition Definition. Name your new definition 'Unit Type Owned by Player.' That name might seem a little odd for now, but you'll understand it in a moment. The condition definition will require two pieces of information to make its assessment, the type of the unit, and a player number. To receive this information the definition will use parameters. Navigate inside the definition and right-click the 'Parameters' heading, then navigate to New ▶︎ New Parameter. Repeat this procedure once. Name the first parameter 'Unit Type' and set its type to --Game Link and its 'Link type' to Unit. Name the second parameter 'PlayerID' and set its type to Integer.
 
 Finally, create the action 'If Then Else.' Create two conditions under the 'If' heading and set them to Unit Type == Marauder and PlayerID == 1 respectively. Make sure that the Unit Type and PlayerID are set to the parameters you created.
 
@@ -41,7 +41,7 @@ Another option available for your convenience is 'Hint Text.' This provides cust
 
 ## Using A Condition Definition
 
-Create a new trigger and name it 'Unit Selected.' Navigate into the trigger and create a 'Unit is Selected' event. Now create a condition with the custom definition by navigating to 'Conditions,' right-clicking and following New -\> New Condition. This will launch the 'Configure Condition' window, which should contain the newly defined condition as shown below.
+Create a new trigger and name it 'Unit Selected.' Navigate into the trigger and create a 'Unit is Selected' event. Now create a condition with the custom definition by navigating to 'Conditions,' right-clicking and following New ▶︎ New Condition. This will launch the 'Configure Condition' window, which should contain the newly defined condition as shown below.
 
 ![](./resources/039_Condition_Definitions3.png)
 *Selecting the Custom Condition Definition*

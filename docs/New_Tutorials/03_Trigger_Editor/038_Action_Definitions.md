@@ -11,7 +11,7 @@ Open the demo map provided with this article and navigate to the Trigger Editor.
 
 The overall operation is fairly simple, but it consists of three similar procedures differentiated only by where they are creating objects. Redundant, bloated triggering should stand out as a possible location for an action statement. In this case, the repeated model creation options and their various actor messages could all be moved into an action definition.
 
-To create an action definition, right-click on the Triggers Panel and navigate to New -\> New Action Definition. Name the definition 'Create Tree.' Now, hold shift and select the first five actions of the main trigger. Copy these actions into the new action definition, so that you're left with the following view.
+To create an action definition, right-click on the Triggers Panel and navigate to New ▶︎ New Action Definition. Name the definition 'Create Tree.' Now, hold shift and select the first five actions of the main trigger. Copy these actions into the new action definition, so that you're left with the following view.
 
 [![Create Tree Action Definition](./resources/038_Action_Definitions2.png)](./resources/038_Action_Definitions2.png)
 *Create Tree Action Definition*
@@ -30,7 +30,7 @@ Repeat this action three times to reflect the three operations it is replacing a
 
 Despite the main trigger being significantly cleaned up, something has been overlooked. Remember that each tree and grass grouping were being spawned at differing locations. As it stands now, the definition spawns a tree and grass patch at only one location, Point (20, 20).
 
-You can make your action definition have variable results using parameters. A parameter value can pass additional information to the action definition. Creation of objects in three differing locations will require you to use a varying Point parameter. You can arrange this by moving to the 'Create Tree' action definition, then right-clicking on the 'Parameters' heading and navigating to New -\> New Parameter. Name the parameter 'Location' and set its type to Point. Select each action using the Point(20,20) as a location field, and alter it to the 'Location' variable. You should be presented with the following.
+You can make your action definition have variable results using parameters. A parameter value can pass additional information to the action definition. Creation of objects in three differing locations will require you to use a varying Point parameter. You can arrange this by moving to the 'Create Tree' action definition, then right-clicking on the 'Parameters' heading and navigating to New ▶︎ New Parameter. Name the parameter 'Location' and set its type to Point. Select each action using the Point(20,20) as a location field, and alter it to the 'Location' variable. You should be presented with the following.
 
 [![Action Definition with Parameter](./resources/038_Action_Definitions5.png)](./resources/038_Action_Definitions5.png)
 *Action Definition with Parameter*

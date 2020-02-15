@@ -7,7 +7,7 @@ Some procedures in the Data Editor call for the use of 'Model Data,' the structu
 
 ## Launching The Viewer
 
-You can find the Model Data Viewer by opening the Cutscene Editor and navigating to Object -\> Model Data, as shown below.
+You can find the Model Data Viewer by opening the Cutscene Editor and navigating to Object ▶︎ Model Data, as shown below.
 
 [![Opening the Model Data Viewer](./resources/068_Model_Data_Viewer2.png)](./resources/068_Model_Data_Viewer2.png)
 *Opening the Model Data Viewer*
@@ -61,7 +61,7 @@ In other cases, the viewer is used for looking up reference names. These names a
 
 ## Locating Attachment Points
 
-The Model Data Viewer has a special use in locating attachment points using the Cutscene Editor. You can do this by enabling the visibility of attachment points by navigating to Render -\> Show Geometry -\> Attachment Points, as shown below.
+The Model Data Viewer has a special use in locating attachment points using the Cutscene Editor. You can do this by enabling the visibility of attachment points by navigating to Render ▶︎ Show Geometry ▶︎ Attachment Points, as shown below.
 
 [![Showing Attachment Points](./resources/068_Model_Data_Viewer5.png)](./resources/068_Model_Data_Viewer5.png)
 *Showing Attachment Points*

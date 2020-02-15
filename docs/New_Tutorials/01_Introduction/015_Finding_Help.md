@@ -32,7 +32,7 @@ Another way to look for help when faced with a problem is to look for existing d
 
 Existing StarCraft maps are perhaps the best sourcebook for educating yourself. Any maps whose status is set to 'Unlocked' may be opened, read, and changed by any Editor user. Remember to take note of the original user's wishes though, if you republish another person's work as your own you may face repercussions.
 
-Among the notable 'Unlocked' content available is Blizzard's own work made with the Editor. The entirety of the campaign has been made available to the general public for learning purposes, along with many Blizzard Arcade projects. Locate any projects via File -\> Open -\> Battle.net, then set the search source to 'Blizzard' and click 'Go.' This will deliver a full list of Blizzard published maps. The 'StarCraft Master,' 'Left 2 Die,' and 'Aiur Chef' maps in particular are worth investigating.
+Among the notable 'Unlocked' content available is Blizzard's own work made with the Editor. The entirety of the campaign has been made available to the general public for learning purposes, along with many Blizzard Arcade projects. Locate any projects via File ▶︎ Open ▶︎ Battle.net, then set the search source to 'Blizzard' and click 'Go.' This will deliver a full list of Blizzard published maps. The 'StarCraft Master,' 'Left 2 Die,' and 'Aiur Chef' maps in particular are worth investigating.
 
 [![One of Blizzard's Open Source Maps](./resources/015_Finding_Help03.png)](./resources/015_Finding_Help03.png)
 *One of Blizzard's Open Source Maps*

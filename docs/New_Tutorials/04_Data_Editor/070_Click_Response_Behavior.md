@@ -16,7 +16,7 @@ Open the demo map provided with this article. There you'll find a small Zerg bas
 
 This course has been configured to allow the player to spawn mutalisks from the hatcheries for free and at an accelerated pace. You'll take advantage of this by adding a custom click response behavior that destroys mutalisks after a series of clicks.
 
-Start assembling the behavior by moving to the Data Editor and navigating to the behaviors tab. If the tab is not already open you can launch it by navigating to + -\> Edit Game Data -\> Behaviors. Right-click inside the main behaviors window and select 'Add Behavior.' This will appear as shown in the image below.
+Start assembling the behavior by moving to the Data Editor and navigating to the behaviors tab. If the tab is not already open you can launch it by navigating to + ▶︎ Edit Game Data ▶︎ Behaviors. Right-click inside the main behaviors window and select 'Add Behavior.' This will appear as shown in the image below.
 
 [![Creating a Behavior](./resources/070_Click_Response_Behavior3.png)](./resources/070_Click_Response_Behavior3.png)
 *Creating a Behavior*
@@ -52,7 +52,7 @@ Now select 'Ok' to finish the behavior's construction. The finished fields shoul
 
 ## Applying The Click Response Behavior
 
-The behavior is now completely prepared and ready to be hooked into gameplay. One nice attribute of this behavior type is that you can slot it directly into a unit, making it quite easy to set up. This is sensible, as the behavior grants an effect that responds directly to player input, so the behavior's most natural location is within the unit itself. You can make this connection by navigating to the units tab or opening it via + -\> Edit Game Data -\> Units. From here, select the 'Mutalisk' and move to its 'Behaviors' field.
+The behavior is now completely prepared and ready to be hooked into gameplay. One nice attribute of this behavior type is that you can slot it directly into a unit, making it quite easy to set up. This is sensible, as the behavior grants an effect that responds directly to player input, so the behavior's most natural location is within the unit itself. You can make this connection by navigating to the units tab or opening it via + ▶︎ Edit Game Data ▶︎ Units. From here, select the 'Mutalisk' and move to its 'Behaviors' field.
 
 [![Mutalisk Behavior Field](./resources/070_Click_Response_Behavior9.png)](./resources/070_Click_Response_Behavior9.png)
 *Mutalisk Behavior Field*

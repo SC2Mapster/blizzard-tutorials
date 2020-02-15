@@ -16,7 +16,7 @@ Exporting from the Editor is often used to get a closer look at the standard ass
 
 ## Opening The Archive Browser
 
-You may already be familiar with the Archive Browser for its use in finding files for various data and trigger operations. It also serves as the main hub for exporting things from a project. To use it for this purpose, you'll need to access to browser directly, rather than as part of an editing prompt. You can do so by navigating to Window -\> Console from anywhere in the Editor, as shown below.
+You may already be familiar with the Archive Browser for its use in finding files for various data and trigger operations. It also serves as the main hub for exporting things from a project. To use it for this purpose, you'll need to access to browser directly, rather than as part of an editing prompt. You can do so by navigating to Window ▶︎ Console from anywhere in the Editor, as shown below.
 
 [![Opening the Console](./resources/083_Export_Game_Assets1.png)](./resources/083_Export_Game_Assets1.png)
 *Opening the Console*
@@ -66,7 +66,7 @@ You can export lighting files from the Lighting Window. Select the lighting arra
 
 ## Exporting Components Folders
 
-A map project can be broken into its Components Folders through an export process. This format is a collection of scripts, component lists, image files, and raw data that can be useful for diagnostic and analytic procedures that you can do outside the Editor. To export, open the map to be saved as component folders and navigate to File -\> Save As. Change the 'Save as type' field to .SC2Components and select 'Save.'
+A map project can be broken into its Components Folders through an export process. This format is a collection of scripts, component lists, image files, and raw data that can be useful for diagnostic and analytic procedures that you can do outside the Editor. To export, open the map to be saved as component folders and navigate to File ▶︎ Save As. Change the 'Save as type' field to .SC2Components and select 'Save.'
 
 [![Saving as StarCraft II Component Folders](./resources/083_Export_Game_Assets9.png)](./resources/083_Export_Game_Assets9.png)
 *Saving as StarCraft II Component Folders*

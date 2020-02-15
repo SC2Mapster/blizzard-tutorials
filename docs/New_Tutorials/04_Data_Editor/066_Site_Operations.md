@@ -10,7 +10,7 @@ Terratron Built from Attachment Operations -- Random Variation Operation on Thor
 
 ## Creating Site Operations
 
-As a type of actor, you can find site operations under the actors tab of the Data Editor. Open this tab by navigating to + -\> Edit Actor Data -\> Actors.
+As a type of actor, you can find site operations under the actors tab of the Data Editor. Open this tab by navigating to + ▶︎ Edit Actor Data ▶︎ Actors.
 
 [![Navigating to Actors in Data](./resources/066_Site_Operations2.png)](./resources/066_Site_Operations2.png)
 *Navigating to Actors in Data*

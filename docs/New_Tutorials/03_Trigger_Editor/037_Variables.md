@@ -6,7 +6,7 @@ Variables can also be fit into larger constructs, like actions or conditions, wh
 
 ## Variable Scope
 
-There are two different classifications of variables, Local and Global. Both possess the same properties mentioned above, but are available at different locations within the Trigger Editor. You can create global variables from the Triggers Panel, by navigating to New -\> New Variable. Local variables are created from several locations, notably within triggers. Create a local variable within a trigger by right-clicking on the 'Local Variables' heading, then navigating to New -\> New Variable. Creating one variable of each type in a new, blank project, will give you the following.
+There are two different classifications of variables, Local and Global. Both possess the same properties mentioned above, but are available at different locations within the Trigger Editor. You can create global variables from the Triggers Panel, by navigating to New ▶︎ New Variable. Local variables are created from several locations, notably within triggers. Create a local variable within a trigger by right-clicking on the 'Local Variables' heading, then navigating to New ▶︎ New Variable. Creating one variable of each type in a new, blank project, will give you the following.
 
 [![Local and Global Variables](./resources/037_Variables1.png)](./resources/037_Variables1.png)
 *Local and Global Variables*

@@ -21,7 +21,7 @@ Your trigger should look like the one shown below.
 
 From here, create a new action of the type 'Create Dialog Item (Label)' and change the terms 'Offset X,' 'Offset Y,' and 'Text' to Zero. Set 'Anchor' to 'Center,' and configure the 'Writeout Duration' to 0.0. Finally set the dialog dimensions to (200, 50).
 
-This process has created the label, but it still requires a reference so that you can call on it easily later. Create a local variable for this purpose by navigating to Local Variables -\> New -\> New Variable. Name this variable to 'Timer Label.' Next, set the variable type to 'Dialog Item' so that it can properly hold the label.
+This process has created the label, but it still requires a reference so that you can call on it easily later. Create a local variable for this purpose by navigating to Local Variables ▶︎ New ▶︎ New Variable. Name this variable to 'Timer Label.' Next, set the variable type to 'Dialog Item' so that it can properly hold the label.
 
 Moving back to the trigger body, create a 'Set Variable' action and configure the value term to 'Last created dialog item.' Now is a good time to make sure that the 'Set Variable' action is ordered beneath the 'Create Dialog Item' action. This order ensures that the label was the last created dialog item at the time of 'Set Variable' action. This means that the label will be set to the newly created local variable, completing your reference. The trigger's progress is shown below.
 

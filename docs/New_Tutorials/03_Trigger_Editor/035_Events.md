@@ -7,7 +7,7 @@ Events are the starting point for any typical trigger in the editor. By selectin
 
 ## Setting Up An Event
 
-Create a trigger by right-clicking in the **Triggers Panel**, then navigating to New -\> New Trigger. Select this new trigger to populate the Main Tab with the trigger details. These details will be broken down under several headings, double click the 'Events' heading to open the 'Configure Events' window.
+Create a trigger by right-clicking in the **Triggers Panel**, then navigating to New ▶︎ New Trigger. Select this new trigger to populate the Main Tab with the trigger details. These details will be broken down under several headings, double click the 'Events' heading to open the 'Configure Events' window.
 
 [![Configure Event Window](./resources/035_Events2.png)](./resources/035_Events2.png)
 *Configure Event Window*

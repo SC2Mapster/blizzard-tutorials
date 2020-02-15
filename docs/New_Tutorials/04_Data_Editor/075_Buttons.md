@@ -31,7 +31,7 @@ Leaving the mouse idle over a button will display a dialog containing its Toolti
 
 ## Creating A Button
 
-Open the Data Editor and move to the buttons tab. If it isn't already open, you can navigate there via + -\> Edit Art and Sound Data -\> Buttons, as shown.
+Open the Data Editor and move to the buttons tab. If it isn't already open, you can navigate there via + ▶︎ Edit Art and Sound Data ▶︎ Buttons, as shown.
 
 [![Navigating to Buttons in Data](./resources/075_Buttons3.png)](./resources/075_Buttons3.png)
 *Navigating to Buttons in Data*
@@ -81,7 +81,7 @@ Clicking 'Ok' at this point will save the hotkey and return to the main Editor v
 
 ## Adding A Button To A Unit
 
-Buttons are specifically designed to slot into a unit's command card. In this exercise, you'll slot the demo button into a pre-existing unit. To do this, move to the units tab via + -\> Edit Game Data -\> Units. Any unit would be useable here, but for this instance select the 'Marine.' Then select its 'Command Card' field as shown below.
+Buttons are specifically designed to slot into a unit's command card. In this exercise, you'll slot the demo button into a pre-existing unit. To do this, move to the units tab via + ▶︎ Edit Game Data ▶︎ Units. Any unit would be useable here, but for this instance select the 'Marine.' Then select its 'Command Card' field as shown below.
 
 [![Command Card Field](./resources/075_Buttons10.png)](./resources/075_Buttons10.png)
 *Command Card Field*

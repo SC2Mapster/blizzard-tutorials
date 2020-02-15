@@ -4,7 +4,7 @@ Team Placement offers a set of controls for organizing player spawns. This organ
 
 Despite this system having been originally established for melee maps, it is still useful when working on non-traditional games. The system of grouping players via start locations and controlling team spawns relative to enemies can be used for any map type, though it can be of limited use beyond melee play.
 
-Team Placement (Basic) and Team Placement (Advanced) are subsections of Player Properties and can be found grouped together under the same window as the Player Properties tab. Otherwise, you can find Team Placement by navigating to Map -\> Team Placement (Basic) or Map -\> Team Placement (Advanced).
+Team Placement (Basic) and Team Placement (Advanced) are subsections of Player Properties and can be found grouped together under the same window as the Player Properties tab. Otherwise, you can find Team Placement by navigating to Map ▶︎ Team Placement (Basic) or Map ▶︎ Team Placement (Advanced).
 
 [![Team Placement Views](./resources/010_Team_Placement01.png)](./resources/010_Team_Placement01.png)
 *Team Placement Views*
@@ -16,7 +16,7 @@ Alongside this article, you'll find an illustrative demo map. This map contains 
 
 ## Basic Team Placement
 
-Open Basic Team Placement with Map -\> Team Placement (Basic). As well as the current project's minimap, you will see a listing of every starting location on the map. You can determine teams by selecting each Start Location and linking them to potential allies. For Basic Team Placement, you must then use either Game Variants or triggers to activate these teams in a game.
+Open Basic Team Placement with Map ▶︎ Team Placement (Basic). As well as the current project's minimap, you will see a listing of every starting location on the map. You can determine teams by selecting each Start Location and linking them to potential allies. For Basic Team Placement, you must then use either Game Variants or triggers to activate these teams in a game.
 
 ## Demoing Basic Team Creation
 
@@ -32,7 +32,7 @@ The Allies field next to each starting location will show the number of allies l
 
 ## Advanced Team Placement
 
-Open Advanced Team Placement by navigating to Map -\> Team Placement (Advanced). Beside the minimap view, you will find a listing for Teams and Linked Enemy Teams. The Teams category lets you arrange teams as you did in Basic Team Placement, which are then paired with enemy team configurations. Unlike Basic Team Placement, this is a conclusive option, handling both team construction and the selection of possible enemy team arrangements. Once done, the game can be briefly set in 'Game Variants' then be fully prepped for gameplay.
+Open Advanced Team Placement by navigating to Map ▶︎ Team Placement (Advanced). Beside the minimap view, you will find a listing for Teams and Linked Enemy Teams. The Teams category lets you arrange teams as you did in Basic Team Placement, which are then paired with enemy team configurations. Unlike Basic Team Placement, this is a conclusive option, handling both team construction and the selection of possible enemy team arrangements. Once done, the game can be briefly set in 'Game Variants' then be fully prepped for gameplay.
 
 ## Demoing Advanced Team Creation
 

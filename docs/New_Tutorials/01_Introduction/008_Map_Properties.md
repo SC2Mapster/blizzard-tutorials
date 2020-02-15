@@ -1,6 +1,6 @@
 # Map Properties
 
-Map Properties affect a wide range of settings, determining everything from how your game lobby is handled on Battle.net to how the 'Fog of War' behaves. You can navigate to the collected map properties via Map -\> Map Info, from any of the Editor modules.
+Map Properties affect a wide range of settings, determining everything from how your game lobby is handled on Battle.net to how the 'Fog of War' behaves. You can navigate to the collected map properties via Map ▶︎ Map Info, from any of the Editor modules.
 
 ![Map Tab](./resources/008_Map_Properties01.png)
 *Map Tab*

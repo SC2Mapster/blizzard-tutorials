@@ -4,7 +4,7 @@ Actors are the workhorse of the Data Editor. They are both essential and wide-ra
 
 Actors have their own logic system, which is responsible for much of the linking and action between data. Some actors hook together the observable components of the engine, such as models, doodads, and sound, tying them into the game. Other actors affect gameplay by configuring attacks and abilities. There's even a variety of higher level constructs for use with actors, including actor lists that track and organize actors, actor regions that can interact with other actors based on a map area, and event macros that collect common actor logic into a reusable tool. Actors are also the asynchronous component of the StarCraft engine, allowing them to push different data to different players.
 
-You can find the actors section of the Editor by moving to the Data Editor and navigating to + -\> Edit Actor Data -\> Actors, as shown below.
+You can find the actors section of the Editor by moving to the Data Editor and navigating to + ▶︎ Edit Actor Data ▶︎ Actors, as shown below.
 
 ![Navigating to Actors in Data](./resources/060_Actors4.png)
 *Navigating to Actors in Data*

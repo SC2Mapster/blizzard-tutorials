@@ -6,13 +6,13 @@ For advanced users, the Editor offers a Trigger Debugger. This allows you to tak
 
 At runtime, you can launch the debugger to monitor map scripts as they are called during a map test. It serves as a useful companion tool, able to categorize all manner of inefficiencies and errors. There are three main ways to access the debugger.
 
-  - Activate the Editor setting 'Show Trigger Debugging Window' via File -\> Preferences -\> Test Document.
+  - Activate the Editor setting 'Show Trigger Debugging Window' via File ▶︎ Preferences ▶︎ Test Document.
   - Use the cheat command 'trigdebug' in the chat box while testing a map.
   - In the Trigger Editor, use the native action 'Debug -- Open or Close the Debugging Window'.
 
 The last technique is the most robust, as its inclusion in triggers allows for dynamic use, stops, and reuse in a single session. Crucially, this is the only method that supports testing in online multiplayer.
 
-To make use of the debugger in any capacity, your game client must be set to 'Windowed' mode. If you're using the first method on the list above, you'll have to set the option Test Document -\> Game Display Mode to 'Windowed' before the Editor will show the debug window. This setting is highlighted in the image below.
+To make use of the debugger in any capacity, your game client must be set to 'Windowed' mode. If you're using the first method on the list above, you'll have to set the option Test Document ▶︎ Game Display Mode to 'Windowed' before the Editor will show the debug window. This setting is highlighted in the image below.
 
 [![image0](./resources/053_Trigger_Debugger1.png)](./resources/053_Trigger_Debugger1.png)­­
 

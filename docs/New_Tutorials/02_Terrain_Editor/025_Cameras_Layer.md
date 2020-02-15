@@ -64,7 +64,7 @@ Once you've created a camera, you can configure it through its 'Camera Propertie
 
 ## Free Camera Controls
 
-The Editor offers a set of hotkeys for moving its viewpoint in 3D space, known as the free camera controls. By orienting the viewpoint before using the Create Camera tool, you can use these controls as an intuitive way of designing cameras. These controls can be viewed by navigating to File -\> Configure Controls, then searching for the Free Camera labels, as shown below.
+The Editor offers a set of hotkeys for moving its viewpoint in 3D space, known as the free camera controls. By orienting the viewpoint before using the Create Camera tool, you can use these controls as an intuitive way of designing cameras. These controls can be viewed by navigating to File ▶︎ Configure Controls, then searching for the Free Camera labels, as shown below.
 
 [![Free Camera Controls](./resources/025_Cameras_Layer7.png)](./resources/025_Cameras_Layer7.png)
 *Free Camera Controls*

@@ -4,7 +4,7 @@ As a real-time strategy game, StarCraft has many systems centered on time. For l
 
 ## Creating Time Of Day Lighting
 
-Open the demo map provided with this article. Inside you'll find a scene featuring the exterior of a bar set against a backdrop of some burning wreckage. Move to the Data Editor and open lighting tab by clicking the green +, then navigating to Edit Art and Sound Data -\> Lights. Create a new light by right-clicking inside the main view, and selecting Add Light. Name the light 'Time of Day Lighting' and hit suggest to generate an ID. Next, set the 'Light Group' to 'Tilesets' using the drop down. This process should look like the image below.
+Open the demo map provided with this article. Inside you'll find a scene featuring the exterior of a bar set against a backdrop of some burning wreckage. Move to the Data Editor and open lighting tab by clicking the green +, then navigating to Edit Art and Sound Data ▶︎ Lights. Create a new light by right-clicking inside the main view, and selecting Add Light. Name the light 'Time of Day Lighting' and hit suggest to generate an ID. Next, set the 'Light Group' to 'Tilesets' using the drop down. This process should look like the image below.
 
 [![Light Creation](./resources/029_Time_of_Day_Lighting1.png)](./resources/029_Time_of_Day_Lighting1.png)
 *Light Creation*
@@ -39,12 +39,12 @@ The lighting window will update and should display five entries under the 'Time 
 
 Now you can configure your four time of day lights, setting different properties for each one. The game uses time of day lighting as a sort of plan. As time passes the game gradually changes the properties of its lighting, shifting from its current values to the values of the next light in the array. It repeats this process again and again, so that by making realistic lights for each part of the day you'll see a recognisable day and night cycle develop.
 
-Configuring light properties from scratch can be quite time consuming. It's often better to copy data from a pre-existing light and use that as a base for modification. You can do this here by using some of the 'Mar Sara' settings as the basis of your day and night lighting. Navigate to the 'Mar Sara Night Test' folder and highlight the light inside. With this light selected, copy its properties with Edit -\> Copy Light Set.
+Configuring light properties from scratch can be quite time consuming. It's often better to copy data from a pre-existing light and use that as a base for modification. You can do this here by using some of the 'Mar Sara' settings as the basis of your day and night lighting. Navigate to the 'Mar Sara Night Test' folder and highlight the light inside. With this light selected, copy its properties with Edit ▶︎ Copy Light Set.
 
 ![Copying Light Set](./resources/029_Time_of_Day_Lighting6.png)
 *Copying Light Set*
 
-Return to the 00:00:00 light in the 'Time of Day Lighting' set, highlight it and paste in the copied data with Edit -\> Paste Light Set. You can see this process in action in the image below and to the left, while the light updated with the pasted properties is shown on the right.
+Return to the 00:00:00 light in the 'Time of Day Lighting' set, highlight it and paste in the copied data with Edit ▶︎ Paste Light Set. You can see this process in action in the image below and to the left, while the light updated with the pasted properties is shown on the right.
 
 [![Pasting Light Set -- Pasted Light](./resources/029_Time_of_Day_Lighting7.png)](./resources/029_Time_of_Day_Lighting7.png)
 *Pasting Light Set -- Pasted Light*

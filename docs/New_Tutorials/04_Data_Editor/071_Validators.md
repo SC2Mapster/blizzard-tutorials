@@ -4,7 +4,7 @@ Validators conduct tests. While they are a data type themselves, their purpose i
 
 ## Validator Details
 
-How you apply validators depends on the type of validator and the hosting type where the validator will be used. There are many types of validator available and they can be used in effects, behaviors, abilities, and actors, taking on a slightly different role each time. To get a feel for these myriad configurations, it's best to start by looking at the many examples of their use in the existing data libraries. You can find validators in the Data Editor by navigating to + -\> Edit Game Data -\> Validators, as shown below.
+How you apply validators depends on the type of validator and the hosting type where the validator will be used. There are many types of validator available and they can be used in effects, behaviors, abilities, and actors, taking on a slightly different role each time. To get a feel for these myriad configurations, it's best to start by looking at the many examples of their use in the existing data libraries. You can find validators in the Data Editor by navigating to + ▶︎ Edit Game Data ▶︎ Validators, as shown below.
 
 [![Navigating to Validators in Data](./resources/071_Validators1.png)](./resources/071_Validators1.png)
 *Navigating to Validators in Data*

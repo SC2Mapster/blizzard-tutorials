@@ -83,7 +83,7 @@ The Editor also offers a context-sensitive bar with functions only available and
 
 ## Hotkeys
 
-The Editor has extensive support for hotkeys, it also allows complete customization of all of its standard controls. You can set hotkeys for almost any function available, most of which do not have any default hotkeys. You can access the hotkey controls by navigating to File -\> Configure Controls. This will launch the 'Configure Controls' window, which is shown below.
+The Editor has extensive support for hotkeys, it also allows complete customization of all of its standard controls. You can set hotkeys for almost any function available, most of which do not have any default hotkeys. You can access the hotkey controls by navigating to File ▶︎ Configure Controls. This will launch the 'Configure Controls' window, which is shown below.
 
 ![Hotkey Configuration](./resources/003_Navigating_the_Interface07.png)
 

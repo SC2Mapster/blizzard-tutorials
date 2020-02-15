@@ -35,7 +35,7 @@ There is a small number of fields that allow for the alteration of doodad actors
 
 ## Creating A Doodad Actor
 
-Assemble a new doodad by moving to the actors tab inside the Data Editor. If the tab isn't already open, you can open it by navigating to + -\> Edit Actor Data -\> Actors. Once inside, create a new actor by right-clicking in the main view and selecting 'Add Actor,' as shown below.
+Assemble a new doodad by moving to the actors tab inside the Data Editor. If the tab isn't already open, you can open it by navigating to + ▶︎ Edit Actor Data ▶︎ Actors. Once inside, create a new actor by right-clicking in the main view and selecting 'Add Actor,' as shown below.
 
 [![Creating a New Actor](./resources/064_Doodad_Actors4.png)](./resources/064_Doodad_Actors4.png)
 *Creating a New Actor*

@@ -5,7 +5,7 @@ Footprints attach pathing to other objects. Take a statue doodad as an example. 
 [![Doodad Footprint](./resources/073_Footprints1.png)](./resources/073_Footprints1.png)
 *Doodad Footprint*
 
-The doodad has sectioned off a grid area where neither unit pathing nor building can occur. The type is determined by the amount of pathing area the footprint takes up on a unit grid basis. This footprint is a 3x3, measuring three units in both axes. You can view and edit footprints by moving to the Data Editor and navigating to + -\> Edit Game Data -\> Footprints, as shown below.
+The doodad has sectioned off a grid area where neither unit pathing nor building can occur. The type is determined by the amount of pathing area the footprint takes up on a unit grid basis. This footprint is a 3x3, measuring three units in both axes. You can view and edit footprints by moving to the Data Editor and navigating to + ▶︎ Edit Game Data ▶︎ Footprints, as shown below.
 
 [![Navigating to Footprints in Data](./resources/073_Footprints2.png)](./resources/073_Footprints2.png)
 *Navigating to Footprints in Data*

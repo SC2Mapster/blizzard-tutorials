@@ -4,7 +4,7 @@ The Editor features a wide range of footprints that are often repurposed in the 
 
 ## Pathing Grid
 
-Footprints apply pathing logic to the map in terms of map units. It can be difficult to visualize the units of the StarCraft engine, but fortunately the Editor provides some utilities to help you. First, enable all of the pathing layer visibility options by navigating to View -\> Show Pathing and checking each category, as shown below. Then navigate to View -\> Show Pathing Grid and enable all of the options there too.
+Footprints apply pathing logic to the map in terms of map units. It can be difficult to visualize the units of the StarCraft engine, but fortunately the Editor provides some utilities to help you. First, enable all of the pathing layer visibility options by navigating to View ▶︎ Show Pathing and checking each category, as shown below. Then navigate to View ▶︎ Show Pathing Grid and enable all of the options there too.
 
 [![Turning Visibility Options On](./resources/074_Custom_Footprints1.png)](./resources/074_Custom_Footprints1.png)
 *Turning Visibility Options On*
@@ -16,7 +16,7 @@ You should now be able to see the full pathing grid in the Editor. Green indicat
 
 ## Creating A Footprint
 
-To create a footprint first move to the Data Editor. If the 'Footprints' tab is not already open, add it by navigating to + -\> Edit Game Data -\> Footprints. Right-click in the main data view and select 'Add Footprint.' This should give you the following view.
+To create a footprint first move to the Data Editor. If the 'Footprints' tab is not already open, add it by navigating to + ▶︎ Edit Game Data ▶︎ Footprints. Right-click in the main data view and select 'Add Footprint.' This should give you the following view.
 
 [![Adding Footprint in Data](./resources/074_Custom_Footprints3.png)](./resources/074_Custom_Footprints3.png)
 *Adding Footprint in Data*
