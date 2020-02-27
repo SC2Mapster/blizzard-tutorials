@@ -2,6 +2,7 @@ site_name: Blizzard Starcraft II Tutorials
 
 theme:
     name: readthedocs
+    custom_dir: theme/
 
 markdown_extensions:
     - markdown.extensions.toc:
