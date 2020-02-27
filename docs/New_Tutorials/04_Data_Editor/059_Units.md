@@ -5,7 +5,7 @@ A Unit is an interactive game object. Despite the term being thrown around in a 
 ![Unit Data Object](./resources/059_Units1.png)
 *Unit Data Object*
 
-The unit shown above is the Archon, as displayed on the top of its fairly extensive data hierarchy. The length of the list shown here should give you an impression of the unit data type's main purpose, to serve as a container for various other types of Game Data, Art and Sound Data, and Actors. You can investigate units in the Data Editor by navigating to them via + -\> Edit Game Data -\> Units, as shown below.
+The unit shown above is the Archon, as displayed on the top of its fairly extensive data hierarchy. The length of the list shown here should give you an impression of the unit data type's main purpose, to serve as a container for various other types of Game Data, Art and Sound Data, and Actors. You can investigate units in the Data Editor by navigating to them via + ▶︎ Edit Game Data ▶︎ Units, as shown below.
 
 [![Navigating to Units in Data](./resources/059_Units2.png)](./resources/059_Units2.png)
 *Navigating to Units in Data*

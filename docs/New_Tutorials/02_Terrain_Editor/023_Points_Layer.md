@@ -67,14 +67,14 @@ Return to the Trigger Editor and set the 'Point' value of the creation trigger t
 ![Point Hooked up to Trigger](./resources/023_Points_Layer12.png)
 *Point Hooked up to Trigger*
 
-Your marine is now prepared to use the teleportation system, but if you turn your attention to the map you'll notice that the points controlling the teleportation have been moved out of position. You'll find it useful to use 'Object Groups' to help you reposition those points. You can find them by navigating to Map -\> Object Groups -\> Points.
+Your marine is now prepared to use the teleportation system, but if you turn your attention to the map you'll notice that the points controlling the teleportation have been moved out of position. You'll find it useful to use 'Object Groups' to help you reposition those points. You can find them by navigating to Map ▶︎ Object Groups ▶︎ Points.
 
 Grouping these points together will let you manipulate them all at once. First, you'll have to put them all into one group. Right-click in the leftmost subview and select Add Group. Name the group 'Teleporter Points' and then right-click in the rightmost subview and select Add Points. This will launch the 'Placed Objects' window, where you can add the points to a group. Select Teleporter Point 01a, Teleporter Point 01b, Teleporter Spark Point 01a, and Teleporter Spark Point 01b, then click 'Ok.' This procedure is shown in the image below.
 
 ![Creating the Object Group](./resources/023_Points_Layer13.png)
 *Creating the Object Group*
 
-Now you should make sure that Use Group Selection is on by navigating to Tools -\> Use Group Selection. This means that moving any point in a group will move all of the other points in that group as well. Use this by selecting one of the grouped teleporter points. Move the leftmost point to the leftmost beacon on the space platform. Both sets of points should now line up with the beacons, as shown below.
+Now you should make sure that Use Group Selection is on by navigating to Tools ▶︎ Use Group Selection. This means that moving any point in a group will move all of the other points in that group as well. Use this by selecting one of the grouped teleporter points. Move the leftmost point to the leftmost beacon on the space platform. Both sets of points should now line up with the beacons, as shown below.
 
 ![](./resources/023_Points_Layer14.png)
 *Aligning the Points to the Teleportation Beacons*

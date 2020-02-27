@@ -14,7 +14,7 @@ Under the 'Variables' heading are the variables contained with the record, refer
 
 ## Creating Records
 
-Records are created in the Triggers Panel, as they must exist at a global scope. Right-click on the panel and navigate to New -\> New Record. Selecting the record will display its contents in the main view tab. Record variables can be created by right-clicking on the 'Variables' heading in the record and navigating to New -\> New Variable. To create a new instance of a record, create a variable and set its type to -- Record. This will make a listing of any possible record types available under the heading 'Record.' Once you have selected the desired type, each variable within the record will automatically be created, though not directly visible in the Editor.
+Records are created in the Triggers Panel, as they must exist at a global scope. Right-click on the panel and navigate to New ▶︎ New Record. Selecting the record will display its contents in the main view tab. Record variables can be created by right-clicking on the 'Variables' heading in the record and navigating to New ▶︎ New Variable. To create a new instance of a record, create a variable and set its type to -- Record. This will make a listing of any possible record types available under the heading 'Record.' Once you have selected the desired type, each variable within the record will automatically be created, though not directly visible in the Editor.
 
 [![Record Instances](./resources/040_Records3.png)](./resources/040_Records3.png)
 *Record Instances*

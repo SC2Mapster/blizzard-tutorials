@@ -4,7 +4,7 @@ The Importer allows you to incorporate custom assets from outside the standard S
 
 # Navigating The Importer
 
-Open the Importer by navigating to Module -\> Importer. This will present you with the following view.
+Open the Importer by navigating to Module ▶︎ Importer. This will present you with the following view.
 
 [![The Importer](./resources/014_The_Importer01.png)](./resources/014_The_Importer01.png)
 *The Importer*
@@ -57,7 +57,7 @@ Checking the Importer after saving the file should show you the result pictured 
 ![Imported File with Corrected Directory](./resources/014_The_Importer06.png)
 *Imported File with Corrected Directory*
 
-Now the file appears to be in the proper location. For a final check, you can open the Archive Browser by navigating to Window -\> Console. Type browse into the console. Use the browser's search function with the asset's name to confirm its place in the file structure. The result of this operation is shown below.
+Now the file appears to be in the proper location. For a final check, you can open the Archive Browser by navigating to Window ▶︎ Console. Type browse into the console. Use the browser's search function with the asset's name to confirm its place in the file structure. The result of this operation is shown below.
 
 ![](./resources/014_The_Importer07.png)
 *Archive Browser Confirming Proper File Structure*

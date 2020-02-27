@@ -7,7 +7,7 @@ Range Actors are used to draw range indicators on the map. A range actor is a vi
 
 In actuality, range actors don't draw range indicators. Instead, they draw a circularly patterned texture on the map, which then operates as a range indicator. The distinction is made here so that you understand that range actors can be used in other ways. It's important to have a full understanding of what the actor is actually doing so that you can both configure and employ it.
 
-You can set the visibility of range actors in the Terrain Editor by navigating to View -\> Show Terrain -\> Show Range. You can find range actors in data, under the actors tab, with the type 'Range,' as shown below.
+You can set the visibility of range actors in the Terrain Editor by navigating to View ▶︎ Show Terrain ▶︎ Show Range. You can find range actors in data, under the actors tab, with the type 'Range,' as shown below.
 
 [![Range Actors Listing](./resources/062_Range_Actors4.png)](./resources/062_Range_Actors4.png)
 *Range Actors Listing*
@@ -80,7 +80,7 @@ Now, open the demo map provided with this article. The course features an overse
 
 The overseer is a unit from StarCraft known for its detection ability. It reveals invisible units at a certain distance in a circular radius around the overseer. In this map, there is no indication of this range, either passively or on selection of the overseer. You can apply some range actors to change that, giving the player a better impression of the overseer's utility at a glance.
 
-To do this, move to the Data Editor and then into the actors tab. If the tab isn't already available, open it by navigating to + -\> Edit Actor Data -\> Actors. There, create a new actor by right-clicking in the main view and selecting Add Actor, as shown below.
+To do this, move to the Data Editor and then into the actors tab. If the tab isn't already available, open it by navigating to + ▶︎ Edit Actor Data ▶︎ Actors. There, create a new actor by right-clicking in the main view and selecting Add Actor, as shown below.
 
 [![Creating an Actor](./resources/062_Range_Actors8.png)](./resources/062_Range_Actors8.png)
 *Creating an Actor*
@@ -140,7 +140,7 @@ This will duplicate the actor into the Editor as 'Overseer Sight Range Copy.' Hi
 ![Duplication Window](./resources/062_Range_Actors18.png)
 *Duplication Window*
 
-Highlight the 'Overseer Sight Facing' actor, select its 'Arc' field, and change the value to 90. This actor will now only project a quarter of a circle in front of the Overseer, emphasizing the direction the unit is facing. Highlight the 'Sight' field, right-click it, and navigate to Reset to Parent Value -\> \[Core.SCMod\] CActorRange. You can see this procedure being carried out in the image below.
+Highlight the 'Overseer Sight Facing' actor, select its 'Arc' field, and change the value to 90. This actor will now only project a quarter of a circle in front of the Overseer, emphasizing the direction the unit is facing. Highlight the 'Sight' field, right-click it, and navigate to Reset to Parent Value ▶︎ \[Core.SCMod\] CActorRange. You can see this procedure being carried out in the image below.
 
 [![Resetting Actor Sight Field](./resources/062_Range_Actors19.png)](./resources/062_Range_Actors19.png)
 *Resetting Actor Sight Field*

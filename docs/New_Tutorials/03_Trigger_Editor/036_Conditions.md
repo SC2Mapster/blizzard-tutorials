@@ -14,11 +14,11 @@ To demonstrate the use of conditions you'll need to assemble a trigger. Use the 
 
   - Create a new custom map and navigate to the Trigger Editor.
   - Proceed to the "Melee Initialization" trigger and delete all of the default actions and events contained within it.
-  - Create a new event by navigating to Events -\> Key Pressed.
+  - Create a new event by navigating to Events ▶︎ Key Pressed.
   - Set the 'Key' term of the event to the key '1.'
-  - Create a new variable via Local Variables -\> New Element.
+  - Create a new variable via Local Variables ▶︎ New Element.
   - Name the local variable 'Press Count' and set its type to 'Integer.'
-  - Create a new action by navigating to Actions -\> Modify Variable (Integer).
+  - Create a new action by navigating to Actions ▶︎ Modify Variable (Integer).
   - Set the 'Variable' term of the action to the variable 'Press Count.'
   - Set the 'Value' term of the action to '1.'
 
@@ -33,14 +33,14 @@ Conditions aren't relegated solely to the 'Conditions' heading in a trigger, the
 
 As such, the 'If Then Else' control statement can be considered as question and response in the form, 'If this happens Then do this, Else do this.'
 
-You can investigate the 'If Then Else' control statement by adding it to your trigger below the 'Modify Press Count + 1' statement via New -\> New Action -\> If Then Else. You'll find the control statements under the ' -- General' category in the 'Actions' window.
+You can investigate the 'If Then Else' control statement by adding it to your trigger below the 'Modify Press Count + 1' statement via New ▶︎ New Action ▶︎ If Then Else. You'll find the control statements under the ' -- General' category in the 'Actions' window.
 
 [![Selecting If Then Else Action](./resources/036_Conditions2.png)](./resources/036_Conditions2.png)
 *Selecting If Then Else Action*
 
 ## Condition Operators
 
-Add a condition to the 'If Then Else' action by right-clicking on the 'If' heading and navigating to New -\> New Condition. This will launch the 'Configure Condition' window shown below.
+Add a condition to the 'If Then Else' action by right-clicking on the 'If' heading and navigating to New ▶︎ New Condition. This will launch the 'Configure Condition' window shown below.
 
 [![Operators View](./resources/036_Conditions3.png)](./resources/036_Conditions3.png)
 *Operators View*
@@ -66,7 +66,7 @@ Configuring a condition requires two things, assembling the terms of the conditi
 
 ## Configuring Your Condition
 
-Finish setting your condition by navigating to the 'Comparison' within the 'Configure Condition' window. Set the terms by clicking on the headings within the subview. 'Value 1' corresponds to the first term, while 'Value 2' corresponds to the second term, which follows the operator. Set the first term to the variable 'Press Count' by double clicking on 'Value 1' and navigating to Variable -\> Press Count. Set the second term by double clicking on 'Value 2', navigating to Value, and inputting 10. Now set the operator by double clicking on 'Operator' and navigating to ==.
+Finish setting your condition by navigating to the 'Comparison' within the 'Configure Condition' window. Set the terms by clicking on the headings within the subview. 'Value 1' corresponds to the first term, while 'Value 2' corresponds to the second term, which follows the operator. Set the first term to the variable 'Press Count' by double clicking on 'Value 1' and navigating to Variable ▶︎ Press Count. Set the second term by double clicking on 'Value 2', navigating to Value, and inputting 10. Now set the operator by double clicking on 'Operator' and navigating to ==.
 
 [![Setting the Term](./resources/036_Conditions4.png)](./resources/036_Conditions4.png)
 *Setting the Term*
@@ -84,7 +84,7 @@ You should now be left with something that looks like the image below.
 
 You have assembled a trigger that triggers every time the player presses the 1 key on the keyboard. This increments the variable each time. Then, depending on the condition Press Count == 10, one of two block statements will be run. A true statement results in the message 'High Reset,' a false statement results in the message 'Low.' As such, each trigger poses the question, 'Is the variable equal to 10?' It then determines which procedure to follow based on the condition's response.
 
-In practice, this should be false for the first nine triggers, then true for the tenth. The 'High Reset' message will show on the tenth keypress. You can test the map to confirm that it's working correctly by navigating to File -\> Test Document. If you've done everything right, you should get the result shown below.
+In practice, this should be false for the first nine triggers, then true for the tenth. The 'High Reset' message will show on the tenth keypress. You can test the map to confirm that it's working correctly by navigating to File ▶︎ Test Document. If you've done everything right, you should get the result shown below.
 
 [![Successful Output](./resources/036_Conditions6.png)](./resources/036_Conditions6.png)
 *Successful Output*

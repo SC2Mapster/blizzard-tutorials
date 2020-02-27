@@ -56,7 +56,7 @@ Next, return to the Terrain Module and prepare another region by selecting the A
 ![Current Region Layout](./resources/024_Regions_Layer8.png)
 *Current Region Layout*
 
-If you're having trouble seeing the entire scene, try either zooming out or setting the camera to a bird's eye view by going to View -\> Entire Map. From this view, you can zoom in and get the perspective seen in the example image. Note that you can also highlight a specific region by selecting it in the map view, as has been done for the 'Capture Base' region above.
+If you're having trouble seeing the entire scene, try either zooming out or setting the camera to a bird's eye view by going to View ▶︎ Entire Map. From this view, you can zoom in and get the perspective seen in the example image. Note that you can also highlight a specific region by selecting it in the map view, as has been done for the 'Capture Base' region above.
 
 Unfortunately, there are now minerals fields and a vespene geyser inside the 'Entire Base' region. According to the actions in the Trigger Module, this would result in the player being given control of these resources. Resources typically must belong to the Neutral player. You can use a composite region to build a region that encompasses the base, but also makes allowance for these elements.
 
@@ -65,7 +65,7 @@ Prepare your composite region by creating two rectangular regions, one boxing ar
 [![Cutout Regions Prepared](./resources/024_Regions_Layer9.png)](./resources/024_Regions_Layer9.png)
 *Cutout Regions Prepared*
 
-To make sure everything is easy to read, the new regions and 'Capture Base' have had custom colors applied to them. You can do this by heading to Region Properties -\> General -\> Custom Color. You can now create a composite region by selecting its three constituent regions, then navigating to the 'Region Properties' window. Select all the regions by holding shift and clicking on 'Capture Base,' 'Region 001,' and 'Region 002.' Now right-click in the Regions Palette and navigate to Edit -\> Merge Selection.
+To make sure everything is easy to read, the new regions and 'Capture Base' have had custom colors applied to them. You can do this by heading to Region Properties ▶︎ General ▶︎ Custom Color. You can now create a composite region by selecting its three constituent regions, then navigating to the 'Region Properties' window. Select all the regions by holding shift and clicking on 'Capture Base,' 'Region 001,' and 'Region 002.' Now right-click in the Regions Palette and navigate to Edit ▶︎ Merge Selection.
 
 [![Collected Region Properties](./resources/024_Regions_Layer10.png)](./resources/024_Regions_Layer10.png)
 *Collected Region Properties*

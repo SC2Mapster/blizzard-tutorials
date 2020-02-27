@@ -9,7 +9,7 @@ As a melee map maker, your greatest adventure is in exploring and experimenting 
 
 ## Map Symmetry
 
-Placing melee resources properly is fairly simple, but there are a few rules and techniques you'll need to use to meet the requirements. Begin by going over map symmetry, as this will save time compared with configuring every base individually. Access the symmetry controls by navigating to Map -\> Map Symmetry, this will launch the 'Map Properties' window shown below.
+Placing melee resources properly is fairly simple, but there are a few rules and techniques you'll need to use to meet the requirements. Begin by going over map symmetry, as this will save time compared with configuring every base individually. Access the symmetry controls by navigating to Map ▶︎ Map Symmetry, this will launch the 'Map Properties' window shown below.
 
 ![Map Symmetry Controls](./resources/086_Resource_Placement_for_Competitive_Play2.png)
 *Map Symmetry Controls*
@@ -18,7 +18,7 @@ Applying a 'Symmetry Type' results in the construction of a mirror axis, across 
 
 ## Placement Considerations
 
-When preparing to place resources, consider using the 'Placement Grid' overlay available in the Editor. You can activate it by navigating to View -\> Show Placement Grid -\> Show Grid. This overlay will show the area of three units around any resource item in which players can't place a command centre. This overlay is shown below.
+When preparing to place resources, consider using the 'Placement Grid' overlay available in the Editor. You can activate it by navigating to View ▶︎ Show Placement Grid ▶︎ Show Grid. This overlay will show the area of three units around any resource item in which players can't place a command centre. This overlay is shown below.
 
 [![Placement Grid](./resources/086_Resource_Placement_for_Competitive_Play3.png)](./resources/086_Resource_Placement_for_Competitive_Play3.png)
 *Placement Grid*

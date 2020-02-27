@@ -9,7 +9,7 @@ As your project grows and incorporates more and more elements, it's probably goi
 
 Folders are a fundamental element of organizing work on a computer, so they likely need little explanation. They work pretty much as you'd expect them to within the Editor. A Trigger Editor folder offers the ability to group items into a container object that can be opened or collapsed through its left-side + or - control.
 
-Create a folder by right-clicking inside the Triggers Panel and navigating to New -\> New Folder, or by using the New Folder button found in the Trigger Bar. These procedures are shown below.
+Create a folder by right-clicking inside the Triggers Panel and navigating to New ▶︎ New Folder, or by using the New Folder button found in the Trigger Bar. These procedures are shown below.
 
 ![](./resources/052_Trigger_Organization2.png)
 *Creating Folders From Trigger Panel -- From Trigger Bar*
@@ -26,7 +26,7 @@ Comments are a tool for project documentation. They add a text element that is w
 [![Commented Trigger](./resources/052_Trigger_Organization5.png)](./resources/052_Trigger_Organization5.png)
 *Commented Trigger*
 
-You can create comments from either the Triggers Panel or the Trigger Content Panel. Do so by right-clicking in either location then navigating to New -\> New Comment. Alternatively, you can also do so using the New Comment button in the Trigger Bar, which will create a comment at the cursor's current location.
+You can create comments from either the Triggers Panel or the Trigger Content Panel. Do so by right-clicking in either location then navigating to New ▶︎ New Comment. Alternatively, you can also do so using the New Comment button in the Trigger Bar, which will create a comment at the cursor's current location.
 
 ![](./resources/052_Trigger_Organization6.png)
 *Creating Comments From Trigger Content Panel -- From Trigger Bar*
@@ -54,7 +54,7 @@ These label presets are made available through the standard dependency libraries
 
 Setting a label for a definition will add both the icon and the chosen label to any elements of that definition. If you choose a label for an element that exists only in the Triggers Panel such as a trigger, variable, or record, the label will only change the color of the element. Labels are also useful when searching for elements using the 'Find' function of the Trigger Editor.
 
-If you find yourself looking for more customization, you may want to add custom labels. You can create a custom label by navigating to Data -\> Modify Labels. This will launch the 'Trigger Labels' window shown below.
+If you find yourself looking for more customization, you may want to add custom labels. You can create a custom label by navigating to Data ▶︎ Modify Labels. This will launch the 'Trigger Labels' window shown below.
 
 [![Creating a Custom Label](./resources/052_Trigger_Organization12.png)](./resources/052_Trigger_Organization12.png)
 *Creating a Custom Label*
@@ -75,7 +75,7 @@ The main Trigger Content Panel is actually composed of organizers called Trigger
 ![Trigger Content Divided Into Two Groups](./resources/052_Trigger_Organization14.png)
 *Trigger Content Divided Into Two Groups*
 
-Viewing things in parallel, as in the above image, can be an effective way of comparing different parts of your project. Overall, it offers versatility in the ways that users can configure their Editor. You can enable additional groups in the Trigger Editor view by going to View -\> Show Groups. There you'll find four options for configuration.
+Viewing things in parallel, as in the above image, can be an effective way of comparing different parts of your project. Overall, it offers versatility in the ways that users can configure their Editor. You can enable additional groups in the Trigger Editor view by going to View ▶︎ Show Groups. There you'll find four options for configuration.
 
   - Smart -- Trigger groups will be continually added or removed, depending on the current needs.
   - 1 -- Allows a single trigger group. This is the default setting.

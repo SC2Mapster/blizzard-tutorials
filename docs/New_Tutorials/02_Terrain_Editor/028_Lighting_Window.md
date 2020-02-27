@@ -5,11 +5,11 @@ The Lighting Window is an interface for altering and previewing lights within th
 [![Lighting Window and its Use](./resources/028_Lighting_Window1.png)](./resources/028_Lighting_Window1.png)
 *Lighting Window and its Use*
 
-You can access the Lighting Window by navigating to Window -\> Lighting from anywhere in the Editor. Every lighting setting in the game is found here, grouped into categories like UI Lighting, Tileset Lighting, Portrait Lighting, and Cinematics Lighting. From here you can browse and alter these sets, or even import and export lights between projects. To do so, navigate to either File -\> Export Light or File -\> Import Light. Outside the Editor, these are stored as .SC2Lighting files.
+You can access the Lighting Window by navigating to Window ▶︎ Lighting from anywhere in the Editor. Every lighting setting in the game is found here, grouped into categories like UI Lighting, Tileset Lighting, Portrait Lighting, and Cinematics Lighting. From here you can browse and alter these sets, or even import and export lights between projects. To do so, navigate to either File ▶︎ Export Light or File ▶︎ Import Light. Outside the Editor, these are stored as .SC2Lighting files.
 
 Modifying lights can be daunting due to the number of parameters in the Lighting Window. These parameters are broken down into ten categories: Global, Tone Mapping, Colorization, Variations, SSAO, Terrain, Regions, Key, Fill, and Back. These are discussed in more detail below.
 
-The easiest way to understand these properties is to use the Lighting Window to preview lighting in the main Editor view, which will dynamically update with every change. You can do this by opening the window, then moving to the Terrain Editor. Configure the lighting to show the game lighting by navigating to Render -\> Show Lighting -\> Game Lighting. Any selections and changes to the lighting selection should immediately render in the Editor view, giving you ample opportunity to test and experiment.
+The easiest way to understand these properties is to use the Lighting Window to preview lighting in the main Editor view, which will dynamically update with every change. You can do this by opening the window, then moving to the Terrain Editor. Configure the lighting to show the game lighting by navigating to Render ▶︎ Show Lighting ▶︎ Game Lighting. Any selections and changes to the lighting selection should immediately render in the Editor view, giving you ample opportunity to test and experiment.
 
 The following sections explore each of the features in the lighting tab, along with a description of their properties and a preview of some of their effects. Each preview features the base lighting arrangement on the leftmost side, set to 'Agria (Jungle)' lighting. This will be shown alongside various lighting alterations described in the caption for each image. These alterations are not cumulative, each one is made to the base lighting.
 
@@ -150,7 +150,7 @@ Back lights, as the name suggests, shine either from behind or from another side
 
 ## Customizing A Light
 
-Open the demo map provided with this article. There you should see the scene used in the creation of some of this article's images. It's a film noir styled bar front. Unfortunately, the clean daytime lighting is spoiling the mood. You can use the lighting interface to solve this problem. To explore light customization, navigate to the Lighting Window via Window -\> Lighting Window. Now select the premade light set 'Custom Night Light' and click on the '00:00:00' to open the light.
+Open the demo map provided with this article. There you should see the scene used in the creation of some of this article's images. It's a film noir styled bar front. Unfortunately, the clean daytime lighting is spoiling the mood. You can use the lighting interface to solve this problem. To explore light customization, navigate to the Lighting Window via Window ▶︎ Lighting Window. Now select the premade light set 'Custom Night Light' and click on the '00:00:00' to open the light.
 
 [![Starting Light](./resources/028_Lighting_Window17.png)](./resources/028_Lighting_Window17.png)
 *Starting Light*

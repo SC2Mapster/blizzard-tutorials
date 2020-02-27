@@ -10,7 +10,7 @@ This approach can cause some significant slowdown due to the publishing system's
 
 You should note that, when attempting to use the Editor's direct 'Test Map' function, you'll be instructed to set a map target for the active mod. This makes sense, as mod files contain no terrain data and have no setting for the assets and data they contain. Setting a targeted 'Default Map' for testing allows a direct, no-frills offline test of a mod system.
 
-You can set up a direct mod test by navigating to File -\> Preferences -\> Test Document. Here you'll note the heading 'Default Map.'
+You can set up a direct mod test by navigating to File ▶︎ Preferences ▶︎ Test Document. Here you'll note the heading 'Default Map.'
 
 [![Setting the Testing Target Map](./resources/082_Test_a_Mod_Offline1.png)](./resources/082_Test_a_Mod_Offline1.png)
 *Setting the Testing Target Map*
@@ -21,7 +21,7 @@ This system may remind you of a local version of the 'Extension Mod' system, whe
 
 ## Testing With A Dependency
 
-Alternatively, you can test a mod by adding it as a dependency to an active map. With the map you wish to test open, navigate to File -\> Dependencies. This will present the current list of document dependencies. A default view might look like the one shown below.
+Alternatively, you can test a mod by adding it as a dependency to an active map. With the map you wish to test open, navigate to File ▶︎ Dependencies. This will present the current list of document dependencies. A default view might look like the one shown below.
 
 [![Setting the Testing Target Map](./resources/082_Test_a_Mod_Offline2.png)](./resources/082_Test_a_Mod_Offline2.png)
 *Setting the Testing Target Map*

@@ -4,12 +4,12 @@ Font Styles allow you to change the basic presentation of your text. Font styles
 
 ## Creating A Font Style
 
-Creating font styles lets you use font assets from outside the standard dependencies. You can set up styles with any choice of existing or imported fonts, but for this exercise you'll use a free font sample of OpenSans. First, import the font using the Importer. You can get there via Module -\> Import. There, right-click inside the white box and select 'Import Files,' then locate the font file, either a .ttf or .otf, and click 'Ok.' Saving your project after the import should present you with the following.
+Creating font styles lets you use font assets from outside the standard dependencies. You can set up styles with any choice of existing or imported fonts, but for this exercise you'll use a free font sample of OpenSans. First, import the font using the Importer. You can get there via Module ▶︎ Import. There, right-click inside the white box and select 'Import Files,' then locate the font file, either a .ttf or .otf, and click 'Ok.' Saving your project after the import should present you with the following.
 
 ![Imported Font](./resources/078_Font_Styles1.png)
 *Imported Font*
 
-Font styles themselves are created from the Text Editor. To build a font style, navigate there via Modules -\> Text. Move to the 'Font Styles' heading and right-click in the main listing. Select 'Add Style' to begin, as shown below.
+Font styles themselves are created from the Text Editor. To build a font style, navigate there via Modules ▶︎ Text. Move to the 'Font Styles' heading and right-click in the main listing. Select 'Add Style' to begin, as shown below.
 
 [![Adding a Font Style](./resources/078_Font_Styles2.png)](./resources/078_Font_Styles2.png)
 *Adding a Font Style*

@@ -20,7 +20,7 @@ Terrain types are composed of a set of eight individual textures, which are stor
 
 ## Creating A Custom Terrain Texture
 
-First, create a new Arcade map and set its default texture set to 'Bel'Shir (Jungle).' You don't need to specify any other map properties for this tutorial. Now move to the Data Editor by navigating to Modules -\> Data.
+First, create a new Arcade map and set its default texture set to 'Bel'Shir (Jungle).' You don't need to specify any other map properties for this tutorial. Now move to the Data Editor by navigating to Modules ▶︎ Data.
 
 Within Data, open the terrain textures tab and create a terrain texture by right-clicking the Object Listing and selecting 'Add Terrain Texture.' This should appear as shown below.
 
@@ -74,7 +74,7 @@ Another option not addressed in this article is to populate this doodad list wit
 
 Now that you have your Terrain Texture prepared, you'll need to add it to the texture set being used by the map itself. Remember that you've selected the 'Bel'Shir (Jungle)' set for this map. As mentioned earlier, these sets are collected internally within the Data Editor under the datatype Terrain Types. You could construct a completely new terrain type, but for the moment you can just alter the current map set to substitute the 'Demo Texture' for one of its eight default textures.
 
-Open the terrain textures tab by navigating to + -\> Edit Terrain Data -\> Terrain Types, then find the pre-existing type 'Bel'Shir (jungle)' in the Object Listing. Highlight it to view its fields, then you can swap in the new texture by double clicking 'Texture -- Blend,' as shown below.
+Open the terrain textures tab by navigating to + ▶︎ Edit Terrain Data ▶︎ Terrain Types, then find the pre-existing type 'Bel'Shir (jungle)' in the Object Listing. Highlight it to view its fields, then you can swap in the new texture by double clicking 'Texture -- Blend,' as shown below.
 
 [![Altering Bel'Shir Terrain Type](./resources/030_Texture_Sets10.png)](./resources/030_Texture_Sets10.png)
 *Altering Bel'Shir Terrain Type*

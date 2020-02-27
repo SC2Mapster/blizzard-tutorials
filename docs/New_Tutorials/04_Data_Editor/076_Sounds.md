@@ -7,7 +7,7 @@ Sound is the primary audio datatype of the Editor. It can represent either an in
 
 ## Finding Sounds In The Data Editor
 
-As a datatype, sounds are handled through the Data Editor. Once inside this module, you can open the sounds tab by selecting the green + and navigating to Edit Art and Sound Data -\> Sounds, as shown below.
+As a datatype, sounds are handled through the Data Editor. Once inside this module, you can open the sounds tab by selecting the green + and navigating to Edit Art and Sound Data ▶︎ Sounds, as shown below.
 
 [![Navigating to Sounds in Data](./resources/076_Sounds2.png)](./resources/076_Sounds2.png)
 *Navigating to Sounds in Data*

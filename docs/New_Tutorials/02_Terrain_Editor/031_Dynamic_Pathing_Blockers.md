@@ -25,7 +25,7 @@ Once you've created it, you'll need to set the pathing blocker's 'Footprint' fie
 
 ## Placing Dynamic Pathing Blockers
 
-The placement grid is particularly useful when placing dynamic pathing blockers. You can enable it by navigating to View -\> Show Placement Grid, then checking all of its options.
+The placement grid is particularly useful when placing dynamic pathing blockers. You can enable it by navigating to View ▶︎ Show Placement Grid, then checking all of its options.
 
 [![Placement Grid View Options](./resources/031_Dynamic_Pathing_Blockers4.png)](./resources/031_Dynamic_Pathing_Blockers4.png)
 *Placement Grid View Options*

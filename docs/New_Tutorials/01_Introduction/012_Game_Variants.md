@@ -1,6 +1,6 @@
 # Game Variants
 
-Setting Game Variants allows a developer to specify the options available to players in a map's Battle.net lobbies. Together with Game Attributes, game variants control the distinctions for the different modes in which your project may be presented. These variants can only be set in a map document, not in a mod file. They are configured by navigating to Map -\> Game Variants from anywhere in the Editor. You can see the location in the image below.
+Setting Game Variants allows a developer to specify the options available to players in a map's Battle.net lobbies. Together with Game Attributes, game variants control the distinctions for the different modes in which your project may be presented. These variants can only be set in a map document, not in a mod file. They are configured by navigating to Map ▶︎ Game Variants from anywhere in the Editor. You can see the location in the image below.
 
 [![Navigating to Game Variants](./resources/012_Game_Variants01.png)](./resources/012_Game_Variants01.png)
 *Navigating to Game Variants*

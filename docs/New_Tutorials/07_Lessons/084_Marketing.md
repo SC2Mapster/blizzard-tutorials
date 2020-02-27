@@ -24,7 +24,7 @@ When making a dedicated marketing launch of something, try to concentrate your e
 
 # Maintaining The Community
 
-Marketing does not necessarily end after launch. You may want to put effort into building a community to continue growing and developing your project. If it's a multiplayer game made for repeated play, you'll want to consider any materials that can unite the playerbase, allowing them to get in touch with one another. A simple website can be effective for this and can even have its own discussion forum attached to it. The Battle.net system allows you to publicize a single website for each project. You can add this from the Editor by navigating to Battle.net Info -\> General -\> Website, as shown below.
+Marketing does not necessarily end after launch. You may want to put effort into building a community to continue growing and developing your project. If it's a multiplayer game made for repeated play, you'll want to consider any materials that can unite the playerbase, allowing them to get in touch with one another. A simple website can be effective for this and can even have its own discussion forum attached to it. The Battle.net system allows you to publicize a single website for each project. You can add this from the Editor by navigating to Battle.net Info ▶︎ General ▶︎ Website, as shown below.
 
 [![Battle.net Website Link](./resources/084_Marketing1.png)](./resources/084_Marketing1.png)
 *Battle.net Website Link*
