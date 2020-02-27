@@ -1,4 +1,4 @@
-# MISSILE MOVERS
+# Missile Movers
 
 The missile mover system uses a video editor metaphor. The map maker can chain up to 5 motion phases one after the other, transitioning between them via blends, as necessary. It is also possible to add extra motion overlays on top of the phases to further customize their look, similar to how one can overlay video processing effects on a video stream.
 
@@ -6,7 +6,7 @@ Missiles are typically used to configure missile-based attacks, but the underlyi
 
 
 
-## MOTION DRIVERS
+## Motion Drivers
 
 At the core of each motion phase is a driver. There are four types:
 
@@ -18,7 +18,7 @@ At the core of each motion phase is a driver. There are four types:
 
 
 
-## MOTION OVERLAYS
+## Motion Overlays
 
 Overlays cause a missile to move around the core driver path in some spiffy way. The user can stack up to two different overlays on top of the same driver, for instance by using sine waves to vary motion on both horizontal and vertical axes simultaneously.
 
@@ -41,7 +41,7 @@ When you specify an outro in data, you have to specify a Blend At value and a St
 
 
 
-## HOW IT WORKS
+## How it Works
 
 As with many other objects in StarCraft II, missiles have both a synchronous game part and an asynchronous actor part. Missiles simulate their game state 32 times per second, which is double the rate of a normal unit. As with everything else, they draw when there is enough time to do so, which means they can draw anywhere from many times between each game loop (if the game is running smoothly) to not at all for long periods (in dire frame rate situations). The game part of the missile simulates twice per game loop and then pushes the data over to the actor side of the missile, which interpolates between the data it has on hand. In dire frame rate situations, it is possible for the actor side to fall behind, in which case the user sees missiles jump.
 
@@ -51,7 +51,7 @@ Also of note is the fact that motion overlays are synchronous. This enables them
 
 
 
-## DATA CONFIGURATION
+## Data Configuration
 
 ### Relevant Catalogs
 
@@ -71,7 +71,7 @@ The user enters time data in seconds, and angle data in degrees.
 
 
 
-## MOTION PHASES IN DETAIL
+## Motion Phases in Detail
 
 Every motion phase has a number of generic fields that apply to two or more phase driver types, along with an array of fields that customize specific drivers. It also has a small array for varying the scale of the motion overlays present during that phase.
 
@@ -186,7 +186,7 @@ An array of up to two scale values. (The system does not support more, because t
 
 
 
-## THE GUIDANCE DRIVER IN DETAIL
+## The Guidance Driver in Detail
 
 The guidance driver supports the canonical guided missile. It causes the missile to chase the target, regardless of where it moves. Most missiles that are not simple ballistic projectiles have a guided driver phase somewhere.
 
@@ -212,7 +212,7 @@ The rate at which a powersliding missile leaves the powerslide. If this value is
 
 
 
-## THE BALLISTIC DRIVER IN DETAIL
+## The Ballistic Driver in Detail
 
 The ballistic driver enables the user to create the typical catapult-like projectiles. They are configured by horizontal speed or Flight Time, but not both.
 
@@ -230,7 +230,7 @@ Like a standard outro, except by percentage, and correlated to altitude. Positiv
 
 
 
-## THE PARABOLA DRIVER IN DETAIL
+## The Parabola Driver in Detail
 
 The parabola driver is best used for jumping types of behavior, like with the Reaper (the unit for which it was developed). It allows precise control over movement speed throughout the parabola without causing the parabolic arc to be deformed in any way.
 
@@ -271,7 +271,7 @@ It is often best to have a Before Apex value that is longer than the After Apex 
 
 
 
-## THE THROW DRIVER IN DETAIL
+## The Throw Driver in Detail
 
 Causes the missile to move along an arbitrary linear path. While seemingly of limited use, this is actually the most flexible and powerful driver from a visual punch perspective. When strung together with blends and varied across groups of simultaneously fired missiles, throw drivers can create stunningly unique visual patterns.
 
@@ -315,7 +315,7 @@ A vector in local coordinate space that configures an arbitrary facing when usin
 
 
 
-## OVERLAYS IN DETAIL
+## Overlays in Detail
 
 Unlike phases, overlays apply to the entire flight path of the missile. The user can have up to two simultaneous overlays on a given missile, and each overlay contributes equally to the final missile position.
 
@@ -360,7 +360,7 @@ A percentage chance that the wavelength will be recalculated on each half-wave (
 
 
 
-## REVOLVER OVERLAYS IN DETAIL
+## Revolver Overlays in Detail
 
 Revolvers are like Orbits that do not always move in the same direction. They are meant to simulate Robotech-style "drunken missiles� which have missiles moving in lazy, rolling orbits that vary slowly direction and speed.
 
@@ -377,7 +377,7 @@ Revolvers are like Orbits that do not always move in the same direction. They ar
 
 
 
-## SUPPORTING SYSTEMS
+## Supporting Systems
 
 **The Previewer**
 
