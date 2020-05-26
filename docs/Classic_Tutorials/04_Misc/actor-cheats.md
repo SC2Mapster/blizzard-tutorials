@@ -118,9 +118,8 @@ This cheat is useful for directly creating an actor on a test map, in order to o
 
 ##### Examples
 
-ActorCreateAt 50,50 Model Drone ActorCreateAt 50,50 NexusSplat
-
-
+```ActorCreateAt 50,50 Model Drone ```<br/>
+```ActorCreateAt 50,50 NexusSplat```
 
 #### ActorCreateAtCursor
 
@@ -130,33 +129,34 @@ This cheat is useful for directly creating an actor on a test map, in order to o
 
 ##### Syntax
 
-ActorCreateAtCursor actorName {contentName} {content2Name} {content3Name}
+```ActorCreateAtCursor actorName {contentName} {content2Name} {content3Name}```
 
 ##### Examples
 
-ActorCreateAtCursor Model Drone ActorCreateAtCursor NexusSplat
-
-
+```ActorCreateAtCursor Model Drone ```<br/>
+```ActorCreateAtCursor NexusSplat```
 
 #### ActorDumpAutoCreates
 
 Dumps a list of all actors that are created as the result of data like this:
 
+```xml
 <On Terms="UnitBirth.Marine" Send="Create"/>
+```
 
 This type of actor creation pattern is called autocreation, since the actor automatically creates itself in response to a message. This is different than a creation pattern like this:
 
+```xml
 <On Terms="ActorCreation" Send="Create SomeActor"/>
+```
 
-because here the Create message is explicitly specifying an actor to create.
+Because here the Create message is explicitly specifying an actor to create.
 
 ActorDumpAutoCreates can be used to track down whether actors are unintentionally being created by certain events.
 
 ##### Syntax
 
-ActorDumpAutoCreates
-
-
+```ActorDumpAutoCreates```
 
 #### ActorDumpEvents
 
@@ -166,9 +166,7 @@ This cheat can be used to perform various text searches on all the actor events 
 
 ##### Syntax
 
-ActorDumpEvents
-
-
+```ActorDumpEvents```
 
 #### ActorDumpLeakRisks
 
@@ -178,7 +176,7 @@ If a map gets progressively slower as time passes, this cheat can determine if l
 
 ##### Syntax
 
-ActorDumpLeakRisks age
+```ActorDumpLeakRisks age```
 
 
 
@@ -190,7 +188,7 @@ This cheat is helpful for determining if actors exist, despite them not appearin
 
 ##### Syntax
 
-ActorDumpLive
+```ActorDumpLive```
 
 
 
@@ -202,13 +200,12 @@ This cheat is crucial for setting various actors in the game world into the ::Us
 
 ##### Syntax
 
-ActorFrom RefName
+```ActorFrom RefName```
 
 ##### Examples
 
-ActorFrom ::HoverTarget ActorFrom ::Selection
-
-
+```ActorFrom ::HoverTarget```<br/>
+```ActorFrom ::Selection```
 
 #### ActorFromActor
 
@@ -218,19 +215,17 @@ This cheat is useful for setting various parent and child actors in the game wor
 
 ##### Syntax 
 
-ActorFromActor refName
+```ActorFromActor refName```
 
 ##### Examples
 
-ActorFromActor ::Host
+```ActorFromActor ::Host```
 
 Sets the ::User actor to the actor that it was hosting from.
 
-ActorFromActor ::Creator
+```ActorFromActor ::Creator```
 
 Sets the ::User actor to the actor that created it.
-
-
 
 #### ActorKillAll
 
@@ -238,13 +233,9 @@ Kills all actors, except those that are part of live units and effect trees.
 
 Useful for clearing a test map of actors so that individual actors can subsequently be tested in isolation.
 
+#### Syntax: 
 
-Syntax: 
-ActorKillAll
-
-
-
-
+```ActorKillAll```
 
 #### ActorKillClass
 
@@ -252,14 +243,14 @@ Kills all actors of a specified class within a given radius from the cursor. If 
 
 Can be used to clear an area (or the whole map) of a given type of actor, if they are making it hard to focus on a problem that the user is investigating. For instance, it might make sense to kill all doodad actors to confirm whether they are the cause of a performance problem.
 
+#### Syntax: 
 
-Syntax: 
-ActorKillClass class {range}
+```ActorKillClass class {range}```
 
 
 Examples:
 
-ActorKillClass Model 15 ActorKillClass Sound
+```ActorKillClass Model 15 ActorKillClass Sound```
 
 #### ActorKillLink 
 
@@ -267,8 +258,9 @@ Kills all actors with a specified actor link within a given radius from the curs
 
 Can be used to clear an area (or the whole map) of all instances of a specific actor entry, if they are making it hard to focus on a problem that the user is investigating. For instance, it might make sense to kill all the models of a particular name in an area of effect (AoE) attack, if too many are being created and obscuring some other part of the graphical FX for an attack that the user is debugging. Or, the user might kill all sounds with a given name to see if he can hear other sounds also associated with an effect.
 
-Syntax: 
-ActorKillLink link {range}
+#### Syntax: 
+
+```ActorKillLink link {range}```
 
 
 
@@ -279,13 +271,14 @@ Sends a valid user message to the currently active ::User actor.
 By far the most used actor cheat, and the main way in which developers (internal or external) interact with actors via cheats.
 
 
-Syntax: 
-ActorSend message
+#### Syntax: 
+
+```ActorSend message```
 
 
-Examples:
+#### Examples:
 
-ActorSend Destroy ActorSend SetTintColor {255,255,0}
+```ActorSend Destroy ActorSend SetTintColor {255,255,0}```
 
 #### ActorSendTo
 
