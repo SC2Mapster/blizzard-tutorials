@@ -2,11 +2,7 @@
 
 With Patch 1.4.0, modders can now use actor cheats to create and manipulate actors on the fly while running a test map from the editor. This is useful for quickly testing ideas without having to set up data or execute triggers.
 
-
-
 The cheats can also be used to modify and inspect almost any actor while a test map is running, which can be useful for debugging run time actor issues.
-
-
 
 The cheats can be used to send several newly-enabled dump messages, such as AnimDumpDB, AttachDump, HostedPropDump, RefDump and TextureDump. These messages enable modders to inspect some internal aspects of certain actors while the game is running, which can be helpful as an additional debugging aid.
 
@@ -39,10 +35,6 @@ The currently available ref names are:
 | **::actor.<RefName>**   | DTC  | An actor ref from the containing actor reference table.      |
 | **TargetKey**           | TC   | The actor represented by the key from the ::User scope. Only returns the first one when there are multiple hits in the result set. |
 
-
-
-
-
 ### Branch Ref Names
 
 |                  |      |                                                              |
@@ -56,9 +48,6 @@ The currently available ref names are:
 | **::Supporter**  | DTC  | Used to link the lifetime of an actor to a "supporting" actor (typically to set up events that tell an actor to die when its supporting actor has died). |
 
 
-
-
-
 ### Scope Ref Names
 
 | **::Actor**        | TC   | The scope of the ::User actor.                               |
@@ -68,41 +57,38 @@ The currently available ref names are:
 | **::Selection**    | C    | The scope of the selected unit. Returns a single scope even if multiple units are selected. |
 | **::User**         | TC   | Contains the result from the most recent ActorScopeFrom cheat. Automatically gets set to the value ::LastCreated when that ref is populated with a new valid actor scope. |
 
-
-
 ### Content Keys
 
 Create messages can take between 1 and 3 content keys. These enable triggers and cheats to more easily create a variety of actor instances using the same data entry, but with different "content" parameters. For instance:
 
-ActorCreateAt Model Hydralisk 
+`ActorCreateAt Model Hydralisk `
 
-ActorCreateAt Model Marine
-
+`ActorCreateAt Model Marine`
 
 Both cheats create a CActorModel called "Model". The first one creates it with the "Hydralisk" asset and the second one creates it with the "Marine" asset. The various types of actors support different creation parameter styles on a case-by-case basis. What follows is a list of actors that support content parameters, and the order in which they are specified.
 
-CActorBeam ModelLink RefLaunch RefImpact
+#### CActorBeam ModelLink RefLaunch RefImpact
 
-* ModelLink - the name of the modelData entry used for the beam.
-* RefLaunch - the ref name used to populate the beam's ::HostLaunch.
-* RefImpact - the ref name used to populate the beam's ::HostImpact.
+* **ModelLink** - the name of the modelData entry used for the beam.
+* **RefLaunch** - the ref name used to populate the beam's ::HostLaunch.
+* **RefImpact** - the ref name used to populate the beam's ::HostImpact.
 
-CActorList RefName
+#### CActorList RefName
 
-* RefName - source ref name from which to populate the list.
+* **RefName** - source ref name from which to populate the list.
 
-CActorModel
+#### CActorModel
 
-* ModelLink - the name of the modelData entry to be used for the model.
-* Variation - the specific variation number for the model, if desired (otherwise it picks randomly).
+* **ModelLink** - the name of the modelData entry to be used for the model.
+* **Variation** - the specific variation number for the model, if desired (otherwise it picks randomly).
 
-CActorSound
+#### CActorSound
 
-* SoundLink - the name of the sound to be used.
+* **SoundLink** - the name of the sound to be used.
 
-CActorSplat
+#### CActorSplat
 
-* ModelLink - the name of the modelData entry to be used for the splat.
+* **ModelLink** - the name of the modelData entry to be used for the splat.
 
 
 
@@ -128,7 +114,7 @@ This cheat is useful for directly creating an actor on a test map, in order to o
 
 ##### Syntax
 
-ActorCreateAt x,y actorName {contentName} {content2Name} {content3Name}
+```ActorCreateAt x,y actorName {contentName} {content2Name} {content3Name}```
 
 ##### Examples
 
