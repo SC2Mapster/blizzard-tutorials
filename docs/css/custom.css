@@ -1,3 +1,5 @@
+/* RTD fixes */
+
 /* fix lack of scrollbar on navbar */
 
 .wy-nav-side {
@@ -6,6 +8,11 @@
 .wy-side-scroll {
     height: auto;
 }
+
+.rst-versions .rst-current-version {
+    padding: 0 12px !important;
+}
+
 
 
 /* border on caption of images */
