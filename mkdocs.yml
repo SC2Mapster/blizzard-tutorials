@@ -1,12 +1,25 @@
-site_name: Blizzard Starcraft II Tutorials
+copyright: Maintained by <a href="https://discord.gg/bbQ9Jm8" target="_blank">SC2Mapster community</a>
+
+site_name: StarCraft II Editor Tutorials
+site_url: https://s2editor-guides.readthedocs.io
+site_favicon: img/favicon.png
+
+repo_url: https://github.com/SC2Mapster/blizzard-tutorials
+repo_name: GitHub
 
 theme:
     name: readthedocs
     custom_dir: theme/
+    include_homepage_in_sidebar: false
+    sticky_navigation: true
+    collapse_navigation: false
+    navigation_depth: 4
 
 markdown_extensions:
-    - markdown.extensions.toc:
+    markdown.extensions.toc:
         permalink: true
+    smarty: {}
+    admonition: {}
 
 extra_css:
     - css/custom.css

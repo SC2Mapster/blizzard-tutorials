@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{%- block scripts %}
+    <script>var base_url = '{{ base_url }}';</script>
+    <script src="{{ 'js/theme_extra.js'|url }}" defer></script>
+    <script src="{{ 'js/theme.js'|url }}" defer></script>
+    {%- for path in extra_javascript %}
+        <script src="{{ path }}" defer></script>
+    {%- endfor %}
+    <script defer>
+        window.onload = function () {
+            // nullify function that expands all menu sections
+            window.SphinxRtdTheme.Navigation.reset = function() {};
+
+            SphinxRtdTheme.Navigation.enable({{ 'true' if config.theme.sticky_navigation else 'false' }});
+
+            // expand sections properly when element is clicked (as opposed to clicking icon directly)
+            $('.wy-menu li a[href="#"]').click(function() {
+                $(this).find('>.toctree-expand').trigger('click');
+            });
+        };
+    </script>
+{%- endblock %}

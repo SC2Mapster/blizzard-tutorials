@@ -1,17 +1,27 @@
-# blizzard-tutorials
+# StarCraft II Editor Guides
 
-This repository is hosting the tutorials originally hosted by Blizzard Entertainment for the Starcraft 2 Editor
+This repository is hosting the tutorials originally hosted by Blizzard Entertainment for the Starcraft 2 Editor.
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+Now maintained and improved by the SC2Mapster community.
 
-## Commands
+## Deployment
+
+https://s2editor-guides.readthedocs.io/
+
+![](https://readthedocs.org/projects/s2editor-guides/badge/?version=latest)
+
+## Site generator
+
+We're using [mkdocs.org](https://www.mkdocs.org).
+
+### Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs help` - Print this help message.
 
-## Project layout
+### Project layout
 
     mkdocs.yml    # The configuration file.
     docs/

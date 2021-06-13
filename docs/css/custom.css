@@ -1,3 +1,15 @@
+/* fix lack of scrollbar on navbar */
+
+.wy-nav-side {
+    overflow-y: auto;
+}
+.wy-side-scroll {
+    height: auto;
+}
+
+
+/* border on caption of images */
+
 a + em,
 img + em {
     /* font-style: normal; */
@@ -5,4 +17,9 @@ img + em {
     text-align: center;
     font-size: 90%;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+
+p > img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
