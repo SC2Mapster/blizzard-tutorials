@@ -1,3 +1,11 @@
+---
+title: Data Primer 1-Simple Firebolt
+authors:
+    - duckies
+proofreading/readability edits:
+    - zerakim
+---
+
 # Ability Creation Primer 1: Simple Firebolt /w Data Collections (skill level – basic)
 ***Following tutorial is aimed at complete beginners and assumes little to no competency at the editor.***
 
