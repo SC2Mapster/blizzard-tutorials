@@ -15,8 +15,7 @@ Doodads are primarily visual elements. As game objects, they're distinguished fr
 Doodad actors are also given a subtype, listed under their 'Doodad Type' field. This is primarily an organizational tool and can be changed after you have created the actor. Beyond organization, subtypes enable a set of filters on the Doodads Palette. Searching with the 'Actor Type' Doodad and a specific 'Doodad Type' can greatly speed your work with doodads in the Terrain Editor.
 
 [![Image](./resources/064_Doodad_Actors3.png)](./resources/064_Doodad_Actors3.png)
-
-Doodad Type Filter in the Terrain Editor -- Tagging Doodad Actors with a Type in the Data Editor
+*Doodad Type Filter in the Terrain Editor -- Tagging Doodad Actors with a Type in the Data Editor*
 
 The rightmost view above shows the organization of doodads in the actors tab by their 'Doodad Type.' The leftmost view shows how these types can then be used as a search filter in the Doodads Palette.
 
