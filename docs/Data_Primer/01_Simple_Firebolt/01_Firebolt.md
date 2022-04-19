@@ -25,12 +25,13 @@ In this tutorial we will go through all steps of making a simple projectile atta
 **Data Editor settings**
 
 ![](Assets/0_preferences.png)
-*I am using following editor display settings.*
+
 
 **Document dependencies**
 
 ![](Assets/0_dependency.png)
-*And using WoL (Wings of Liberty) Campaign dependency.*
+
+
 
 ## Step 0: Preparation/Data Collections
 As a novice at editor, rather than creating things from scratch, we will be copying/duplicating existing stuff up until we become confident in experimenting on our own.
@@ -123,7 +124,7 @@ Lets go step by step. First – in the ability data tab make new ability of "**E
 
 ![](Assets/1-2_AbilityNaming.png)
 
-Next let's make a button! In buttons data tab create a button, set it's hotkey to Q and image to icon to whatever you think fits best. I think *ui_tipicon_campaign_zerus03-yagdrafireball* makes a good icon for this ability.
+Next let's make a button! In buttons data tab create a button, set it's hotkey to Q and image to icon to whatever you think fits best. I think `ui_tipicon_campaign_zerus03-yagdrafireball.dds` makes a good icon for this ability.
 
 ![](Assets/1-2_AbilityButtonNaming.png)
 
@@ -142,8 +143,8 @@ Go to unit's "**Abilities+**" field and add our abilty by pressing little green 
 ![](Assets/2-2_AddAbilityToUnitAbilities.png)
 
 
-After that go to unit's "**Command Card+**" field 
-1.  Click on button slot where you want to place button.
+After that go to unit's "**Command Card+**" field and
+1.  Click on button slot where you want to place button
 1.  Click little green `+` button to add a button 
 1.  Choose the button we'd made earlier
 1.  In "**Command Type**" choose "Ability Command"
@@ -210,7 +211,7 @@ First, since we just set ability's range, let's add a range actor. It's the acto
 
 We can either duplicate or create one from scratch. There isn't much to range actors, so let's just create one.
 
-We'll want to create "Range" actor and set it's parent to "Range Abil". If we do that then editor will give us token field (bottom of the screen) where we can put our ability, and editor with a little bit of help will be able adjust actor's data to work for said ability.
+We'll want to create "**Range**" actor and set it's parent to "**Range Abil**". If we do that then editor will give us token field (bottom of the screen) where we can put our ability, and editor with a little bit of help will be able adjust actor's data to work for said ability.
 
 |![](Assets/2-4-1_RangeActorNaming.png)|![](Assets/2-4-1_RangeActorToken.png)|
 | ------------- | ------------- |
@@ -223,14 +224,14 @@ After filling in token ability find "**Events+**" field, right click on it, hove
 
 #### Attack Actor
 
-Now lets make our projectile behave just like majority of other projectiles in SC2 behave – shoot from unit's weapon to target's body. For this we'll need an Action actor. 
+Now lets make our projectile behave just like majority of other projectiles in SC2 behave – shoot from unit's weapon to target's body. For this we'll need an "**Action**" actor. 
 
 !!! info
     Action actor controls all things related to visuals/sounds that happen during a regular attack. At a simple level, it's what we use to make sure that attack launches and impacts properly, and takes into consideration to display attack hitting shields while unit has shields, instead of landing straight on unit.
 
-Lets duplicate Karass Attack, it already has a nice sound that sounds like a spell launch. As always, when duplicating, we'll mark stuff that we want to change (except for stuff we have already made, like missile).
+Lets duplicate "Karass Attack", it already has a nice sound that sounds like a spell launch. As always, when duplicating, we'll mark stuff that we want to change (except for stuff we have already made, like missile).
 
-After duplication is done notice token fields at the bottom. Replace "Impact Effect" and "Launch Effect" with our effects.
+After duplication is done notice token fields at the bottom. Replace "**Impact Effect**" and "**Launch Effect**" with our effects.
 
 |![](Assets/2-4-2_AttackActionDuplication.png)|![](Assets/2-4-2_AttackActionTokens.png)|
 | ------------- | ------------- |
@@ -271,8 +272,8 @@ for event
 |**Sub Name:**| **Source Cast Start**|
 
 
-
 for message
+
 |||
 | ------------- | ------------- |
 |**Msg. Type:**| **Animation Play**|
@@ -348,7 +349,7 @@ First step to a cooler firebolt is repeating the steps we've done for simple fir
 
 ## Step 1: Data collection duplication.
 
-In data collections tab right click on our firebolt data collection and select "Duplicate Data Collection..."
+In data collections tab right click on our firebolt data collection and select "**Duplicate Data Collection...**"
 
  ![](Assets/P2_1_DCDuplication1.png)
 
@@ -363,11 +364,11 @@ Click OK, now we have 2 identical data collections. But our new duplicate has "2
 Let's change the name for our new data collection, so how about "Fire Mage – Invoke" (and as always autosuggest a new ID so that it fits our name).
 
 Once that is done we need to manually do a few things:
-1. change button's name to "Invoke" (since duplication only affects collection's name and not text that serves as element's name);
-1. fix damage reference in Invoke's button tooltip;
-1. add duplicated animation macro actor to karass unit actor;
-1. add Invoke ability to Karass;
-1. add Invoke ability to Karass's command card.
+1. Change button's name to "Invoke" (since duplication only affects collection's name and not text that serves as element's name);
+1. Fix damage reference in Invoke's button tooltip;
+1. Add duplicated animation macro actor to karass unit actor;
+1. Add Invoke ability to Karass;
+1. Add Invoke ability to Karass's command card.
 
 After all this is done – we can Test Document and observe that our Karass is able to cast two identical abilties.
 
@@ -380,7 +381,7 @@ After all this is done – we can Test Document and observe that our Karass is a
 
 ### Create Persistent
 
-To execute our "**Launch Missile**" effect multiple times we're going to make use of "**Create Persistent**" effect (it's a go-to effect when you want to repeat something, for example: the repeating damage every tick in a High Templar's Psi-Storm).
+To execute our "**Launch Missile**" effect multiple times we're going to make use of "**Create Persistent**" effect (it's a go-to effect when you want to repeat something, for example: the repeating damage every tick in a high templar's psi-storm).
 
 Create a "**Create Persistent**" effect and name it "**Start Persistent**".
 
@@ -400,11 +401,10 @@ In "**Flags+**" check "**Channeled**" and "**Channeling**". This will make it so
 
  ![](Assets/P2_2_CPFlags.png)
 
->NOTE
->
->The skill will work fine without those two flags. If you want to be able to launch ability and run away asap – feel free to not use them.
+!!! info
+    The skill will work fine without those two flags. If you want to be able to launch ability and run away asap – feel free to not use them.
 
- ### Ability
+### Ability
 
 Next go to ability and change it's effect to our new persistent effect.
 
@@ -416,7 +416,7 @@ With this, we can Test Document and see that the ability is indeed working.
 
 #### Button
 
-Lets pick a more expressive button image for our new skill – "*btn-ability-tychus-odin-barrage.dds*" should do.
+Lets pick a more expressive button image for our new skill – `btn-ability-tychus-odin-barrage.dds` should do.
 
 After that, reflect changes we've made to ability in button's tooltip.
 
