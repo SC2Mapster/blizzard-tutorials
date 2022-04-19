@@ -143,11 +143,11 @@ Go to unit's "**Abilities+**" field and add our abilty by pressing little green 
 
 
 After that go to unit's "**Command Card+**" field 
-1) Click on button slot where you want to place button.
-2) Click little green `+` button to add a button 
-3) Choose the button we'd made earlier
-4) In "**Command Type**" choose "Ability Command"
-5) In "**Ability**" choose our ability. Abilites that unit possesses are usually found at the top of the list so you don't need to search for them.
+1.  Click on button slot where you want to place button.
+1.  Click little green `+` button to add a button 
+1.  Choose the button we'd made earlier
+1.  In "**Command Type**" choose "Ability Command"
+1.  In "**Ability**" choose our ability. Abilites that unit possesses are usually found at the top of the list so you don't need to search for them.
 
 |![](Assets/2-2_AddAbilityToCC1.png)|![](Assets/2-2_AddAbilityToCC2.png)|![](Assets/2-2_AddAbilityToCC3.png)|
 | ------------- | ------------- |------------- |
@@ -159,8 +159,8 @@ After that go to unit's "**Command Card+**" field
 Alright – time to construct the logic that will drive the ability.
 
 This ability does 2 things
-1) Launches a missile from caster to target.
-2) On impact deals damage to target.
+1.  Launches a missile from caster to target.
+1.  On impact deals damage to target.
 
 First thing – we need to launch a missile. Go to effects data tab and create a new "**Launch Missile**" effect.
 
@@ -225,9 +225,8 @@ After filling in token ability find "**Events+**" field, right click on it, hove
 
 Now lets make our projectile behave just like majority of other projectiles in SC2 behave – shoot from unit's weapon to target's body. For this we'll need an Action actor. 
 
->INFO
->
->Action actor controls all things related to visuals/sounds that happen during a regular attack. At a simple level, it's what we use to make sure that attack launches and impacts properly, and takes into consideration to display attack hitting shields while unit has shields, instead of landing straight on unit.
+!!! info
+    Action actor controls all things related to visuals/sounds that happen during a regular attack. At a simple level, it's what we use to make sure that attack launches and impacts properly, and takes into consideration to display attack hitting shields while unit has shields, instead of landing straight on unit.
 
 Lets duplicate Karass Attack, it already has a nice sound that sounds like a spell launch. As always, when duplicating, we'll mark stuff that we want to change (except for stuff we have already made, like missile).
 
@@ -236,16 +235,15 @@ After duplication is done notice token fields at the bottom. Replace "Impact Eff
 |![](Assets/2-4-2_AttackActionDuplication.png)|![](Assets/2-4-2_AttackActionTokens.png)|
 | ------------- | ------------- |
 
->INFO
->
->When filling tokens in this instance, the actor's "**Events+**" field will adjust to them automatically (unlike back when we filled them in range actor), so there is no need to reset "**Events+**" field.
+!!! info
+    When filling tokens in this instance, the actor's "**Events+**" field will adjust to them automatically (unlike back when we filled them in range actor), so there is no need to reset "**Events+**" field.
 
 In attack actor find field "**Missile**" and replace it with our projectile.
 
 ![](Assets/2-4-2_AttackActionMissileSet.png)
 
 We're now done with actor's fields, so let's change the model we duplicated. Go to model's data and change "**Model**" field to some sort of explosion.
-"*MiraHorner_Wraith_Coop_Missile_Impact.m3*" fits well.
+`MiraHorner_Wraith_Coop_Missile_Impact.m3` fits well.
 
 Now our missile should behave and sound as expected. But what about the unit which uses the ability?
 
@@ -328,9 +326,8 @@ Our data effort is done. Let's head back to data collections tab, select our dat
 |![](Assets/2-5_CollectionAutofill.png)|![](Assets/2-5_CollectionSummary.png)|
 | ------------- | ------------- |
 
->INFO
->
->When renaming data collection, references in texts won't be updated, so if we rename our data collection we'll have to manually update all text references, like that one where we referred to damage effect in the button's tooltip.
+!!! warning
+    When renaming data collection, references in texts won't be updated, so if we rename our data collection we'll have to manually update all text references, like that one where we referred to damage effect in the button's tooltip.
 
 
 |![brrrrrrrrrrr](Assets/1SimpleFirebolt.gif)|
@@ -366,16 +363,17 @@ Click OK, now we have 2 identical data collections. But our new duplicate has "2
 Let's change the name for our new data collection, so how about "Fire Mage – Invoke" (and as always autosuggest a new ID so that it fits our name).
 
 Once that is done we need to manually do a few things:
-- change button's name to "Invoke" (since duplication only affects collection's name and not text that serves as element's name);
-- fix damage reference in Invoke's button tooltip;
-- add duplicated animation macro actor to karass unit actor;
-- add Invoke ability to Karass;
-- add Invoke ability to Karass's command card.
+1. change button's name to "Invoke" (since duplication only affects collection's name and not text that serves as element's name);
+1. fix damage reference in Invoke's button tooltip;
+1. add duplicated animation macro actor to karass unit actor;
+1. add Invoke ability to Karass;
+1. add Invoke ability to Karass's command card.
+
 After all this is done – we can Test Document and observe that our Karass is able to cast two identical abilties.
 
->INFO
->
->Although data collection duplication window looks similiar to normal duplication window – you can't uncheck individual elements for duplication. If we want to duplicate only part of the collection – we'll need to manually remove unneeded elements by going into "**Data Record**" field in data collection and removing them there. After duplication they can be re-added back with usual autofilling.
+!!! info
+    Although data collection duplication window looks similiar to normal duplication window – you can't uncheck individual elements for duplication. If we want to duplicate only part of the collection – we'll need to manually remove unneeded elements by going into "**Data Record**" field in data collection and removing them there. After duplication they can be re-added back with usual autofilling.
+    
 ---
 
 ## Step 2: Additional Effect.
