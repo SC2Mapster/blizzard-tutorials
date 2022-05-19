@@ -9,8 +9,8 @@ The Points Layer uses marking elements called points. Points communicate locatio
 
 The Points Palette is where you'll find the tools for creating the different types of points, as well as a list of every active point in the map. You can find it on the left-hand side of the Terrain Editor when the Points Layer is active.
 
-[![Units Preview and Existing Object List](./resources/023_Points_Layer2.png)](./resources/023_Points_Layer2.png)
-*Units Preview and Existing Object List*
+[![Points Palette with Existing Point List](./resources/023_Points_Layer2.png)](./resources/023_Points_Layer2.png)
+*Points Palette with Existing Point List*
 
 There are four types of points, Normal Points, Start Locations, Sound Emitters, and 3D Points. You can place each of them by selecting their respective tools and clicking on the desired location on the map. This will mark that location with a point and create a marker at the location. You can move points after they've been placed by selecting and dragging the marker. Despite the appearance of their markers, points don't take up any space and will not be visible outside of the Editor. You can also hide the markers individually by right-clicking on a point in the Points Palette and changing their Show in Editor property. Point markers appear in the Editor as shown in the image below.
 
@@ -19,13 +19,13 @@ There are four types of points, Normal Points, Start Locations, Sound Emitters, 
 
 ## Point Types
 
-[![Image](./resources/023_Points_Layer7.png)](./resources/023_Points_Layer7.png) they mark a specific coordinate on the map in the XY plane.
+[![Image](./resources/023_Points_Layer4.png)](./resources/023_Points_Layer4.png) Normal points mark a specific coordinate on the map in the XY plane.
 
-[![Image](./resources/023_Points_Layer7.png)](./resources/023_Points_Layer7.png) to players, marking their initial starting positions. This is a special distinction which receives several uses throughout the Editor. These points mark the location for spawning the base and workers in standard melee games. They also set the default initial camera position for their respective players.
+[![Image](./resources/023_Points_Layer5.png)](./resources/023_Points_Layer5.png) Start Locations are assigned to players, marking their initial starting positions. This is a special distinction which receives several uses throughout the Editor. These points mark the location for spawning the base and workers in standard melee games. They also set the default initial camera position for their respective players.
 
-[![Image](./resources/023_Points_Layer7.png)](./resources/023_Points_Layer7.png) sounds at their location. Typically they produce environmental noises within a specific distance range on the map. This means you can use them as a sort of audio doodad, creating decorative and atmospheric sound.
+[![Image](./resources/023_Points_Layer6.png)](./resources/023_Points_Layer6.png) Sound Emitters play sounds at their location. Typically they produce environmental noises within a specific distance range on the map. This means you can use them as a sort of audio doodad, creating decorative and atmospheric sound.
 
-[![Image](./resources/023_Points_Layer7.png)](./resources/023_Points_Layer7.png) but have an additional Height value, meaning they are used to mark a coordinate in XYZ or 3D space.
+[![Image](./resources/023_Points_Layer7.png)](./resources/023_Points_Layer7.png) Three Dimensional points are like Normal points, but have an additional Height value, meaning they are used to mark a coordinate in XYZ or 3D space.
 
 ## Point Properties
 

@@ -14,7 +14,7 @@ Event macros make working with actor events more manageable. Separating events t
 Event macros don't have many configurable elements. While they appear to have many fields, most of them are defaults they inherit by virtue of being actors. The field of interest at the moment is the one labelled 'Events.' Investigating the 'Events' field for a macro will launch the actor events subeditor shown below.
 
 [![Event Macros Listing](./resources/065_Event_Macros2.png)](./resources/065_Event_Macros2.png)
-*Event Macros Listing*
+*Event Macro Events*
 
 Elements defined in the macro's 'Events' field form its main definition. Once hosted, this definition transfers all of its events, terms, and messages into the host actor's event. It's worth noting that these events aren't actually visible within the host's 'Events' field.
 

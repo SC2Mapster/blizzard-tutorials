@@ -43,12 +43,12 @@ Events and messages pertinent to a sound actor's operation are broken down in th
 Open the demo map provided with this article. The course inside shows a roach that's been cornered by some marines. It should appear as shown in the image below.
 
 [![Sound Actors Listing](./resources/063_Sound_Actors2.png)](./resources/063_Sound_Actors2.png)
-*Sound Actors Listing*
+*Cornered Roach Demo Map*
 
 By default, roaches don't make any sort of noise while being attacked. Testing the map now will demonstrate this. However, you can build a new sound actor to alter this behavior using some prebuilt assets. Navigate to the Data Editor and open the Sounds tab. Find the existing sound 'Roach\_Damaged,' and open its 'Sounds Assets' field. This should present you with the following view.
 
 [![Sound Actors Listing](./resources/063_Sound_Actors3.png)](./resources/063_Sound_Actors3.png)
-*Sound Actors Listing*
+*Sound Assets View*
 
 Here a custom Sound has been set up to replicate a selection of zergling death noises. The list is set so that a random variation will pick and play as a stand in for a roach damaged noise. To set that functionality, move to the actors tab and right-click in the main view, then select 'Add Actor.'
 

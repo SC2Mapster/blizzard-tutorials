@@ -1,4 +1,4 @@
-DIALOGS
+# Dialogs
 
 Dialogs is a catch-all term in the StarCraft II engine referring to a large collection of elements that can occur in the screen space, including text, images, animation, and interfaces. The dialog itself is a sort of container that displays any combination of the aforementioned elements on a player's screen. Each of these elements are referred to as a Dialog Item, and are created inside a selected dialog. Using the dialog system enables you to produce many types of content, including briefings, portrait dialog sequences, buttons, sliders, and more.
 
@@ -30,7 +30,7 @@ The following table breaks down the general types of dialog actions and describe
 | Set Dialog          | Sets the property of a specific element. Properties include size, lighting, text, color, animation, font style, and more. |
 | Show/Hide Dialog    | Reveals or removes an element from a target player or group's screen.                                                     |
 
-# Dialog Items
+## Dialog Items
 
 Dialogs are populated by dialog items. Without any items, a dialog is just a rectangular container with a themed backdrop depending on the player's race. Dialog items are varied and have options relevant to each individual type, but in general they abide by the same set of principles as dialogs. Much like dialogs themselves, you can create dialog items with a Create Dialog Item action, then display them with a Show Dialog Item action. After this, you'll usually save a handle within a variable with a Set Variable action. Again, a useful identifier for doing this is the function Last Created Dialog Item.
 
@@ -46,7 +46,7 @@ The Width and Height define the button's area, which both displays the item's te
 [![Button Dialog item in Game View](./resources/043_Dialogs4.png)](./resources/043_Dialogs4.png)
 *Button Dialog item in Game View*
 
-# Dialog Event -- Dialog Item Is Used
+## Dialog Event -- Dialog Item Is Used
 
 As it stands, clicking the button made in the last demo will have no effect. For dialog items designed to accept user input, there is a specific dialog event, Dialog Item is Used, required to receive and respond to player inputs. You can find this event by sorting by the label 'Dialog' during event creation, as is shown below.
 
@@ -60,17 +60,17 @@ This event responds to a host of possible interactions with dialogs, which are s
 
 In this instance, the event type Clicked is appropriate. To recognize a specific dialog item, a condition can be used with a comparison operator between the identifier Used Dialog Item and the dialog item's variable handle. Creating an interaction trigger for the previous demo might look like the image below.
 
-[![Dialog Item Interaction Types](./resources/043_Dialogs7.png)](./resources/043_Dialogs7.png)
-*Dialog Item Interaction Types*
+[![Button Clicked Trigger](./resources/043_Dialogs7.png)](./resources/043_Dialogs7.png)
+*Button Clicked Trigger*
 
 Testing the demo will now give the following output.
 
-[![Dialog Item Interaction Types](./resources/043_Dialogs8.png)](./resources/043_Dialogs8.png)
-*Dialog Item Interaction Types*
+[![Button Responds To Click](./resources/043_Dialogs8.png)](./resources/043_Dialogs8.png)
+*Button Responds To Click*
 
 Giving the button a trial click here has shown a response to the dialog event by delivering a text message output.
 
-# Dialog Formatting
+## Dialog Formatting
 
 Dialogs are constant constructs, meaning that they will look the same regardless of the output size of a particular player's screen. This is a similar system to that used in the basic melee game interface. This system ensures a level of reliability, but when creating custom content it is something you should be aware of. Take the following example. A centered dialog created at a 16:9 resolution will look like the following.
 
