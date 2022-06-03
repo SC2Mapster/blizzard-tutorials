@@ -85,8 +85,6 @@ Due to the limitations of technology, all abilities must have a predefined posit
 
 In case if our hero picks up an ability for a slot that is already taken by some other ability - they will remove and drop on the ground their currently equipped ability before equipping the new one.
 
-[gif of hero picking up and swapping 3 different Q slot abilities]
-
 **How we will make it:**
 
 To create such a system, we will need to do 5 tasks:
