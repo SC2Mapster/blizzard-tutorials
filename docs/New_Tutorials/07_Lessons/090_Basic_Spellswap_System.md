@@ -9,10 +9,8 @@ authors:
 # Basic spellswap system
 
 
-## Preface
-
-
-This tutorial attempts to be beginner friendly, however it is expected to have some minimal experience with both data and triggers, as we will need to work with both of those modules. The trigger part will feature creation of action definitions, as well as working with catalog triggers and data tables. All in all, there will be a total of 5 triggers made, with every one of them being pretty small, plus there is an example map attached for reference.
+!!! info
+    This tutorial attempts to be beginner friendly, however it is expected to have some minimal experience with both data and triggers, as we will need to work with both of those modules. The trigger part will feature creation of action definitions, as well as working with catalog triggers and data tables. All in all, there will be a total of 5 triggers made, with every one of them being pretty small. There is an example map attached for reference at the end of this tutorial.
 
 
 ## Introduction
@@ -47,7 +45,7 @@ Here are our objectives for this tutorial:
 
 Our goal is to successfully add an ability to a unit via triggers.
 
-**Process**
+**Process:**
 
 Let's take a Zeratul and place him on the map. From now on we'll refer to this unit as "***hero***".
 
@@ -266,6 +264,7 @@ Next, we need to decide which abilities to test out.
 
 
 Let's check out all sorts of stuff.
+
 |Slot|Abil Type|Abil Name|
 | ------------- | ------------- |------------- |
 |Q slot|Effect Target|High Templar - Psi Storm|
@@ -278,12 +277,19 @@ Let's check out all sorts of stuff.
 |E slot|Research|Engineering Bay - Research (Engineering Bay)|
 
 Now, let's go to these abilities and modify them so that they will be able to be used by our hero:
+
 - In the ability's "**Commands+**" field, check the "**Use Default Button**" and "**Create Default Button**" flags on.
+
 - In the "**Categories+**" field, check "**User 1**" for Q slots, "**User 2**" for W slots, "**User 3**" for E slots.
+
 - In their linked buttons and in the "**Default Button Layout+**" field, set the "**Card ID**" to "0001", "**Row**" to "2" and "**Column**" to "0" for Q slots, "1" for W slots, "2" for E slots.
+
 - *[Optional]* In the button, you can change the "**Hotkey**" to match Q/W/E.
+
 - *[Optional]* You can add "Q", "W", or "E" to abilities' "**Editor Prefix**" field, as it will make it so much quicker to search for them in triggers.
+
 - *[Note]* Some abilities (like stimpack) have research requirements, so don't forget to clear those (Requirements can be removed in "**Commands+**" field).
+
 - For abilites that make use of multiple buttons (like Ghost's Cloak or any train/research/array abilities) we'll need to apply the above steps for each of buttons we want to be created when ability is added (don't forget to place those buttons in different slots so they don't overlap).
 
 
