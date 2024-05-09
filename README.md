@@ -10,7 +10,13 @@ https://s2editor-guides.readthedocs.io/
 
 ![](https://readthedocs.org/projects/s2editor-guides/badge/?version=latest)
 
-## Site generator
+## Local development
+
+- Install [Poetry](https://python-poetry.org/docs/)
+- `poetry install`
+- `poetry shell`
+
+### Site generator
 
 We're using [mkdocs.org](https://www.mkdocs.org).
 

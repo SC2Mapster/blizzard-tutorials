@@ -24,4 +24,9 @@ markdown_extensions:
 extra_css:
     - css/custom.css
 
+# this will be needed once we upgrade to mkdocs 1.6
+# https://github.com/mkdocs/mkdocs/blob/0998fec7eb32d269f02c6d87071d6163c251db30/docs/about/release-notes.md#mkdocs-theme
+# extra_javascript:
+#   - https://code.jquery.com/jquery-3.7.1.min.js
+
 dev_addr: '127.0.0.1:8001'

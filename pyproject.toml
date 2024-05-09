@@ -5,8 +5,8 @@ description = ""
 authors = ["SC2Mapster"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-mkdocs = "^1.2.1"
+python = "^3.11"
+mkdocs = "~1.4"
 
 [tool.poetry.dev-dependencies]
 
