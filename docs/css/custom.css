@@ -1,4 +1,19 @@
-/* RTD fixes */
+/* RTD theme adjustments */
+
+/* expand content area */
+
+.wy-nav-content {
+    max-width: 1140px; /* default is 800px */
+}
+
+/* don't wrap text in tables */
+
+@media screen and (min-width: 1024px) {
+    .wy-table-responsive table td,
+    .wy-table-responsive table th {
+        white-space: initial; /* default is nowrap */
+    }
+}
 
 /* fix lack of scrollbar on navbar */
 
