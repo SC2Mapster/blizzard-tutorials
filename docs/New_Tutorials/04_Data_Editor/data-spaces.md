@@ -45,7 +45,7 @@ You can either create new or just copy-paste any of xml files, rename it to how 
 
 ## Step 3. Making editor see data space
 
-We'll need to make a new xml file called `GameData` in the `Base.SC2Data` folder (create it same way we created our previous xml file in step 2). Copypaste following, except in catalog path specify the name of our dataspace file.
+We'll need to make a new xml file called `GameData.xml` in the `Base.SC2Data` folder (create it same way we created our previous xml file in step 2). Copypaste following, except in catalog path specify the name of our dataspace file.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
