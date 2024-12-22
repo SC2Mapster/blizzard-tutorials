@@ -6,12 +6,12 @@ Actors have their own logic system, which is responsible for much of the linking
 
 You can find the actors section of the Editor by moving to the Data Editor and navigating to + ▶︎ Edit Actor Data ▶︎ Actors, as shown below.
 
-![Navigating to Actors in Data](./resources/060_Actors4.png)
+![Navigating to Actors in Data](./resources/060_Actors6.png)
 *Navigating to Actors in Data*
 
 This will bring you to the actors tab of the Data Editor, presenting you with the following view.
 
-![Actors Tab View](./resources/060_Actors5.png)
+![Actors Tab View](./resources/060_Actors7.png)
 *Actors Tab View*
 
 The fields in actors are described in the following section.
@@ -46,11 +46,11 @@ Owing to the many types available for actors, a single treatment of every actor 
 
 Actor Events is a communication system for actors. It allows for actors to speak to one another, creating context sensitive changes that can affect any aspect of the game. This system is composed of three basic elements, which are described below.
 
-[![Image](./resources/060_Actors3.png)](./resources/060_Actors3.png) A specific development that can occur within the game.
+[![Image](./resources/060_Actors1.png)](./resources/060_Actors1.png) Events - A specific development that can occur within the game.
 
-[![Image](./resources/060_Actors3.png)](./resources/060_Actors3.png) A confirmable set of properties of the game state.
+[![Image](./resources/060_Actors4.png)](./resources/060_Actors4.png) Terms - A confirmable set of properties of the game state.
 
-[![Image](./resources/060_Actors3.png)](./resources/060_Actors3.png) Commands that can be communicated to elements of the game.
+[![Image](./resources/060_Actors5.png)](./resources/060_Actors5.png) Messages - Commands that can be communicated to elements of the game.
 
 These elements work together in a sequence, creating an actor event. The sequence unfolds as follows. Setting an actor's events makes the actor watch for a specific Event to occur. If it does, then the Terms are checked. If they are found to be true, the Messages are sent out to their targeted game elements.
 
@@ -58,12 +58,12 @@ You may already have noticed that this is similar the Editor's other main commun
 
 You can find the actor events system by navigating to the 'Events' field of any actor type. A view of a typical events field is shown below.
 
-[![Actor Events Field](./resources/060_Actors6.png)](./resources/060_Actors6.png)
+[![Actor Events Field](./resources/060_Actors8.png)](./resources/060_Actors8.png)
 *Actor Events Field*
 
 Double clicking this field will launch the actor events subeditor.
 
-[![Actor Events Subeditor](./resources/060_Actors7.png)](./resources/060_Actors7.png)
+[![Actor Events Subeditor](./resources/060_Actors9.png)](./resources/060_Actors9.png)
 *Actor Events Subeditor*
 
 This subeditor presents an organized view of the events, terms, and messages in an actor's 'Events' field. You should note that the elements are colorized by their data source. Gray elements indicate inheritance from the game's core data, Blue elements are from a Blizzard dependency, and green elements are from the current project.
@@ -76,12 +76,12 @@ Additional options, such as parameters or sources, typically control what the me
 
 Actor events are incredibly versatile. They can perform the fundamental handling of actors within data, such as creating them, destroying them, and linking them. However, actor events have many more nuanced functions, like playing animations, altering the physical properties of art and sound assets, applying physics, and controlling lighting. As an example of actor events' capabilities, note the following.
 
-[![Sample Actor Event](./resources/060_Actors8.png)](./resources/060_Actors8.png)
+[![Sample Actor Event](./resources/060_Actors10.png)](./resources/060_Actors10.png)
 *Sample Actor Event*
 
 Here, an event has been set to respond to a zealot's charging behavior. In response to the charge starting, the zealot will send out a message to its own unit actor, resulting in its model being tinted to a reddish color. On testing, the gameplay results appeared as shown below.
 
-![](./resources/060_Actors9.png)
+![](./resources/060_Actors11.png)
 *Zealots Tinting an Angry Red during Charge*
 
 ## Actor Events & Triggers
@@ -90,10 +90,10 @@ As mentioned earlier, there are many parallels between the actor events and trig
 
 An important example of this is that actor messages can be sent to specific actors using the Trigger Editor's 'Send Actor Message' action. You can see this in action below.
 
-!['Send Actor Message' Actions](./resources/060_Actors10.png)
+!['Send Actor Message' Actions](./resources/060_Actors2.png)
 *'Send Actor Message' Actions*
 
 Above, an action statement in the body of a trigger has sent out a 'Set Tint Color' message to a hydralisk's unit actor. The unit actor has also received a message to change its team color. Together, these messages have dyed the unit's model a blue color, by speaking directly to its actors from triggers.
 
-[![Colorized Hydralisk](./resources/060_Actors11.png)](./resources/060_Actors11.png)
+[![Colorized Hydralisk](./resources/060_Actors3.png)](./resources/060_Actors3.png)
 *Colorized Hydralisk*
