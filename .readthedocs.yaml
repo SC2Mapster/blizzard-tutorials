@@ -13,6 +13,7 @@ build:
     post_create_environment:
       # Install poetry
       # https://python-poetry.org/docs/#installing-manually
+      - pip uninstall mkdocs
       - pip install poetry
     post_install:
       # Install dependencies
