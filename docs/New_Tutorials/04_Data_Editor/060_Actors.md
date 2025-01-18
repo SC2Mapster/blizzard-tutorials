@@ -1,8 +1,12 @@
 # Actors
 
-Actors are the workhorse of the Data Editor. They are both essential and wide-ranging, so much so that it can be difficult to pin an exact definition to them. Actors can be more easily defined in terms of their purpose. To put it as simply as possible, actors accomplish things within data.
+Actors control everything you see or hear in the game from the units model to the impact sound of an ability.
 
-Actors have their own logic system, which is responsible for much of the linking and action between data. Some actors hook together the observable components of the engine, such as models, doodads, and sound, tying them into the game. Other actors affect gameplay by configuring attacks and abilities. There's even a variety of higher level constructs for use with actors, including actor lists that track and organize actors, actor regions that can interact with other actors based on a map area, and event macros that collect common actor logic into a reusable tool. Actors are also the asynchronous component of the StarCraft engine, allowing them to push different data to different players.
+Actor logic is event based which means the actor itself can declare when its created. This is different from game logic (Units, Abilities, Effects, etc.) which are forward declared, e.g. an ability states which effect to execute on use. In that sense actor logic is reversed and unintuitive when first starting out.
+
+Actors do not affect gameplay as they are calculated asyncronious on the players local machine and not syncronized across the network. This means the state of actors cannot be compared reliable since some actors may only be created on certain graphic settings.
+
+Next to the obvious Model and Sound actors there are various different other actor types which control subsystems (e.g. SiteOperations or Event Macros) or glue other actors together (e.g. Action or Region Actors).
 
 You can find the actors section of the Editor by moving to the Data Editor and navigating to + ▶︎ Edit Actor Data ▶︎ Actors, as shown below.
 
