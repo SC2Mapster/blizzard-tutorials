@@ -129,4 +129,6 @@ Here is a list of very useful parents which you should consider using when creat
 | Sound | SoundOneShot | Plays the sound once and then destroys itself. |
 | Sound | SoundContinuous | Plays the sound continuously until the actor is destroyed which you can control. |
 
+Some parents are partially broken when using the data module due to how it fills certain values. This includes Range Abil, Range Behavior, Range Weapon and Cursor Splat. When you want to use them, after creating the actor and setting the token, right click on the *Events* field and select *Reset To Parent Value* and there select the parents name from the list. Alternatively you can open XML-View and delete the generated lines that start with `<On` for the newly created actor. 
+
 You can create your own parents as well. It is not recommended for beginners but once you have a better understanding of data it can help speedup creation of new data and make it less error prone.
