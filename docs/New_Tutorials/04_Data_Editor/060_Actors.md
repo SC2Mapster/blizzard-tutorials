@@ -101,3 +101,32 @@ Above, an action statement in the body of a trigger has sent out a 'Set Tint Col
 
 [![Colorized Hydralisk](./resources/060_Actors3.png)](./resources/060_Actors3.png)
 *Colorized Hydralisk*
+
+
+## Actor Parents
+
+Data parents exist for all types of data, but for actors in particular blizzard did a lot of work to create useful parents that can speedup your work creating actors as well as reduce the complexity when you just learn about actors.
+A parent is a template which if used the child object will inherit all its base settings. You can overwrite the base settings, if need to change something. For some actor types a good parent is already chosen by default in the editor, like the `GenericUnitStandard` parent for `Unit` actors.
+
+Parents can define Tokens which a child object can fill out to automatically set part of its data. You can think of them as parameters to a function.
+
+Here is a list of very useful parents which you should consider using when creating actors.
+
+| Actor Type | Name | Details |
+| ---------- | ---- | ------- |
+| Unit | GenericUnitStandard | This is the default parent used for Unit actors, so you dont have to think about it too much. If you want to learn about actor events you can look inside the units actor events and see how many events are necessary to have a basic unit function as you expect it. |
+| Action | GenericAttack | This is the default parent used Action actors. It comes with 3 effect tokens `Attack`, `Launch` and `Impact`. For beam or immediate attacks (like Marine) set `Attack` to the damage effect and for missile attacks set `Launch` to the launch missile effect and `Impact` to the impact effect of said launch missile effect. Do not set all 3 tokens. |
+| Model | ModelAddition | Use this if you want to attach a model to another actor, e.g. a model when a unit has a buff active. |
+| Model | ModelAnimationStyleContinuous | For non attached models where you control when the actor is destroyed, e.g. Psi Storms area. |
+| Model | ModelAnimationStyleOneShot | For one shot models like explosions which you want to automatically cleanup once the animation is done. For attacks its better to use the built in launch and impact models from Action actors. |
+| ModelMaterial | BehaviorGlaze | If you want to apply a glaze to a unit while a behavior is actor. You only need to set the `buff` token and the Model. |
+| Beam | Beam Simple Animation Style Continuous | This is the default parent for Beam (Simple) actors. Used for beams where you control the destruction of the actor. |
+| Beam | Beam Simple Animation Style One Shot | Use this parent if you only want a beam which plays its animation once and then destroys itself. |
+| Range | Range Abil | This allows an easy setup if you want to show the ability range while an ability is in targeting mode. You only need to set the `Ability` token for it to work. It will automatically read the abilities casting range. |
+| Range | Range Behavior | Activates while a behavior is on a unit. You have to manually set the range. |
+| Range | Range Weapon | Same as Range Abil for a weapon. |
+| Splat | Cursor Splat | Creates a splat at the cursors position, mostly used for showing the impact area of an AOE ability like Psi Storm. You only need to set the `abil` token and the Model. |
+| Sound | SoundOneShot | Plays the sound once and then destroys itself. |
+| Sound | SoundContinuous | Plays the sound continuously until the actor is destroyed which you can control. |
+
+You can create your own parents as well. It is not recommended for beginners but once you have a better understanding of data it can help speedup creation of new data and make it less error prone.
