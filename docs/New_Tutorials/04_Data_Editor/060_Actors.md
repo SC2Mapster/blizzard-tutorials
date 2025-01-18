@@ -4,9 +4,9 @@ Actors control everything you see or hear in the game from the units model to th
 
 Actor logic is event based which means the actor itself can declare when its created. This is different from game logic (Units, Abilities, Effects, etc.) which are forward declared, e.g. an ability states which effect to execute on use. In that sense actor logic is reversed and unintuitive when first starting out.
 
-Actors do not affect gameplay as they are calculated asyncronious on the players local machine and not syncronized across the network. This means the state of actors cannot be compared reliable since some actors may only be created on certain graphic settings.
+Actors do not affect gameplay as they are calculated asynchronously on the player's local machine and are not synchronized across the network. This means the state of actors cannot be compared reliably, as some actors may only be created on certain graphic settings.
 
-Next to the obvious Model and Sound actors there are various different other actor types which control subsystems (e.g. SiteOperations or Event Macros) or glue other actors together (e.g. Action or Region Actors).
+In addition to the obvious Model and Sound actors, there are various other types of actors that control subsystems (e.g., Site Operations or Event Macros) or link other actors together (e.g., Action or Region actors).
 
 You can find the actors section of the Editor by moving to the Data Editor and navigating to + ▶︎ Edit Actor Data ▶︎ Actors, as shown below.
 
@@ -119,7 +119,7 @@ Here is a list of very useful parents which you should consider using when creat
 | Model | ModelAddition | Use this if you want to attach a model to another actor, e.g. a model when a unit has a buff active. |
 | Model | ModelAnimationStyleContinuous | For non attached models where you control when the actor is destroyed, e.g. Psi Storms area. |
 | Model | ModelAnimationStyleOneShot | For one shot models like explosions which you want to automatically cleanup once the animation is done. For attacks its better to use the built in launch and impact models from Action actors. |
-| ModelMaterial | BehaviorGlaze | If you want to apply a glaze to a unit while a behavior is actor. You only need to set the `buff` token and the Model. |
+| ModelMaterial | BehaviorGlaze | If you want to apply a glaze to a unit while a behavior is active. You only need to set the `buff` token and the Model. |
 | Beam | Beam Simple Animation Style Continuous | This is the default parent for Beam (Simple) actors. Used for beams where you control the destruction of the actor. |
 | Beam | Beam Simple Animation Style One Shot | Use this parent if you only want a beam which plays its animation once and then destroys itself. |
 | Range | Range Abil | This allows an easy setup if you want to show the ability range while an ability is in targeting mode. You only need to set the `Ability` token for it to work. It will automatically read the abilities casting range. |
