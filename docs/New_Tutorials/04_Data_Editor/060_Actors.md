@@ -106,7 +106,7 @@ Above, an action statement in the body of a trigger has sent out a 'Set Tint Col
 ## Actor Parents
 
 Data parents exist for all types of data, but for actors in particular blizzard did a lot of work to create useful parents that can speedup your work creating actors as well as reduce the complexity when you just learn about actors.
-A parent is a template which if used the child object will inherit all its base settings. You can overwrite the base settings, if need to change something. For some actor types a good parent is already chosen by default in the editor, like the `GenericUnitStandard` parent for `Unit` actors.
+A parent is a template which if used the child object will inherit all its base settings. You can overwrite the base settings, if you need to change something. For some actor types a good parent is already chosen by default in the editor, like the `GenericUnitStandard` parent for `Unit` actors.
 
 Parents can define Tokens which a child object can fill out to automatically set part of its data. You can think of them as parameters to a function.
 
@@ -131,4 +131,4 @@ Here is a list of very useful parents which you should consider using when creat
 
 Some parents are partially broken when using the data module due to how it fills certain values. This includes Range Abil, Range Behavior, Range Weapon and Cursor Splat. When you want to use them, after creating the actor and setting the token, right click on the *Events* field and select *Reset To Parent Value* and there select the parents name from the list. Alternatively you can open XML-View and delete the generated lines that start with `<On` for the newly created actor. 
 
-You can create your own parents as well. It is not recommended for beginners but once you have a better understanding of data it can help speedup creation of new data and make it less error prone.
+You can create your own parents as well. It is not recommended for beginners but once you have a better understanding of data it can help speedup creation of new data and makes it less error prone.
