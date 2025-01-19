@@ -1,8 +1,12 @@
 # Actors
 
-Actors are the workhorse of the Data Editor. They are both essential and wide-ranging, so much so that it can be difficult to pin an exact definition to them. Actors can be more easily defined in terms of their purpose. To put it as simply as possible, actors accomplish things within data.
+Actors control everything you see or hear in the game from the units model to the impact sound of an ability.
 
-Actors have their own logic system, which is responsible for much of the linking and action between data. Some actors hook together the observable components of the engine, such as models, doodads, and sound, tying them into the game. Other actors affect gameplay by configuring attacks and abilities. There's even a variety of higher level constructs for use with actors, including actor lists that track and organize actors, actor regions that can interact with other actors based on a map area, and event macros that collect common actor logic into a reusable tool. Actors are also the asynchronous component of the StarCraft engine, allowing them to push different data to different players.
+Actor logic is event based which means the actor itself can declare when its created. This is different from game logic (Units, Abilities, Effects, etc.) which are forward declared, e.g. an ability states which effect to execute on use. In that sense actor logic is reversed and unintuitive when first starting out.
+
+Actors do not affect gameplay as they are calculated asynchronously on the player's local machine and are not synchronized across the network. This means the state of actors cannot be compared reliably, as some actors may only be created on certain graphic settings.
+
+In addition to the obvious Model and Sound actors, there are various other types of actors that control subsystems (e.g., Site Operations or Event Macros) or link other actors together (e.g., Action or Region actors).
 
 You can find the actors section of the Editor by moving to the Data Editor and navigating to + ▶︎ Edit Actor Data ▶︎ Actors, as shown below.
 
@@ -97,3 +101,34 @@ Above, an action statement in the body of a trigger has sent out a 'Set Tint Col
 
 [![Colorized Hydralisk](./resources/060_Actors3.png)](./resources/060_Actors3.png)
 *Colorized Hydralisk*
+
+
+## Actor Parents
+
+Data parents exist for all types of data, but for actors in particular blizzard did a lot of work to create useful parents that can speedup your work creating actors as well as reduce the complexity when you just learn about actors.
+A parent is a template which if used the child object will inherit all its base settings. You can overwrite the base settings, if you need to change something. For some actor types a good parent is already chosen by default in the editor, like the `GenericUnitStandard` parent for `Unit` actors.
+
+Parents can define Tokens which a child object can fill out to automatically set part of its data. You can think of them as parameters to a function.
+
+Here is a list of very useful parents which you should consider using when creating actors.
+
+| Actor Type | Name | Details |
+| ---------- | ---- | ------- |
+| Unit | GenericUnitStandard | This is the default parent used for Unit actors, so you dont have to think about it too much. If you want to learn about actor events you can look inside the units actor events and see how many events are necessary to have a basic unit function as you expect it. |
+| Action | GenericAttack | This is the default parent used Action actors. It comes with 3 effect tokens `Attack`, `Launch` and `Impact`. For beam or immediate attacks (like Marine) set `Attack` to the damage effect and for missile attacks set `Launch` to the launch missile effect and `Impact` to the impact effect of said launch missile effect. Do not set all 3 tokens. |
+| Model | ModelAddition | Use this if you want to attach a model to another actor, e.g. a model when a unit has a buff active. |
+| Model | ModelAnimationStyleContinuous | For non attached models where you control when the actor is destroyed, e.g. Psi Storms area. |
+| Model | ModelAnimationStyleOneShot | For one shot models like explosions which you want to automatically cleanup once the animation is done. For attacks its better to use the built in launch and impact models from Action actors. |
+| ModelMaterial | BehaviorGlaze | If you want to apply a glaze to a unit while a behavior is active. You only need to set the `buff` token and the Model. |
+| Beam | Beam Simple Animation Style Continuous | This is the default parent for Beam (Simple) actors. Used for beams where you control the destruction of the actor. |
+| Beam | Beam Simple Animation Style One Shot | Use this parent if you only want a beam which plays its animation once and then destroys itself. |
+| Range | Range Abil | This allows an easy setup if you want to show the ability range while an ability is in targeting mode. You only need to set the `Ability` token for it to work. It will automatically read the abilities casting range. |
+| Range | Range Behavior | Activates while a behavior is on a unit. You have to manually set the range. |
+| Range | Range Weapon | Same as Range Abil for a weapon. |
+| Splat | Cursor Splat | Creates a splat at the cursors position, mostly used for showing the impact area of an AOE ability like Psi Storm. You only need to set the `abil` token and the Model. |
+| Sound | SoundOneShot | Plays the sound once and then destroys itself. |
+| Sound | SoundContinuous | Plays the sound continuously until the actor is destroyed which you can control. |
+
+Some parents are partially broken when using the data module due to how it fills certain values. This includes Range Abil, Range Behavior, Range Weapon and Cursor Splat. When you want to use them, after creating the actor and setting the token, right click on the *Events* field and select *Reset To Parent Value* and there select the parents name from the list. Alternatively you can open XML-View and delete the generated lines that start with `<On` for the newly created actor. 
+
+You can create your own parents as well. It is not recommended for beginners but once you have a better understanding of data it can help speedup creation of new data and makes it less error prone.
