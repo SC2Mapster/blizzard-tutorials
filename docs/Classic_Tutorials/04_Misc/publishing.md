@@ -37,7 +37,7 @@ If this name is already in use, or if you want to publish using a different name
 
 > An Unlocked mod can be used by others in their maps, and sharing your mods with other map makers can benefit the map making community significantly. But as with maps, remember that an unlocked mod may also be copied by others.
 
-- Storage Requirements - Battle.net has the following limits for published files per user: up to ten individual maps or mods (represented as "slots" in the dialog), with no more than 50 MB total size, and no more than 10 MB used for any single map or mod.
+- Storage Requirements - Battle.net has the following limits for published files per user: up to 80 individual maps or mods (represented as "slots" in the dialog), with no more than 300 MB total size.
 
 
 If there are any additional requirements for publishing the map or mod, they will be listed on the left. Once everything has been configured, you can accept the dialog, and your file will be uploaded to Battle.net. Upload progress can be seen in the File Transfers window which will automatically be shown. When the upload is complete, you can hop in the game and play your map!
