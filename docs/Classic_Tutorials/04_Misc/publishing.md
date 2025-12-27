@@ -6,7 +6,7 @@ The new Battle.net publishing system allows you to publish your maps and mods di
 
 ## PUBLISHING YOUR MAP OR MOD
 
-![img](http://media.blizzard.com/sc2/game/maps-and-mods/tutorials/publishing/en-us/publishing-window.png)
+![img](./resources/publishing01.png)
 
 Publishing is done through the editor. First, open the map or mod you want to publish, and use the File > Publish command from any module window. This will open a dialog for configuring the publishing details, as follows:
 
@@ -46,7 +46,7 @@ If there are any additional requirements for publishing the map or mod, they wil
 
 ## MANAGING YOUR PUBLISHED FILES
 
-![img](http://media.blizzard.com/sc2/game/maps-and-mods/tutorials/publishing/en-us/manage-published-window.png)
+![img](./resources/publishing02.png)
 
 Once you've published one or more files to Battle.net, you can use the File > Manage Published command from any editor module to open a window for viewing all of your currently published files. You can log in to Battle.net from this window, and must do so in order to see your files.
 

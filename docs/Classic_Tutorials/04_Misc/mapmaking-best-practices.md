@@ -1,6 +1,6 @@
 # Mapmaking: Best Practices in Art and Performance
 
-![Mapmaking: Best Practices in Art and Performance](https://web.archive.org/web/20160505140409im_/http://bnetcmsus-a.akamaihd.net/cms/blog_header/b3/B3FQCUUA4HBW1461972169271.jpg)
+![Mapmaking: Best Practices in Art and Performance](./resources/mapmaking-best-practices01.jpg)
 
 Last week, our friends over at Team Liquid announced the 7th Team Liquid Map Contest! We’re extremely excited to see the creative minds of the community develop new and interesting maps for us all to play on in the coming ladder seasons.
 
@@ -8,7 +8,7 @@ As mapmaking activities ramp up across the community, we wanted to take this opp
 
 ## Doodads
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/AH0O3MMAJ3IP1461966790257.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/00354ZPG88NO1461966790159.jpg)
+[![img](./resources/mapmaking-best-practices02.jpg)](./resources/mapmaking-best-practices02.jpg)
 
 **Image A:** In this scene there are 200 trees. While this might look nice, it is unnecessarily tough on performance. Many trees are overlapping or covered by other trees.
 
@@ -16,7 +16,7 @@ As mapmaking activities ramp up across the community, we wanted to take this opp
 
 
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/3PPAL00W5LLZ1461966790108.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/W82EPJAA2T451461966790139.jpg)
+[![img](./resources/mapmaking-best-practices03.jpg)](./resources/mapmaking-best-practices03.jpg)
 
 **Image A:** These doodads have a hidden cost. . .
 
@@ -24,13 +24,13 @@ As mapmaking activities ramp up across the community, we wanted to take this opp
 
 
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/AG4EYN69P72K1461966791686.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/EW2138CYW6TU1461966791619.jpg)
+[![img](./resources/mapmaking-best-practices04.jpg)](./resources/mapmaking-best-practices04.jpg)
 
 **Image A:** Why is overdraw bad? Here is a large tree near water (which is already expensive to render). You can see the shadow on the water.
 
 **Image B:** In this image you see that *even when you move the camera away* and the tree is no longer on screen, the shadow is still visible, which means that the tree still has to be rendered.
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/5RVFS0PEORVY1461966791826.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/VEWS0M5K02UC1461966791820.jpg)
+[![img](./resources/mapmaking-best-practices05.jpg)](./resources/mapmaking-best-practices05.jpg)
 
 **Image A:** While it looks more natural to have objects placed evenly in areas, this can obscure units, or give unfair advantage to certain units.
 
@@ -42,25 +42,25 @@ As mapmaking activities ramp up across the community, we wanted to take this opp
 
 ## Lighting & Shadows
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/B0TYOSB0EDAW1461966791343.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/BMRCJ4RL5DJJ1461966791301.jpg)
+[![img](./resources/mapmaking-best-practices06.jpg)](./resources/mapmaking-best-practices06.jpg)
 
 When creating a level, choose doodads, fog, and lighting that all harmonize in color by limiting your pallet. Having too many colors can be distracting from the gameplay by pulling focus away from the units. 
 
 
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/QJV4ZFF8RHUV1461966790476.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/X73YUFNA4Z9I1461966790408.jpg)
+[![img](./resources/mapmaking-best-practices07.jpg)](./resources/mapmaking-best-practices07.jpg)
 
 When lighting your level, the highest priority should be **unit readability**.  On the left, you’ll see the MarSara lighting, which is a good place to start. From there, try playing with the settings to set the tone and mood for your level.  The image to the right has nice moody lighting, yet the units remain readable.
 
 
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/Q9TI74STRWOA1461966791157.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/FPJL9G9H56F21461966791161.jpg)
+[![img](./resources/mapmaking-best-practices08.jpg)](./resources/mapmaking-best-practices08.jpg)
 
 Make sure to paint pathing wherever doodads appear on your map.  This will keep units from entering into the geometry of the meshes.  This includes filling gaps where small units like zerglings get stuck.  Hit the H key to get to the pathing menu.  
 
 
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/MOO517VAFIYG1461966791435.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/WTNPNU04R2MT1461966791378.jpg)
+[![img](./resources/mapmaking-best-practices09.jpg)](./resources/mapmaking-best-practices09.jpg)
 
 Generate foliage and build your shadows for a level to look more polished.  They can be both be found in the data menu on the top task bar.  Ctrl+Shift+L builds shadows.
 
@@ -70,7 +70,7 @@ Keep in mind that if you move any doodads in the level this will break the shado
 
 ## Painting & Effects
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/TVW8CNWLYI7L1461966790562.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/5JQNVIT78OCU1461966790517.jpg)
+[![img](./resources/mapmaking-best-practices10.jpg)](./resources/mapmaking-best-practices10.jpg)
 
 **Image A:** In this image, it is somewhat difficult for players to understand which way they should be sending their units on the map.
 
@@ -78,7 +78,7 @@ Keep in mind that if you move any doodads in the level this will break the shado
 
 
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/XD59WQTF75021461966791054.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/B0YQ56C1HRQT1461966790632.jpg)
+[![img](./resources/mapmaking-best-practices11.jpg)](./resources/mapmaking-best-practices11.jpg)
 
 **Image A:** In this image, it is harder to tell at what point you’re approaching a higher or lower level of terrain. This is an important aspect of a map to consistently highlight.
 
@@ -86,7 +86,7 @@ Keep in mind that if you move any doodads in the level this will break the shado
 
 
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/NQ59EVVQULLC1461966791563.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/ZY9RRMAQA2M21461966791793.jpg)
+[![img](./resources/mapmaking-best-practices12.jpg)](./resources/mapmaking-best-practices12.jpg)
 
 **Image A:** When adding effects with particles, be considerate to performance outside of your machine. Too much smoke can cause particle overdraw, *drastically* reducing the performance on your map.
 
@@ -94,7 +94,7 @@ Keep in mind that if you move any doodads in the level this will break the shado
 
 
 
-[![img](https://web.archive.org/web/20160505140409im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/EB2H29N0JKZX1461974202222.jpg)](https://web.archive.org/web/20160505140409/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/178RGQRS52PP1461974202223.jpg)
+[![img](./resources/mapmaking-best-practices13.jpg)](./resources/mapmaking-best-practices13.jpg)
 
 **Image A:** Remember to add the artistic flavor! This image shows some destructible rocks and organic doodads that feel quite out of place standing against the immaculate sand beneath them.
 

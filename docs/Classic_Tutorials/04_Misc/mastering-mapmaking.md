@@ -1,6 +1,6 @@
 # Mastering Mapmaking: Part Two
 
-![Mastering Mapmaking: Part Two](https://web.archive.org/web/20170209153457im_/http://bnetcmsus-a.akamaihd.net/cms/blog_header/8m/8M6TGX6XMH511486146089715.jpg)
+![Mastering Mapmaking: Part Two](./resources/mastering_mapmaking01.jpg)
 
 Like stars in the sky, dozens of community-made maps have peppered the Koprulu sector over the years. Each map is a testament to its creator’s hard work, and many have returned to the spotlight more than once. Meanwhile, new mapmakers continue to join the galaxy’s ranks, while more established creators continue to dream up new orbital stations or refine their existing planetary battlegrounds.
 
@@ -10,19 +10,19 @@ With the latest TeamLiquid Map Contest now live, we wanted to follow up on our [
 
 ## Terrain
 
-[![img](https://web.archive.org/web/20170209153457im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/OUO6AN1UWNYR1486171698424.jpg)](https://web.archive.org/web/20170209153457/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/1EYY7FOQG6EB1486171699274.jpg)
+[![img](./resources/mastering_mapmaking02.jpg)](./resources/mastering_mapmaking02.jpg)
 
 **Image A:** Here on Bel'shir Vestige, you can see a Marine positioned behind a Bunker in such a way that he cannot be attacked by melee units. This design flaw provides an unfair advantage to Bunker rush strategies.
 
 **Image B:** Here, a stone has been placed in the empty space where the Marine was standing. A Marine can no longer stand in this position, addressing the map flaw. Look for similar situations in all the main and natural bases.
 
-[![img](https://web.archive.org/web/20170209153457im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/AL0O650KEH4W1486171699462.jpg)](https://web.archive.org/web/20170209153457/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/O2GWCUR8PG4F1486171699469.jpg)
+[![img](./resources/mastering_mapmaking03.jpg)](./resources/mastering_mapmaking03.jpg)
 
 **Image A:** Several maps have made this mistake over the years, here shown on Bel'Shir Vestige. With only two Pylons, a Probe was able to protect itself completely and place a Photon Cannon which could not be attacked by workers.
 
 **Image B:** Two Pylons should never yield a complete wall for a Photon Cannon in the main, natural, or third base options. Adding some additional terrain to the left of this position made it so the Photon Cannon could no longer be so easily and cheaply protected from melee units.
 
-[![img](https://web.archive.org/web/20170209153457im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/SSYKC40PLF3M1486171699687.jpg)](https://web.archive.org/web/20170209153457/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/YRNVGLNVA0V41486171700554.jpg)
+[![img](./resources/mastering_mapmaking04.jpg)](./resources/mastering_mapmaking04.jpg)
 
 **Image A:** Liberators are a powerful harassment tool in the early stages of the game, and to keep them in check, it is important that Marines are always able to attack a Liberator (without Advanced Ballistics) attacking their Mineral line. Here, the Marines cannot reach the Liberator.
 
@@ -30,7 +30,7 @@ With the latest TeamLiquid Map Contest now live, we wanted to follow up on our [
 
 
 
-[![img](https://web.archive.org/web/20170209153457im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/183BPDTYO5071486171699589.jpg)](https://web.archive.org/web/20170209153457/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/UQE41E5QAGKI1486171699549.jpg)
+[![img](./resources/mastering_mapmaking05.jpg)](./resources/mastering_mapmaking05.jpg)
 
 **Image A:** This is a rather simple, yet surprisingly common map oversight. As you can see, Image A shows units clipping into doodads.
 
@@ -38,13 +38,13 @@ With the latest TeamLiquid Map Contest now live, we wanted to follow up on our [
 
 ## Pathing
 
-[![img](https://web.archive.org/web/20170209153457im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/9NNWUHCT6HRY1486171700402.jpg)](https://web.archive.org/web/20170209153457/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/27Q776TZKSGZ1486171701733.jpg)
+[![img](./resources/mastering_mapmaking06.jpg)](./resources/mastering_mapmaking06.jpg)
 
 **Image A:** In this image, there are no spaces between the Mineral patches or Vespene geysers. This means that workers and harassment units have very limited options for moving around in this space.
 
 **Image B:** As can be seen in this version, Mineral lines should always have some pathing behind them, as well as spaces between any Vespene geysers and at least one space within the Mineral line itself.
 
-[![img](https://web.archive.org/web/20170209153457im_/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/WRRRG6EHBK1R1486171698284.jpg)](https://web.archive.org/web/20170209153457/https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/58GSYDQHROA61486171699243.jpg)
+[![img](./resources/mastering_mapmaking07.jpg)](./resources/mastering_mapmaking07.jpg)
 
 **Image A:** Always thoroughly test blockers that impact air pathing. Here we can see an example of a blocker that could cause air units to get stuck. Issues typically occur when two or more air pathing blockers are placed next to each other, creating an area where air units get stuck.
 
