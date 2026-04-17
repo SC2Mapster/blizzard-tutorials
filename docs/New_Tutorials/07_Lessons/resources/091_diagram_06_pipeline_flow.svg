@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <marker id="flowArr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#60a5fa"/>
+    </marker>
+    <marker id="flowArrRed" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#ef4444"/>
+    </marker>
+    <marker id="flowArrGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#22c55e"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="700" fill="#0f172a" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">SC2 Missile Rendering Pipeline: Decision Flow</text>
+
+  <!-- STEP 1: Model Created -->
+  <rect x="320" y="55" width="260" height="44" rx="8" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="450" y="78" text-anchor="middle" fill="#93c5fd" font-size="12" font-weight="600">1. Missile Unit Created</text>
+  <text x="450" y="92" text-anchor="middle" fill="#64748b" font-size="9">UnitBirth event → CActorMissile.Create</text>
+
+  <line x1="450" y1="99" x2="450" y2="115" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#flowArr)"/>
+
+  <!-- STEP 2: Compute BNDS -->
+  <rect x="300" y="118" width="300" height="52" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+  <text x="450" y="140" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="600">2. Compute Model Bounding Sphere</text>
+  <text x="450" y="155" text-anchor="middle" fill="#64748b" font-size="9">BNDS from .m3 file (mesh + bones only)</text>
+  <text x="450" y="165" text-anchor="middle" fill="#ef4444" font-size="8">Particles NOT included in BNDS calculation</text>
+
+  <line x1="450" y1="170" x2="450" y2="186" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#flowArr)"/>
+
+  <!-- STEP 3: Speed check -->
+  <polygon points="450,189 560,230 450,271 340,230" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="450" y="226" text-anchor="middle" fill="#fbbf24" font-size="10" font-weight="600">3. Velocity &gt;</text>
+  <text x="450" y="240" text-anchor="middle" fill="#fbbf24" font-size="10" font-weight="600">Threshold (5.0)?</text>
+
+  <!-- YES branch -->
+  <line x1="560" y1="230" x2="640" y2="230" stroke="#22c55e" stroke-width="1.5" marker-end="url(#flowArrGreen)"/>
+  <text x="600" y="222" fill="#22c55e" font-size="10" font-weight="600">YES</text>
+
+  <rect x="645" y="210" width="210" height="44" rx="6" fill="#14532d" opacity="0.3" stroke="#22c55e" stroke-width="1.2"/>
+  <text x="750" y="228" text-anchor="middle" fill="#86efac" font-size="10" font-weight="500">Extend BNDS to include</text>
+  <text x="750" y="243" text-anchor="middle" fill="#86efac" font-size="10" font-weight="500">emitted particles</text>
+
+  <!-- NO branch -->
+  <line x1="340" y1="230" x2="260" y2="230" stroke="#ef4444" stroke-width="1.5" marker-end="url(#flowArrRed)"/>
+  <text x="300" y="222" fill="#ef4444" font-size="10" font-weight="600">NO</text>
+
+  <rect x="60" y="210" width="195" height="44" rx="6" fill="#7f1d1d" opacity="0.3" stroke="#ef4444" stroke-width="1.2"/>
+  <text x="157" y="228" text-anchor="middle" fill="#fca5a5" font-size="10">Keep original BNDS</text>
+  <text x="157" y="243" text-anchor="middle" fill="#fca5a5" font-size="9">(small mesh-only sphere)</text>
+
+  <!-- Both converge -->
+  <line x1="157" y1="254" x2="157" y2="290" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="157" y1="290" x2="450" y2="290" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="750" y1="254" x2="750" y2="290" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="750" y1="290" x2="450" y2="290" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <line x1="450" y1="290" x2="450" y2="310" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#flowArr)"/>
+
+  <!-- STEP 4: Frustum test -->
+  <polygon points="450,313 580,365 450,417 320,365" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="450" y="358" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="600">4. BNDS inside</text>
+  <text x="450" y="374" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="600">camera frustum?</text>
+
+  <!-- YES → render -->
+  <line x1="580" y1="365" x2="670" y2="365" stroke="#22c55e" stroke-width="1.5" marker-end="url(#flowArrGreen)"/>
+  <text x="625" y="357" fill="#22c55e" font-size="10" font-weight="600">YES</text>
+
+  <rect x="675" y="340" width="190" height="90" rx="8" fill="#14532d" opacity="0.3" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="770" y="362" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="600">5a. RENDER</text>
+  <line x1="690" y1="370" x2="850" y2="370" stroke="#22c55e" stroke-width="0.5" opacity="0.5"/>
+  <text x="690" y="386" fill="#86efac" font-size="9">- Draw model mesh</text>
+  <text x="690" y="400" fill="#86efac" font-size="9">- Tick particle emitters</text>
+  <text x="690" y="414" fill="#86efac" font-size="9">- Simulate particle physics</text>
+  <text x="690" y="425" fill="#86efac" font-size="9">- Spawn new particles</text>
+
+  <!-- NO → cull -->
+  <line x1="320" y1="365" x2="230" y2="365" stroke="#ef4444" stroke-width="1.5" marker-end="url(#flowArrRed)"/>
+  <text x="275" y="357" fill="#ef4444" font-size="10" font-weight="600">NO</text>
+
+  <rect x="40" y="340" width="185" height="90" rx="8" fill="#7f1d1d" opacity="0.3" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="132" y="362" text-anchor="middle" fill="#f87171" font-size="11" font-weight="600">5b. CULL</text>
+  <line x1="55" y1="370" x2="210" y2="370" stroke="#ef4444" stroke-width="0.5" opacity="0.5"/>
+  <text x="55" y="386" fill="#fca5a5" font-size="9">- Skip rendering entirely</text>
+  <text x="55" y="400" fill="#fca5a5" font-size="9">- Skip particle simulation</text>
+  <text x="55" y="414" fill="#fca5a5" font-size="9">- No particles spawned</text>
+  <text x="55" y="425" fill="#fca5a5" font-size="9">- No state recorded</text>
+
+  <!-- Result arrows -->
+  <line x1="770" y1="430" x2="770" y2="460" stroke="#22c55e" stroke-width="1.5" marker-end="url(#flowArrGreen)"/>
+  <line x1="132" y1="430" x2="132" y2="460" stroke="#ef4444" stroke-width="1.5" marker-end="url(#flowArrRed)"/>
+
+  <!-- Good result -->
+  <rect x="665" y="465" width="200" height="50" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="765" y="487" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="600">Smoke trail visible</text>
+  <text x="765" y="503" text-anchor="middle" fill="#86efac" font-size="9">Particles form continuous trail</text>
+
+  <!-- Bad result -->
+  <rect x="35" y="465" width="200" height="50" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="135" y="487" text-anchor="middle" fill="#f87171" font-size="11" font-weight="600">Trail starts mid-air</text>
+  <text x="135" y="503" text-anchor="middle" fill="#fca5a5" font-size="9">Particles only from first visibility</text>
+
+  <!-- BOTTOM: Key insight box -->
+  <rect x="100" y="545" width="700" height="130" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="450" y="570" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="600">Key Insight: The Pipeline Gap</text>
+  <line x1="120" y1="578" x2="780" y2="578" stroke="#334155" stroke-width="1"/>
+
+  <text x="130" y="600" fill="#e2e8f0" font-size="10">Step 2 excludes particles from BNDS (by design, for performance).</text>
+  <text x="130" y="618" fill="#e2e8f0" font-size="10">Step 3 extends BNDS for fast missiles, but only for particles that already exist.</text>
+  <text x="130" y="636" fill="#e2e8f0" font-size="10">Step 4 culls the entire model if the (extended) BNDS is outside the frustum.</text>
+  <text x="130" y="656" fill="#fbbf24" font-size="10" font-weight="600">If both launch point and missile are off-screen, Step 5b fires first. No particles ever spawn to extend.</text>
+</svg>

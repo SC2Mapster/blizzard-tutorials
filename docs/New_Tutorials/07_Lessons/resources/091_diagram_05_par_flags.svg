@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect width="900" height="620" fill="#0f172a" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">PAR_ Flags Bitfield: M3 Particle System Control Bits</text>
+  <text x="450" y="50" text-anchor="middle" fill="#64748b" font-size="10">32-bit flags field from structures.xml — each bit toggles a particle behavior</text>
+
+  <!-- Column Headers -->
+  <text x="60" y="80" fill="#94a3b8" font-size="10" font-weight="600">BIT</text>
+  <text x="160" y="80" fill="#94a3b8" font-size="10" font-weight="600">NAME</text>
+  <text x="430" y="80" fill="#94a3b8" font-size="10" font-weight="600">DESCRIPTION</text>
+  <line x1="40" y1="87" x2="860" y2="87" stroke="#334155" stroke-width="1"/>
+
+  <!-- Row alternating backgrounds -->
+  <rect x="40" y="91" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="131" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="171" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="211" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="251" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="291" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="331" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="371" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="411" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+  <rect x="40" y="451" width="820" height="20" rx="2" fill="#1e293b" opacity="0.4"/>
+
+  <!-- Rendering flags -->
+  <text x="60" y="105" fill="#60a5fa" font-size="9" font-family="monospace">0x001</text>
+  <text x="160" y="105" fill="#93c5fd" font-size="9">sort_distance</text>
+  <text x="430" y="105" fill="#94a3b8" font-size="9">Sort particles by camera distance for correct transparency</text>
+
+  <text x="60" y="125" fill="#60a5fa" font-size="9" font-family="monospace">0x080</text>
+  <text x="160" y="125" fill="#93c5fd" font-size="9">sort_height</text>
+  <text x="430" y="125" fill="#94a3b8" font-size="9">Sort by Z-axis height instead of camera distance</text>
+
+  <text x="60" y="145" fill="#60a5fa" font-size="9" font-family="monospace">0x100</text>
+  <text x="160" y="145" fill="#93c5fd" font-size="9">sort_reverse</text>
+  <text x="430" y="145" fill="#94a3b8" font-size="9">Reverse iteration order for rendering</text>
+
+  <!-- Physics flags -->
+  <text x="60" y="165" fill="#22c55e" font-size="9" font-family="monospace">0x002</text>
+  <text x="160" y="165" fill="#86efac" font-size="9">collide_terrain</text>
+  <text x="430" y="165" fill="#94a3b8" font-size="9">Particles bounce off terrain heightmap</text>
+
+  <text x="60" y="185" fill="#22c55e" font-size="9" font-family="monospace">0x004</text>
+  <text x="160" y="185" fill="#86efac" font-size="9">collide_objects</text>
+  <text x="430" y="185" fill="#94a3b8" font-size="9">Particles collide with physics-enabled models</text>
+
+  <text x="60" y="205" fill="#22c55e" font-size="9" font-family="monospace">0x008</text>
+  <text x="160" y="205" fill="#86efac" font-size="9">collide_emit</text>
+  <text x="430" y="205" fill="#94a3b8" font-size="9">Spawn child particles on collision events</text>
+
+  <!-- Emission flags -->
+  <text x="60" y="225" fill="#f59e0b" font-size="9" font-family="monospace">0x010</text>
+  <text x="160" y="225" fill="#fbbf24" font-size="9">emit_shape_cutout</text>
+  <text x="430" y="225" fill="#94a3b8" font-size="9">Enable hollow emission shape (inner cutout)</text>
+
+  <text x="60" y="245" fill="#f59e0b" font-size="9" font-family="monospace">0x020</text>
+  <text x="160" y="245" fill="#fbbf24" font-size="9">inherit_emit_params</text>
+  <text x="430" y="245" fill="#94a3b8" font-size="9">Inherit parameters from parent emitter</text>
+
+  <text x="60" y="265" fill="#f59e0b" font-size="9" font-family="monospace">0x040</text>
+  <text x="160" y="265" fill="#fbbf24" font-size="9">inherit_parent_velocity</text>
+  <text x="430" y="265" fill="#94a3b8" font-size="9">Transfer model velocity to emitted particles</text>
+
+  <!-- Visual flags -->
+  <text x="60" y="285" fill="#a78bfa" font-size="9" font-family="monospace">0x8000</text>
+  <text x="160" y="285" fill="#c4b5fd" font-size="9">lit_parts</text>
+  <text x="430" y="285" fill="#94a3b8" font-size="9">Particles receive scene lighting</text>
+
+  <text x="60" y="305" fill="#a78bfa" font-size="9" font-family="monospace">0x10000</text>
+  <text x="160" y="305" fill="#c4b5fd" font-size="9">random_uv_flipbook_start</text>
+  <text x="430" y="305" fill="#94a3b8" font-size="9">Each particle starts on a random animation frame</text>
+
+  <text x="60" y="325" fill="#a78bfa" font-size="9" font-family="monospace">0x20000</text>
+  <text x="160" y="325" fill="#c4b5fd" font-size="9">multiply_gravity</text>
+  <text x="430" y="325" fill="#94a3b8" font-size="9">Factor in map's gravity value as multiplier</text>
+
+  <!-- Tail flags -->
+  <text x="60" y="345" fill="#fb923c" font-size="9" font-family="monospace">0x40000</text>
+  <text x="160" y="345" fill="#fdba74" font-size="9">tail_clamp</text>
+  <text x="430" y="345" fill="#94a3b8" font-size="9">Tail length starts at zero, clamped to max</text>
+
+  <text x="60" y="365" fill="#fb923c" font-size="9" font-family="monospace">0x80000</text>
+  <text x="160" y="365" fill="#fdba74" font-size="9">use_trailing_particle</text>
+  <text x="430" y="365" fill="#94a3b8" font-size="9">Enable child particle trail system</text>
+
+  <text x="60" y="385" fill="#fb923c" font-size="9" font-family="monospace">0x100000</text>
+  <text x="160" y="385" fill="#fdba74" font-size="9">tail_fix</text>
+  <text x="430" y="385" fill="#94a3b8" font-size="9">Fixed tail length regardless of velocity</text>
+
+  <!-- Model particle flags -->
+  <text x="60" y="405" fill="#ec4899" font-size="9" font-family="monospace">0x200000</text>
+  <text x="160" y="405" fill="#f9a8d4" font-size="9">vertex_alpha</text>
+  <text x="430" y="405" fill="#94a3b8" font-size="9">Enable alpha channel in particle color</text>
+
+  <text x="60" y="425" fill="#ec4899" font-size="9" font-family="monospace">0x400000</text>
+  <text x="160" y="425" fill="#f9a8d4" font-size="9">model_particles</text>
+  <text x="430" y="425" fill="#94a3b8" font-size="9">Use 3D model instances instead of billboards</text>
+
+  <text x="60" y="445" fill="#ec4899" font-size="9" font-family="monospace">0x800000</text>
+  <text x="160" y="445" fill="#f9a8d4" font-size="9">swap_yz_on_model</text>
+  <text x="430" y="445" fill="#94a3b8" font-size="9">Axis correction for model-type particles</text>
+
+  <!-- Simulation flags (HIGHLIGHTED) -->
+  <rect x="40" y="462" width="820" height="22" rx="2" fill="#f59e0b" opacity="0.08" stroke="#f59e0b" stroke-width="1"/>
+  <text x="60" y="477" fill="#f59e0b" font-size="9" font-family="monospace" font-weight="bold">0x1000000</text>
+  <text x="160" y="477" fill="#fbbf24" font-size="9" font-weight="bold">scale_time_parent</text>
+  <text x="430" y="477" fill="#e2e8f0" font-size="9">Sync particle animation speed with parent model</text>
+
+  <rect x="40" y="486" width="820" height="22" rx="2" fill="#f59e0b" opacity="0.08" stroke="#f59e0b" stroke-width="1"/>
+  <text x="60" y="501" fill="#f59e0b" font-size="9" font-family="monospace" font-weight="bold">0x2000000</text>
+  <text x="160" y="501" fill="#fbbf24" font-size="9" font-weight="bold">local_time</text>
+  <text x="430" y="501" fill="#e2e8f0" font-size="9">Use real-time clock instead of game animation time</text>
+
+  <rect x="40" y="510" width="820" height="24" rx="2" fill="#ef4444" opacity="0.1" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="60" y="527" fill="#ef4444" font-size="9" font-family="monospace" font-weight="bold">0x4000000</text>
+  <text x="160" y="527" fill="#fca5a5" font-size="9" font-weight="bold">simulate_init (Pre-pump)</text>
+  <text x="430" y="527" fill="#e2e8f0" font-size="9">Pre-simulate to full state on first visibility — does NOT help off-screen trails</text>
+
+  <text x="60" y="549" fill="#60a5fa" font-size="9" font-family="monospace">0x8000000</text>
+  <text x="160" y="549" fill="#93c5fd" font-size="9">copy</text>
+  <text x="430" y="549" fill="#94a3b8" font-size="9">Copy mode for particle system</text>
+
+  <!-- Legend -->
+  <rect x="40" y="568" width="820" height="40" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="70" cy="588" r="5" fill="#60a5fa" opacity="0.5"/><text x="82" y="592" fill="#64748b" font-size="8">Rendering</text>
+  <circle cx="160" cy="588" r="5" fill="#22c55e" opacity="0.5"/><text x="172" y="592" fill="#64748b" font-size="8">Physics</text>
+  <circle cx="240" cy="588" r="5" fill="#f59e0b" opacity="0.5"/><text x="252" y="592" fill="#64748b" font-size="8">Emission</text>
+  <circle cx="330" cy="588" r="5" fill="#a78bfa" opacity="0.5"/><text x="342" y="592" fill="#64748b" font-size="8">Visual</text>
+  <circle cx="410" cy="588" r="5" fill="#fb923c" opacity="0.5"/><text x="422" y="592" fill="#64748b" font-size="8">Tail</text>
+  <circle cx="480" cy="588" r="5" fill="#ec4899" opacity="0.5"/><text x="492" y="592" fill="#64748b" font-size="8">Model Particles</text>
+  <rect x="565" y="583" width="10" height="10" rx="2" fill="#ef4444" opacity="0.3" stroke="#ef4444" stroke-width="1"/><text x="582" y="592" fill="#ef4444" font-size="8" font-weight="500">Key to this problem</text>
+</svg>

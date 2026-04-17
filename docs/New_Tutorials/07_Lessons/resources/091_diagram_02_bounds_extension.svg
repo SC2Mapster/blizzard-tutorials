@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#94a3b8"/>
+    </marker>
+    <linearGradient id="fGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="520" fill="#0f172a" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">MissileBoundsOptSpeedThreshold: Dynamic Bounds Extension</text>
+  <text x="450" y="54" text-anchor="middle" fill="#64748b" font-size="11">What it fixes vs. what it can't fix</text>
+
+  <!-- TOP HALF: Success case -->
+  <rect x="30" y="70" width="840" height="185" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <rect x="30" y="70" width="840" height="26" rx="6" fill="#14532d" opacity="0.4"/>
+  <text x="450" y="88" text-anchor="middle" fill="#4ade80" font-size="12" font-weight="600">CASE A: Trail behind missile is in view (FIXED by threshold)</text>
+
+  <!-- Camera frustum (top) -->
+  <polygon points="200,230 100,120 300,120" fill="url(#fGrad2)" stroke="#3b82f6" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.8"/>
+  <rect x="186" y="228" width="28" height="18" rx="3" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+  <text x="200" y="258" text-anchor="middle" fill="#3b82f6" font-size="9">Camera</text>
+
+  <!-- Smoke trail particles (visible, inside frustum) -->
+  <g opacity="0.8">
+    <circle cx="160" cy="165" r="5" fill="#a8a29e" opacity="0.6"/>
+    <circle cx="175" cy="163" r="6" fill="#a8a29e" opacity="0.55"/>
+    <circle cx="192" cy="160" r="5.5" fill="#a8a29e" opacity="0.5"/>
+    <circle cx="208" cy="158" r="5" fill="#a8a29e" opacity="0.45"/>
+    <circle cx="225" cy="155" r="6" fill="#a8a29e" opacity="0.4"/>
+    <circle cx="242" cy="153" r="5" fill="#a8a29e" opacity="0.35"/>
+    <circle cx="258" cy="150" r="5.5" fill="#a8a29e" opacity="0.3"/>
+  </g>
+  <text x="210" y="185" text-anchor="middle" fill="#86efac" font-size="9">Trail visible in frustum</text>
+
+  <!-- Missile (ahead, outside frustum top) -->
+  <polygon points="370,145 350,139 350,151" fill="#f59e0b" filter="url(#glow2)"/>
+  <text x="360" y="132" text-anchor="middle" fill="#fbbf24" font-size="9">Missile (ahead)</text>
+
+  <!-- Original BNDS (small, around missile only) -->
+  <circle cx="360" cy="145" r="18" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <text x="395" y="140" fill="#f59e0b" font-size="8" opacity="0.6">original BNDS</text>
+
+  <!-- Extended BNDS (large, encompasses trail) -->
+  <ellipse cx="260" cy="155" rx="120" ry="35" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="260" y="205" text-anchor="middle" fill="#22c55e" font-size="9" font-weight="500">EXTENDED BOUNDS (includes particles)</text>
+
+  <!-- Arrow showing extension -->
+  <line x1="378" y1="147" x2="378" y2="170" stroke="#22c55e" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Checkmark -->
+  <circle cx="500" cy="145" r="14" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+  <polyline points="493,145 498,151 509,139" fill="none" stroke="#22c55e" stroke-width="2"/>
+
+  <!-- Explanation text -->
+  <text x="530" y="130" fill="#94a3b8" font-size="10">Velocity 18.75 > threshold 5.0</text>
+  <text x="530" y="145" fill="#94a3b8" font-size="10">Engine extends BNDS to include</text>
+  <text x="530" y="160" fill="#94a3b8" font-size="10">emitted particles behind missile.</text>
+  <text x="530" y="180" fill="#4ade80" font-size="10" font-weight="500">Trail stays visible.</text>
+
+  <!-- Config reference -->
+  <rect x="520" y="195" width="330" height="42" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="535" y="211" fill="#60a5fa" font-size="9" font-family="'Cascadia Code', monospace">MissileBoundsOptSpeedThreshold</text>
+  <text x="535" y="226" fill="#64748b" font-size="9" font-family="'Cascadia Code', monospace">value="5.000000"  &lt;!-- ActorData.xml:1573 --&gt;</text>
+
+  <!-- BOTTOM HALF: Failure case -->
+  <rect x="30" y="270" width="840" height="210" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <rect x="30" y="270" width="840" height="26" rx="6" fill="#7f1d1d" opacity="0.4"/>
+  <text x="450" y="288" text-anchor="middle" fill="#f87171" font-size="12" font-weight="600">CASE B: Entire missile + trail off-screen at launch (NOT fixed)</text>
+
+  <!-- Camera frustum (bottom, center) -->
+  <polygon points="450,445 370,325 530,325" fill="url(#fGrad2)" stroke="#3b82f6" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.8"/>
+  <rect x="436" y="443" width="28" height="18" rx="3" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+  <text x="450" y="472" text-anchor="middle" fill="#3b82f6" font-size="9">Camera</text>
+
+  <!-- Launcher (far left, off-screen) -->
+  <rect x="60" y="370" width="24" height="30" rx="2" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="72" y="415" text-anchor="middle" fill="#94a3b8" font-size="9">Launcher</text>
+
+  <!-- Ghost trail (never created) -->
+  <line x1="90" y1="382" x2="270" y2="370" stroke="#78716c" stroke-width="1" stroke-dasharray="2,4" opacity="0.2"/>
+  <text x="180" y="360" text-anchor="middle" fill="#ef4444" font-size="9">Trail never created</text>
+
+  <!-- Missile (left of frustum, approaching) -->
+  <polygon points="290,368 270,362 270,374" fill="#f59e0b" filter="url(#glow2)"/>
+
+  <!-- Extended BNDS (still outside frustum) -->
+  <ellipse cx="220" cy="374" rx="90" ry="28" fill="none" stroke="#f59e0b" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.5"/>
+  <text x="220" y="345" text-anchor="middle" fill="#f59e0b" font-size="8" opacity="0.7">extended BNDS (still outside frustum)</text>
+
+  <!-- X mark -->
+  <circle cx="640" cy="370" r="14" fill="#7f1d1d" stroke="#ef4444" stroke-width="1.5"/>
+  <line x1="634" y1="364" x2="646" y2="376" stroke="#ef4444" stroke-width="2"/>
+  <line x1="646" y1="364" x2="634" y2="376" stroke="#ef4444" stroke-width="2"/>
+
+  <!-- Explanation text -->
+  <text x="670" y="345" fill="#94a3b8" font-size="10">Entire missile + extended bounds</text>
+  <text x="670" y="360" fill="#94a3b8" font-size="10">are outside the camera frustum</text>
+  <text x="670" y="375" fill="#94a3b8" font-size="10">when the missile is first created.</text>
+  <text x="670" y="395" fill="#ef4444" font-size="10" font-weight="500">Particles never begin simulating.</text>
+  <text x="670" y="412" fill="#ef4444" font-size="10" font-weight="500">Trail starts from mid-air.</text>
+
+  <!-- Timeline annotation -->
+  <rect x="60" y="435" width="300" height="34" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="70" y="450" fill="#64748b" font-size="9">T=0: Missile fires off-screen. Model culled. No particles.</text>
+  <text x="70" y="463" fill="#64748b" font-size="9">T=N: Camera arrives. Trail starts from current position only.</text>
+</svg>

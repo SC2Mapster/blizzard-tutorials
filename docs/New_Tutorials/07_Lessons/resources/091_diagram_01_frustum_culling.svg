@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#94a3b8"/>
+    </marker>
+    <linearGradient id="frustumGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="1" stdDeviation="1.5" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="500" fill="#0f172a" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">Frustum Culling: Why Off-Screen Missiles Lose Their Trails</text>
+
+  <!-- Camera frustum -->
+  <polygon points="440,400 310,120 570,120" fill="url(#frustumGrad)" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="6,3" opacity="0.9"/>
+  <text x="440" y="420" text-anchor="middle" fill="#3b82f6" font-size="11" font-weight="500">CAMERA FRUSTUM</text>
+
+  <!-- Camera icon -->
+  <rect x="425" y="396" width="30" height="20" rx="3" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+  <circle cx="440" cy="406" r="5" fill="none" stroke="#60a5fa" stroke-width="1"/>
+  <text x="440" y="390" text-anchor="middle" fill="#60a5fa" font-size="10">Camera</text>
+
+  <!-- LEFT SIDE: Off-screen missile -->
+
+  <!-- Launcher (off-screen, left) -->
+  <rect x="40" y="232" width="28" height="36" rx="2" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <rect x="68" y="244" width="12" height="12" rx="1" fill="#475569"/>
+  <text x="54" y="290" text-anchor="middle" fill="#94a3b8" font-size="10">Launcher</text>
+
+  <!-- Smoke trail dots (off-screen) -->
+  <circle cx="95" cy="250" r="4" fill="#78716c" opacity="0.15"/>
+  <circle cx="110" cy="249" r="4.5" fill="#78716c" opacity="0.15"/>
+  <circle cx="126" cy="248" r="5" fill="#78716c" opacity="0.15"/>
+  <circle cx="143" cy="247" r="4" fill="#78716c" opacity="0.15"/>
+  <circle cx="158" cy="246" r="5.5" fill="#78716c" opacity="0.15"/>
+  <circle cx="175" cy="245" r="4" fill="#78716c" opacity="0.15"/>
+  <circle cx="190" cy="244" r="5" fill="#78716c" opacity="0.15"/>
+  <circle cx="207" cy="243" r="4.5" fill="#78716c" opacity="0.15"/>
+  <circle cx="222" cy="242" r="3.5" fill="#78716c" opacity="0.15"/>
+  <circle cx="237" cy="241" r="4" fill="#78716c" opacity="0.15"/>
+
+  <!-- "No particles emitted" label -->
+  <text x="166" y="225" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="500">NO PARTICLES EMITTED</text>
+  <text x="166" y="237" text-anchor="middle" fill="#ef4444" font-size="9">(model is culled)</text>
+
+  <!-- Red X marks on ghost particles -->
+  <g stroke="#ef4444" stroke-width="1.5" opacity="0.6">
+    <line x1="91" y1="246" x2="99" y2="254"/><line x1="99" y1="246" x2="91" y2="254"/>
+    <line x1="154" y1="242" x2="162" y2="250"/><line x1="162" y1="242" x2="154" y2="250"/>
+    <line x1="218" y1="238" x2="226" y2="246"/><line x1="226" y1="238" x2="218" y2="246"/>
+  </g>
+
+  <!-- Missile (off-screen, approaching frustum) -->
+  <polygon points="268,240 248,234 248,246" fill="#f59e0b" filter="url(#glow)"/>
+  <text x="258" y="260" text-anchor="middle" fill="#fbbf24" font-size="9">Missile</text>
+
+  <!-- BNDS sphere around missile (small) -->
+  <circle cx="258" cy="240" r="22" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+  <text x="258" y="210" text-anchor="middle" fill="#f59e0b" font-size="8" opacity="0.7">BNDS sphere</text>
+
+  <!-- "OUTSIDE FRUSTUM" label -->
+  <rect x="100" y="300" width="180" height="28" rx="4" fill="#7f1d1d" opacity="0.6"/>
+  <text x="190" y="319" text-anchor="middle" fill="#fca5a5" font-size="11" font-weight="500">OUTSIDE FRUSTUM</text>
+
+  <!-- RIGHT SIDE: Visible area (what player sees) -->
+
+  <!-- Visible area label -->
+  <rect x="370" y="76" width="140" height="24" rx="4" fill="#1e3a5f" opacity="0.7"/>
+  <text x="440" y="93" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="500">VISIBLE TO PLAYER</text>
+
+  <!-- Target unit (inside frustum) -->
+  <rect x="480" y="158" width="24" height="24" rx="3" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <circle cx="492" cy="170" r="6" fill="none" stroke="#22c55e" stroke-width="1"/>
+  <text x="492" y="197" text-anchor="middle" fill="#86efac" font-size="10">Target</text>
+
+  <!-- Ground plane indication -->
+  <line x1="30" y1="330" x2="300" y2="330" stroke="#334155" stroke-width="1" stroke-dasharray="3,6"/>
+
+  <!-- BOTTOM: Explanation -->
+
+  <!-- Info box -->
+  <rect x="40" y="440" width="820" height="44" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="450" y="459" text-anchor="middle" fill="#cbd5e1" font-size="11">
+    The missile's BNDS sphere (computed from mesh vertices only, not particles) is outside the camera frustum.
+  </text>
+  <text x="450" y="475" text-anchor="middle" fill="#94a3b8" font-size="11">
+    Result: the model is fully culled. Particle emitters never tick. No smoke trail is produced.
+  </text>
+
+  <!-- RIGHT INFO PANEL -->
+  <rect x="630" y="120" width="240" height="185" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="750" y="142" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="600">Culling Pipeline</text>
+  <line x1="645" y1="150" x2="855" y2="150" stroke="#334155" stroke-width="1"/>
+
+  <!-- Pipeline steps -->
+  <text x="655" y="172" fill="#94a3b8" font-size="10">1. Compute model BNDS sphere</text>
+  <text x="668" y="185" fill="#64748b" font-size="9">(mesh + bones only, no particles)</text>
+
+  <text x="655" y="206" fill="#94a3b8" font-size="10">2. Test sphere vs camera frustum</text>
+
+  <text x="655" y="230" fill="#94a3b8" font-size="10">3. If outside:</text>
+  <text x="668" y="244" fill="#ef4444" font-size="9">- Skip rendering entirely</text>
+  <text x="668" y="257" fill="#ef4444" font-size="9">- Skip particle simulation</text>
+  <text x="668" y="270" fill="#ef4444" font-size="9">- Skip state updates</text>
+
+  <text x="655" y="293" fill="#94a3b8" font-size="10">4. Particles are visual-only state</text>
+
+  <!-- Divider line between off-screen and frustum -->
+  <line x1="310" y1="80" x2="310" y2="340" stroke="#3b82f6" stroke-width="1" stroke-dasharray="2,4" opacity="0.4"/>
+</svg>

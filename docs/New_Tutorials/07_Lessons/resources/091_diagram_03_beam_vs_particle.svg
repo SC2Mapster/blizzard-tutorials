@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="beamGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#60a5fa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="beamBoundsGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="beamGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="smokeBlur">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="480" fill="#0f172a" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">Beam Actors vs. Particle Trails: Architectural Difference</text>
+
+  <!-- LEFT SIDE: Beam Actor -->
+  <rect x="30" y="55" width="410" height="370" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <rect x="30" y="55" width="410" height="28" rx="6" fill="#14532d" opacity="0.3"/>
+  <text x="235" y="74" text-anchor="middle" fill="#4ade80" font-size="13" font-weight="600">CActorBeamSimple</text>
+
+  <!-- Launch point -->
+  <rect x="65" y="180" width="26" height="32" rx="2" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <circle cx="78" cy="196" r="8" fill="none" stroke="#22c55e" stroke-width="1.5"/>
+  <circle cx="78" cy="196" r="2" fill="#22c55e"/>
+  <text x="78" y="228" text-anchor="middle" fill="#86efac" font-size="9" font-weight="500">HostLaunch</text>
+
+  <!-- Impact point -->
+  <rect x="360" y="150" width="22" height="22" rx="2" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <circle cx="371" cy="161" r="6" fill="none" stroke="#f87171" stroke-width="1.5"/>
+  <text x="371" y="185" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="500">HostImpact</text>
+
+  <!-- Beam visual -->
+  <line x1="91" y1="196" x2="360" y2="161" stroke="url(#beamGrad)" stroke-width="6" stroke-linecap="round" filter="url(#beamGlow)"/>
+  <line x1="91" y1="196" x2="360" y2="161" stroke="#93c5fd" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Bounding box (spans full beam) -->
+  <rect x="75" y="145" width="310" height="68" rx="4" fill="url(#beamBoundsGrad)" stroke="#22c55e" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <text x="230" y="140" text-anchor="middle" fill="#22c55e" font-size="9">BOUNDING BOX (full span between endpoints)</text>
+
+  <!-- Properties list -->
+  <rect x="55" y="255" width="360" height="145" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="70" y="275" fill="#e2e8f0" font-size="10" font-weight="600">Properties:</text>
+  <text x="70" y="295" fill="#86efac" font-size="9">Visual: Geometric mesh stretched between two points</text>
+  <text x="70" y="311" fill="#86efac" font-size="9">Bounds: Full distance between endpoints</text>
+  <text x="70" y="327" fill="#86efac" font-size="9">Off-screen: Geometry always defined by endpoints</text>
+  <text x="70" y="343" fill="#86efac" font-size="9">Continuity: Always connected, never broken</text>
+  <text x="70" y="359" fill="#86efac" font-size="9">Camera dep: Any part visible = full beam renders</text>
+  <text x="70" y="380" fill="#4ade80" font-size="10" font-weight="600">Result: Trail is always continuous</text>
+
+  <!-- RIGHT SIDE: Particle Trail -->
+  <rect x="460" y="55" width="410" height="370" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <rect x="460" y="55" width="410" height="28" rx="6" fill="#7f1d1d" opacity="0.3"/>
+  <text x="665" y="74" text-anchor="middle" fill="#f87171" font-size="13" font-weight="600">CActorMissile + PAR_ Emitter</text>
+
+  <!-- Launcher (right side) -->
+  <rect x="495" y="180" width="26" height="32" rx="2" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <text x="508" y="228" text-anchor="middle" fill="#94a3b8" font-size="9">Launcher</text>
+
+  <!-- Gap zone (no particles) -->
+  <line x1="530" y1="194" x2="620" y2="178" stroke="#78716c" stroke-width="1" stroke-dasharray="2,4" opacity="0.3"/>
+  <text x="575" y="170" text-anchor="middle" fill="#ef4444" font-size="8" font-weight="500">NO PARTICLES</text>
+  <text x="575" y="180" text-anchor="middle" fill="#ef4444" font-size="7">(was off-screen)</text>
+
+  <!-- Visible trail (partial) -->
+  <g filter="url(#smokeBlur)" opacity="0.7">
+    <circle cx="640" cy="175" r="5" fill="#a8a29e" opacity="0.7"/>
+    <circle cx="658" cy="172" r="6" fill="#a8a29e" opacity="0.6"/>
+    <circle cx="678" cy="169" r="5" fill="#a8a29e" opacity="0.5"/>
+    <circle cx="696" cy="166" r="5.5" fill="#a8a29e" opacity="0.4"/>
+    <circle cx="715" cy="163" r="4.5" fill="#a8a29e" opacity="0.3"/>
+    <circle cx="732" cy="160" r="5" fill="#a8a29e" opacity="0.25"/>
+  </g>
+  <text x="690" y="195" text-anchor="middle" fill="#fbbf24" font-size="8">Trail starts here</text>
+  <text x="690" y="205" text-anchor="middle" fill="#fbbf24" font-size="7">(when camera arrived)</text>
+
+  <!-- Missile -->
+  <polygon points="790,155 770,149 770,161" fill="#f59e0b"/>
+  <text x="780" y="145" text-anchor="middle" fill="#fbbf24" font-size="9">Missile</text>
+
+  <!-- BNDS sphere (small, around missile) -->
+  <circle cx="780" cy="155" r="20" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  <text x="815" y="150" fill="#f59e0b" font-size="7" opacity="0.6">BNDS</text>
+
+  <!-- Properties list -->
+  <rect x="485" y="255" width="360" height="145" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="500" y="275" fill="#e2e8f0" font-size="10" font-weight="600">Properties:</text>
+  <text x="500" y="295" fill="#f87171" font-size="9">Visual: Individual quads emitted per-frame</text>
+  <text x="500" y="311" fill="#f87171" font-size="9">Bounds: Small sphere around missile mesh only</text>
+  <text x="500" y="327" fill="#f87171" font-size="9">Off-screen: No particles emitted, no state saved</text>
+  <text x="500" y="343" fill="#f87171" font-size="9">Continuity: Broken if emitter was culled</text>
+  <text x="500" y="359" fill="#f87171" font-size="9">Camera dep: Emitter must be visible to produce trail</text>
+  <text x="500" y="380" fill="#ef4444" font-size="10" font-weight="600">Result: Trail appears from mid-air</text>
+
+  <!-- BOTTOM: Comparison -->
+  <rect x="30" y="435" width="840" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="450" y="457" text-anchor="middle" fill="#cbd5e1" font-size="11">
+    Beam actors define visuals by endpoints. Particle trails define visuals by per-frame emission. This is why beams survive off-screen firing.
+  </text>
+</svg>
