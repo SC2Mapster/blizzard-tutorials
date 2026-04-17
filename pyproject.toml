@@ -8,6 +8,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "~3.11"
 mkdocs = "~1.4"
+mkdocs-inline-select-svg-plugin = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 

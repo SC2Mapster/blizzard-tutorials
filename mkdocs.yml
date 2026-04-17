@@ -29,4 +29,8 @@ extra_css:
 # extra_javascript:
 #   - https://code.jquery.com/jquery-3.7.1.min.js
 
+plugins:
+    - search
+    - inline-select-svg
+
 dev_addr: '127.0.0.1:8001'
